@@ -102,7 +102,7 @@ public class InventoryShip extends Common {
     }
     */
     public static InventoryShip cache() {
-        String resp = Cache.load("./kcapi/inputs/member/ship.txt");
+        String resp = Cache.load("/inputs/member/ship.txt");
         return new Gson().fromJson(resp, InventoryShip.class);
     }
 }

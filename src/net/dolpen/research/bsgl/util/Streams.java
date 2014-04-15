@@ -1,4 +1,4 @@
-package net.dolpen.libs.stream;
+package net.dolpen.research.bsgl.util;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;

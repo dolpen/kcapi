@@ -1,13 +1,13 @@
 package net.dolpen.research.bsgl.api;
 
-import com.google.common.collect.ImmutableMap;
-import net.dolpen.libs.crawl.Connection;
-import net.dolpen.libs.stream.Streams;
+import net.dolpen.research.bsgl.util.Const;
+import net.dolpen.research.bsgl.util.Streams;
 
 import java.io.FileInputStream;
-import java.util.Map;
 
 public class Cache {
+
+
     /**
      * レスポンスフィルター
      *
@@ -26,8 +26,9 @@ public class Cache {
      */
     public static String load(String path) {
         try {
-            return filter(Streams.toString(new FileInputStream(path), "UTF-8"));
+            return filter(Streams.toString(new FileInputStream(Const.ROOT + path), "UTF-8"));
         } catch (Exception e) {
+            e.printStackTrace();
         }
         return "";
     }

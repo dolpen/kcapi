@@ -1,8 +1,9 @@
-package net.dolpen.libs.groovy;
+package net.dolpen.research.bsgl.util.groovy;
 
 import com.google.common.collect.Maps;
 import groovy.text.SimpleTemplateEngine;
 import groovy.text.Template;
+import net.dolpen.research.bsgl.util.Const;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -71,8 +72,8 @@ public class View {
      */
     public static void renderFile(String path, Map<String, Object> params, String filename) {
         try {
-            loadTemplate(path)
-                    .make(wrapParams(params)).writeTo(new FileWriter(filename));
+            loadTemplate(Const.ROOT + path)
+                .make(wrapParams(params)).writeTo(new FileWriter(filename));
         } catch (Exception e) {
             e.printStackTrace();
         }

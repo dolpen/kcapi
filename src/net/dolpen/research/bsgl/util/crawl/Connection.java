@@ -1,8 +1,8 @@
-package net.dolpen.libs.crawl;
+package net.dolpen.research.bsgl.util.crawl;
 
 import com.google.common.base.Objects;
 import com.google.common.collect.Maps;
-import net.dolpen.libs.stream.Streams;
+import net.dolpen.research.bsgl.util.Streams;
 
 import java.io.IOException;
 import java.io.InputStream;

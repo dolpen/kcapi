@@ -1,5 +1,7 @@
 package net.dolpen.research.bsgl.model.master;
 
+import com.google.gson.Gson;
+import net.dolpen.research.bsgl.api.Cache;
 import net.dolpen.research.bsgl.model.Common;
 
 import java.util.List;
@@ -13,65 +15,119 @@ public class Ship extends Common {
     public List<Content> api_data;
 
     public static class Content {
-        public int api_id;
-        public int api_sortno;
-        public String api_name;
-        public String api_yomi;
-        public int api_stype;
-        public int api_ctype;
-        public int api_cnum;
-        public String api_enqflg;
-        public int api_afterlv;
-        public String api_aftershipid;
-        public List<Integer> api_taik; // 対艦
-        public List<Integer> api_souk; // 装甲
-        public List<Integer> api_tous; // ?
-        public List<Integer> api_houg; // 砲撃
-        public List<Integer> api_raig; // 雷撃
-        public List<Integer> api_baku; // 爆装
-        public List<Integer> api_tyku; // 耐久
-        public List<Integer> api_atap; //
-        public List<Integer> api_tais; // 対潜
-        public List<Integer> api_houm;
-        public List<Integer> api_raim;
-        public List<Integer> api_kaih; //
-        public List<Integer> api_houk; //
-        public List<Integer> api_raik;
-        public List<Integer> api_bakk;
-        public List<Integer> api_saku;
-        public List<Integer> api_sakb;
-        public List<Integer> api_luck;
-        public int api_sokuh;
-        public int api_soku;
-        public int api_leng;
-        public List<Integer> api_grow;
-        public int api_slot_num;
-        public List<Integer> api_maxeq;
-        public List<Integer> api_defeq;
-        public int api_buildtime;
-        public List<Integer> api_broken;
-        public List<Integer> api_powup;
-        public List<Integer> api_gumax;
-        public int api_backs;
-        public String api_getmes;
-        public String api_homemes;
-        public String api_gomes;
-        public String api_gomes2;
-        public String api_sinfo;
-        public int api_afterfuel;
-        public int api_afterbull;
-        //public List<Integer> api_touchs; // 型不明
-        public int api_missions; // 型不明
-        public int api_systems; // 型不明
-        public int api_fuel_max;
-        public int api_bull_max;
-        public int api_voicef;
+        public int api_afterbull; // Bullet cost for remodelling
+
+        public int api_afterfuel; // Fuel cost for remodelling
+
+        public int api_afterlv; // Minimum level for remodelling
+
+        public int api_aftershipid; // ID of the next form after remodelling
+
+        public List<Integer> api_atap; // Unused, always [ 0, 0 ]
+
+        public int api_backs; // Rarity
+
+        public List<Integer> api_bakk; // Unused, always [ 0, 0 ]
+
+        public List<Integer> api_baku; // Unused, always [ 0, 0 ]
+
+        public List<Integer> api_broken; // Deconstruction gain (Fuel, Ammo, Steel, Bauxite)
+
+        public int api_buildtime; // The build time, in minutes
+
+        public int api_bull_max; // Max bullet capacity (cost to resupply)
+
+        public int api_cnum; // Index within its category
+
+        public int api_ctype; // Class
+
+        public List<Integer> api_defeq; // ???
+
+        public int api_enqflg; // Has this ship been encountered?
+
+        public int api_fuel_max; // Max fuel capacity (cost to resupply)
+
+        public String api_getmes; // Message upon getting her
+
+        public List<Integer> api_grow; // Unused, always [0,0,0,0,0,0,0,0]
+
+        public List<Integer> api_gumax; // Unused, always [ 0, 0, 0, 0 ]
+
+        public List<Integer> api_houg; // Firepower (base, max)
+
+        public List<Integer> api_houk; // Unknown (always [ 0, 0 ], but has equipment)
+
+        public List<Integer> api_houm; // Unknown (always [ 0, 0 ], but has equipment)
+
+        public int api_id; // Ship ID
+
+        public List<Integer> api_kaih; // Evasion (base, max)
+
+        public int api_leng; // Range
+
+        public List<Integer> api_luck; // Luck (base, ???; not max)
+
+        public List<Integer> api_maxeq; // Plane Capacity
+
+        //public Object api_missions; // ??? (always null)
+
+        public String api_name; // The ship's name, in Kanji
+
+        public List<Integer> api_powup; // Powerups granted when used for modernization
+
+        public List<Integer> api_raig; // Torpedo (base, max)
+
+        public List<Integer> api_raik; // Unused, always [ 0, 0 ]
+
+        public List<Integer> api_raim; // Unknown (always [ 0, 0 ], but has equipment)
+
+        public List<Integer> api_sakb; // Unused, always [ 0, 0 ]
+
+        public List<Integer> api_saku; // Line of Sight (base, max)
+
+        public String api_sinfo; // Description for the Shipdex
+
+        public int api_slot_num; // Number of equipment slots
+
+        public int api_sortno; // Card Number
+
+        public List<Integer> api_souk; // Armor (base, max)
+
+        public int api_stype; // Ship Class
+
+        // public Object api_systems; // ??? (always null)
+
+        public List<Integer> api_taik; // Endurance/Max HP (base, max)
+
+        public List<Integer> api_tais; // Anti-Sub Warfare (base, max)
+
+        // public List<Object> api_touchs; // Unused, always [ null, null, null ]
+
+        public List<Integer> api_tous; // ???
+
+        public List<Integer> api_tyku; // Anti-Air
+
+        public int api_voicef; // 1 or 3 if the ship has extra voice clips, normally 0
+
+        public String api_yomi; // The name's reading
+
+        public String toString() {
+            return String.format("%d %s", api_id, api_name);
+        }
+
     }
 
-    /*
-    public static Ship get() {
-        String resp = Request.postJson("/api_get_master/ship", null);
-        return new Gson().fromJson(resp, Ship.class);
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (Content content : api_data) {
+            sb.append(content.toString()).append("\n");
+        }
+        return sb.toString();
     }
-    */
+
+    public static Ship cache() {
+        String cache = Cache.load("/inputs/master/ship.txt");
+        return new Gson().fromJson(cache, Ship.class);
+    }
+
 }

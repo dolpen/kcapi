@@ -1,7 +1,7 @@
 package net.dolpen.research.bsgl.api;
 
 import com.google.common.collect.ImmutableMap;
-import net.dolpen.libs.crawl.Connection;
+import net.dolpen.research.bsgl.util.crawl.Connection;
 
 import java.util.Map;
 
