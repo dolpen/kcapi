@@ -72,9 +72,11 @@ public class InventoryShip extends Common {
 
         public String toString() {
             return String.format("%d : %d : %s", api_id, api_ship_id, api_name);
-
         }
+
+
     }
+
 
     public String toString() {
         StringBuilder sb = new StringBuilder();

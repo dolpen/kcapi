@@ -1,0 +1,11 @@
+td {font-size: small}
+td.warn{color: red}
+
+td.sight.max{background: #0f8}
+td.fire.max{background: #f68}
+td.torpedo.max{background: #adf}
+td.air.max{background: #f99}
+td.armor.max{background: #fe8}
+td.luck.max{background: #0f8}
+td.sub.max{background: #0f8}
+td.evasion.max{background: #0f8}

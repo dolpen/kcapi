@@ -24,7 +24,6 @@ public class View {
         Template cached = cache.get(path);
         if (cached != null) return cached;
         File file = new File(path);
-        System.out.println(file.getAbsolutePath());
         SimpleTemplateEngine ste = new SimpleTemplateEngine();
         Template loaded = null;
         try {
@@ -59,7 +58,7 @@ public class View {
      * @return レンダリング結果
      */
     public static String renderString(String path, Map<String, Object> params) {
-        return loadTemplate(path).make(wrapParams(params)).toString();
+        return loadTemplate(Const.ROOT + path).make(wrapParams(params)).toString();
     }
 
 
@@ -73,7 +72,7 @@ public class View {
     public static void renderFile(String path, Map<String, Object> params, String filename) {
         try {
             loadTemplate(Const.ROOT + path)
-                .make(wrapParams(params)).writeTo(new FileWriter(filename));
+                    .make(wrapParams(params)).writeTo(new FileWriter(Const.ROOT + filename));
         } catch (Exception e) {
             e.printStackTrace();
         }
