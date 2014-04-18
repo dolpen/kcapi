@@ -25,7 +25,7 @@ public class Ship {
 
     public int stype;
 
-    public int leng;
+    public Range range;
 
     public LimitedValue hp;
 
@@ -53,10 +53,6 @@ public class Ship {
 
     public InventoryShip.Entry raw;
 
-    public String getRange() {
-        return Range.by(leng).getLabel();
-    }
-
     public String getEquipment(int i) {
         if(i >= items.size())return "";
         return items.get(i).name;
@@ -68,7 +64,7 @@ public class Ship {
         Ship resp = new Ship();
         resp.raw = ship;
         resp.id = ship.api_id;
-        resp.leng = ship.api_leng;
+        resp.range = Range.by(ship.api_leng);
         resp.name = ship.api_name;
         resp.lv = ship.api_lv;
         resp.exp = ship.api_exp;
@@ -105,9 +101,9 @@ public class Ship {
 
     public static List<Ship> buildList(InventoryShip inventoryShip, InventorySlotItem inventorySlotItem) {
         Map<Integer, InventorySlotItem.Entry> items = inventorySlotItem.toIdMap();
-        List<Ship> resp = Lists.newArrayList();
-        for (InventoryShip.Entry s : inventoryShip.api_data) {
-            resp.add(build(s, items));
+            List<Ship> resp = Lists.newArrayList();
+            for (InventoryShip.Entry s : inventoryShip.api_data) {
+                resp.add(build(s, items));
         }
         return resp;
     }

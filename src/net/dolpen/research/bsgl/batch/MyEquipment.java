@@ -3,6 +3,7 @@ package net.dolpen.research.bsgl.batch;
 import com.beust.jcommander.internal.Lists;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
+import net.dolpen.research.bsgl.model.compiled.IndexedItem;
 import net.dolpen.research.bsgl.model.compiled.Ship;
 import net.dolpen.research.bsgl.model.compiled.SlotItem;
 import net.dolpen.research.bsgl.model.master.ShipType;
@@ -27,32 +28,11 @@ public class MyEquipment {
 
         InventoryShip inventoryShip = InventoryShip.cache();
         InventorySlotItem inventorySlotItem = InventorySlotItem.cache();
-        List<Ship> ships = Ship.buildList(inventoryShip, inventorySlotItem);
-        List<SlotItem> slotItems = SlotItem.buildList(inventorySlotItem);
-        Constructors.appendItems(ships, slotItems);
-
-        Map<Integer, List<SlotItem>> itemMap = Maps.newHashMap();
-        for (SlotItem item : slotItems) {
-            List<SlotItem> list = itemMap.get(item.itemId);
-            if (list == null) {
-                list = Lists.newArrayList();
-                itemMap.put(item.itemId, list);
-            }
-            list.add(item);
-        }
-        List<Integer> keys = Lists.newArrayList(itemMap.keySet());
-        Collections.sort(keys, new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                // sort by exp(level)
-                return o1 - o2;
-            }
-        });
+        List<IndexedItem> items = IndexedItem.buildList(inventoryShip,inventorySlotItem);
         View.renderFile(
                 "/templates/myequipment.html",
                 ImmutableMap.<String, Object>builder()
-                        .put("keys", keys)
-                        .put("items", itemMap)
+                        .put("items", items)
                         .build(),
                 "/outputs/myequipment.html"
         );

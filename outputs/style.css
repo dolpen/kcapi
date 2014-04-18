@@ -9,3 +9,12 @@ td.armor.max{background: #fe8}
 td.luck.max{background: #0f8}
 td.sub.max{background: #0f8}
 td.evasion.max{background: #0f8}
+
+td.sight.cur{border: 1px solid#0f8}
+td.fire.cur{border: 1px solid#f68}
+td.torpedo.cur{border: 1px solid#adf}
+td.air.cur{border: 1px solid#f99}
+td.armor.cur{border: 1px solid#fe8}
+td.luck.cur{border: 1px solid#0f8}
+td.sub.cur{border: 1px solid#0f8}
+td.evasion.cur{border: 1px solid#0f8}

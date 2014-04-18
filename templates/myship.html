@@ -42,7 +42,7 @@
         <td class="<%  print x.hp.isMaximum() ? "" : "warn" %>">${x.hp.toStringWithMax()}</td>
         <td class="<%  print x.fuel.isMaximum() ? "" : "warn" %>">${x.fuel.toStringWithMax()}</td>
         <td class="<%  print x.bullet.isMaximum() ? "" : "warn" %>">${x.bullet.toStringWithMax()}</td>
-        <td>${x.range}</td>
+        <td>${x.range.label}</td>
         <td class="sight <%  print x.sight.isFinished()?"max":"" %>">${x.sight}</td>
         <td class="fire <%  print x.fire.isFinished()?"max":"" %>">${x.fire}</td>
         <td class="torpedo <%  print x.torpedo.isFinished()?"max":"" %>">${x.torpedo}</td>
