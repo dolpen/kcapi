@@ -1,19 +1,21 @@
 package net.dolpen.research.bsgl.model.member;
 
+import com.beust.jcommander.internal.Maps;
 import com.google.gson.Gson;
 import net.dolpen.research.bsgl.api.Cache;
 import net.dolpen.research.bsgl.model.Common;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * 所持装備
  */
 public class InventorySlotItem extends Common {
 
-    public List<Content> api_data;
+    public List<Entry> api_data;
 
-    public static class Content {
+    public static class Entry {
         public int api_atap; // Unused value (Nothing boosts this)
 
         public int api_bakk; // Unused value (Nothing boosts this)
@@ -75,10 +77,23 @@ public class InventorySlotItem extends Common {
 
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        for (Content content : api_data) {
-            sb.append(content.toString()).append("\n");
+        for (Entry entry : api_data) {
+            sb.append(entry.toString()).append("\n");
         }
         return sb.toString();
+    }
+
+    /**
+     * Local ID -> Entry
+     *
+     * @return map
+     */
+    public Map<Integer, Entry> toIdMap() {
+        Map<Integer, Entry> items = Maps.newHashMap();
+        for (Entry s : api_data) {
+            items.put(s.api_id, s);
+        }
+        return items;
     }
 
     public static InventorySlotItem cache() {
