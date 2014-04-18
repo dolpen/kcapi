@@ -57,6 +57,11 @@ public class Ship {
         return Range.by(leng).getLabel();
     }
 
+    public String getEquipment(int i) {
+        if(i >= items.size())return "";
+        return items.get(i).name;
+    }
+
 // builder
 
     public static Ship build(InventoryShip.Entry ship, Map<Integer, InventorySlotItem.Entry> items) {

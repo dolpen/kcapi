@@ -26,6 +26,10 @@
         <th>回避</th>
         <th>対潜</th>
         <th>運</th>
+        <th>装備</th>
+        <th>装備</th>
+        <th>装備</th>
+        <th>装備</th>
     </tr>
     <% list.eachWithIndex { x,i -> %>
     <tr>
@@ -38,7 +42,7 @@
         <td class="<%  print x.hp.isMaximum() ? "" : "warn" %>">${x.hp.toStringWithMax()}</td>
         <td class="<%  print x.fuel.isMaximum() ? "" : "warn" %>">${x.fuel.toStringWithMax()}</td>
         <td class="<%  print x.bullet.isMaximum() ? "" : "warn" %>">${x.bullet.toStringWithMax()}</td>
-        <td>${["","短","中","長","超"][x.leng]}</td>
+        <td>${x.range}</td>
         <td class="sight <%  print x.sight.isFinished()?"max":"" %>">${x.sight}</td>
         <td class="fire <%  print x.fire.isFinished()?"max":"" %>">${x.fire}</td>
         <td class="torpedo <%  print x.torpedo.isFinished()?"max":"" %>">${x.torpedo}</td>
@@ -47,6 +51,10 @@
         <td class="evasion <%  print x.evasion.isFinished()?"max":"" %>">${x.evasion}</td>
         <td class="sub <%  print x.sub.isFinished()?"max":"" %>">${x.sub}</td>
         <td class="luck <%  print x.luck.isFinished()?"max":"" %>">${x.luck}</td>
+        <td class="equipment">${x.getEquipment(0)}</td>
+        <td class="equipment">${x.getEquipment(1)}</td>
+        <td class="equipment">${x.getEquipment(2)}</td>
+        <td class="equipment">${x.getEquipment(3)}</td>
     </tr>
     <% } %>
     </tbody>

@@ -3,9 +3,11 @@ package net.dolpen.research.bsgl.batch;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
 import net.dolpen.research.bsgl.model.compiled.Ship;
+import net.dolpen.research.bsgl.model.compiled.SlotItem;
 import net.dolpen.research.bsgl.model.master.ShipType;
 import net.dolpen.research.bsgl.model.member.InventoryShip;
 import net.dolpen.research.bsgl.model.member.InventorySlotItem;
+import net.dolpen.research.bsgl.util.Constructors;
 import net.dolpen.research.bsgl.util.groovy.View;
 
 import java.util.Collections;
@@ -25,8 +27,8 @@ public class MyShip {
         InventoryShip inventoryShip = InventoryShip.cache();
         InventorySlotItem inventorySlotItem = InventorySlotItem.cache();
         List<Ship> ships = Ship.buildList(inventoryShip,inventorySlotItem);
-
-
+        List<SlotItem> slotItems = SlotItem.buildList(inventorySlotItem);
+        Constructors.appendItems(ships,slotItems);
         Collections.sort(ships, new Comparator<Ship>() {
             @Override
             public int compare(Ship o1, Ship o2) {
