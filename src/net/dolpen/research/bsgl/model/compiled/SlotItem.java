@@ -29,6 +29,7 @@ public class SlotItem {
 
     public int armor;
 
+    public int evasion;
 
     public int sub;
 
@@ -41,9 +42,11 @@ public class SlotItem {
     public List<Equipment> equipments;
 
     // なぜか回避だけマスタデータには入っていない
+    /*
     public String getEvasion() {
         return equipments.isEmpty() ? "?" : String.format("%d", equipments.get(0).evasion);
     }
+    */
 
     public String getOwnerNames() {
         StringBuilder sb = new StringBuilder();
@@ -67,6 +70,7 @@ public class SlotItem {
         resp.air = e.api_tyku;
         resp.armor = e.api_souk;
         resp.sub = e.api_tais;
+        resp.evasion = e.api_houk;
         resp.luck = e.api_luck;
         resp.range = Range.by(e.api_leng);
         resp.amount = 0;

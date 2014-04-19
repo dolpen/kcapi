@@ -24,7 +24,7 @@ public class SlotItemMaster extends Common {
 
         public int api_houg; // Firepower
 
-        public int api_houk; // Unknown
+        public int api_houk; // Unknown　-- 実データを見ると缶系の回避増加値に見える
 
         public int api_houm; // Unknown
 
