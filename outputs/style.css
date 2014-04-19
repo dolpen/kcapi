@@ -1,4 +1,4 @@
-td {font-size: x-small}
+td,th {font-size: x-small}
 td.warn{color: red;background: #fcc}
 
 td.sight.max{background: #0f8}

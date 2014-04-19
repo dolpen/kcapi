@@ -1,7 +1,7 @@
 package net.dolpen.research.bsgl.util.groovy;
 
 import com.google.common.collect.Maps;
-import groovy.text.SimpleTemplateEngine;
+import groovy.text.GStringTemplateEngine;
 import groovy.text.Template;
 import net.dolpen.research.bsgl.util.Const;
 import net.dolpen.research.bsgl.util.StringExtensions;
@@ -25,10 +25,10 @@ public class View {
         Template cached = cache.get(path);
         if (cached != null) return cached;
         File file = new File(path);
-        SimpleTemplateEngine ste = new SimpleTemplateEngine();
+        GStringTemplateEngine gte = new GStringTemplateEngine();
         Template loaded = null;
         try {
-            loaded = ste.createTemplate(file);
+            loaded = gte.createTemplate(file);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -49,6 +49,7 @@ public class View {
         Map<String, Object> binding = Maps.newHashMap();
         if (params != null) binding.putAll(params);
         binding.put("_", StringExtensions.getInstance());
+        binding.put("_scope", binding);
         return binding;
     }
 
@@ -71,13 +72,23 @@ public class View {
      * @param params   パラメータ
      * @param filename 書き込み先
      */
-    public static void renderFile(String path, Map<String, Object> params, String filename) {
+    public static void renderHtmlFile(String path, Map<String, Object> params, String filename) {
+        FileWriter writer = null;
         try {
-            loadTemplate(Const.ROOT + path)
-                    .make(wrapParams(params)).writeTo(new FileWriter(Const.ROOT + filename));
+            String out = loadTemplate(Const.ROOT + path).make(wrapParams(params)).toString().replaceAll("\\n[\t 　]*", "");
+            writer = new FileWriter(Const.ROOT + filename);
+            writer.write(out);
+            writer.write(out);
         } catch (Exception e) {
             e.printStackTrace();
+        } finally {
+            try {
+                if (writer != null) {
+                    writer.flush();
+                    writer.close();
+                }
+            } catch (IOException e) {
+            }
         }
-
     }
 }

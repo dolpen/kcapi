@@ -1,48 +1,55 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="./style.css"/>
-    <title>母港の火器庫</title>
-</head>
+<% _scope.title = "母港の火器庫" %>\
+${_.include("/templates/header.html",_scope)}
 <body>
-<table>
-    <tbody>
-    <tr>
-        <th>No.</th>
-        <th>名称</th>
-        <th>射程</th>
-        <th>索敵</th>
-        <th>火力</th>
-        <th>雷装</th>
-        <th>対空</th>
-        <th>装甲</th>
-        <th>回避</th>
-        <th>対潜</th>
-        <th>運</th>
-        <th>所持数</th>
-        <th>装備艦</th>
-    </tr>
-    <% items.eachWithIndex { x,i -> %>
-    <tr>
-        <td>${i+1}</td>
-        <td>${x.name}</td>
-        <td>${x.range.label}</td>
-        <td class="sight cur">${x.sight}</td>
-        <td class="fire cur">${x.fire}</td>
-        <td class="torpedo cur">${x.torpedo}</td>
-        <td class="air cur">${x.air}</td>
-        <td class="armor cur">${x.armor}</td>
-        <td class="evasion cur">${x.evasion}</td>
-        <td class="sub cur">${x.sub}</td>
-        <td class="luck cur">${x.luck}</td>
-        <td>${x.amount}</td>
-        <td>${_.nl2br(x.ownerNames)}</td>
-    </tr>
-    <% } %>
-    </tbody>
-</table>
-
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">装備一覧</div>
+        <div class="panel-body">
+            <p>所持している装備ごとの所持数、所持艦などを表示します。</p>
+        </div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>No.</th>
+                <th>名称</th>
+                <th>射程</th>
+                <th>索敵</th>
+                <th>火力</th>
+                <th>雷装</th>
+                <th>対空</th>
+                <th>装甲</th>
+                <th>回避</th>
+                <th>対潜</th>
+                <th>運</th>
+                <th>所持数</th>
+                <th>装備艦</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% items.eachWithIndex { x,i -> %>\
+            <tr>
+                <td>${i+1}</td>
+                <td>${x.name}</td>
+                <td>${x.range.label}</td>
+                <td class="sight cur">${x.sight}</td>
+                <td class="fire cur">${x.fire}</td>
+                <td class="torpedo cur">${x.torpedo}</td>
+                <td class="air cur">${x.air}</td>
+                <td class="armor cur">${x.armor}</td>
+                <td class="evasion cur">${x.evasion}</td>
+                <td class="sub cur">${x.sub}</td>
+                <td class="luck cur">${x.luck}</td>
+                <td>${x.amount}</td>
+                <td>${_.nl2br(x.ownerNames)}</td>
+            </tr>
+            <% } %>\
+            </tbody>
+        </table>
+    </div>
+</div>
+${_.include("/templates/script.html",_scope)}
 </body>
 </html>
 

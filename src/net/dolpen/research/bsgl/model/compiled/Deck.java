@@ -5,6 +5,8 @@ import net.dolpen.research.bsgl.model.master.SlotItemMaster;
 import net.dolpen.research.bsgl.model.member.InventoryShip;
 import net.dolpen.research.bsgl.model.member.InventorySlotItem;
 
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 
@@ -48,8 +50,13 @@ public class Deck {
             s.equipments.add(e);
             s.amount++;
             e.info = s;
-
         }
+        Collections.sort(resp.ships, new Comparator<Ship>() {
+            @Override
+            public int compare(Ship o1, Ship o2) {
+                return o2.exp - o1.exp;
+            }
+        });
         return resp;
     }
 
