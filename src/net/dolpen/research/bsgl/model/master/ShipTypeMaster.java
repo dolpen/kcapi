@@ -7,27 +7,29 @@ import net.dolpen.research.bsgl.model.Common;
 import java.util.List;
 
 /**
- * 消費アイテムマスタ
+ * 艦種マスタ
  */
-public class UseItem extends Common {
+public class ShipTypeMaster extends Common {
+
     public List<Content> api_data;
 
     public static class Content {
-        public int api_id; // The ID of the item
 
-        public int api_usetype; // The type of the item
+        public int api_id; // Ship type ID
 
-        public int api_category; // The category of the item
+        public int api_sortno; // Index in menus
 
-        public String api_name; // The name of the item
+        public String api_name; // Name of the class
 
-        public List<String> api_description; // Contains (Description, empty string)
+        public int api_scnt; // ???
+
+        public int api_kcnt; // ???
 
         public String toString() {
             return String.format("%d %s", api_id, api_name);
         }
-    }
 
+    }
 
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -37,8 +39,8 @@ public class UseItem extends Common {
         return sb.toString();
     }
 
-    public static UseItem cache() {
-        String resp = Cache.load("/inputs/master/useitem.txt");
-        return new Gson().fromJson(resp, UseItem.class);
+    public static ShipTypeMaster cache() {
+        String resp = Cache.load("/inputs/master/stype.txt");
+        return new Gson().fromJson(resp, ShipTypeMaster.class);
     }
 }

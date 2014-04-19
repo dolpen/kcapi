@@ -9,7 +9,8 @@ import java.util.List;
 /**
  * 家具マスタ
  */
-public class Furniture extends Common {
+public class FurnitureMaster extends Common {
+
     public List<Content> api_data;
 
     public static class Content {
@@ -43,9 +44,9 @@ public class Furniture extends Common {
         return sb.toString();
     }
 
-    public static Furniture cache() {
+    public static FurnitureMaster cache() {
         String resp = Cache.load("/inputs/master/furniture.txt");
-        return new Gson().fromJson(resp, Furniture.class);
+        return new Gson().fromJson(resp, FurnitureMaster.class);
     }
 
 }

@@ -10,7 +10,7 @@ import java.util.List;
  * 艦船のマスタデータ
  * 艦娘以外に敵のデータもある
  */
-public class Ship extends Common {
+public class ShipMaster extends Common {
 
     public List<Content> api_data;
 
@@ -125,9 +125,9 @@ public class Ship extends Common {
         return sb.toString();
     }
 
-    public static Ship cache() {
+    public static ShipMaster cache() {
         String cache = Cache.load("/inputs/master/ship.txt");
-        return new Gson().fromJson(cache, Ship.class);
+        return new Gson().fromJson(cache, ShipMaster.class);
     }
 
 }

@@ -1,20 +1,23 @@
 package net.dolpen.research.bsgl.model.compiled;
 
 import com.beust.jcommander.internal.Lists;
-import net.dolpen.research.bsgl.model.member.InventorySlotItem;
+import com.beust.jcommander.internal.Maps;
+import net.dolpen.research.bsgl.model.enums.Range;
+import net.dolpen.research.bsgl.model.master.*;
 
 import java.util.List;
+import java.util.Map;
 
 /**
- * コンパイル済み装備データ
+ * view向けSlotItemMaster
  */
 public class SlotItem {
 
-    public int id; // local id
+    public int itemId;
 
-    public int itemId; // item id
+    public String name;
 
-    public String name; // item name
+    public Range range;
 
     public int sight;
 
@@ -26,38 +29,61 @@ public class SlotItem {
 
     public int armor;
 
-    public int evasion;
 
     public int sub;
 
     public int luck;
 
-    public Ship ship;
+    SlotItemMaster.Entry raw;
 
-    InventorySlotItem.Entry raw;
+    public int amount;
 
-    public static SlotItem build(InventorySlotItem.Entry e) {
+    public List<Equipment> equipments;
+
+    // なぜか回避だけマスタデータには入っていない
+    public String getEvasion() {
+        return equipments.isEmpty() ? "?" : String.format("%d", equipments.get(0).evasion);
+    }
+
+    public String getOwnerNames() {
+        StringBuilder sb = new StringBuilder();
+        boolean b = false;
+        for (Equipment e : equipments) {
+            if (e.ship == null) continue;
+            if (b) sb.append(" ");
+            sb.append(e.ship.name);
+            b = true;
+        }
+        return sb.toString();
+    }
+
+    public static SlotItem build(SlotItemMaster.Entry e) {
         SlotItem resp = new SlotItem();
-        resp.raw = e;
-        resp.id = e.api_id;
-        resp.itemId = e.api_slotitem_id;
+        resp.itemId = e.api_id;
         resp.name = e.api_name;
         resp.sight = e.api_saku;
         resp.fire = e.api_houg;
         resp.torpedo = e.api_raig;
         resp.air = e.api_tyku;
         resp.armor = e.api_souk;
-        resp.evasion = e.api_kaih;
         resp.sub = e.api_tais;
         resp.luck = e.api_luck;
+        resp.range = Range.by(e.api_leng);
+        resp.amount = 0;
+        resp.equipments = Lists.newArrayList();
+        resp.raw = e;
         return resp;
     }
 
-    public static List<SlotItem> buildList(InventorySlotItem inventorySlotItem) {
+    public static List<SlotItem> buildList(SlotItemMaster s) {
         List<SlotItem> resp = Lists.newArrayList();
-        for (InventorySlotItem.Entry s : inventorySlotItem.api_data) {
-            resp.add(build(s));
-        }
+        for (SlotItemMaster.Entry e : s.api_data) resp.add(build(e));
+        return resp;
+    }
+
+    public static Map<Integer, SlotItem> toIdMap(List<SlotItem> l) {
+        Map<Integer, SlotItem> resp = Maps.newHashMap();
+        for (SlotItem e : l) resp.put(e.itemId, e);
         return resp;
     }
 }

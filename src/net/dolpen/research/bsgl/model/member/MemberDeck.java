@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 艦隊編成の一覧です
  */
-public class Deck extends Common {
+public class MemberDeck extends Common {
 
     public List<Content> api_data;
 
@@ -22,9 +22,9 @@ public class Deck extends Common {
     }
 
     /*
-    public static Deck get() {
+    public static MemberDeck get() {
         String resp = Request.postJson("/api_get_member/deck", null);
-        return new Gson().fromJson(resp, Deck.class);
+        return new Gson().fromJson(resp, MemberDeck.class);
     }
     */
 }
