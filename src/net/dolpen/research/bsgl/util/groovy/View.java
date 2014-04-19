@@ -4,6 +4,7 @@ import com.google.common.collect.Maps;
 import groovy.text.SimpleTemplateEngine;
 import groovy.text.Template;
 import net.dolpen.research.bsgl.util.Const;
+import net.dolpen.research.bsgl.util.StringExtensions;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -29,9 +30,9 @@ public class View {
         try {
             loaded = ste.createTemplate(file);
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         } catch (IOException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
 
         cache.put(path, loaded);
@@ -47,6 +48,7 @@ public class View {
     private static Map<String, Object> wrapParams(Map<String, Object> params) {
         Map<String, Object> binding = Maps.newHashMap();
         if (params != null) binding.putAll(params);
+        binding.put("_", StringExtensions.getInstance());
         return binding;
     }
 

@@ -50,7 +50,7 @@ public class SlotItem {
         boolean b = false;
         for (Equipment e : equipments) {
             if (e.ship == null) continue;
-            if (b) sb.append(" ");
+            if (b) sb.append("\n");
             sb.append(e.ship.name);
             b = true;
         }

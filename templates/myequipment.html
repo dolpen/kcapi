@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css"/>
     <title>母港の火器庫</title>
 </head>
 <body>
@@ -37,7 +37,7 @@
         <td class="sub cur">${x.sub}</td>
         <td class="luck cur">${x.luck}</td>
         <td>${x.amount}</td>
-        <td>${x.ownerNames}</td>
+        <td>${_.nl2br(x.ownerNames)}</td>
     </tr>
     <% } %>
     </tbody>
