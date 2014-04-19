@@ -78,7 +78,6 @@ public class View {
             String out = loadTemplate(Const.ROOT + path).make(wrapParams(params)).toString().replaceAll("\\n[\t 　]*", "");
             writer = new FileWriter(Const.ROOT + filename);
             writer.write(out);
-            writer.write(out);
         } catch (Exception e) {
             e.printStackTrace();
         } finally {

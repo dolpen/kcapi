@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 <% _scope.title = "母港の艦娘寮" %>
-${_.include("/templates/header.html",_scope)}
+${_.include("/templates/common/head.html",_scope)}
 <body>
 <div class="container">
+    <% _scope.page = "ship" %>\
+    ${_.include("/templates/common/header.html",_scope)}
     <div class="panel panel-default">
         <div class="panel-heading">艦娘一覧</div>
         <div class="panel-body">
             <p>艦娘の経験値、近代化改修、レベルパラメータ上昇、装備などを確認できます。</p>
         </div>
-        <table class="table">
-            <thead>
+        <table class="table table-fixed-header">
+            <thead class="header">
             <tr>
                 <th>No.</th>
-                <th>種類</th>
-                <th>名称</th>
-                <th>LV</th>
-                <th>経験値</th>
+                <th>種類<br />名称</th>
+                <th>LV<br />経験値</th>
                 <th>HP</th>
                 <th>燃料</th>
                 <th>弾薬</th>
@@ -30,19 +30,14 @@ ${_.include("/templates/header.html",_scope)}
                 <th>対潜</th>
                 <th>運</th>
                 <th>装備</th>
-                <th>装備</th>
-                <th>装備</th>
-                <th>装備</th>
             </tr>
             </thead>
             <tbody>
             <% ships.eachWithIndex { x,i -> %>\
             <tr>
-                <td>${i+1}</td>
-                <td>${x.type.name}</td>
-                <td>${x.name}</td>
-                <td>${x.lv}</td>
-                <td>${x.exp}</td>
+                <td><a name="${x.id}"></a>${i+1}</td>
+                <td>${x.type.name}<br />${x.name}</td>
+                <td>${x.lv}<br />${x.exp}</td>
                 <td class="${x.hp.isMaximum()?'':'warn'}">${x.hp.toStringWithMax()}</td>
                 <td class="${x.fuel.isMaximum()?'':'warn'}">${x.fuel.toStringWithMax()}</td>
                 <td class="${x.bullet.isMaximum()?'':'warn'}">${x.bullet.toStringWithMax()}</td>
@@ -55,17 +50,21 @@ ${_.include("/templates/header.html",_scope)}
                 <td class="evasion ${x.evasion.isFinished()?'max':''}">${x.evasion}</td>
                 <td class="sub ${x.sub.isFinished()?'max':''}">${x.sub}</td>
                 <td class="luck ${x.luck.isFinished()?'max':''}">${x.luck}</td>
-                <td class="equipment">${x.getEquipment(0)}</td>
-                <td class="equipment">${x.getEquipment(1)}</td>
-                <td class="equipment">${x.getEquipment(2)}</td>
-                <td class="equipment">${x.getEquipment(3)}</td>
+                <td class="equipment">
+                <% [0,1,2,3].each { k -> %>\
+                    <% if (x.equipments[k] != null) { %>\
+                    <a href="./myequipment.html#${x.equipments[k].itemId}">${x.equipments[k].name}</a><br/>
+                    <% } %>\
+                <% } %>\
+                </td>
             </tr>
             <% } %>\
             </tbody>
         </table>
     </div>
 </div>
-${_.include("/templates/script.html",_scope)}
+${_.include("/templates/common/footer.html",_scope)}
+${_.include("/templates/common/script.html",_scope)}
 </body>
 </html>
 

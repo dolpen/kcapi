@@ -1,4 +1,31 @@
+/*
+ * UIs
+ */
+.fixed-table {
+    display: block;
+    position: relative;
+}
+.fixed-table .table-content {
+    display: block;
+    position: relative;
+    height: 550px; /*tbody field height*/
+    overflow-y: auto;
+}
+.fixed-table .table-copy, .fixed-table .header-copy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1020;
+    background-color:#fff;
+}
+
+/*
+ * Design
+ */
+
 td,th {font-size: x-small}
+
+
 td.warn{color: red;background: #fcc}
 
 td.sight.max{background: #0f8}
@@ -10,11 +37,11 @@ td.luck.max{background: #0f8}
 td.sub.max{background: #0f8}
 td.evasion.max{background: #0f8}
 
-td.sight.cur{border: 1px solid#0f8}
-td.fire.cur{border: 1px solid#f68}
-td.torpedo.cur{border: 1px solid#adf}
-td.air.cur{border: 1px solid#f99}
-td.armor.cur{border: 1px solid#fe8}
-td.luck.cur{border: 1px solid#0f8}
-td.sub.cur{border: 1px solid#0f8}
-td.evasion.cur{border: 1px solid#0f8}
+td.sight.cur{border-bottom: 1px solid#0f8}
+td.fire.cur{border-bottom: 1px solid#f68}
+td.torpedo.cur{border-bottom: 1px solid#adf}
+td.air.cur{border-bottom: 1px solid#f99}
+td.armor.cur{border-bottom: 1px solid#fe8}
+td.luck.cur{border-bottom: 1px solid#0f8}
+td.sub.cur{border-bottom: 1px solid#0f8}
+td.evasion.cur{border-bottom: 1px solid#0f8}

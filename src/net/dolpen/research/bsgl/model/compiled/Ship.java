@@ -53,11 +53,6 @@ public class Ship {
 
     public InventoryShip.Entry raw;
 
-    public String getEquipment(int i) {
-        if (i >= equipments.size()) return "";
-        return equipments.get(i).name;
-    }
-
 // builder
 
     public static Ship build(InventoryShip.Entry e, Map<Integer, InventorySlotItem.Entry> m) {

@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <% _scope.title = "母港の火器庫" %>\
-${_.include("/templates/header.html",_scope)}
+${_.include("/templates/common/head.html",_scope)}
 <body>
 <div class="container">
+    <% _scope.page = "equipment" %>\
+    ${_.include("/templates/common/header.html",_scope)}
     <div class="panel panel-default">
         <div class="panel-heading">装備一覧</div>
         <div class="panel-body">
             <p>所持している装備ごとの所持数、所持艦などを表示します。</p>
         </div>
-        <table class="table">
-            <thead>
+        <table class="table table-fixed-header">
+            <thead class="header">
             <tr>
                 <th>No.</th>
                 <th>名称</th>
@@ -30,7 +32,7 @@ ${_.include("/templates/header.html",_scope)}
             <tbody>
             <% items.eachWithIndex { x,i -> %>\
             <tr>
-                <td>${i+1}</td>
+                <td><a name="${x.itemId}"></a>${i+1}</td>
                 <td>${x.name}</td>
                 <td>${x.range.label}</td>
                 <td class="sight cur">${x.sight}</td>
@@ -42,14 +44,21 @@ ${_.include("/templates/header.html",_scope)}
                 <td class="sub cur">${x.sub}</td>
                 <td class="luck cur">${x.luck}</td>
                 <td>${x.amount}</td>
-                <td>${_.nl2br(x.ownerNames)}</td>
+                <td>
+                    <% x.equipments.each { e -> %>\
+                    <% if (e.ship != null) { %>\
+                    <a href="./myship.html#${e.ship.id}">${e.ship.name}</a><br/>
+                    <% } %>\
+                    <% } %>\
+                </td>
             </tr>
             <% } %>\
             </tbody>
         </table>
     </div>
 </div>
-${_.include("/templates/script.html",_scope)}
+${_.include("/templates/common/footer.html",_scope)}
+${_.include("/templates/common/script.html",_scope)}
 </body>
 </html>
 
