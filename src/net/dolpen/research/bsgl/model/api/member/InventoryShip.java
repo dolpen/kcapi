@@ -1,9 +1,9 @@
-package net.dolpen.research.bsgl.model.member;
+package net.dolpen.research.bsgl.model.api.member;
 
 import com.beust.jcommander.internal.Maps;
 import com.google.gson.Gson;
 import net.dolpen.research.bsgl.api.Cache;
-import net.dolpen.research.bsgl.model.Common;
+import net.dolpen.research.bsgl.model.api.Common;
 
 import java.util.List;
 import java.util.Map;

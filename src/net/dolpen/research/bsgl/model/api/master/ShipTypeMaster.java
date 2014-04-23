@@ -1,15 +1,14 @@
-package net.dolpen.research.bsgl.model.master;
+package net.dolpen.research.bsgl.model.api.master;
 
 import com.google.gson.Gson;
-import net.dolpen.research.bsgl.api.Cache;
-import net.dolpen.research.bsgl.model.Common;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
  * 艦種マスタ
  */
-public class ShipTypeMaster extends Common {
+public class ShipTypeMaster extends Master {
 
     public List<Content> api_data;
 
@@ -40,7 +39,9 @@ public class ShipTypeMaster extends Common {
     }
 
     public static ShipTypeMaster cache() {
-        String resp = Cache.load("/inputs/master/stype.txt");
-        return new Gson().fromJson(resp, ShipTypeMaster.class);
+        ShipTypeMaster resp = new ShipTypeMaster();
+        String cache = loadMasterCache("api_mst_stype");
+        resp.api_data = Arrays.asList(new Gson().fromJson(cache, Content[].class));
+        return resp;
     }
 }

@@ -1,16 +1,15 @@
-package net.dolpen.research.bsgl.model.master;
+package net.dolpen.research.bsgl.model.api.master;
 
 import com.google.gson.Gson;
-import net.dolpen.research.bsgl.api.Cache;
-import net.dolpen.research.bsgl.model.Common;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
  * 艦船のマスタデータ
  * 艦娘以外に敵のデータもある
  */
-public class ShipMaster extends Common {
+public class ShipMaster extends Master {
 
     public List<Content> api_data;
 
@@ -125,9 +124,13 @@ public class ShipMaster extends Common {
         return sb.toString();
     }
 
+
     public static ShipMaster cache() {
-        String cache = Cache.load("/inputs/master/ship.txt");
-        return new Gson().fromJson(cache, ShipMaster.class);
+        ShipMaster resp = new ShipMaster();
+        String cache = loadMasterCache("api_mst_ship");
+        resp.api_data = Arrays.asList(new Gson().fromJson(cache, Content[].class));
+        return resp;
     }
+
 
 }

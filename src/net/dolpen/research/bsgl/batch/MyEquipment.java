@@ -2,10 +2,10 @@ package net.dolpen.research.bsgl.batch;
 
 import com.google.common.collect.ImmutableMap;
 import net.dolpen.research.bsgl.model.compiled.Deck;
-import net.dolpen.research.bsgl.model.master.ShipTypeMaster;
-import net.dolpen.research.bsgl.model.master.SlotItemMaster;
-import net.dolpen.research.bsgl.model.member.InventoryShip;
-import net.dolpen.research.bsgl.model.member.InventorySlotItem;
+import net.dolpen.research.bsgl.model.api.master.ShipTypeMaster;
+import net.dolpen.research.bsgl.model.api.master.SlotItemMaster;
+import net.dolpen.research.bsgl.model.api.member.InventoryShip;
+import net.dolpen.research.bsgl.model.api.member.InventorySlotItem;
 import net.dolpen.research.bsgl.util.groovy.View;
 
 public class MyEquipment {

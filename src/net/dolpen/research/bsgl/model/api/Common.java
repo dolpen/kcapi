@@ -1,4 +1,4 @@
-package net.dolpen.research.bsgl.model;
+package net.dolpen.research.bsgl.model.api;
 
 /**
  * 基本的に全部のデータにくっつく感じ

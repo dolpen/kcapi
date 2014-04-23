@@ -1,15 +1,14 @@
-package net.dolpen.research.bsgl.model.master;
+package net.dolpen.research.bsgl.model.api.master;
 
 import com.google.gson.Gson;
-import net.dolpen.research.bsgl.api.Cache;
-import net.dolpen.research.bsgl.model.Common;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
  * 装備マスタ
  */
-public class SlotItemMaster extends Common {
+public class SlotItemMaster extends Master {
     public List<Entry> api_data;
 
     public static class Entry {
@@ -81,7 +80,9 @@ public class SlotItemMaster extends Common {
     }
 
     public static SlotItemMaster cache() {
-        String resp = Cache.load("/inputs/master/slotitem.txt");
-        return new Gson().fromJson(resp, SlotItemMaster.class);
+        SlotItemMaster resp = new SlotItemMaster();
+        String cache = loadMasterCache("api_mst_slotitem");
+        resp.api_data = Arrays.asList(new Gson().fromJson(cache, Entry[].class));
+        return resp;
     }
 }

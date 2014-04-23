@@ -4,8 +4,8 @@ import com.beust.jcommander.internal.Lists;
 import net.dolpen.research.bsgl.model.enums.Range;
 import net.dolpen.research.bsgl.model.extra.AbilityScore;
 import net.dolpen.research.bsgl.model.extra.LimitedValue;
-import net.dolpen.research.bsgl.model.member.InventoryShip;
-import net.dolpen.research.bsgl.model.member.InventorySlotItem;
+import net.dolpen.research.bsgl.model.api.member.InventoryShip;
+import net.dolpen.research.bsgl.model.api.member.InventorySlotItem;
 
 import java.util.List;
 import java.util.Map;

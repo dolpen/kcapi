@@ -2,7 +2,7 @@ package net.dolpen.research.bsgl.model.compiled;
 
 import com.beust.jcommander.internal.Lists;
 import com.beust.jcommander.internal.Maps;
-import net.dolpen.research.bsgl.model.master.ShipTypeMaster;
+import net.dolpen.research.bsgl.model.api.master.ShipTypeMaster;
 
 import java.util.List;
 import java.util.Map;

@@ -3,7 +3,7 @@ package net.dolpen.research.bsgl.model.compiled;
 import com.beust.jcommander.internal.Lists;
 import com.beust.jcommander.internal.Maps;
 import net.dolpen.research.bsgl.model.enums.Range;
-import net.dolpen.research.bsgl.model.master.*;
+import net.dolpen.research.bsgl.model.api.master.*;
 
 import java.util.List;
 import java.util.Map;

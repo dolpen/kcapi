@@ -1,15 +1,14 @@
-package net.dolpen.research.bsgl.model.master;
+package net.dolpen.research.bsgl.model.api.master;
 
 import com.google.gson.Gson;
-import net.dolpen.research.bsgl.api.Cache;
-import net.dolpen.research.bsgl.model.Common;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
  * 消費アイテムマスタ
  */
-public class UseItemMaster extends Common {
+public class UseItemMaster extends Master {
 
     public List<Content> api_data;
 
@@ -39,7 +38,9 @@ public class UseItemMaster extends Common {
     }
 
     public static UseItemMaster cache() {
-        String resp = Cache.load("/inputs/master/useitem.txt");
-        return new Gson().fromJson(resp, UseItemMaster.class);
+        UseItemMaster resp = new UseItemMaster();
+        String cache = loadMasterCache("api_mst_useitem");
+        resp.api_data = Arrays.asList(new Gson().fromJson(cache, Content[].class));
+        return resp;
     }
 }

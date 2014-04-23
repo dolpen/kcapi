@@ -1,15 +1,14 @@
-package net.dolpen.research.bsgl.model.master;
+package net.dolpen.research.bsgl.model.api.master;
 
 import com.google.gson.Gson;
-import net.dolpen.research.bsgl.api.Cache;
-import net.dolpen.research.bsgl.model.Common;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
  * 家具マスタ
  */
-public class FurnitureMaster extends Common {
+public class FurnitureMaster extends Master {
 
     public List<Content> api_data;
 
@@ -45,8 +44,10 @@ public class FurnitureMaster extends Common {
     }
 
     public static FurnitureMaster cache() {
-        String resp = Cache.load("/inputs/master/furniture.txt");
-        return new Gson().fromJson(resp, FurnitureMaster.class);
+        FurnitureMaster resp = new FurnitureMaster();
+        String cache = loadMasterCache("api_mst_furniture");
+        resp.api_data = Arrays.asList(new Gson().fromJson(cache, Content[].class));
+        return resp;
     }
 
 }

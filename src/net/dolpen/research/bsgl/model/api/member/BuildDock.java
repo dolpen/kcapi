@@ -1,4 +1,4 @@
-package net.dolpen.research.bsgl.model.member;
+package net.dolpen.research.bsgl.model.api.member;
 
 import java.util.List;
 
