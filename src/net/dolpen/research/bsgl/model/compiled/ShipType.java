@@ -16,11 +16,11 @@ public class ShipType {
 
     public String name;
 
-    ShipTypeMaster.Content raw;
+    ShipTypeMaster.Entry raw;
 
     public List<Ship> ships;
 
-    public static ShipType build(ShipTypeMaster.Content e) {
+    public static ShipType build(ShipTypeMaster.Entry e) {
         ShipType resp = new ShipType();
         resp.typeId = e.api_id;
         resp.name = e.api_name;
@@ -31,7 +31,7 @@ public class ShipType {
 
     public static List<ShipType> buildList(ShipTypeMaster s) {
         List<ShipType> resp = Lists.newArrayList();
-        for (ShipTypeMaster.Content e : s.api_data) resp.add(build(e));
+        for (ShipTypeMaster.Entry e : s.api_data) resp.add(build(e));
         return resp;
     }
 

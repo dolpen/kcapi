@@ -10,9 +10,24 @@ import java.util.List;
  */
 public class UseItemMaster extends Master {
 
-    public List<Content> api_data;
+    public List<Entry> api_data;
 
-    public static class Content {
+    public static UseItemMaster cache() {
+        UseItemMaster resp = new UseItemMaster();
+        String cache = loadMasterCache("api_mst_useitem");
+        resp.api_data = Arrays.asList(new Gson().fromJson(cache, Entry[].class));
+        return resp;
+    }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (Entry entry : api_data) {
+            sb.append(entry.toString()).append("\n");
+        }
+        return sb.toString();
+    }
+
+    public static class Entry {
         public int api_id; // The ID of the item
 
         public int api_usetype; // The type of the item
@@ -26,21 +41,5 @@ public class UseItemMaster extends Master {
         public String toString() {
             return String.format("%d %s", api_id, api_name);
         }
-    }
-
-
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        for (Content content : api_data) {
-            sb.append(content.toString()).append("\n");
-        }
-        return sb.toString();
-    }
-
-    public static UseItemMaster cache() {
-        UseItemMaster resp = new UseItemMaster();
-        String cache = loadMasterCache("api_mst_useitem");
-        resp.api_data = Arrays.asList(new Gson().fromJson(cache, Content[].class));
-        return resp;
     }
 }

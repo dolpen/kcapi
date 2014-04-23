@@ -2,6 +2,7 @@ package net.dolpen.research.bsgl.model.compiled;
 
 import com.beust.jcommander.internal.Lists;
 import com.beust.jcommander.internal.Maps;
+import net.dolpen.research.bsgl.model.api.master.SlotItemMaster;
 import net.dolpen.research.bsgl.model.api.member.InventorySlotItem;
 
 import java.util.List;
@@ -33,34 +34,33 @@ public class Equipment {
     public int sub;
 
     public int luck;
-
+    public Ship ship;
+    public SlotItem info;
     InventorySlotItem.Entry raw;
 
-    public Ship ship;
-
-    public SlotItem info;
-
-    public static Equipment build(InventorySlotItem.Entry e) {
+    public static Equipment build(InventorySlotItem.Entry e, Map<Integer, SlotItemMaster.Entry> im) {
         Equipment resp = new Equipment();
+        SlotItemMaster.Entry item = im.get(e.api_slotitem_id);
         resp.id = e.api_id;
         resp.itemId = e.api_slotitem_id;
-        resp.name = e.api_name;
-        resp.sight = e.api_saku;
-        resp.fire = e.api_houg;
-        resp.torpedo = e.api_raig;
-        resp.air = e.api_tyku;
-        resp.armor = e.api_souk;
-        resp.evasion = e.api_kaih;
-        resp.sub = e.api_tais;
-        resp.luck = e.api_luck;
+        resp.name = item.api_name;
+        resp.sight = item.api_saku;
+        resp.fire = item.api_houg;
+        resp.torpedo = item.api_raig;
+        resp.air = item.api_tyku;
+        resp.armor = item.api_souk;
+        resp.evasion = item.api_houk;
+        resp.sub = item.api_tais;
+        resp.luck = item.api_luck;
         resp.raw = e;
         return resp;
     }
 
-    public static List<Equipment> buildList(InventorySlotItem s) {
+    public static List<Equipment> buildList(InventorySlotItem s, SlotItemMaster imst) {
         List<Equipment> resp = Lists.newArrayList();
+        Map<Integer, SlotItemMaster.Entry> im = imst.toIdMap();
         for (InventorySlotItem.Entry e : s.api_data) {
-            resp.add(build(e));
+            resp.add(build(e, im));
         }
         return resp;
     }

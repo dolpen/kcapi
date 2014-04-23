@@ -2,8 +2,8 @@ package net.dolpen.research.bsgl.model.compiled;
 
 import com.beust.jcommander.internal.Lists;
 import com.beust.jcommander.internal.Maps;
+import net.dolpen.research.bsgl.model.api.master.SlotItemMaster;
 import net.dolpen.research.bsgl.model.enums.Range;
-import net.dolpen.research.bsgl.model.api.master.*;
 
 import java.util.List;
 import java.util.Map;
@@ -34,31 +34,9 @@ public class SlotItem {
     public int sub;
 
     public int luck;
-
-    SlotItemMaster.Entry raw;
-
     public int amount;
-
     public List<Equipment> equipments;
-
-    // なぜか回避だけマスタデータには入っていない
-    /*
-    public String getEvasion() {
-        return equipments.isEmpty() ? "?" : String.format("%d", equipments.get(0).evasion);
-    }
-    */
-
-    public String getOwnerNames() {
-        StringBuilder sb = new StringBuilder();
-        boolean b = false;
-        for (Equipment e : equipments) {
-            if (e.ship == null) continue;
-            if (b) sb.append("\n");
-            sb.append(e.ship.name);
-            b = true;
-        }
-        return sb.toString();
-    }
+    SlotItemMaster.Entry raw;
 
     public static SlotItem build(SlotItemMaster.Entry e) {
         SlotItem resp = new SlotItem();
@@ -89,5 +67,17 @@ public class SlotItem {
         Map<Integer, SlotItem> resp = Maps.newHashMap();
         for (SlotItem e : l) resp.put(e.itemId, e);
         return resp;
+    }
+
+    public String getOwnerNames() {
+        StringBuilder sb = new StringBuilder();
+        boolean b = false;
+        for (Equipment e : equipments) {
+            if (e.ship == null) continue;
+            if (b) sb.append("\n");
+            sb.append(e.ship.name);
+            b = true;
+        }
+        return sb.toString();
     }
 }

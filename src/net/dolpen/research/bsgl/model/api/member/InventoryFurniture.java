@@ -12,9 +12,22 @@ import java.util.List;
 public class InventoryFurniture extends Common {
 
     // 船一覧
-    public List<Content> api_data;
+    public List<Entry> api_data;
 
-    public static class Content {
+    public static InventoryFurniture cache() {
+        String resp = Cache.load("/inputs/member/furniture.txt");
+        return new Gson().fromJson(resp, InventoryFurniture.class);
+    }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (Entry entry : api_data) {
+            sb.append(entry.toString()).append("\n");
+        }
+        return sb.toString();
+    }
+
+    public static class Entry {
         public int api_member_id; // ID of the admiral who owns it
         public int api_id; // Local ID of the item (equal to api_furniture_id)
         public int api_furniture_type; // Type/Category
@@ -24,19 +37,6 @@ public class InventoryFurniture extends Common {
         public String toString() {
             return String.format("%d", api_id);
         }
-    }
-
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        for (Content content : api_data) {
-            sb.append(content.toString()).append("\n");
-        }
-        return sb.toString();
-    }
-
-    public static InventoryFurniture cache() {
-        String resp = Cache.load("/inputs/member/furniture.txt");
-        return new Gson().fromJson(resp, InventoryFurniture.class);
     }
 
 }

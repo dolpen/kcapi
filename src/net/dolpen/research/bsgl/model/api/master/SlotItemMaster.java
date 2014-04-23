@@ -1,15 +1,40 @@
 package net.dolpen.research.bsgl.model.api.master;
 
+import com.beust.jcommander.internal.Maps;
 import com.google.gson.Gson;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 装備マスタ
  */
 public class SlotItemMaster extends Master {
     public List<Entry> api_data;
+
+    public static SlotItemMaster cache() {
+        SlotItemMaster resp = new SlotItemMaster();
+        String cache = loadMasterCache("api_mst_slotitem");
+        resp.api_data = Arrays.asList(new Gson().fromJson(cache, Entry[].class));
+        return resp;
+    }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (Entry entry : api_data) {
+            sb.append(entry.toString()).append("\n");
+        }
+        return sb.toString();
+    }
+
+    public Map<Integer, Entry> toIdMap() {
+        Map<Integer, Entry> idMap = Maps.newHashMap();
+        for (Entry e : api_data) {
+            idMap.put(e.api_id, e);
+        }
+        return idMap;
+    }
 
     public static class Entry {
 
@@ -70,19 +95,4 @@ public class SlotItemMaster extends Master {
         }
     }
 
-
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        for (Entry entry : api_data) {
-            sb.append(entry.toString()).append("\n");
-        }
-        return sb.toString();
-    }
-
-    public static SlotItemMaster cache() {
-        SlotItemMaster resp = new SlotItemMaster();
-        String cache = loadMasterCache("api_mst_slotitem");
-        resp.api_data = Arrays.asList(new Gson().fromJson(cache, Entry[].class));
-        return resp;
-    }
 }

@@ -1,9 +1,11 @@
 package net.dolpen.research.bsgl.model.api.master;
 
+import com.beust.jcommander.internal.Maps;
 import com.google.gson.Gson;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 艦船のマスタデータ
@@ -122,6 +124,14 @@ public class ShipMaster extends Master {
             sb.append(content.toString()).append("\n");
         }
         return sb.toString();
+    }
+
+    public Map<Integer,Content> toIdMap(){
+        Map<Integer, Content> idMap = Maps.newHashMap();
+        for(Content c : api_data){
+            idMap.put(c.api_id,c);
+        }
+        return idMap;
     }
 
 

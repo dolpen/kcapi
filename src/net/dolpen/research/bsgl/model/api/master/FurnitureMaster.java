@@ -10,9 +10,24 @@ import java.util.List;
  */
 public class FurnitureMaster extends Master {
 
-    public List<Content> api_data;
+    public List<Entry> api_data;
 
-    public static class Content {
+    public static FurnitureMaster cache() {
+        FurnitureMaster resp = new FurnitureMaster();
+        String cache = loadMasterCache("api_mst_furniture");
+        resp.api_data = Arrays.asList(new Gson().fromJson(cache, Entry[].class));
+        return resp;
+    }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (Entry entry : api_data) {
+            sb.append(entry.toString()).append("\n");
+        }
+        return sb.toString();
+    }
+
+    public static class Entry {
 
         public String api_description;    // Description
 
@@ -33,21 +48,6 @@ public class FurnitureMaster extends Master {
         public String toString() {
             return String.format("%d %s", api_id, api_title);
         }
-    }
-
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        for (Content content : api_data) {
-            sb.append(content.toString()).append("\n");
-        }
-        return sb.toString();
-    }
-
-    public static FurnitureMaster cache() {
-        FurnitureMaster resp = new FurnitureMaster();
-        String cache = loadMasterCache("api_mst_furniture");
-        resp.api_data = Arrays.asList(new Gson().fromJson(cache, Content[].class));
-        return resp;
     }
 
 }
