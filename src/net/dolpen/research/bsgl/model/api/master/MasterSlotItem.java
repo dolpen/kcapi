@@ -23,7 +23,7 @@ public class MasterSlotItem extends Master {
     public List<Integer> deconstructionGain; // 廃棄時獲得資材 [ 燃, 弾, 鋼, ボ ]
 
     @SerializedName("api_houg")
-    public int firepower; // 火力
+    public int firePower; // 火力
 
     @SerializedName("api_houk")
     public int evasion; // 回避
@@ -31,7 +31,7 @@ public class MasterSlotItem extends Master {
     // public int api_houm; // 不明
 
     @SerializedName("api_id")
-    public int equipmentId; // 装備ID
+    public int weaponId; // 装備ID
 
     @SerializedName("api_info")
     public String description; // 説明文
@@ -84,7 +84,7 @@ public class MasterSlotItem extends Master {
     // public String api_usebull; // Unused; always 0
 
     public String toString() {
-        return String.format("%d %s", equipmentId, name);
+        return String.format("%d %s", weaponId, name);
     }
 
     public static List<MasterSlotItem> cache() {
@@ -95,7 +95,7 @@ public class MasterSlotItem extends Master {
     public static Map<Integer, MasterSlotItem> toIdMap(List<MasterSlotItem> list) {
         Map<Integer, MasterSlotItem> m = Maps.newHashMap();
         for (MasterSlotItem e : list)
-            m.put(e.equipmentId, e);
+            m.put(e.weaponId, e);
         return m;
     }
 }

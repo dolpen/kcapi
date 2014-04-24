@@ -19,11 +19,11 @@ public class Deck {
 
     public List<ShipType> shipTypes;
 
-    public List<SlotItem> slotItems;
+    public List<Weapon> weapons;
 
     public List<Ship> ships;
 
-    public List<Equipment> equipments;
+    public List<SlotItem> equipments;
 
     public static Deck build() {
         Deck resp = new Deck();
@@ -39,15 +39,14 @@ public class Deck {
         Map<Integer, MasterShipType> masterShipTypeMap = MasterShipType.toIdMap(masterShipTypeList);
         Map<Integer, MasterSlotItem> masterSlotItemMap = MasterSlotItem.toIdMap(masterSlotItemList);
 
-
         resp.shipTypes = ShipType.buildList(masterShipTypeList);
-        resp.slotItems = SlotItem.buildList(masterSlotItemList);
-        resp.equipments = Equipment.buildList(memberSlotItemList, masterSlotItemMap);
+        resp.weapons = Weapon.buildList(masterSlotItemList);
+        resp.equipments = SlotItem.buildList(memberSlotItemList, masterSlotItemMap);
         resp.ships = Ship.buildList(memberShipList, memberSlotItemMap, masterShipMap, masterSlotItemMap);
 
         Map<Integer, ShipType> shipTypeMap = ShipType.toIdMap(resp.shipTypes);
-        Map<Integer, Equipment> equipmentMap = Equipment.toLocalIdMap(resp.equipments);
-        Map<Integer, SlotItem> slotItemMap = SlotItem.toIdMap(resp.slotItems);
+        Map<Integer, SlotItem> equipmentMap = SlotItem.toLocalIdMap(resp.equipments);
+        Map<Integer, Weapon> slotItemMap = Weapon.toIdMap(resp.weapons);
 
         for (Ship ship : resp.ships) {
             MasterShip masterShip = masterShipMap.get(ship.raw.shipId);
@@ -56,14 +55,14 @@ public class Deck {
             type.ships.add(ship);
             for (int slotId : ship.raw.slotIds) {
                 if (slotId < 0) continue;
-                Equipment equipment = equipmentMap.get(slotId); // ship <-> equipment
+                SlotItem equipment = equipmentMap.get(slotId); // ship <-> equipment
                 ship.equipments.add(equipment);
                 equipment.ship = ship;
             }
         }
-        for (Equipment equipment : resp.equipments) { // slotitem <-> equipment
-            SlotItem item = slotItemMap.get(equipment.itemId);
-            item.equipments.add(equipment);
+        for (SlotItem equipment : resp.equipments) { // slotitem <-> equipment
+            Weapon item = slotItemMap.get(equipment.weaponId);
+            item.slots.add(equipment);
             item.amount++;
             equipment.info = item;
         }

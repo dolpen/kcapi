@@ -32,22 +32,22 @@ ${_.include("/templates/common/head.html",_scope)}
             <tbody>
             <% items.eachWithIndex { x,i -> %>\
             <tr>
-                <td><a name="${x.itemId}"></a>${i+1}</td>
+                <td><a name="${x.weaponId}"></a>${i+1}</td>
                 <td>${x.name}</td>
                 <td>${x.range.label}</td>
                 <td class="sight cur">${x.sight}</td>
-                <td class="fire cur">${x.fire}</td>
+                <td class="fire cur">${x.firePower}</td>
                 <td class="torpedo cur">${x.torpedo}</td>
-                <td class="air cur">${x.air}</td>
+                <td class="air cur">${x.antiAir}</td>
                 <td class="armor cur">${x.armor}</td>
                 <td class="evasion cur">${x.evasion}</td>
-                <td class="sub cur">${x.sub}</td>
+                <td class="sub cur">${x.antiSub}</td>
                 <td class="luck cur">${x.luck}</td>
                 <td>${x.amount}</td>
                 <td>
-                    <% x.equipments.each { e -> %>\
+                    <% x.slots.each { e -> %>\
                     <% if (e.ship != null) { %>\
-                    <a href="./myship.html#${e.ship.id}">${e.ship.name}</a><br/>
+                    <a href="./myship.html#${e.ship.girlId}">${e.ship.name}</a><br/>
                     <% } %>\
                     <% } %>\
                 </td>

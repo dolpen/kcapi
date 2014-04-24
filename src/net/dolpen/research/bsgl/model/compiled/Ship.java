@@ -2,7 +2,6 @@ package net.dolpen.research.bsgl.model.compiled;
 
 import com.beust.jcommander.internal.Lists;
 import net.dolpen.research.bsgl.model.api.master.MasterShip;
-import net.dolpen.research.bsgl.model.api.master.MasterShipType;
 import net.dolpen.research.bsgl.model.api.master.MasterSlotItem;
 import net.dolpen.research.bsgl.model.api.member.MemberShip;
 import net.dolpen.research.bsgl.model.api.member.MemberSlotItem;
@@ -18,7 +17,7 @@ import java.util.Map;
  */
 public class Ship {
 
-    public int id;
+    public int girlId;
 
     public int lv;
 
@@ -36,23 +35,23 @@ public class Ship {
 
     public AbilityScore sight;
 
-    public AbilityScore fire;
+    public AbilityScore firePower;
 
     public AbilityScore torpedo;
 
-    public AbilityScore air;
+    public AbilityScore antiAir;
 
     public AbilityScore armor;
 
     public AbilityScore evasion;
 
-    public AbilityScore sub;
+    public AbilityScore antiSub;
 
     public AbilityScore luck;
 
     public ShipType type;
 
-    public List<Equipment> equipments;
+    public List<SlotItem> equipments;
 
     public MemberShip raw;
 
@@ -61,7 +60,7 @@ public class Ship {
     public static Ship build(MemberShip ship, Map<Integer, MemberSlotItem> memberSlotItemMap, Map<Integer, MasterShip> masterShipMap, Map<Integer, MasterSlotItem> masterSlotItemMap) {
         MasterShip masterShip = masterShipMap.get(ship.shipId);
         Ship resp = new Ship();
-        resp.id = ship.shipId;
+        resp.girlId = ship.girlId;
         resp.range = Range.by(ship.range);
         resp.name = masterShip.name;
         resp.lv = ship.lv;
@@ -75,9 +74,9 @@ public class Ship {
         for (Integer slotId : ship.slotIds) {
             if (slotId < 0) continue;
             MemberSlotItem slotItem = memberSlotItemMap.get(slotId);
-            MasterSlotItem equipment = masterSlotItemMap.get(slotItem.equipmentId);
+            MasterSlotItem equipment = masterSlotItemMap.get(slotItem.weaponId);
             p[0] += equipment.sight;
-            p[1] += equipment.firepower;
+            p[1] += equipment.firePower;
             p[2] += equipment.torpedo;
             p[3] += equipment.antiAir;
             p[4] += equipment.armor;
@@ -86,12 +85,12 @@ public class Ship {
             p[7] += equipment.luck;
         }
         resp.sight = fromList(ship.sight, p[0]);
-        resp.fire = fromList(ship.firePower, p[1]);
+        resp.firePower = fromList(ship.firePower, p[1]);
         resp.torpedo = fromList(ship.torpedo, p[2]);
-        resp.air = fromList(ship.antiAir, p[3]);
+        resp.antiAir = fromList(ship.antiAir, p[3]);
         resp.armor = fromList(ship.armor, p[4]);
         resp.evasion = fromList(ship.evasion, p[5]);
-        resp.sub = fromList(ship.antiSub, p[6]);
+        resp.antiSub = fromList(ship.antiSub, p[6]);
         resp.luck = fromList(ship.luck, p[7]);
         resp.equipments = Lists.newArrayList();
         resp.raw = ship;

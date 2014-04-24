@@ -3,84 +3,73 @@ package net.dolpen.research.bsgl.model.compiled;
 import com.beust.jcommander.internal.Lists;
 import com.beust.jcommander.internal.Maps;
 import net.dolpen.research.bsgl.model.api.master.MasterSlotItem;
-import net.dolpen.research.bsgl.model.enums.Range;
+import net.dolpen.research.bsgl.model.api.member.MemberSlotItem;
 
 import java.util.List;
 import java.util.Map;
 
 /**
- * view向けSlotItemMaster
+ * 個別装備データ
  */
 public class SlotItem {
 
-    public int itemId;
+    public int slotId; // local slotId
 
-    public String name;
+    public int weaponId; // item slotId
 
-    public Range range;
+    public String name; // item name
 
     public int sight;
 
-    public int fire;
+    public int firePower;
 
     public int torpedo;
 
-    public int air;
+    public int antiAir;
 
     public int armor;
 
     public int evasion;
 
-    public int sub;
+    public int antiSub;
 
     public int luck;
 
-    public int amount;
+    public Ship ship;
 
-    public List<Equipment> equipments;
+    public Weapon info;
 
-    MasterSlotItem raw;
+    MemberSlotItem raw;
 
-    public static SlotItem build(MasterSlotItem item) {
+    public static SlotItem build(MemberSlotItem item, Map<Integer, MasterSlotItem> masterSlotItemMap) {
         SlotItem resp = new SlotItem();
-        resp.itemId = item.equipmentId;
-        resp.name = item.name;
-        resp.sight = item.sight;
-        resp.fire = item.firepower;
-        resp.torpedo = item.torpedo;
-        resp.air = item.antiAir;
-        resp.armor = item.armor;
-        resp.sub = item.antiSub;
-        resp.evasion = item.evasion;
-        resp.luck = item.luck;
-        resp.range = Range.by(item.range);
-        resp.amount = 0;
-        resp.equipments = Lists.newArrayList();
+        MasterSlotItem master = masterSlotItemMap.get(item.weaponId);
+        resp.slotId = item.slotId;
+        resp.weaponId = item.weaponId;
+        resp.name = master.name;
+        resp.sight = master.sight;
+        resp.firePower = master.firePower;
+        resp.torpedo = master.torpedo;
+        resp.antiAir = master.antiAir;
+        resp.armor = master.armor;
+        resp.evasion = master.evasion;
+        resp.antiSub = master.antiSub;
+        resp.luck = master.luck;
         resp.raw = item;
         return resp;
     }
 
-    public static List<SlotItem> buildList(List<MasterSlotItem> masterSlotItemList) {
+    public static List<SlotItem> buildList(List<MemberSlotItem> memberSlotItemList, Map<Integer, MasterSlotItem> masterSlotItemMap) {
         List<SlotItem> resp = Lists.newArrayList();
-        for (MasterSlotItem e : masterSlotItemList) resp.add(build(e));
-        return resp;
-    }
-
-    public static Map<Integer, SlotItem> toIdMap(List<SlotItem> l) {
-        Map<Integer, SlotItem> resp = Maps.newHashMap();
-        for (SlotItem e : l) resp.put(e.itemId, e);
-        return resp;
-    }
-
-    public String getOwnerNames() {
-        StringBuilder sb = new StringBuilder();
-        boolean b = false;
-        for (Equipment e : equipments) {
-            if (e.ship == null) continue;
-            if (b) sb.append("\n");
-            sb.append(e.ship.name);
-            b = true;
+        for (MemberSlotItem e : memberSlotItemList) {
+            resp.add(build(e, masterSlotItemMap));
         }
-        return sb.toString();
+        return resp;
+    }
+
+    public static Map<Integer, SlotItem> toLocalIdMap(List<SlotItem> l) {
+        Map<Integer, SlotItem> resp = Maps.newHashMap();
+        for (SlotItem e : l) resp.put(e.slotId, e);
+        return resp;
     }
 }

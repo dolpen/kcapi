@@ -11,8 +11,8 @@ public class Main {
 
     public static void main(String... args) throws Exception {
 
-        Deck deck = Deck.build();
 
+        Deck deck = Deck.build();
         View.renderHtmlFile(
             "/templates/myship.html",
             ImmutableMap.<String, Object>builder()
@@ -20,13 +20,13 @@ public class Main {
                 .build(),
             "/outputs/myship.html"
         );
-
         View.renderHtmlFile(
             "/templates/myequipment.html",
             ImmutableMap.<String, Object>builder()
-                .put("items", deck.slotItems)
+                .put("items", deck.weapons)
                 .build(),
             "/outputs/myequipment.html"
         );
+
     }
 }

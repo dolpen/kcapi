@@ -19,16 +19,16 @@ public class MemberSlotItem extends Member {
     public int slotId; // 装備メンバID
 
     @SerializedName("api_slotitem_id")
-    public int equipmentId; // 装備マスタID
+    public int weaponId; // 装備マスタID
 
     public String toString() {
-        return String.format("%d : %d", slotId, equipmentId);
+        return String.format("%d : %d", slotId, weaponId);
     }
 
     public static Map<Integer, MemberSlotItem> toIdMap(List<MemberSlotItem> list) {
         Map<Integer, MemberSlotItem> m = Maps.newHashMap();
         for (MemberSlotItem e : list) {
-            m.put(e.equipmentId, e);
+            m.put(e.slotId, e);
         }
         return m;
     }
