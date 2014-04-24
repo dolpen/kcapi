@@ -1,13 +1,15 @@
 package net.dolpen.research.bsgl.model.api.master;
 
+import com.beust.jcommander.internal.Maps;
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 /**
- * 艦船マスタ
+ * 艦種マスタ
  */
 public class MasterShipType extends Master {
 
@@ -31,5 +33,12 @@ public class MasterShipType extends Master {
     public static List<MasterShipType> cache() {
         String cache = loadMasterCache("api_mst_stype");
         return Arrays.asList(new Gson().fromJson(cache, MasterShipType[].class));
+    }
+
+    public static Map<Integer, MasterShipType> toIdMap(List<MasterShipType> list) {
+        Map<Integer, MasterShipType> m = Maps.newHashMap();
+        for (MasterShipType e : list)
+            m.put(e.typeId, e);
+        return m;
     }
 }

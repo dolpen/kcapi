@@ -1,10 +1,12 @@
 package net.dolpen.research.bsgl.model.api.master;
 
+import com.beust.jcommander.internal.Maps;
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 艦船マスタ
@@ -125,14 +127,14 @@ public class MasterShip extends Master {
     public List<Integer> endurance;  // 耐久 (???, 最大値=HP最大値)
 
     @SerializedName("api_tais")
-    public List<Integer> submarine; // 対潜 (初期値, 最大値)
+    public List<Integer> antiSub; // 対潜 (初期値, 最大値)
 
     // public List<Object> api_touchs; // 不使用 常に [ null, null, null ]
 
     // public List<Integer> api_tous; // 不使用 常に [ 0, 0 ] 搭載？
 
     @SerializedName("api_tyku")
-    public List<Integer> air;  // 対空 (初期値, 最大値)
+    public List<Integer> antiAir;  // 対空 (初期値, 最大値)
 
     @SerializedName("api_voicef")
     public int extraVoices; // おまけボイスの有無。あれば1-3だが大抵0
@@ -148,5 +150,12 @@ public class MasterShip extends Master {
         String cache = loadMasterCache("api_mst_ship");
         System.out.println(cache);
         return Arrays.asList(new Gson().fromJson(cache, MasterShip[].class));
+    }
+
+    public static Map<Integer, MasterShip> toIdMap(List<MasterShip> list) {
+        Map<Integer, MasterShip> m = Maps.newHashMap();
+        for (MasterShip e : list)
+            m.put(e.shipId, e);
+        return m;
     }
 }
