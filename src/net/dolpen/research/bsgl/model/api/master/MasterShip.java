@@ -119,7 +119,8 @@ public class MasterShip extends Master {
     @SerializedName("api_souk")
     public List<Integer> armor; // 装甲 (初期値, 最大値)
 
-    public int api_stype; // Ship Class
+    @SerializedName("api_stype")
+    public int type; // 艦種
 
     // public Object api_systems; // ??? (always null)
 

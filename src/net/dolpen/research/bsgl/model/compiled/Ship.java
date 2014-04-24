@@ -1,10 +1,11 @@
 package net.dolpen.research.bsgl.model.compiled;
 
 import com.beust.jcommander.internal.Lists;
-import net.dolpen.research.bsgl.model.api.master.ShipMaster;
-import net.dolpen.research.bsgl.model.api.master.SlotItemMaster;
-import net.dolpen.research.bsgl.model.api.member.InventoryShip;
-import net.dolpen.research.bsgl.model.api.member.InventorySlotItem;
+import net.dolpen.research.bsgl.model.api.master.MasterShip;
+import net.dolpen.research.bsgl.model.api.master.MasterShipType;
+import net.dolpen.research.bsgl.model.api.master.MasterSlotItem;
+import net.dolpen.research.bsgl.model.api.member.MemberShip;
+import net.dolpen.research.bsgl.model.api.member.MemberSlotItem;
 import net.dolpen.research.bsgl.model.enums.Range;
 import net.dolpen.research.bsgl.model.extra.AbilityScore;
 import net.dolpen.research.bsgl.model.extra.LimitedValue;
@@ -53,57 +54,59 @@ public class Ship {
 
     public List<Equipment> equipments;
 
-    public InventoryShip.Entry raw;
+    public MemberShip raw;
 
 // builder
 
-    public static Ship build(InventoryShip.Entry e, Map<Integer, InventorySlotItem.Entry> i, Map<Integer, ShipMaster.Content> sm,Map<Integer, SlotItemMaster.Entry> im) {
-        ShipMaster.Content mc = sm.get(e.api_ship_id);
+    public static Ship build(MemberShip ship, Map<Integer, MemberSlotItem> memberSlotItemMap, Map<Integer, MasterShip> masterShipMap, Map<Integer, MasterSlotItem> masterSlotItemMap) {
+        MasterShip masterShip = masterShipMap.get(ship.shipId);
         Ship resp = new Ship();
-        resp.id = e.api_id;
-        resp.range = Range.by(e.api_leng);
-        resp.name = mc.api_name;
-        resp.lv = e.api_lv;
-        resp.exp = e.api_exp.get(0);
-        resp.hp = new LimitedValue(e.api_nowhp, e.api_maxhp, 0);
-        resp.fuel = new LimitedValue(e.api_fuel, mc.api_fuel_max, 0);
-        resp.bullet = new LimitedValue(e.api_bull, mc.api_bull_max, 0);
+        resp.id = ship.shipId;
+        resp.range = Range.by(ship.range);
+        resp.name = masterShip.name;
+        resp.lv = ship.lv;
+        resp.exp = ship.exp.get(0);
+        resp.hp = new LimitedValue(ship.hp, ship.maxHp, 0);
+        resp.fuel = new LimitedValue(ship.fuel, masterShip.maxFuel, 0);
+        resp.bullet = new LimitedValue(ship.bullet, masterShip.maxBullet, 0);
         //それぞれのindex[0]には近代化改修+装備補正値が足され、index[1]は近代化改修後の最大値を示す
         //index[0]から装備補正を引かなければ正しい表示にならない
         int[] p = new int[]{0, 0, 0, 0, 0, 0, 0, 0};
-        for (Integer k : e.api_slot) {
-            if (k < 0) continue;
-            InventorySlotItem.Entry slot = i.get(k);
-            SlotItemMaster.Entry item = im.get(slot.api_slotitem_id);
-            p[0] += item.api_saku;
-            p[1] += item.api_houg;
-            p[2] += item.api_raig;
-            p[3] += item.api_tyku;
-            p[4] += item.api_souk;
-            p[5] += item.api_houk;
-            p[6] += item.api_tais;
-            p[7] += item.api_luck;
+        for (Integer slotId : ship.slotIds) {
+            if (slotId < 0) continue;
+            MemberSlotItem slotItem = memberSlotItemMap.get(slotId);
+            MasterSlotItem equipment = masterSlotItemMap.get(slotItem.equipmentId);
+            p[0] += equipment.sight;
+            p[1] += equipment.firepower;
+            p[2] += equipment.torpedo;
+            p[3] += equipment.antiAir;
+            p[4] += equipment.armor;
+            p[5] += equipment.evasion;
+            p[6] += equipment.antiSub;
+            p[7] += equipment.luck;
         }
-        resp.sight = new AbilityScore(e.api_sakuteki.get(0), e.api_sakuteki.get(1), p[0]);
-        resp.fire = new AbilityScore(e.api_karyoku.get(0), e.api_karyoku.get(1), p[1]);
-        resp.torpedo = new AbilityScore(e.api_raisou.get(0), e.api_raisou.get(1), p[2]);
-        resp.air = new AbilityScore(e.api_taiku.get(0), e.api_taiku.get(1), p[3]);
-        resp.armor = new AbilityScore(e.api_soukou.get(0), e.api_soukou.get(1), p[4]);
-        resp.evasion = new AbilityScore(e.api_kaihi.get(0), e.api_kaihi.get(1), p[5]);
-        resp.sub = new AbilityScore(e.api_taisen.get(0), e.api_taisen.get(1), p[6]);
-        resp.luck = new AbilityScore(e.api_lucky.get(0), e.api_lucky.get(1), p[7]);
+        resp.sight = fromList(ship.sight, p[0]);
+        resp.fire = fromList(ship.firePower, p[1]);
+        resp.torpedo = fromList(ship.torpedo, p[2]);
+        resp.air = fromList(ship.antiAir, p[3]);
+        resp.armor = fromList(ship.armor, p[4]);
+        resp.evasion = fromList(ship.evasion, p[5]);
+        resp.sub = fromList(ship.antiSub, p[6]);
+        resp.luck = fromList(ship.luck, p[7]);
         resp.equipments = Lists.newArrayList();
-        resp.raw = e;
+        resp.raw = ship;
+
         return resp;
     }
 
-    public static List<Ship> buildList(InventoryShip s, InventorySlotItem i, ShipMaster smst, SlotItemMaster imst) {
-        Map<Integer, InventorySlotItem.Entry> iim = i.toIdMap();
-        Map<Integer, ShipMaster.Content> sm = smst.toIdMap();
-        Map<Integer, SlotItemMaster.Entry> im =imst.toIdMap();
+    private static AbilityScore fromList(List<Integer> ab, int fix) {
+        return new AbilityScore(ab.get(0), ab.get(1), fix);
+    }
+
+    public static List<Ship> buildList(List<MemberShip> memberShips, Map<Integer, MemberSlotItem> memberSlotItemMap, Map<Integer, MasterShip> masterShipMap, Map<Integer, MasterSlotItem> masterSlotItemMap) {
         List<Ship> resp = Lists.newArrayList();
-        for (InventoryShip.Entry e : s.api_data) {
-            resp.add(build(e, iim, sm, im));
+        for (MemberShip e : memberShips) {
+            resp.add(build(e, memberSlotItemMap, masterShipMap, masterSlotItemMap));
         }
         return resp;
     }

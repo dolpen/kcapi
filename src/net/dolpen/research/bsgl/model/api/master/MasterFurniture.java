@@ -23,7 +23,7 @@ public class MasterFurniture extends Master {
     public int index; // タイプ内並び順
 
     @SerializedName("api_price")
-    public int price; // 必要かぐコイン
+    public int price; // 必要家具コイン
 
     @SerializedName("api_rarity")
     public int rarity; // レアリティ

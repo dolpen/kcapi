@@ -2,8 +2,8 @@ package net.dolpen.research.bsgl.model.compiled;
 
 import com.beust.jcommander.internal.Lists;
 import com.beust.jcommander.internal.Maps;
-import net.dolpen.research.bsgl.model.api.master.SlotItemMaster;
-import net.dolpen.research.bsgl.model.api.member.InventorySlotItem;
+import net.dolpen.research.bsgl.model.api.master.MasterSlotItem;
+import net.dolpen.research.bsgl.model.api.member.MemberSlotItem;
 
 import java.util.List;
 import java.util.Map;
@@ -34,33 +34,35 @@ public class Equipment {
     public int sub;
 
     public int luck;
-    public Ship ship;
-    public SlotItem info;
-    InventorySlotItem.Entry raw;
 
-    public static Equipment build(InventorySlotItem.Entry e, Map<Integer, SlotItemMaster.Entry> im) {
+    public Ship ship;
+
+    public SlotItem info;
+
+    MemberSlotItem raw;
+
+    public static Equipment build(MemberSlotItem item, Map<Integer, MasterSlotItem> masterSlotItemMap) {
         Equipment resp = new Equipment();
-        SlotItemMaster.Entry item = im.get(e.api_slotitem_id);
-        resp.id = e.api_id;
-        resp.itemId = e.api_slotitem_id;
-        resp.name = item.api_name;
-        resp.sight = item.api_saku;
-        resp.fire = item.api_houg;
-        resp.torpedo = item.api_raig;
-        resp.air = item.api_tyku;
-        resp.armor = item.api_souk;
-        resp.evasion = item.api_houk;
-        resp.sub = item.api_tais;
-        resp.luck = item.api_luck;
-        resp.raw = e;
+        MasterSlotItem master = masterSlotItemMap.get(item.equipmentId);
+        resp.id = item.slotId;
+        resp.itemId = item.equipmentId;
+        resp.name = master.name;
+        resp.sight = master.sight;
+        resp.fire = master.firepower;
+        resp.torpedo = master.torpedo;
+        resp.air = master.antiAir;
+        resp.armor = master.armor;
+        resp.evasion = master.evasion;
+        resp.sub = master.antiSub;
+        resp.luck = master.luck;
+        resp.raw = item;
         return resp;
     }
 
-    public static List<Equipment> buildList(InventorySlotItem s, SlotItemMaster imst) {
+    public static List<Equipment> buildList(List<MemberSlotItem> memberSlotItemList, Map<Integer, MasterSlotItem> masterSlotItemMap) {
         List<Equipment> resp = Lists.newArrayList();
-        Map<Integer, SlotItemMaster.Entry> im = imst.toIdMap();
-        for (InventorySlotItem.Entry e : s.api_data) {
-            resp.add(build(e, im));
+        for (MemberSlotItem e : memberSlotItemList) {
+            resp.add(build(e, masterSlotItemMap));
         }
         return resp;
     }

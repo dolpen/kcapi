@@ -2,7 +2,7 @@ package net.dolpen.research.bsgl.model.compiled;
 
 import com.beust.jcommander.internal.Lists;
 import com.beust.jcommander.internal.Maps;
-import net.dolpen.research.bsgl.model.api.master.ShipTypeMaster;
+import net.dolpen.research.bsgl.model.api.master.MasterShipType;
 
 import java.util.List;
 import java.util.Map;
@@ -16,22 +16,22 @@ public class ShipType {
 
     public String name;
 
-    ShipTypeMaster.Entry raw;
+    MasterShipType raw;
 
     public List<Ship> ships;
 
-    public static ShipType build(ShipTypeMaster.Entry e) {
+    public static ShipType build(MasterShipType type) {
         ShipType resp = new ShipType();
-        resp.typeId = e.api_id;
-        resp.name = e.api_name;
+        resp.typeId = type.typeId;
+        resp.name = type.name;
         resp.ships = Lists.newArrayList();
-        resp.raw = e;
+        resp.raw = type;
         return resp;
     }
 
-    public static List<ShipType> buildList(ShipTypeMaster s) {
+    public static List<ShipType> buildList(List<MasterShipType> masterShipTypeList) {
         List<ShipType> resp = Lists.newArrayList();
-        for (ShipTypeMaster.Entry e : s.api_data) resp.add(build(e));
+        for (MasterShipType e : masterShipTypeList) resp.add(build(e));
         return resp;
     }
 
