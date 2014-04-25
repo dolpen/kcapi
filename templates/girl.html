@@ -53,7 +53,7 @@ ${_.include("/templates/common/head.html",_scope)}
                 <td class="equipment">
                 <% [0,1,2,3].each { k -> %>\
                     <% if (x.equipments[k] != null) { %>\
-                    <a href="./myequipment.html#${x.equipments[k].weaponId}">${x.equipments[k].name}</a><br/>
+                    <a href="./weapon.html#${x.equipments[k].weaponId}">${x.equipments[k].name}</a><br/>
                     <% } %>\
                 <% } %>\
                 </td>

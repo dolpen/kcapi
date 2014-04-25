@@ -1,22 +1,10 @@
 /*
  * UIs
  */
-.fixed-table {
-    display: block;
-    position: relative;
-}
-.fixed-table .table-content {
-    display: block;
-    position: relative;
-    height: 550px; /*tbody field height*/
-    overflow-y: auto;
-}
-.fixed-table .table-copy, .fixed-table .header-copy {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1020;
-    background-color:#fff;
+table.floatThead-table {
+    border-top: none;
+    border-bottom: none;
+    background-color: #FFF;
 }
 
 /*

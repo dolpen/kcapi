@@ -14,18 +14,18 @@ public class Main {
 
         Deck deck = Deck.build();
         View.renderHtmlFile(
-            "/templates/myship.html",
+            "/templates/girl.html",
             ImmutableMap.<String, Object>builder()
                 .put("girls", deck.girls)
                 .build(),
-            "/outputs/myship.html"
+            "/outputs/girl.html"
         );
         View.renderHtmlFile(
-            "/templates/myequipment.html",
+            "/templates/weapon.html",
             ImmutableMap.<String, Object>builder()
                 .put("items", deck.weapons)
                 .build(),
-            "/outputs/myequipment.html"
+            "/outputs/weapon.html"
         );
 
     }

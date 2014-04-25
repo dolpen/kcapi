@@ -4,14 +4,14 @@
 ${_.include("/templates/common/head.html",_scope)}
 <body>
 <div class="container">
-    <% _scope.page = "equipment" %>\
+    <% _scope.page = "weapon" %>\
     ${_.include("/templates/common/header.html",_scope)}
     <div class="panel panel-default">
         <div class="panel-heading">装備一覧</div>
         <div class="panel-body">
             <p>所持している装備ごとの所持数、所持艦などを表示します。</p>
         </div>
-        <table class="table table-fixed-header">
+        <table class="table">
             <thead class="header">
             <tr>
                 <th>No.</th>
@@ -47,7 +47,7 @@ ${_.include("/templates/common/head.html",_scope)}
                 <td>
                     <% x.slots.each { e -> %>\
                     <% if (e.girl != null) { %>\
-                    <a href="./myship.html#${e.girl.girlId}">${e.girl.name}</a><br/>
+                    <a href="./girl.html#${e.girl.girlId}">${e.girl.name}</a><br/>
                     <% } %>\
                     <% } %>\
                 </td>
