@@ -35,7 +35,7 @@ public class SlotItem {
 
     public int luck;
 
-    public Ship ship;
+    public Girl girl;
 
     public Weapon info;
 

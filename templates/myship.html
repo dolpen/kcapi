@@ -4,7 +4,7 @@
 ${_.include("/templates/common/head.html",_scope)}
 <body>
 <div class="container">
-    <% _scope.page = "ship" %>\
+    <% _scope.page = "girl" %>\
     ${_.include("/templates/common/header.html",_scope)}
     <div class="panel panel-default">
         <div class="panel-heading">艦娘一覧</div>
@@ -33,7 +33,7 @@ ${_.include("/templates/common/head.html",_scope)}
             </tr>
             </thead>
             <tbody>
-            <% ships.eachWithIndex { x,i -> %>\
+            <% girls.eachWithIndex { x,i -> %>\
             <tr>
                 <td><a name="${x.girlId}"></a>${i+1}</td>
                 <td>${x.type.name}<br />${x.name}</td>

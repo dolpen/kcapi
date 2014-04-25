@@ -76,9 +76,9 @@ public class Weapon {
         StringBuilder sb = new StringBuilder();
         boolean b = false;
         for (SlotItem e : slots) {
-            if (e.ship == null) continue;
+            if (e.girl == null) continue;
             if (b) sb.append("\n");
-            sb.append(e.ship.name);
+            sb.append(e.girl.name);
             b = true;
         }
         return sb.toString();

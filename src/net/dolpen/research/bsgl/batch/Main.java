@@ -16,7 +16,7 @@ public class Main {
         View.renderHtmlFile(
             "/templates/myship.html",
             ImmutableMap.<String, Object>builder()
-                .put("ships", deck.ships)
+                .put("girls", deck.girls)
                 .build(),
             "/outputs/myship.html"
         );

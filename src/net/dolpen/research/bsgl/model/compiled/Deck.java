@@ -21,7 +21,7 @@ public class Deck {
 
     public List<Weapon> weapons;
 
-    public List<Ship> ships;
+    public List<Girl> girls;
 
     public List<SlotItem> equipments;
 
@@ -42,22 +42,22 @@ public class Deck {
         resp.shipTypes = ShipType.buildList(masterShipTypeList);
         resp.weapons = Weapon.buildList(masterSlotItemList);
         resp.equipments = SlotItem.buildList(memberSlotItemList, masterSlotItemMap);
-        resp.ships = Ship.buildList(memberShipList, memberSlotItemMap, masterShipMap, masterSlotItemMap);
+        resp.girls = Girl.buildList(memberShipList, memberSlotItemMap, masterShipMap, masterSlotItemMap);
 
         Map<Integer, ShipType> shipTypeMap = ShipType.toIdMap(resp.shipTypes);
         Map<Integer, SlotItem> equipmentMap = SlotItem.toLocalIdMap(resp.equipments);
         Map<Integer, Weapon> slotItemMap = Weapon.toIdMap(resp.weapons);
 
-        for (Ship ship : resp.ships) {
-            MasterShip masterShip = masterShipMap.get(ship.raw.shipId);
+        for (Girl girl : resp.girls) {
+            MasterShip masterShip = masterShipMap.get(girl.raw.shipId);
             ShipType type = shipTypeMap.get(masterShip.type);
-            ship.type = type; // ship <-> stype
-            type.ships.add(ship);
-            for (int slotId : ship.raw.slotIds) {
+            girl.type = type; // ship <-> stype
+            type.girls.add(girl);
+            for (int slotId : girl.raw.slotIds) {
                 if (slotId < 0) continue;
                 SlotItem equipment = equipmentMap.get(slotId); // ship <-> equipment
-                ship.equipments.add(equipment);
-                equipment.ship = ship;
+                girl.equipments.add(equipment);
+                equipment.girl = girl;
             }
         }
         for (SlotItem equipment : resp.equipments) { // slotitem <-> equipment
@@ -66,9 +66,9 @@ public class Deck {
             item.amount++;
             equipment.info = item;
         }
-        Collections.sort(resp.ships, new Comparator<Ship>() {
+        Collections.sort(resp.girls, new Comparator<Girl>() {
             @Override
-            public int compare(Ship o1, Ship o2) {
+            public int compare(Girl o1, Girl o2) {
                 return o2.exp - o1.exp;
             }
         });

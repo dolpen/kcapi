@@ -41,7 +41,6 @@ public class MasterFurniture extends Master {
         return String.format("%d %s", furnitureId, name);
     }
 
-
     public static List<MasterFurniture> cache() {
         String cache = loadMasterCache("api_mst_useitem");
         return Arrays.asList(new Gson().fromJson(cache, MasterFurniture[].class));

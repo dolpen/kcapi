@@ -46,8 +46,8 @@ ${_.include("/templates/common/head.html",_scope)}
                 <td>${x.amount}</td>
                 <td>
                     <% x.slots.each { e -> %>\
-                    <% if (e.ship != null) { %>\
-                    <a href="./myship.html#${e.ship.girlId}">${e.ship.name}</a><br/>
+                    <% if (e.girl != null) { %>\
+                    <a href="./myship.html#${e.girl.girlId}">${e.girl.name}</a><br/>
                     <% } %>\
                     <% } %>\
                 </td>
