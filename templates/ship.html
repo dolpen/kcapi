@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
-<% _scope.title = "装備図鑑" %>\
+<% _scope.title = "艦船図鑑" %>
 ${_.include("/templates/common/head.html",_scope)}
 <body>
 <div class="container">
-    <% _scope.page = "weapon" %>\
+    <% _scope.page = "ship" %>\
     ${_.include("/templates/common/header.html",_scope)}
     <div class="panel panel-default">
-        <div class="panel-heading">装備図鑑</div>
+        <div class="panel-heading">艦船図鑑</div>
         <div class="panel-body">
-            <p>装備の性能を一覧できます</p>
+            <p>艦船のパラメータを確認できます</p>
         </div>
-        <table class="table">
+        <table class="table table-fixed-header">
             <thead class="header">
             <tr>
                 <th>No.</th>
-                <th>名称</th>
+                <th>種類<br/>名称</th>
+                <th>HP</th>
+                <th>燃料</th>
+                <th>弾薬</th>
                 <th>射程</th>
                 <th>索敵</th>
                 <th>火力</th>
@@ -25,14 +28,17 @@ ${_.include("/templates/common/head.html",_scope)}
                 <th>回避</th>
                 <th>対潜</th>
                 <th>運</th>
-                <th>所持数</th>
             </tr>
             </thead>
             <tbody>
-            <% weapons.eachWithIndex { x,i -> %>\
+            <% ships.eachWithIndex { x,i -> %>\
+            <% if(x.isValid()) { %>\
             <tr>
-                <td><a name="${x.weaponId}"></a>${i+1}</td>
-                <td>${x.name}</td>
+                <td><a name="${x.shipId}"></a>${x.shipId}</td>
+                <td>${x.shipType.name}<br/>${x.name}</td>
+                <td>${x.maxHp}</td>
+                <td>${x.maxFuel}</td>
+                <td>${x.maxBullet}</td>
                 <td>${x.range.label}</td>
                 <td class="sight max">${x.sight}</td>
                 <td class="fire max">${x.firePower}</td>
@@ -42,8 +48,8 @@ ${_.include("/templates/common/head.html",_scope)}
                 <td class="evasion max">${x.evasion}</td>
                 <td class="sub max">${x.antiSub}</td>
                 <td class="luck max">${x.luck}</td>
-                <td>${x.amount}</td>
             </tr>
+            <% } %>\
             <% } %>\
             </tbody>
         </table>

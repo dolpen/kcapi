@@ -7,7 +7,7 @@ ${_.include("/templates/common/head.html",_scope)}
     <% _scope.page = "girl" %>\
     ${_.include("/templates/common/header.html",_scope)}
     <div class="panel panel-default">
-        <div class="panel-heading">艦娘一覧</div>
+        <div class="panel-heading">母港の艦娘寮 -艦娘一覧-</div>
         <div class="panel-body">
             <p>艦娘の経験値、近代化改修、レベルパラメータ上昇、装備などを確認できます。</p>
         </div>
@@ -36,11 +36,11 @@ ${_.include("/templates/common/head.html",_scope)}
             <% girls.eachWithIndex { x,i -> %>\
             <tr>
                 <td><a name="${x.girlId}"></a>${i+1}</td>
-                <td>${x.type.name}<br />${x.name}</td>
+                <td>${x.ship.shipType.name}<br />${x.name}</td>
                 <td>${x.lv}<br />${x.exp}</td>
-                <td class="${x.hp.isMaximum()?'':'warn'}">${x.hp.toStringWithMax()}</td>
-                <td class="${x.fuel.isMaximum()?'':'warn'}">${x.fuel.toStringWithMax()}</td>
-                <td class="${x.bullet.isMaximum()?'':'warn'}">${x.bullet.toStringWithMax()}</td>
+                <td class="${x.hp.isMaximum()?'':'warn'}">${x.hp}</td>
+                <td class="${x.fuel.isMaximum()?'':'warn'}">${x.fuel}</td>
+                <td class="${x.bullet.isMaximum()?'':'warn'}">${x.bullet}</td>
                 <td>${x.range.label}</td>
                 <td class="sight ${x.sight.isFinished()?'max':''}">${x.sight}</td>
                 <td class="fire ${x.firePower.isFinished()?'max':''}">${x.firePower}</td>
@@ -52,8 +52,8 @@ ${_.include("/templates/common/head.html",_scope)}
                 <td class="luck ${x.luck.isFinished()?'max':''}">${x.luck}</td>
                 <td class="equipment">
                 <% [0,1,2,3].each { k -> %>\
-                    <% if (x.equipments[k] != null) { %>\
-                    <a href="./weapon.html#${x.equipments[k].weaponId}">${x.equipments[k].name}</a><br/>
+                    <% if (x.slotItems[k] != null) { %>\
+                    <a href="./slot.html#${x.slotItems[k].weaponId}">${x.slotItems[k].weapon.name}</a><br/>
                     <% } %>\
                 <% } %>\
                 </td>

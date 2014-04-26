@@ -15,16 +15,14 @@ public class ShipType {
     public int typeId;
 
     public String name;
-
+    public List<Ship> ships;
     MasterShipType raw;
-
-    public List<Girl> girls;
 
     public static ShipType build(MasterShipType type) {
         ShipType resp = new ShipType();
         resp.typeId = type.typeId;
         resp.name = type.name;
-        resp.girls = Lists.newArrayList();
+        resp.ships = Lists.newArrayList();
         resp.raw = type;
         return resp;
     }
