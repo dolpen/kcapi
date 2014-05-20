@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
-<% _scope.title = "装備図鑑" %>\
+<% _scope.title = "母港の火器庫" %>\
 ${_.include("/templates/common/head.html",_scope)}
 <body>
 <div class="container">
-    <% _scope.page = "weapon" %>\
+    <% _scope.page = "slot" %>\
     ${_.include("/templates/common/header.html",_scope)}
     <div class="panel panel-default">
-        <div class="panel-heading">装備図鑑</div>
+        <div class="panel-heading">母港の火器庫 -所持装備一覧-</div>
         <div class="panel-body">
-            <p>装備の性能を一覧できます</p>
+            <p>所持している装備ごとの所持数、所持艦などを表示します。</p>
         </div>
         <table class="table">
             <thead class="header">
             <tr>
-                <th>No.</th>
+                <th>ID</th>
                 <th>名称</th>
                 <th>射程</th>
                 <th>索敵</th>
@@ -26,12 +26,14 @@ ${_.include("/templates/common/head.html",_scope)}
                 <th>対潜</th>
                 <th>運</th>
                 <th>所持数</th>
+                <th>装備艦</th>
             </tr>
             </thead>
             <tbody>
             <% weapons.eachWithIndex { x,i -> %>\
+            <% if (x.amount > 0 ) { %>\
             <tr>
-                <td><a name="${x.weaponId}"></a>${i+1}</td>
+                <td><a name="${x.weaponId}"></a>${x.weaponId}</td>
                 <td>${x.name}</td>
                 <td>${x.range.label}</td>
                 <td class="sight max">${x.sight}</td>
@@ -43,7 +45,15 @@ ${_.include("/templates/common/head.html",_scope)}
                 <td class="sub max">${x.antiSub}</td>
                 <td class="luck max">${x.luck}</td>
                 <td>${x.amount}</td>
+                <td>
+                    <% x.slots.each { e -> %>\
+                    <% if (e.girl != null) { %>\
+                    <a href="./girl.html#${e.girl.girlId}">${e.girl.name}</a><br/>
+                    <% } %>\
+                    <% } %>\
+                </td>
             </tr>
+            <% } %>\
             <% } %>\
             </tbody>
         </table>

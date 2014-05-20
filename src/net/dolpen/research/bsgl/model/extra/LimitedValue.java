@@ -23,7 +23,7 @@ public class LimitedValue {
         return current <= minValue;
     }
 
-    public String toStringWithMax() {
+    public String toString() {
         return String.format("%d/%d", current, maxValue);
     }
 }

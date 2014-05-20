@@ -10,23 +10,10 @@ import net.dolpen.research.bsgl.util.groovy.View;
 public class Main {
 
     public static void main(String... args) throws Exception {
-
-
         Deck deck = Deck.build();
-        View.renderHtmlFile(
-            "/templates/girl.html",
-            ImmutableMap.<String, Object>builder()
-                .put("girls", deck.girls)
-                .build(),
-            "/outputs/girl.html"
-        );
-        View.renderHtmlFile(
-            "/templates/weapon.html",
-            ImmutableMap.<String, Object>builder()
-                .put("items", deck.weapons)
-                .build(),
-            "/outputs/weapon.html"
-        );
-
+        View.renderHtmlFile(ImmutableMap.<String, Object>builder().put("girls", deck.girls).build(), "girl.html");
+        View.renderHtmlFile(ImmutableMap.<String, Object>builder().put("ships", deck.ships).build(), "ship.html");
+        View.renderHtmlFile(ImmutableMap.<String, Object>builder().put("weapons", deck.weapons).build(), "slot.html");
+        View.renderHtmlFile(ImmutableMap.<String, Object>builder().put("weapons", deck.weapons).build(), "weapon.html");
     }
 }

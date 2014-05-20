@@ -90,4 +90,14 @@ public class View {
             }
         }
     }
+
+    /**
+     * テキストをレンダリングする
+     *
+     * @param params   パラメータ
+     * @param filename 書き込み先
+     */
+    public static void renderHtmlFile(Map<String, Object> params, String filename) {
+        View.renderHtmlFile("/" + Const.TEMPLATES + "/" + filename, params, "/" + Const.OUTPUT + "/" + filename);
+    }
 }

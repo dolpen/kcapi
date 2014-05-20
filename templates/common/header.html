@@ -5,9 +5,21 @@
     <li><a href="./girl.html">艦娘寮</a></li>
     <% } %>\
 
-    <% if ("weapon" == page) { %>\
-    <li class="active"><a href="#">武器図鑑</a></li>
+    <% if ("slot" == page) { %>\
+    <li class="active"><a href="#">火器庫</a></li>
     <% } else { %>\
-    <li><a href="./weapon.html">武器図鑑</a></li>
+    <li><a href="./slot.html">火器庫</a></li>
+    <% } %>\
+
+    <% if ("ship" == page) { %>\
+    <li class="active"><a href="#">艦船図鑑</a></li>
+    <% } else { %>\
+    <li><a href="./ship.html">艦船図鑑</a></li>
+    <% } %>\
+
+    <% if ("weapon" == page) { %>\
+    <li class="active"><a href="#">装備図鑑</a></li>
+    <% } else { %>\
+    <li><a href="./weapon.html">装備図鑑</a></li>
     <% } %>\
 </ul>
