@@ -1,9 +1,6 @@
 package net.dolpen.research.bsgl.util;
 
-import java.io.BufferedInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 
 /**
  *
@@ -42,5 +39,18 @@ public class Streams {
             }
         }
         return is;
+    }
+
+    /**
+     * String -> OutputStream
+     *
+     * @param outputStream
+     * @param content
+     * @param charset
+     * @throws IOException
+     */
+    public static void fromString(OutputStream outputStream, String content, String charset) throws IOException {
+        outputStream.write(content.getBytes(charset));
+        outputStream.close();
     }
 }
