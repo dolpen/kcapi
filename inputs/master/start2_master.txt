@@ -22313,30 +22313,30 @@ svdata={
       },
       {
         "api_id": 157,
-        "api_sortno": 0,
-        "api_name": "なし",
-        "api_yomi": "なし",
-        "api_stype": 2,
-        "api_ctype": 1,
+        "api_sortno": 157,
+        "api_name": "龍驤改二",
+        "api_yomi": "りゅうじょう",
+        "api_stype": 7,
+        "api_ctype": 32,
         "api_cnum": 1,
         "api_enqflg": "0",
         "api_afterlv": 0,
         "api_aftershipid": "0",
         "api_taik": [
-          0,
-          0
+          50,
+          72
         ],
         "api_souk": [
-          0,
-          0
+          28,
+          62
         ],
         "api_tous": [
-          0,
-          0
+          52,
+          55
         ],
         "api_houg": [
           0,
-          0
+          40
         ],
         "api_raig": [
           0,
@@ -22347,8 +22347,8 @@ svdata={
           0
         ],
         "api_tyku": [
-          0,
-          0
+          24,
+          48
         ],
         "api_atap": [
           0,
@@ -22367,8 +22367,8 @@ svdata={
           0
         ],
         "api_kaih": [
-          0,
-          0
+          36,
+          69
         ],
         "api_houk": [
           0,
@@ -22383,20 +22383,20 @@ svdata={
           0
         ],
         "api_saku": [
-          0,
-          0
+          37,
+          79
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          0,
-          0
+          15,
+          59
         ],
-        "api_sokuh": 0,
-        "api_soku": 0,
-        "api_leng": 0,
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
         "api_grow": [
           0,
           0,
@@ -22407,32 +22407,32 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 0,
+        "api_slot_num": 4,
         "api_maxeq": [
-          0,
-          0,
-          0,
-          0,
+          18,
+          28,
+          6,
+          3,
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
-          -1,
+          60,
+          39,
+          61,
           -1
         ],
-        "api_buildtime": 0,
+        "api_buildtime": 170,
         "api_broken": [
-          0,
-          0,
-          0,
-          0
+          4,
+          12,
+          22,
+          6
         ],
         "api_powup": [
           0,
           0,
-          0,
-          0
+          3,
+          3
         ],
         "api_gumax": [
           0,
@@ -22440,9 +22440,9 @@ svdata={
           0,
           0
         ],
-        "api_backs": 0,
-        "api_getmes": "",
-        "api_sinfo": "",
+        "api_backs": 6,
+        "api_getmes": "軽空母、龍驤や。独特なシルエットでしょ？\u003cbr\u003eでも、艦載機を次々繰り出す、ちゃーんとした空母なんや。期待してや！",
+        "api_sinfo": "軽空母だけど、結構歴戦の空母なんよ、うち。\u003cbr\u003eああ、あの岩手沖での第四艦隊事件のこと？あれはきつかったー。\u003cbr\u003e波浪で艦橋圧壊…いや、ホントありえへん。",
         "api_afterfuel": 0,
         "api_afterbull": 0,
         "api_touchs": [
@@ -22450,9 +22450,9 @@ svdata={
           null,
           null
         ],
-        "api_fuel_max": 0,
-        "api_bull_max": 0,
-        "api_voicef": 0
+        "api_fuel_max": 40,
+        "api_bull_max": 45,
+        "api_voicef": 1
       },
       {
         "api_id": 158,
@@ -23886,50 +23886,50 @@ svdata={
       },
       {
         "api_id": 168,
-        "api_sortno": 0,
-        "api_name": "なし",
-        "api_yomi": "なし",
+        "api_sortno": 168,
+        "api_name": "浦風",
+        "api_yomi": "うらかぜ",
         "api_stype": 2,
-        "api_ctype": 1,
-        "api_cnum": 1,
+        "api_ctype": 30,
+        "api_cnum": 11,
         "api_enqflg": "0",
-        "api_afterlv": 0,
-        "api_aftershipid": "0",
+        "api_afterlv": 35,
+        "api_aftershipid": "317",
         "api_taik": [
-          0,
-          0
+          16,
+          34
         ],
         "api_souk": [
-          0,
-          0
+          6,
+          19
         ],
         "api_tous": [
           0,
           0
         ],
         "api_houg": [
-          0,
-          0
+          10,
+          29
         ],
         "api_raig": [
-          0,
-          0
+          24,
+          69
         ],
         "api_baku": [
           0,
           0
         ],
         "api_tyku": [
-          0,
-          0
+          10,
+          40
         ],
         "api_atap": [
           0,
           0
         ],
         "api_tais": [
-          0,
-          0
+          24,
+          49
         ],
         "api_houm": [
           0,
@@ -23940,8 +23940,8 @@ svdata={
           0
         ],
         "api_kaih": [
-          0,
-          0
+          44,
+          79
         ],
         "api_houk": [
           0,
@@ -23956,20 +23956,20 @@ svdata={
           0
         ],
         "api_saku": [
-          0,
-          0
+          7,
+          19
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          0,
-          0
+          13,
+          49
         ],
-        "api_sokuh": 0,
-        "api_soku": 0,
-        "api_leng": 0,
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
         "api_grow": [
           0,
           0,
@@ -23980,7 +23980,7 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 0,
+        "api_slot_num": 2,
         "api_maxeq": [
           0,
           0,
@@ -23989,23 +23989,23 @@ svdata={
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
+          2,
+          44,
           -1,
           -1
         ],
-        "api_buildtime": 0,
+        "api_buildtime": 24,
         "api_broken": [
-          0,
-          0,
-          0,
+          1,
+          1,
+          6,
           0
         ],
         "api_powup": [
           0,
+          1,
           0,
-          0,
-          0
+          1
         ],
         "api_gumax": [
           0,
@@ -24013,18 +24013,18 @@ svdata={
           0,
           0
         ],
-        "api_backs": 0,
-        "api_getmes": "",
-        "api_sinfo": "",
-        "api_afterfuel": 0,
-        "api_afterbull": 0,
+        "api_backs": 4,
+        "api_getmes": "うち、浦風じゃ、よろしくね！",
+        "api_sinfo": "生まれは大阪、所属は呉。真珠湾からガダルカナルまで駆けまわったんじゃ。\u003cbr\u003e最期は金剛姉さんを護衛して台湾海峡…\u003cbr\u003eまぁ、もうどうにもならんなぁ……。",
+        "api_afterfuel": 110,
+        "api_afterbull": 140,
         "api_touchs": [
           null,
           null,
           null
         ],
-        "api_fuel_max": 0,
-        "api_bull_max": 0,
+        "api_fuel_max": 15,
+        "api_bull_max": 20,
         "api_voicef": 0
       },
       {
@@ -27315,6 +27315,435 @@ svdata={
         "api_fuel_max": 10,
         "api_bull_max": 20,
         "api_voicef": 3
+      },
+      {
+        "api_id": 192,
+        "api_sortno": 0,
+        "api_name": "なし",
+        "api_yomi": "なし",
+        "api_stype": 2,
+        "api_ctype": 1,
+        "api_cnum": 1,
+        "api_enqflg": "0",
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          0,
+          0
+        ],
+        "api_souk": [
+          0,
+          0
+        ],
+        "api_tous": [
+          0,
+          0
+        ],
+        "api_houg": [
+          0,
+          0
+        ],
+        "api_raig": [
+          0,
+          0
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          0,
+          0
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          0,
+          0
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          0,
+          0
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          0,
+          0
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          0,
+          0
+        ],
+        "api_sokuh": 0,
+        "api_soku": 0,
+        "api_leng": 0,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 0,
+        "api_maxeq": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_defeq": [
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "api_buildtime": 0,
+        "api_broken": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_powup": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 0,
+        "api_getmes": "",
+        "api_sinfo": "",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 0,
+        "api_bull_max": 0,
+        "api_voicef": 0
+      },
+      {
+        "api_id": 193,
+        "api_sortno": 0,
+        "api_name": "なし",
+        "api_yomi": "なし",
+        "api_stype": 2,
+        "api_ctype": 1,
+        "api_cnum": 1,
+        "api_enqflg": "0",
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          0,
+          0
+        ],
+        "api_souk": [
+          0,
+          0
+        ],
+        "api_tous": [
+          0,
+          0
+        ],
+        "api_houg": [
+          0,
+          0
+        ],
+        "api_raig": [
+          0,
+          0
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          0,
+          0
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          0,
+          0
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          0,
+          0
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          0,
+          0
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          0,
+          0
+        ],
+        "api_sokuh": 0,
+        "api_soku": 0,
+        "api_leng": 0,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 0,
+        "api_maxeq": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_defeq": [
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "api_buildtime": 0,
+        "api_broken": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_powup": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 0,
+        "api_getmes": "",
+        "api_sinfo": "",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 0,
+        "api_bull_max": 0,
+        "api_voicef": 0
+      },
+      {
+        "api_id": 194,
+        "api_sortno": 194,
+        "api_name": "羽黒改二",
+        "api_yomi": "はぐろ",
+        "api_stype": 5,
+        "api_ctype": 29,
+        "api_cnum": 4,
+        "api_enqflg": "0",
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          57,
+          71
+        ],
+        "api_souk": [
+          47,
+          77
+        ],
+        "api_tous": [
+          4,
+          12
+        ],
+        "api_houg": [
+          52,
+          84
+        ],
+        "api_raig": [
+          34,
+          84
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          24,
+          72
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          0,
+          0
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          45,
+          84
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          18,
+          58
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          19,
+          70
+        ],
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 2,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 4,
+        "api_maxeq": [
+          2,
+          2,
+          4,
+          4,
+          0
+        ],
+        "api_defeq": [
+          90,
+          90,
+          28,
+          -1
+        ],
+        "api_buildtime": 80,
+        "api_broken": [
+          4,
+          7,
+          20,
+          2
+        ],
+        "api_powup": [
+          3,
+          1,
+          2,
+          2
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 5,
+        "api_getmes": "羽黒です。妙高型重巡洋艦姉妹の末っ娘です。\u003cbr\u003eあ、あの…ごめんなさいっ！",
+        "api_sinfo": "長崎で生まれたの。\u003cbr\u003eスラバヤ沖海戦、珊瑚海海戦、ミッドウェー海戦、第二次ソロモン海戦、マリアナ海戦など数々の海戦に参加しました。\u003cbr\u003eあの…頑張ります！",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 45,
+        "api_bull_max": 75,
+        "api_voicef": 1
       },
       {
         "api_id": 201,
@@ -33892,7 +34321,7 @@ svdata={
         ],
         "api_fuel_max": 15,
         "api_bull_max": 20,
-        "api_voicef": 0
+        "api_voicef": 1
       },
       {
         "api_id": 247,
@@ -34035,7 +34464,7 @@ svdata={
         ],
         "api_fuel_max": 15,
         "api_bull_max": 20,
-        "api_voicef": 0
+        "api_voicef": 1
       },
       {
         "api_id": 248,
@@ -36906,8 +37335,8 @@ svdata={
         "api_ctype": 29,
         "api_cnum": 4,
         "api_enqflg": "0",
-        "api_afterlv": 0,
-        "api_aftershipid": "0",
+        "api_afterlv": 65,
+        "api_aftershipid": "194",
         "api_taik": [
           55,
           69
@@ -37029,8 +37458,8 @@ svdata={
         "api_backs": 4,
         "api_getmes": "羽黒です。妙高型重巡洋艦姉妹の末っ娘です。\u003cbr\u003eあ、あの…ごめんなさいっ！",
         "api_sinfo": "長崎で生まれたの。\u003cbr\u003eスラバヤ沖海戦、珊瑚海海戦、ミッドウェー海戦、第二次ソロモン海戦、マリアナ海戦など数々の海戦に参加しました。\u003cbr\u003eあの…頑張ります！",
-        "api_afterfuel": 0,
-        "api_afterbull": 0,
+        "api_afterfuel": 800,
+        "api_afterbull": 900,
         "api_touchs": [
           null,
           null,
@@ -38765,8 +39194,8 @@ svdata={
         "api_ctype": 32,
         "api_cnum": 1,
         "api_enqflg": "0",
-        "api_afterlv": 0,
-        "api_aftershipid": "0",
+        "api_afterlv": 75,
+        "api_aftershipid": "157",
         "api_taik": [
           45,
           69
@@ -38888,8 +39317,8 @@ svdata={
         "api_backs": 5,
         "api_getmes": "軽空母、龍驤や。独特なシルエットでしょ？\u003cbr\u003eでも、艦載機を次々繰り出す、ちゃーんとした空母なんや。期待してや！",
         "api_sinfo": "軽空母だけど、結構歴戦の空母なんよ、うち。\u003cbr\u003eああ、あの岩手沖での第四艦隊事件のこと？あれはきつかったー。\u003cbr\u003e波浪で艦橋圧壊…いや、ホントありえへん。",
-        "api_afterfuel": 0,
-        "api_afterbull": 0,
+        "api_afterfuel": 600,
+        "api_afterbull": 600,
         "api_touchs": [
           null,
           null,
@@ -43617,6 +44046,149 @@ svdata={
         "api_fuel_max": 20,
         "api_bull_max": 20,
         "api_voicef": 3
+      },
+      {
+        "api_id": 317,
+        "api_sortno": 412,
+        "api_name": "浦風改",
+        "api_yomi": "うらかぜ",
+        "api_stype": 2,
+        "api_ctype": 30,
+        "api_cnum": 11,
+        "api_enqflg": "0",
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          32,
+          49
+        ],
+        "api_souk": [
+          14,
+          49
+        ],
+        "api_tous": [
+          0,
+          0
+        ],
+        "api_houg": [
+          12,
+          48
+        ],
+        "api_raig": [
+          28,
+          79
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          16,
+          49
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          29,
+          69
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          46,
+          88
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          8,
+          39
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          13,
+          59
+        ],
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 3,
+        "api_maxeq": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_defeq": [
+          91,
+          46,
+          -1,
+          -1
+        ],
+        "api_buildtime": 24,
+        "api_broken": [
+          1,
+          2,
+          10,
+          0
+        ],
+        "api_powup": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 5,
+        "api_getmes": "うち、浦風じゃ、よろしくね！",
+        "api_sinfo": "生まれは大阪、所属は呉。真珠湾からガダルカナルまで駆けまわったんじゃ。\u003cbr\u003e最期は金剛姉さんを護衛して台湾海峡…\u003cbr\u003eまぁ、もうどうにもならんなぁ……。",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 15,
+        "api_bull_max": 20,
+        "api_voicef": 1
       },
       {
         "api_id": 398,
@@ -67932,68 +68504,68 @@ svdata={
       },
       {
         "api_id": 157,
-        "api_sortno": 0,
+        "api_sortno": 157,
         "api_filename": "mslkutojcolj",
-        "api_version": "1",
+        "api_version": "2",
         "api_boko_n": [
-          0,
-          0
+          24,
+          136
         ],
         "api_boko_d": [
-          0,
-          0
+          112,
+          160
         ],
         "api_kaisyu_n": [
-          0,
-          0
+          32,
+          16
         ],
         "api_kaisyu_d": [
-          0,
-          0
+          48,
+          -16
         ],
         "api_kaizo_n": [
-          0,
-          0
+          8,
+          64
         ],
         "api_kaizo_d": [
-          0,
-          0
+          64,
+          80
         ],
         "api_map_n": [
-          0,
-          0
+          16,
+          112
         ],
         "api_map_d": [
-          0,
-          0
+          64,
+          128
         ],
         "api_ensyuf_n": [
-          0,
-          0
+          32,
+          104
         ],
         "api_ensyuf_d": [
-          0,
-          0
+          112,
+          96
         ],
         "api_ensyue_n": [
-          0,
+          8,
           0
         ],
         "api_battle_n": [
-          0,
-          0
+          16,
+          112
         ],
         "api_battle_d": [
-          0,
-          0
+          112,
+          112
         ],
         "api_weda": [
-          0,
-          0
+          160,
+          8
         ],
         "api_wedb": [
-          0,
-          0
+          144,
+          96
         ]
       },
       {
@@ -68658,68 +69230,68 @@ svdata={
       },
       {
         "api_id": 168,
-        "api_sortno": 0,
+        "api_sortno": 168,
         "api_filename": "cmupwurocdpn",
         "api_version": "1",
         "api_boko_n": [
-          0,
-          0
+          80,
+          96
         ],
         "api_boko_d": [
-          0,
-          0
+          48,
+          80
         ],
         "api_kaisyu_n": [
           0,
-          0
+          8
         ],
         "api_kaisyu_d": [
-          0,
+          8,
           0
         ],
         "api_kaizo_n": [
-          0,
-          0
+          32,
+          64
         ],
         "api_kaizo_d": [
-          0,
-          0
+          -16,
+          16
         ],
         "api_map_n": [
-          0,
-          0
+          32,
+          96
         ],
         "api_map_d": [
-          0,
-          0
+          -16,
+          64
         ],
         "api_ensyuf_n": [
-          0,
-          0
+          80,
+          96
         ],
         "api_ensyuf_d": [
-          0,
-          0
+          64,
+          48
         ],
         "api_ensyue_n": [
-          0,
+          48,
           0
         ],
         "api_battle_n": [
-          0,
-          0
+          32,
+          96
         ],
         "api_battle_d": [
-          0,
-          0
+          32,
+          64
         ],
         "api_weda": [
-          0,
-          0
+          160,
+          32
         ],
         "api_wedb": [
-          0,
-          0
+          144,
+          144
         ]
       },
       {
@@ -70238,6 +70810,204 @@ svdata={
         "api_wedb": [
           119,
           134
+        ]
+      },
+      {
+        "api_id": 192,
+        "api_sortno": 0,
+        "api_filename": "bpegnatlfibc",
+        "api_version": "1",
+        "api_boko_n": [
+          0,
+          0
+        ],
+        "api_boko_d": [
+          0,
+          0
+        ],
+        "api_kaisyu_n": [
+          0,
+          0
+        ],
+        "api_kaisyu_d": [
+          0,
+          0
+        ],
+        "api_kaizo_n": [
+          0,
+          0
+        ],
+        "api_kaizo_d": [
+          0,
+          0
+        ],
+        "api_map_n": [
+          0,
+          0
+        ],
+        "api_map_d": [
+          0,
+          0
+        ],
+        "api_ensyuf_n": [
+          0,
+          0
+        ],
+        "api_ensyuf_d": [
+          0,
+          0
+        ],
+        "api_ensyue_n": [
+          0,
+          0
+        ],
+        "api_battle_n": [
+          0,
+          0
+        ],
+        "api_battle_d": [
+          0,
+          0
+        ],
+        "api_weda": [
+          0,
+          0
+        ],
+        "api_wedb": [
+          0,
+          0
+        ]
+      },
+      {
+        "api_id": 193,
+        "api_sortno": 0,
+        "api_filename": "bxbyaifmqdxk",
+        "api_version": "1",
+        "api_boko_n": [
+          0,
+          0
+        ],
+        "api_boko_d": [
+          0,
+          0
+        ],
+        "api_kaisyu_n": [
+          0,
+          0
+        ],
+        "api_kaisyu_d": [
+          0,
+          0
+        ],
+        "api_kaizo_n": [
+          0,
+          0
+        ],
+        "api_kaizo_d": [
+          0,
+          0
+        ],
+        "api_map_n": [
+          0,
+          0
+        ],
+        "api_map_d": [
+          0,
+          0
+        ],
+        "api_ensyuf_n": [
+          0,
+          0
+        ],
+        "api_ensyuf_d": [
+          0,
+          0
+        ],
+        "api_ensyue_n": [
+          0,
+          0
+        ],
+        "api_battle_n": [
+          0,
+          0
+        ],
+        "api_battle_d": [
+          0,
+          0
+        ],
+        "api_weda": [
+          0,
+          0
+        ],
+        "api_wedb": [
+          0,
+          0
+        ]
+      },
+      {
+        "api_id": 194,
+        "api_sortno": 0,
+        "api_filename": "ecwgnneuzbcv",
+        "api_version": "1",
+        "api_boko_n": [
+          -16,
+          144
+        ],
+        "api_boko_d": [
+          144,
+          192
+        ],
+        "api_kaisyu_n": [
+          16,
+          16
+        ],
+        "api_kaisyu_d": [
+          64,
+          -8
+        ],
+        "api_kaizo_n": [
+          -64,
+          64
+        ],
+        "api_kaizo_d": [
+          128,
+          64
+        ],
+        "api_map_n": [
+          -48,
+          128
+        ],
+        "api_map_d": [
+          144,
+          128
+        ],
+        "api_ensyuf_n": [
+          0,
+          112
+        ],
+        "api_ensyuf_d": [
+          176,
+          128
+        ],
+        "api_ensyue_n": [
+          -48,
+          0
+        ],
+        "api_battle_n": [
+          -16,
+          112
+        ],
+        "api_battle_d": [
+          144,
+          128
+        ],
+        "api_weda": [
+          184,
+          0
+        ],
+        "api_wedb": [
+          112,
+          112
         ]
       },
       {
@@ -72092,7 +72862,7 @@ svdata={
         "api_id": 229,
         "api_sortno": 329,
         "api_filename": "cjhtlviffiwb",
-        "api_version": "1",
+        "api_version": "2",
         "api_boko_n": [
           110,
           -19
@@ -77762,6 +78532,72 @@ svdata={
         "api_wedb": [
           144,
           164
+        ]
+      },
+      {
+        "api_id": 317,
+        "api_sortno": 412,
+        "api_filename": "exedxncqauws",
+        "api_version": "1",
+        "api_boko_n": [
+          80,
+          96
+        ],
+        "api_boko_d": [
+          48,
+          80
+        ],
+        "api_kaisyu_n": [
+          0,
+          8
+        ],
+        "api_kaisyu_d": [
+          8,
+          0
+        ],
+        "api_kaizo_n": [
+          32,
+          64
+        ],
+        "api_kaizo_d": [
+          -16,
+          16
+        ],
+        "api_map_n": [
+          32,
+          96
+        ],
+        "api_map_d": [
+          -16,
+          64
+        ],
+        "api_ensyuf_n": [
+          80,
+          96
+        ],
+        "api_ensyuf_d": [
+          64,
+          48
+        ],
+        "api_ensyue_n": [
+          48,
+          0
+        ],
+        "api_battle_n": [
+          32,
+          96
+        ],
+        "api_battle_d": [
+          32,
+          64
+        ],
+        "api_weda": [
+          160,
+          32
+        ],
+        "api_wedb": [
+          144,
+          144
         ]
       },
       {
@@ -85910,7 +86746,7 @@ svdata={
           0,
           2
         ],
-        "api_info": "「ゼロ戦」の名で知られる名機「零式艦上戦闘機」の初期型です。7.7mm機銃2門と自慢の20mm機関砲2門を装備。\u003cbr\u003e優れた格闘戦能力と長大な航続距離で、その圧倒的な力を見せつけました。\u003cbr\u003eやがて敵が強力な新型機になってくると、火力と速度、防弾性などの弱点が露呈していきます。",
+        "api_info": "「ゼロ戦」の名で知られる名機「零式艦上戦闘機」の初期型です。7.7mm機銃2門と自慢の20mm機銃2門を装備。\u003cbr\u003e優れた格闘戦能力と長大な航続距離で、その圧倒的な力を見せつけました。\u003cbr\u003eやがて敵が強力な新型機になってくると、火力と速度、防弾性などの弱点が露呈していきます。",
         "api_usebull": "0"
       },
       {
@@ -86945,7 +87781,7 @@ svdata={
         "api_name": "12.7cm単装高角砲",
         "api_type": [
           1,
-          2,
+          1,
           1,
           16
         ],
@@ -86955,7 +87791,7 @@ svdata={
         "api_raig": 0,
         "api_soku": 0,
         "api_baku": 0,
-        "api_tyku": 0,
+        "api_tyku": 2,
         "api_tais": 0,
         "api_atap": 0,
         "api_houm": 0,
@@ -88533,6 +89369,82 @@ svdata={
           23
         ],
         "api_info": "二式二号電波探信儀一型の改良型です。\u003cbr\u003e様々な改良と調整によって、安定性が向上しました。\u003cbr\u003e対空用ですが、対水上電探としても使用可能です。",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 90,
+        "api_sortno": 90,
+        "api_name": "20.3cm(2号)連装砲",
+        "api_type": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 8,
+        "api_raig": 0,
+        "api_soku": 0,
+        "api_baku": 0,
+        "api_tyku": 3,
+        "api_tais": 0,
+        "api_atap": 0,
+        "api_houm": 1,
+        "api_raim": 0,
+        "api_houk": 0,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 0,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 2,
+        "api_rare": 1,
+        "api_broken": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "api_info": "20.3cm連装砲のマイナーバージョンアップ版、それが同2号連装砲です。\u003cbr\u003e元々優秀な重巡洋艦用主砲を改良して、主に妙高型などに搭載されました。\u003cbr\u003e初期主砲搭載の他の重巡達も、近代化改装時に順次本砲に換装されていきました。",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 91,
+        "api_sortno": 91,
+        "api_name": "12.7cm連装高角砲(後期型)",
+        "api_type": [
+          1,
+          2,
+          1,
+          16
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 2,
+        "api_raig": 0,
+        "api_soku": 0,
+        "api_baku": 0,
+        "api_tyku": 5,
+        "api_tais": 1,
+        "api_atap": 0,
+        "api_houm": 1,
+        "api_raim": 0,
+        "api_houk": 1,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 0,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 1,
+        "api_rare": 1,
+        "api_broken": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "api_info": "標準的な対空高角砲の後期改良型です。\u003cbr\u003e量産に向いた構造で経済性も高く、量産両用砲として優れた性能を誇ります。\u003cbr\u003e課題のひとつである旋回速度等も改善された、頼りになる対空火器です。",
         "api_usebull": "0"
       },
       {
@@ -90820,6 +91732,18 @@ svdata={
         "api_version": "1"
       },
       {
+        "api_id": 90,
+        "api_sortno": 90,
+        "api_filename": "90",
+        "api_version": "1"
+      },
+      {
+        "api_id": 91,
+        "api_sortno": 91,
+        "api_filename": "91",
+        "api_version": "1"
+      },
+      {
         "api_id": 501,
         "api_sortno": 0,
         "api_filename": "501",
@@ -91125,17 +92049,17 @@ svdata={
         "api_description": "高級仕上げの床に舞う桜の\u003cbr\u003e花びら。春の季節ならでは\u003cbr\u003eのフローリングです。艦娘\u003cbr\u003eたちとの鎮守府庭でのお花\u003cbr\u003e見も楽しいですね！",
         "api_rarity": 3,
         "api_price": 1700,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 4,
         "api_type": 0,
         "api_no": 3,
-        "api_title": "シックなフローリング",
-        "api_description": "落ち着いたカラーの重厚感のあるフローリング。",
-        "api_rarity": 0,
-        "api_price": 0,
-        "api_saleflg": 0
+        "api_title": "新緑のフローリング",
+        "api_description": "しっかりとした木板で構成\u003cbr\u003eされた、木と新緑の香り漂\u003cbr\u003eうフローリングです。作戦\u003cbr\u003e室にはもちろん、教室の床\u003cbr\u003e材としても最適ですね！",
+        "api_rarity": 3,
+        "api_price": 1300,
+        "api_saleflg": 1
       },
       {
         "api_id": 5,
@@ -91485,7 +92409,7 @@ svdata={
         "api_description": "一番安い壁紙です。いいのです。執務室で戦闘するわけではないですし！",
         "api_rarity": 1,
         "api_price": 50,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 40,
@@ -91565,7 +92489,7 @@ svdata={
         "api_description": "もっと落ち着いた和の心の\u003cbr\u003e壁紙が欲しい…という提督\u003cbr\u003eの要請から生まれた、高級\u003cbr\u003e和風壁紙。違いのわかる、\u003cbr\u003e大人の提督に人気です。",
         "api_rarity": 2,
         "api_price": 700,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 48,
@@ -91631,11 +92555,11 @@ svdata={
         "api_id": 54,
         "api_type": 1,
         "api_no": 16,
-        "api_title": "冬用ナチュラルな壁紙",
-        "api_description": "ツタの装飾がナチュラル可愛い壁紙。\u003cbr\u003eほっこりあったかチェック柄との相性も◎！",
-        "api_rarity": 0,
-        "api_price": 0,
-        "api_saleflg": 0
+        "api_title": "高級赤煉瓦の壁",
+        "api_description": "職人が丹精込めてしっかり\u003cbr\u003e焼き上げた赤煉瓦を用いて\u003cbr\u003eイギリス積みで組み上げた\u003cbr\u003e様式美漂う鎮守府の壁。違\u003cbr\u003eいの判る提督に人気です。",
+        "api_rarity": 4,
+        "api_price": 3000,
+        "api_saleflg": 1
       },
       {
         "api_id": 55,
@@ -91651,21 +92575,21 @@ svdata={
         "api_id": 56,
         "api_type": 1,
         "api_no": 18,
-        "api_title": "夏用ナチュラルな壁紙",
-        "api_description": "夏に涼しげなナチュラルさを演出するブルーの壁紙。",
-        "api_rarity": 0,
-        "api_price": 0,
-        "api_saleflg": 0
+        "api_title": "木板の壁",
+        "api_description": "壁紙ではなく、壁材自身を\u003cbr\u003e木材に換装した逸品。自然\u003cbr\u003eの素材ならではの落ち着い\u003cbr\u003eた雰囲気が、鎮守府を優し\u003cbr\u003eく包み込みます。",
+        "api_rarity": 2,
+        "api_price": 1000,
+        "api_saleflg": 1
       },
       {
         "api_id": 57,
         "api_type": 1,
         "api_no": 19,
-        "api_title": "秋用ナチュラルな壁紙",
-        "api_description": "銀杏色が秋らしいナチュラルな壁紙。",
-        "api_rarity": 0,
-        "api_price": 0,
-        "api_saleflg": 0
+        "api_title": "高級木材の壁",
+        "api_description": "素材の木材自身の醸し出す\u003cbr\u003e美しさと落ち着いた雰囲気\u003cbr\u003eが味わえる高級木材の壁。\u003cbr\u003e職人が山に登って厳選した\u003cbr\u003e素材の良さが伝わります。",
+        "api_rarity": 3,
+        "api_price": 2200,
+        "api_saleflg": 1
       },
       {
         "api_id": 58,
@@ -91675,7 +92599,7 @@ svdata={
         "api_description": "秋の気配を感じる今日この\u003cbr\u003e頃にぴったりの落ち着いた\u003cbr\u003e和の雰囲気の壁紙です。畳\u003cbr\u003eなどの和の家具とも自然と\u003cbr\u003e馴染む穏やかな仕上がり。",
         "api_rarity": 3,
         "api_price": 1500,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 59,
@@ -91685,17 +92609,17 @@ svdata={
         "api_description": "シンプルでありながら繊細\u003cbr\u003eな仕事によって完成された\u003cbr\u003e和の究極の壁紙のひとつ、\u003cbr\u003eそれがこの「緑の和壁紙」\u003cbr\u003e壁紙ってわびさびよね…。",
         "api_rarity": 4,
         "api_price": 1900,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 60,
         "api_type": 1,
         "api_no": 22,
-        "api_title": "和モダンな壁紙",
-        "api_description": "グリーンでトーンを合わせた和にも合わせられるモダン壁紙。",
-        "api_rarity": 0,
-        "api_price": 0,
-        "api_saleflg": 0
+        "api_title": "新緑の壁紙",
+        "api_description": "皐月五月、新緑の季節を表\u003cbr\u003e現した爽やかな壁紙です。\u003cbr\u003e緑は目に優しく、また心を\u003cbr\u003e落ち着かせる効果もあると\u003cbr\u003e大淀さんも云ってました！",
+        "api_rarity": 2,
+        "api_price": 900,
+        "api_saleflg": 1
       },
       {
         "api_id": 61,
@@ -91825,7 +92749,7 @@ svdata={
         "api_description": "知的な貴方にぴったりのグリーンのカーテン。落ち着いて戦略を練る提督にぴったりです。",
         "api_rarity": 1,
         "api_price": 50,
-        "api_saleflg": 0
+        "api_saleflg": 1
       },
       {
         "api_id": 74,
@@ -91945,7 +92869,7 @@ svdata={
         "api_description": "梅雨明けの窓に咲く紫陽花\u003cbr\u003eの花。なにやら毒が作れる\u003cbr\u003eって話もあるんですって。\u003cbr\u003e龍田さんが云ってました！\u003cbr\u003e夏気分先取りの風鈴付き！\u003cbr\u003e",
         "api_rarity": 3,
         "api_price": 1800,
-        "api_saleflg": 0
+        "api_saleflg": 1
       },
       {
         "api_id": 86,
@@ -91985,7 +92909,7 @@ svdata={
         "api_description": "いつ敵の空襲を受けてもいいように艦娘たちにガラスをテーピングしてもらいました。これで安心なのです！",
         "api_rarity": 4,
         "api_price": 2000,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 90,
@@ -92105,7 +93029,7 @@ svdata={
         "api_description": "わびさびのわかる、大人の\u003cbr\u003e提督のための春の高級仕様\u003cbr\u003eです。歴戦の提督が入手可\u003cbr\u003e能なこの窓。桜を眺めると\u003cbr\u003e少し泣けてきますね。",
         "api_rarity": 5,
         "api_price": 40000,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 102,
@@ -92275,7 +93199,7 @@ svdata={
         "api_description": "歴戦の水雷戦隊である第六\u003cbr\u003e駆逐隊。その栄光と武運長\u003cbr\u003e久を祈って、ある暁型駆逐\u003cbr\u003e艦の手によって書かれた掛\u003cbr\u003eけ軸です。",
         "api_rarity": 4,
         "api_price": 3000,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 119,
@@ -92395,7 +93319,7 @@ svdata={
         "api_description": "遠い国での戦艦の反乱を描いた古いサイレント映画のポスターです。とってもレアなポスターなんです！",
         "api_rarity": 4,
         "api_price": 400,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 131,
@@ -92655,7 +93579,7 @@ svdata={
         "api_description": "春は異動や引っ越しの季節\u003cbr\u003eです。我が鎮守府でも艦娘\u003cbr\u003eに手伝ってもらって部屋の\u003cbr\u003eお掃除や模様替えをしまし\u003cbr\u003eょう！",
         "api_rarity": 2,
         "api_price": 700,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 157,
@@ -92681,11 +93605,11 @@ svdata={
         "api_id": 159,
         "api_type": 4,
         "api_no": 26,
-        "api_title": "ピンクリボンの招き猫",
-        "api_description": "ご利益があるかもしれないちょっとかわいい招き猫。",
-        "api_rarity": 0,
-        "api_price": 0,
-        "api_saleflg": 0
+        "api_title": "教室セット「机」",
+        "api_description": "鎮守府で戦術や航海の講義\u003cbr\u003eをする際に用いる教室セッ\u003cbr\u003eト。その後ろ側の学生机。\u003cbr\u003e後ろ側なので、教科書を立\u003cbr\u003eてて授業中の内職もОＫ！",
+        "api_rarity": 4,
+        "api_price": 30000,
+        "api_saleflg": 1
       },
       {
         "api_id": 160,
@@ -92831,11 +93755,11 @@ svdata={
         "api_id": 174,
         "api_type": 5,
         "api_no": 10,
-        "api_title": "上品な椅子",
-        "api_description": "シックなカラーが素敵な木彫の椅子。\u003cbr\u003e今ならカシミアのひざ掛けつき！",
-        "api_rarity": 0,
-        "api_price": 0,
-        "api_saleflg": 0
+        "api_title": "教室セット「教卓」",
+        "api_description": "鎮守府で戦術や航海の講義\u003cbr\u003eをする際に用いる教室セッ\u003cbr\u003eト。その教卓と前列の机。\u003cbr\u003e教卓最前列の机なので、真\u003cbr\u003e面目な艦娘達が座ります！",
+        "api_rarity": 4,
+        "api_price": 40000,
+        "api_saleflg": 1
       },
       {
         "api_id": 175,
@@ -92915,7 +93839,7 @@ svdata={
         "api_description": "高級な羽毛布団と二つの枕\u003cbr\u003eによる安眠セット。これで\u003cbr\u003e夜の快眠もバッチリです。\u003cbr\u003e特注家具職人が丹精込めて\u003cbr\u003e作った次世代布団セット！",
         "api_rarity": 4,
         "api_price": 2000,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 183,
@@ -93085,7 +94009,7 @@ svdata={
         "api_description": "特注家具職人が腕によりを\u003cbr\u003eかけて設えた温泉檜風呂。\u003cbr\u003e内風呂仕様になっており、\u003cbr\u003e箱根要らずの提督御用達の\u003cbr\u003e究極鎮守府設備です！",
         "api_rarity": 5,
         "api_price": 8000,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 200,
@@ -93106,6 +94030,36 @@ svdata={
         "api_rarity": 5,
         "api_price": 3300,
         "api_saleflg": 0
+      },
+      {
+        "api_id": 202,
+        "api_type": 5,
+        "api_no": 38,
+        "api_title": "なし",
+        "api_description": "あえて執務机などの家具を\u003cbr\u003e置かず、シンプルな環境で\u003cbr\u003e秘書艦と執務にあたりたい\u003cbr\u003eという提督の意見具申から\u003cbr\u003e生まれた「なし」です。",
+        "api_rarity": 0,
+        "api_price": 0,
+        "api_saleflg": 1
+      },
+      {
+        "api_id": 203,
+        "api_type": 3,
+        "api_no": 31,
+        "api_title": "教室セット「黒板」",
+        "api_description": "鎮守府で戦術や航海の講義\u003cbr\u003eをする際に用いる教室セッ\u003cbr\u003eト。その必需品の黒板一式\u003cbr\u003eです。チョークや黒板消し\u003cbr\u003eも完備。落書き禁止です！",
+        "api_rarity": 4,
+        "api_price": 50000,
+        "api_saleflg": 1
+      },
+      {
+        "api_id": 204,
+        "api_type": 3,
+        "api_no": 32,
+        "api_title": "「200万の感謝」掛け軸",
+        "api_description": "ある超弩級戦艦娘による提\u003cbr\u003e督２００万人突破記念感謝\u003cbr\u003eの掛け軸。「大和のように\u003cbr\u003eはいかないぜ。読みにくい\u003cbr\u003eだと？ふっ気にするな！」",
+        "api_rarity": 5,
+        "api_price": 0,
+        "api_saleflg": 1
       }
     ],
     "api_mst_furnituregraph": [
@@ -94515,6 +95469,27 @@ svdata={
         "api_no": 37,
         "api_filename": "f38",
         "api_version": "1"
+      },
+      {
+        "api_id": 202,
+        "api_type": 5,
+        "api_no": 38,
+        "api_filename": "f39",
+        "api_version": "1"
+      },
+      {
+        "api_id": 203,
+        "api_type": 3,
+        "api_no": 31,
+        "api_filename": "d32",
+        "api_version": "1"
+      },
+      {
+        "api_id": 204,
+        "api_type": 3,
+        "api_no": 32,
+        "api_filename": "d33",
+        "api_version": "1"
       }
     ],
     "api_mst_useitem": [
@@ -95709,6 +96684,22 @@ svdata={
         ]
       },
       {
+        "api_id": 25,
+        "api_maparea_id": 2,
+        "api_no": 5,
+        "api_name": "沖ノ島沖",
+        "api_level": 8,
+        "api_opetext": "沖ノ島沖戦闘哨戒",
+        "api_infotext": "同方面に敵反攻の兆候が報告さ\u003cbr\u003eれた。巡洋艦を中心に哨戒部隊\u003cbr\u003eを編成、敵艦隊の動向を探れ！",
+        "api_item": [
+          31,
+          33,
+          0,
+          0
+        ],
+        "api_required_defeat_count": 4
+      },
+      {
         "api_id": 31,
         "api_maparea_id": 3,
         "api_no": 1,
@@ -96025,6 +97016,19 @@ svdata={
         "api_boss_bgm": [
           5,
           5
+        ]
+      },
+      {
+        "api_id": 25,
+        "api_maparea_id": 2,
+        "api_no": 5,
+        "api_map_bgm": [
+          11,
+          11
+        ],
+        "api_boss_bgm": [
+          10,
+          10
         ]
       },
       {
@@ -98540,6 +99544,134 @@ svdata={
         "api_mapinfo_no": 5,
         "api_id": 293,
         "api_no": 10,
+        "api_color_no": 5
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 294,
+        "api_no": 0,
+        "api_color_no": 0
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 295,
+        "api_no": 1,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 296,
+        "api_no": 2,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 297,
+        "api_no": 3,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 298,
+        "api_no": 4,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 299,
+        "api_no": 5,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 300,
+        "api_no": 6,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 301,
+        "api_no": 7,
+        "api_color_no": 2
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 302,
+        "api_no": 8,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 303,
+        "api_no": 9,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 304,
+        "api_no": 10,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 305,
+        "api_no": 11,
+        "api_color_no": 2
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 306,
+        "api_no": 12,
+        "api_color_no": 5
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 307,
+        "api_no": 13,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 308,
+        "api_no": 14,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 25,
+        "api_maparea_id": 2,
+        "api_mapinfo_no": 5,
+        "api_id": 309,
+        "api_no": 15,
         "api_color_no": 5
       }
     ],
