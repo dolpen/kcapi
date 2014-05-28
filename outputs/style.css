@@ -23,6 +23,7 @@ td.air.max{background: #f99}
 td.armor.max{background: #fe8}
 td.luck.max{background: #0f8}
 td.sub.max{background: #0f8}
+td.accuracy.max{background: #0f8}
 td.evasion.max{background: #0f8}
 
 td.sight.cur{border-bottom: 1px solid#0f8}
@@ -32,4 +33,5 @@ td.air.cur{border-bottom: 1px solid#f99}
 td.armor.cur{border-bottom: 1px solid#fe8}
 td.luck.cur{border-bottom: 1px solid#0f8}
 td.sub.cur{border-bottom: 1px solid#0f8}
+td.accuracy.cur{border-bottom: 1px solid#0f8}
 td.evasion.cur{border-bottom: 1px solid#0f8}
