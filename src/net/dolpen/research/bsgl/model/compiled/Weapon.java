@@ -31,6 +31,8 @@ public class Weapon {
 
     public int evasion;
 
+    public int accuracy;
+
     public int antiSub;
 
     public int luck;
@@ -52,6 +54,7 @@ public class Weapon {
         resp.armor = item.armor;
         resp.antiSub = item.antiSub;
         resp.evasion = item.evasion;
+        resp.accuracy = item.accuracy;
         resp.luck = item.luck;
         resp.range = Range.by(item.range);
         resp.amount = 0;

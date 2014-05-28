@@ -42,6 +42,8 @@ public class Girl {
 
     public AbilityScore armor;
 
+    public AbilityScore accuracy;
+
     public AbilityScore evasion;
 
     public AbilityScore antiSub;
@@ -71,6 +73,7 @@ public class Girl {
         resp.torpedo = fromList(ship.torpedo, 0);
         resp.antiAir = fromList(ship.antiAir, 0);
         resp.armor = fromList(ship.armor, 0);
+        resp.accuracy = new AbilityScore(0,0,0); // 回避は常にゼロ(少なくともメンバデータに該当項目無し)
         resp.evasion = fromList(ship.evasion, 0);
         resp.antiSub = fromList(ship.antiSub, 0);
         resp.luck = fromList(ship.luck, 0);
@@ -116,6 +119,7 @@ public class Girl {
         this.torpedo.addItemScore(slotItem.weapon.torpedo);
         this.antiAir.addItemScore(slotItem.weapon.antiAir);
         this.armor.addItemScore(slotItem.weapon.armor);
+        this.accuracy.addItemScore(slotItem.weapon.accuracy);
         this.evasion.addItemScore(slotItem.weapon.evasion);
         this.antiSub.addItemScore(slotItem.weapon.antiSub);
         this.luck.addItemScore(slotItem.weapon.luck);

@@ -69,8 +69,8 @@ public class MasterShip extends Master {
 
     // public List<Integer> api_houk; // 不使用 常に [ 0, 0 ]
 
-    // public List<Integer> api_houm; // 不使用 常に [ 0, 0 ]
-
+    @SerializedName("api_houm")
+    public List<Integer> accuracy; // 命中 (初期値, 最大値)
 
     @SerializedName("api_id")
     public int shipId; // 艦船ID

@@ -26,9 +26,10 @@ public class MasterSlotItem extends Master {
     public int firePower; // 火力
 
     @SerializedName("api_houk")
-    public int evasion; // 回避
+    public int evasion; // 回避(砲撃？)
 
-    // public int api_houm; // 不明
+    @SerializedName("api_houm")
+    public int accuracy; // 命中（砲撃？）
 
     @SerializedName("api_id")
     public int weaponId; // 装備ID
