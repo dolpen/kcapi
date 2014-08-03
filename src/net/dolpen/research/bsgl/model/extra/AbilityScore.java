@@ -22,6 +22,11 @@ public class AbilityScore {
         this.itemScore += itemScore;
     }
 
+
+    public void fixItemScore(int itemScore) {
+        this.itemScore += itemScore;
+    }
+
     // 近代化改修最大値到達
     public boolean isFinished() { // has...
         return current >= max;

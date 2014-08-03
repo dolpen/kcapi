@@ -8142,7 +8142,7 @@ svdata={
         ],
         "api_backs": 6,
         "api_getmes": "重雷装艦として、生まれ変わった大井です。\u003cbr\u003eお久しぶりです！",
-        "api_sinfo": "重雷装艦バージョンの大井です。\u003cbr\u003e圧倒的な水雷戦力を期待されたけど、\u003cbr\u003e出番がなかなかなかったの。\u003cbr\u003e今度は活躍して見せるわ。みていてね！",
+        "api_sinfo": "重雷装艦バージョンの大井です。\u003cbr\u003e圧倒的な水雷戦力を期待されたけど、\u003cbr\u003e出番がなかなかなかったの。\u003cbr\u003e今度は活躍してみせるわ。見ていてね！",
         "api_afterfuel": 400,
         "api_afterbull": 770,
         "api_touchs": [
@@ -8571,7 +8571,7 @@ svdata={
         ],
         "api_backs": 1,
         "api_getmes": "古鷹型重巡の2番艦、加古ってんだ、よっろしくぅー！",
-        "api_sinfo": "古鷹型重巡洋艦の２番艦、加古だよぉ。\u003cbr\u003e第一次ソロモン海戦で大活躍したんだからね！\u003cbr\u003eあ、帰り道？ホント、行きはよいよい、帰りは恐い～ってね！",
+        "api_sinfo": "古鷹型重巡洋艦の２番艦、加古だよぉ。\u003cbr\u003e第一次ソロモン海戦で大活躍したんだからね！\u003cbr\u003eあ、帰り道？ホント、行きはよいよい、帰りは怖い～ってね！",
         "api_afterfuel": 250,
         "api_afterbull": 300,
         "api_touchs": [
@@ -11870,7 +11870,7 @@ svdata={
         ],
         "api_fuel_max": 60,
         "api_bull_max": 55,
-        "api_voicef": 0
+        "api_voicef": 1
       },
       {
         "api_id": 84,
@@ -16865,7 +16865,7 @@ svdata={
         ],
         "api_backs": 7,
         "api_getmes": "重雷装艦として、生まれ変わった大井です。\u003cbr\u003eお久しぶりです！",
-        "api_sinfo": "重雷装艦バージョンの大井です。\u003cbr\u003e圧倒的な水雷戦力を期待されたけど、\u003cbr\u003e出番がなかなかなかったの。\u003cbr\u003e今度は活躍して見せるわ。みていてね！",
+        "api_sinfo": "重雷装艦バージョンの大井です。\u003cbr\u003e圧倒的な水雷戦力を期待されたけど、\u003cbr\u003e出番がなかなかなかったの。\u003cbr\u003e今度は活躍してみせるわ。見ていてね！",
         "api_afterfuel": 0,
         "api_afterbull": 0,
         "api_touchs": [
@@ -18009,7 +18009,7 @@ svdata={
         ],
         "api_backs": 3,
         "api_getmes": "伊１６８よ。何よ、言いにくいの？\u003cbr\u003eじゃ、イムヤでいいわ…よろしくねっ！",
-        "api_sinfo": "生れも育ちも呉の潜水艦なの。あのミッドウェーの大海戦のあと、飛龍が最後の力で深手を負わせたヨークタウンに留めを刺したのよ！空母たちの仇はとったわ！　あの大変な島への輸送任務でも頑張ったの。",
+        "api_sinfo": "生れも育ちも呉の潜水艦なの。あのミッドウェーの大海戦のあと、飛龍が最後の力で深手を負わせたヨークタウンに止めを刺したのよ！空母たちの仇はとったわ！　あの大変な島への輸送任務でも頑張ったの。",
         "api_afterfuel": 130,
         "api_afterbull": 200,
         "api_touchs": [
@@ -21011,7 +21011,7 @@ svdata={
           0
         ],
         "api_backs": 6,
-        "api_getmes": "ヴィールヌイだ。\u003cbr\u003eその活躍ぶりから不死鳥の通り名もあるよ。",
+        "api_getmes": "ヴェールヌイだ。\u003cbr\u003eその活躍ぶりから不死鳥の通り名もあるよ。",
         "api_sinfo": "数ある特型駆逐艦の中で、最後まで生き残ったのが、響。転戦の後、あの大和水上特攻時には修理で同行できなかったんだ。\u003cbr\u003e賠償艦としてソ連に引き渡され「信頼できる」という意味の艦名になったんだ。",
         "api_afterfuel": 0,
         "api_afterbull": 0,
@@ -21455,30 +21455,30 @@ svdata={
       },
       {
         "api_id": 151,
-        "api_sortno": 0,
-        "api_name": "なし",
-        "api_yomi": "なし",
-        "api_stype": 2,
-        "api_ctype": 1,
-        "api_cnum": 1,
+        "api_sortno": 151,
+        "api_name": "榛名改二",
+        "api_yomi": "はるな",
+        "api_stype": 8,
+        "api_ctype": 6,
+        "api_cnum": 3,
         "api_enqflg": "0",
         "api_afterlv": 0,
         "api_aftershipid": "0",
         "api_taik": [
-          0,
-          0
+          81,
+          99
         ],
         "api_souk": [
-          0,
-          0
+          70,
+          93
         ],
         "api_tous": [
-          0,
-          0
+          3,
+          12
         ],
         "api_houg": [
-          0,
-          0
+          75,
+          96
         ],
         "api_raig": [
           0,
@@ -21489,8 +21489,8 @@ svdata={
           0
         ],
         "api_tyku": [
-          0,
-          0
+          41,
+          92
         ],
         "api_atap": [
           0,
@@ -21509,8 +21509,8 @@ svdata={
           0
         ],
         "api_kaih": [
-          0,
-          0
+          39,
+          74
         ],
         "api_houk": [
           0,
@@ -21525,20 +21525,20 @@ svdata={
           0
         ],
         "api_saku": [
-          0,
-          0
+          17,
+          49
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          0,
-          0
+          41,
+          89
         ],
-        "api_sokuh": 0,
-        "api_soku": 0,
-        "api_leng": 0,
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 3,
         "api_grow": [
           0,
           0,
@@ -21549,32 +21549,32 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 0,
+        "api_slot_num": 4,
         "api_maxeq": [
-          0,
-          0,
-          0,
-          0,
+          3,
+          3,
+          3,
+          3,
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
-          -1,
-          -1
+          104,
+          104,
+          35,
+          27
         ],
-        "api_buildtime": 0,
+        "api_buildtime": 240,
         "api_broken": [
-          0,
-          0,
-          0,
-          0
+          10,
+          14,
+          33,
+          3
         ],
         "api_powup": [
+          4,
           0,
-          0,
-          0,
-          0
+          2,
+          4
         ],
         "api_gumax": [
           0,
@@ -21582,9 +21582,9 @@ svdata={
           0,
           0
         ],
-        "api_backs": 0,
-        "api_getmes": "",
-        "api_sinfo": "",
+        "api_backs": 7,
+        "api_getmes": "高速戦艦、榛名、着任しました。\u003cbr\u003eあなたが提督なのね？　よろしくお願い致します。",
+        "api_sinfo": "高速の巡洋戦艦、榛名です。\u003cbr\u003e国産の四一式36センチ砲を装備しました。\u003cbr\u003e呉鎮守府の江田島で最後まで空を睨んで奮戦したわ。\u003cbr\u003e高速戦艦四姉妹で最期まで、戦い抜いた榛名のこと、覚えていてね。",
         "api_afterfuel": 0,
         "api_afterbull": 0,
         "api_touchs": [
@@ -21592,9 +21592,9 @@ svdata={
           null,
           null
         ],
-        "api_fuel_max": 0,
-        "api_bull_max": 0,
-        "api_voicef": 0
+        "api_fuel_max": 100,
+        "api_bull_max": 125,
+        "api_voicef": 3
       },
       {
         "api_id": 152,
@@ -28032,6 +28032,149 @@ svdata={
         "api_voicef": 0
       },
       {
+        "api_id": 197,
+        "api_sortno": 197,
+        "api_name": "蒼龍改二",
+        "api_yomi": "そうりゅう",
+        "api_stype": 11,
+        "api_ctype": 17,
+        "api_cnum": 1,
+        "api_enqflg": "0",
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          67,
+          89
+        ],
+        "api_souk": [
+          36,
+          75
+        ],
+        "api_tous": [
+          73,
+          79
+        ],
+        "api_houg": [
+          0,
+          57
+        ],
+        "api_raig": [
+          0,
+          0
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          34,
+          84
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          0,
+          0
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          36,
+          74
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          55,
+          90
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          15,
+          59
+        ],
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 4,
+        "api_maxeq": [
+          18,
+          35,
+          20,
+          6,
+          0
+        ],
+        "api_defeq": [
+          96,
+          99,
+          98,
+          61
+        ],
+        "api_buildtime": 250,
+        "api_broken": [
+          10,
+          14,
+          32,
+          11
+        ],
+        "api_powup": [
+          0,
+          0,
+          4,
+          5
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 8,
+        "api_getmes": "航空母艦、蒼龍です。\u003cbr\u003e空母機動部隊を編制するなら、私もぜひ入れてね！",
+        "api_sinfo": "航空母艦、蒼龍です。\u003cbr\u003e真珠湾攻撃から始まって、緒戦の重要な戦いに、主力空母の一隻として参加しました。\u003cbr\u003eえ？なに、ミッドウェー？なにそれ、美味しいの？",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 70,
+        "api_bull_max": 75,
+        "api_voicef": 0
+      },
+      {
         "api_id": 201,
         "api_sortno": 301,
         "api_name": "吹雪改",
@@ -29470,8 +29613,8 @@ svdata={
         "api_ctype": 6,
         "api_cnum": 3,
         "api_enqflg": "0",
-        "api_afterlv": 0,
-        "api_aftershipid": "0",
+        "api_afterlv": 80,
+        "api_aftershipid": "151",
         "api_taik": [
           75,
           89
@@ -29593,8 +29736,8 @@ svdata={
         "api_backs": 6,
         "api_getmes": "高速戦艦、榛名、着任しました。\u003cbr\u003eあなたが提督なのね？　よろしくお願い致します。",
         "api_sinfo": "高速の巡洋戦艦、榛名です。\u003cbr\u003e国産の四一式36センチ砲を装備しました。\u003cbr\u003e呉鎮守府の江田島で最後まで空を睨んで奮戦したわ。\u003cbr\u003e高速戦艦四姉妹で最期まで、戦い抜いた榛名のこと、覚えていてね。",
-        "api_afterfuel": 0,
-        "api_afterbull": 0,
+        "api_afterfuel": 2400,
+        "api_afterbull": 2400,
         "api_touchs": [
           null,
           null,
@@ -29602,7 +29745,7 @@ svdata={
         ],
         "api_fuel_max": 90,
         "api_bull_max": 120,
-        "api_voicef": 0
+        "api_voicef": 1
       },
       {
         "api_id": 212,
@@ -29745,7 +29888,7 @@ svdata={
         ],
         "api_fuel_max": 90,
         "api_bull_max": 120,
-        "api_voicef": 0
+        "api_voicef": 1
       },
       {
         "api_id": 213,
@@ -31604,7 +31747,7 @@ svdata={
         ],
         "api_fuel_max": 15,
         "api_bull_max": 20,
-        "api_voicef": 0
+        "api_voicef": 1
       },
       {
         "api_id": 226,
@@ -31747,7 +31890,7 @@ svdata={
         ],
         "api_fuel_max": 15,
         "api_bull_max": 20,
-        "api_voicef": 0
+        "api_voicef": 1
       },
       {
         "api_id": 227,
@@ -31890,7 +32033,7 @@ svdata={
         ],
         "api_fuel_max": 15,
         "api_bull_max": 20,
-        "api_voicef": 0
+        "api_voicef": 1
       },
       {
         "api_id": 228,
@@ -37028,7 +37171,7 @@ svdata={
         ],
         "api_backs": 4,
         "api_getmes": "古鷹型重巡の2番艦、加古ってんだ、よっろしくぅー！",
-        "api_sinfo": "古鷹型重巡洋艦の２番艦、加古だよぉ。\u003cbr\u003e第一次ソロモン海戦で大活躍したんだからね！\u003cbr\u003eあ、帰り道？ホント、行きはよいよい、帰りは恐い～ってね！",
+        "api_sinfo": "古鷹型重巡洋艦の２番艦、加古だよぉ。\u003cbr\u003e第一次ソロモン海戦で大活躍したんだからね！\u003cbr\u003eあ、帰り道？ホント、行きはよいよい、帰りは怖い～ってね！",
         "api_afterfuel": 0,
         "api_afterbull": 0,
         "api_touchs": [
@@ -37192,8 +37335,8 @@ svdata={
         "api_ctype": 29,
         "api_cnum": 1,
         "api_enqflg": "0",
-        "api_afterlv": 0,
-        "api_aftershipid": "0",
+        "api_afterlv": 70,
+        "api_aftershipid": "319",
         "api_taik": [
           55,
           69
@@ -37315,8 +37458,8 @@ svdata={
         "api_backs": 5,
         "api_getmes": "私、妙高型重巡洋艦、妙高と申します。\u003cbr\u003e共に頑張りましょう。",
         "api_sinfo": "ワシントン海軍軍縮条約下で建造された重巡洋艦です。\u003cbr\u003e平賀譲氏設計による日本海軍の第一級の戦闘艦です。\u003cbr\u003e現代の海上自衛隊のイージス艦にも、その名は受け継がれています。",
-        "api_afterfuel": 0,
-        "api_afterbull": 0,
+        "api_afterfuel": 800,
+        "api_afterbull": 900,
         "api_touchs": [
           null,
           null,
@@ -39040,7 +39183,7 @@ svdata={
         ],
         "api_fuel_max": 75,
         "api_bull_max": 75,
-        "api_voicef": 0
+        "api_voicef": 1
       },
       {
         "api_id": 278,
@@ -39194,8 +39337,8 @@ svdata={
         "api_ctype": 17,
         "api_cnum": 1,
         "api_enqflg": "0",
-        "api_afterlv": 0,
-        "api_aftershipid": "0",
+        "api_afterlv": 78,
+        "api_aftershipid": "197",
         "api_taik": [
           65,
           89
@@ -39317,8 +39460,8 @@ svdata={
         "api_backs": 6,
         "api_getmes": "航空母艦、蒼龍です。\u003cbr\u003e空母機動部隊を編制するなら、私もぜひ入れてね！",
         "api_sinfo": "航空母艦、蒼龍です。\u003cbr\u003e真珠湾攻撃から始まって、緒戦の重要な戦いに、主力空母の一隻として参加しました。\u003cbr\u003eえ？なに、ミッドウェー？なにそれ、美味しいの？",
-        "api_afterfuel": 0,
-        "api_afterbull": 0,
+        "api_afterfuel": 1200,
+        "api_afterbull": 1700,
         "api_touchs": [
           null,
           null,
@@ -44620,6 +44763,149 @@ svdata={
         "api_voicef": 3
       },
       {
+        "api_id": 319,
+        "api_sortno": 191,
+        "api_name": "妙高改二",
+        "api_yomi": "みょうこう",
+        "api_stype": 5,
+        "api_ctype": 29,
+        "api_cnum": 1,
+        "api_enqflg": "0",
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          56,
+          71
+        ],
+        "api_souk": [
+          47,
+          78
+        ],
+        "api_tous": [
+          4,
+          12
+        ],
+        "api_houg": [
+          50,
+          80
+        ],
+        "api_raig": [
+          36,
+          88
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          28,
+          80
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          0,
+          0
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          47,
+          85
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          19,
+          59
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          32,
+          79
+        ],
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 2,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 4,
+        "api_maxeq": [
+          2,
+          2,
+          4,
+          4,
+          0
+        ],
+        "api_defeq": [
+          90,
+          90,
+          28,
+          -1
+        ],
+        "api_buildtime": 80,
+        "api_broken": [
+          4,
+          7,
+          20,
+          2
+        ],
+        "api_powup": [
+          3,
+          1,
+          2,
+          2
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 6,
+        "api_getmes": "私、妙高型重巡洋艦、妙高と申します。\u003cbr\u003e共に頑張りましょう。",
+        "api_sinfo": "ワシントン海軍軍縮条約下で建造された重巡洋艦です。\u003cbr\u003e平賀譲氏設計による日本海軍の第一級の戦闘艦です。\u003cbr\u003e現代の海上自衛隊のイージス艦にも、その名は受け継がれています。",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 45,
+        "api_bull_max": 75,
+        "api_voicef": 3
+      },
+      {
         "api_id": 398,
         "api_sortno": 498,
         "api_name": "伊168改",
@@ -44750,7 +45036,7 @@ svdata={
         ],
         "api_backs": 4,
         "api_getmes": "伊１６８よ。何よ、言いにくいの？\u003cbr\u003eじゃ、イムヤでいいわ…よろしくねっ！",
-        "api_sinfo": "生れも育ちも呉の潜水艦なの。あのミッドウェーの大海戦のあと、飛龍が最後の力で深手を負わせたヨークタウンに留めを刺したのよ！空母たちの仇はとったわ！　あの大変な島への輸送任務でも頑張ったの。",
+        "api_sinfo": "生れも育ちも呉の潜水艦なの。あのミッドウェーの大海戦のあと、飛龍が最後の力で深手を負わせたヨークタウンに止めを刺したのよ！空母たちの仇はとったわ！　あの大変な島への輸送任務でも頑張ったの。",
         "api_afterfuel": 0,
         "api_afterbull": 0,
         "api_touchs": [
@@ -68537,68 +68823,68 @@ svdata={
       },
       {
         "api_id": 151,
-        "api_sortno": 0,
+        "api_sortno": 151,
         "api_filename": "ilxltdgucgbg",
         "api_version": "1",
         "api_boko_n": [
-          0,
-          0
+          24,
+          144
         ],
         "api_boko_d": [
-          0,
-          0
+          56,
+          148
         ],
         "api_kaisyu_n": [
-          0,
-          0
+          32,
+          -8
         ],
         "api_kaisyu_d": [
-          0,
-          0
+          64,
+          16
         ],
         "api_kaizo_n": [
-          0,
-          0
+          -8,
+          80
         ],
         "api_kaizo_d": [
-          0,
-          0
+          16,
+          62
         ],
         "api_map_n": [
           0,
-          0
+          128
         ],
         "api_map_d": [
-          0,
-          0
+          32,
+          144
         ],
         "api_ensyuf_n": [
-          0,
-          0
+          48,
+          112
         ],
         "api_ensyuf_d": [
-          0,
-          0
+          80,
+          128
         ],
         "api_ensyue_n": [
-          0,
+          -8,
           0
         ],
         "api_battle_n": [
-          0,
-          0
+          32,
+          128
         ],
         "api_battle_d": [
-          0,
-          0
+          56,
+          128
         ],
         "api_weda": [
-          0,
-          0
+          160,
+          -8
         ],
         "api_wedb": [
-          0,
-          0
+          160,
+          112
         ]
       },
       {
@@ -69529,7 +69815,7 @@ svdata={
         "api_id": 166,
         "api_sortno": 166,
         "api_filename": "vxryfhvytcig",
-        "api_version": "1",
+        "api_version": "2",
         "api_boko_n": [
           32,
           32
@@ -71569,6 +71855,72 @@ svdata={
         "api_wedb": [
           128,
           128
+        ]
+      },
+      {
+        "api_id": 197,
+        "api_sortno": 197,
+        "api_filename": "mwlzgwdjlpxx",
+        "api_version": "1",
+        "api_boko_n": [
+          -48,
+          -112
+        ],
+        "api_boko_d": [
+          -48,
+          -112
+        ],
+        "api_kaisyu_n": [
+          -16,
+          -8
+        ],
+        "api_kaisyu_d": [
+          8,
+          4
+        ],
+        "api_kaizo_n": [
+          -112,
+          -152
+        ],
+        "api_kaizo_d": [
+          -112,
+          -168
+        ],
+        "api_map_n": [
+          -96,
+          -112
+        ],
+        "api_map_d": [
+          -104,
+          -112
+        ],
+        "api_ensyuf_n": [
+          -64,
+          -112
+        ],
+        "api_ensyuf_d": [
+          -64,
+          -112
+        ],
+        "api_ensyue_n": [
+          -96,
+          0
+        ],
+        "api_battle_n": [
+          -112,
+          -104
+        ],
+        "api_battle_d": [
+          -112,
+          -104
+        ],
+        "api_weda": [
+          336,
+          240
+        ],
+        "api_wedb": [
+          104,
+          96
         ]
       },
       {
@@ -79228,6 +79580,72 @@ svdata={
         ]
       },
       {
+        "api_id": 319,
+        "api_sortno": 191,
+        "api_filename": "kadfixosusrf",
+        "api_version": "1",
+        "api_boko_n": [
+          48,
+          144
+        ],
+        "api_boko_d": [
+          64,
+          144
+        ],
+        "api_kaisyu_n": [
+          8,
+          16
+        ],
+        "api_kaisyu_d": [
+          64,
+          -32
+        ],
+        "api_kaizo_n": [
+          -8,
+          72
+        ],
+        "api_kaizo_d": [
+          32,
+          64
+        ],
+        "api_map_n": [
+          0,
+          128
+        ],
+        "api_map_d": [
+          48,
+          128
+        ],
+        "api_ensyuf_n": [
+          32,
+          128
+        ],
+        "api_ensyuf_d": [
+          64,
+          128
+        ],
+        "api_ensyue_n": [
+          0,
+          0
+        ],
+        "api_battle_n": [
+          32,
+          128
+        ],
+        "api_battle_d": [
+          48,
+          128
+        ],
+        "api_weda": [
+          192,
+          0
+        ],
+        "api_wedb": [
+          128,
+          112
+        ]
+      },
+      {
         "api_id": 398,
         "api_sortno": 498,
         "api_filename": "dyfnguymthbd",
@@ -86183,7 +86601,7 @@ svdata={
           "16": 1,
           "17": 1,
           "18": 1,
-          "19": 0,
+          "19": 1,
           "20": 1,
           "21": 1,
           "22": 0,
@@ -87159,7 +87577,7 @@ svdata={
           5,
           0
         ],
-        "api_info": "巡洋艦の主砲だったものを、戦艦の副砲として活用しました。\u003cbr\u003e「大和」型に搭載され、対空戦も可能な、性能・運用性ともに優秀な戦艦副砲となりました。\u003cbr\u003e砲塔部の装甲が薄いのが玉に傷で、諸説ありますが「大和」型の唯一の弱点という指摘もありました。",
+        "api_info": "巡洋艦の主砲だったものを、戦艦の副砲として活用しました。\u003cbr\u003e「大和」型に搭載され、対空戦も可能な、性能・運用性ともに優秀な戦艦副砲となりました。\u003cbr\u003e砲塔部の装甲が薄いのが玉に瑕で、諸説ありますが「大和」型の唯一の弱点という指摘もありました。",
         "api_usebull": "0"
       },
       {
@@ -88071,7 +88489,7 @@ svdata={
           9,
           0
         ],
-        "api_info": "遠距離砲撃戦における秘密兵器「九一式徹甲弾」。\u003cbr\u003e海中突入後急激に向きを変え、魚雷のように敵艦水線下に突き進み、喫水下を破砕する特殊徹甲弾です。\u003cbr\u003e水中弾効果を高める形状設計のため、空気抵抗も減少して射程も延伸します。\u003cbr\u003e戦艦・航空戦艦が使用可能。",
+        "api_info": "遠距離砲撃戦における秘密兵器「九一式徹甲弾」。\u003cbr\u003e海中突入後急激に向きを変え、魚雷のように敵艦水線下に突き進み、喫水下を破砕する特殊徹甲弾です。\u003cbr\u003e水中弾効果を高める形状設計のため、空気抵抗も減少して射程も延伸します。\u003cbr\u003e戦艦・航空戦艦等が使用可能。",
         "api_usebull": "0"
       },
       {
@@ -88831,7 +89249,7 @@ svdata={
           0,
           28
         ],
-        "api_info": "九州飛行機＆海軍航空技術廠が生み出した、先進的なエンテ型の試作戦闘機「震電」。\u003cbr\u003e推進プロペラを後方に配置し、重火力を機体前部に集中させた。後進翼の機体は、まさに未来と希望を感じさせるもの\u003cbr\u003e現実世界では、海上に飛び立つことのなかった機体ですが、「艦これ」では着艦フックと尾翼等を補強して登場です！",
+        "api_info": "九州飛行機＆海軍航空技術廠が生み出した、先進的なエンテ型の試作戦闘機「震電」。\u003cbr\u003e推進プロペラを後方に配置し、重火力を機体前部に集中させた後進翼の機体は、まさに未来と希望を感じさせるもの。\u003cbr\u003e現実世界では、海上に飛び立つことのなかった機体ですが、「艦これ」では着艦フックと尾翼等を補強して登場です！",
         "api_usebull": "0"
       },
       {
@@ -90395,115 +90813,115 @@ svdata={
       {
         "api_id": 98,
         "api_sortno": 98,
-        "api_name": "なし",
+        "api_name": "九七式艦攻(熟練)",
         "api_type": [
-          1,
-          1,
-          1,
-          1
+          3,
+          5,
+          8,
+          8
         ],
         "api_taik": 0,
         "api_souk": 0,
-        "api_houg": 1,
-        "api_raig": 0,
+        "api_houg": 0,
+        "api_raig": 8,
         "api_soku": 0,
         "api_baku": 0,
-        "api_tyku": 1,
-        "api_tais": 0,
+        "api_tyku": 0,
+        "api_tais": 5,
         "api_atap": 0,
-        "api_houm": 0,
+        "api_houm": 2,
         "api_raim": 0,
         "api_houk": 0,
         "api_raik": 0,
         "api_bakk": 0,
-        "api_saku": 0,
+        "api_saku": 2,
         "api_sakb": 0,
         "api_luck": 0,
-        "api_leng": 1,
-        "api_rare": 0,
+        "api_leng": 0,
+        "api_rare": 3,
         "api_broken": [
+          1,
+          1,
           0,
-          1,
-          1,
-          0
+          2
         ],
-        "api_info": "",
+        "api_info": "熟練搭乗員で構成された「九七艦攻」装備の艦攻隊です。\u003cbr\u003e速度や防弾装備は劣るものの優れた航続距離と熟練搭乗員の腕で、緒戦の機動部隊と共に大活躍を演じました。雷撃・水平爆撃をこなす主力艦上攻撃機ですが、徐々に現役を退いていきます。",
         "api_usebull": "0"
       },
       {
         "api_id": 99,
         "api_sortno": 99,
-        "api_name": "なし",
+        "api_name": "九九式艦爆(江草隊)",
         "api_type": [
-          1,
-          1,
-          1,
-          1
+          3,
+          5,
+          7,
+          7
         ],
         "api_taik": 0,
         "api_souk": 0,
-        "api_houg": 1,
+        "api_houg": 0,
         "api_raig": 0,
         "api_soku": 0,
-        "api_baku": 0,
-        "api_tyku": 1,
-        "api_tais": 0,
+        "api_baku": 10,
+        "api_tyku": 0,
+        "api_tais": 5,
         "api_atap": 0,
-        "api_houm": 0,
+        "api_houm": 4,
         "api_raim": 0,
         "api_houk": 0,
         "api_raik": 0,
         "api_bakk": 0,
-        "api_saku": 0,
+        "api_saku": 3,
         "api_sakb": 0,
         "api_luck": 0,
-        "api_leng": 1,
-        "api_rare": 0,
+        "api_leng": 0,
+        "api_rare": 4,
         "api_broken": [
+          1,
+          1,
           0,
-          1,
-          1,
-          0
+          2
         ],
-        "api_info": "",
+        "api_info": "緒戦の空母機動部隊の打撃力の中核を担う「九九艦爆」。\u003cbr\u003eやや設計の古い固定脚低速機ですが稼働率や信頼性は高く、特に高い練度を誇る江草隊長の率いる艦爆隊の急降下爆撃は、驚異的な命中率を誇ります。",
         "api_usebull": "0"
       },
       {
         "api_id": 100,
         "api_sortno": 100,
-        "api_name": "なし",
+        "api_name": "彗星(江草隊)",
         "api_type": [
-          1,
-          1,
-          1,
-          1
+          3,
+          5,
+          7,
+          7
         ],
         "api_taik": 0,
         "api_souk": 0,
-        "api_houg": 1,
+        "api_houg": 0,
         "api_raig": 0,
         "api_soku": 0,
-        "api_baku": 0,
+        "api_baku": 13,
         "api_tyku": 1,
-        "api_tais": 0,
+        "api_tais": 5,
         "api_atap": 0,
-        "api_houm": 0,
+        "api_houm": 4,
         "api_raim": 0,
         "api_houk": 0,
         "api_raik": 0,
         "api_bakk": 0,
-        "api_saku": 0,
+        "api_saku": 4,
         "api_sakb": 0,
         "api_luck": 0,
-        "api_leng": 1,
-        "api_rare": 0,
+        "api_leng": 0,
+        "api_rare": 5,
         "api_broken": [
+          2,
+          3,
           0,
-          1,
-          1,
-          0
+          3
         ],
-        "api_info": "",
+        "api_info": "「九九艦爆」の後継機として開発された高速艦爆「彗星」。\u003cbr\u003e液冷発動機装備のため運用のやや難しい機体でしたが、江草隊長の腕とその空中指揮、そして練度の高い母艦整備員によって支えられた精鋭「彗星」艦爆隊は、圧倒的な命中率を誇るその急降下爆撃で新生機動部隊の打撃力を担います。",
         "api_usebull": "0"
       },
       {
@@ -90580,6 +90998,82 @@ svdata={
           4
         ],
         "api_info": "水雷戦隊旗艦用に開発された水上夜間偵察機です。\u003cbr\u003e長時間の滞空性能を持つ黒く塗装された機体に、夜間索敵能力に優れた搭乗員が乗りこみます(条件が整えば夜戦を支援する「夜間触接」が発生する可能性があります)。",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 103,
+        "api_sortno": 103,
+        "api_name": "試製35.6cm三連装砲",
+        "api_type": [
+          1,
+          1,
+          3,
+          3
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 18,
+        "api_raig": 0,
+        "api_soku": 0,
+        "api_baku": 0,
+        "api_tyku": 5,
+        "api_tais": 0,
+        "api_atap": 0,
+        "api_houm": 2,
+        "api_raim": 0,
+        "api_houk": 0,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 0,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 3,
+        "api_rare": 4,
+        "api_broken": [
+          0,
+          11,
+          18,
+          0
+        ],
+        "api_info": "高速戦艦に搭載するための新開発の試製戦艦主砲です。\u003cbr\u003e「金剛」型高速戦艦の代替新建造艦のために計画されていた三連装の35.6cm砲で、大口径主砲よりはコンパクトで軽く、もちろん従来の35.6cm砲より火力及び命中率が大きく向上しています。高速戦艦の改装時に、ぜひ運用をお試しください！",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 104,
+        "api_sortno": 104,
+        "api_name": "35.6cm連装砲(ダズル迷彩)",
+        "api_type": [
+          1,
+          1,
+          3,
+          3
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 14,
+        "api_raig": 0,
+        "api_soku": 0,
+        "api_baku": 0,
+        "api_tyku": 5,
+        "api_tais": 0,
+        "api_atap": 0,
+        "api_houm": 1,
+        "api_raim": 0,
+        "api_houk": 1,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 0,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 3,
+        "api_rare": 3,
+        "api_broken": [
+          0,
+          10,
+          15,
+          0
+        ],
+        "api_info": "金剛型高速戦艦「榛名」の前部主砲の最終形態です。\u003cbr\u003eあまり効果がなかったといわれていますが、縦縞ゼブラ模様のダズル迷彩を施しています。三式弾を装填して敵機が跳梁する空を睨み、母港呉と動けない残存艦隊の防戦に努めました。",
         "api_usebull": "0"
       },
       {
@@ -92945,6 +93439,18 @@ svdata={
         "api_version": "1"
       },
       {
+        "api_id": 103,
+        "api_sortno": 103,
+        "api_filename": "103",
+        "api_version": "1"
+      },
+      {
+        "api_id": 104,
+        "api_sortno": 104,
+        "api_filename": "104",
+        "api_version": "1"
+      },
+      {
         "api_id": 501,
         "api_sortno": 0,
         "api_filename": "501",
@@ -93260,7 +93766,7 @@ svdata={
         "api_description": "しっかりとした木板で構成\u003cbr\u003eされた、木と新緑の香り漂\u003cbr\u003eうフローリングです。作戦\u003cbr\u003e室にはもちろん、教室の床\u003cbr\u003e材としても最適ですね！",
         "api_rarity": 3,
         "api_price": 1300,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 5,
@@ -93276,11 +93782,11 @@ svdata={
         "api_id": 6,
         "api_type": 0,
         "api_no": 5,
-        "api_title": "赤のカーペット",
-        "api_description": "シンプルで合わせやすい赤のカーペット。",
-        "api_rarity": 0,
-        "api_price": 0,
-        "api_saleflg": 0
+        "api_title": "砂浜の床",
+        "api_description": "匠の職人の技によって完成\u003cbr\u003eした海岸の砂浜を鎮守府内\u003cbr\u003eにダイナミックに再現した\u003cbr\u003e砂浜の床。艦娘たちも時々\u003cbr\u003e砂遊びに来るみたいです！",
+        "api_rarity": 4,
+        "api_price": 2000,
+        "api_saleflg": 1
       },
       {
         "api_id": 7,
@@ -93640,7 +94146,7 @@ svdata={
         "api_description": "春の雰囲気にマッチした明\u003cbr\u003eるい色調で仕上げられた和\u003cbr\u003eの壁紙。シンプルなデザイ\u003cbr\u003eンの中に、どんな家具とも\u003cbr\u003e馴染む奥深い趣き。",
         "api_rarity": 2,
         "api_price": 1000,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 43,
@@ -93726,11 +94232,11 @@ svdata={
         "api_id": 51,
         "api_type": 1,
         "api_no": 13,
-        "api_title": "モダンポップな壁紙",
-        "api_description": "ポップな花柄をシックなカラーでまとめた大人カジュアを楽しむにはこれ！",
-        "api_rarity": 0,
-        "api_price": 0,
-        "api_saleflg": 0
+        "api_title": "軍艦色の壁",
+        "api_description": "執務室で仕事中も艦隊勤務\u003cbr\u003e中と同じ雰囲気に包まれる\u003cbr\u003e軍艦色で塗装された壁面。\u003cbr\u003eシックかつ重厚な趣きの提\u003cbr\u003e督執務室を構成します。",
+        "api_rarity": 2,
+        "api_price": 900,
+        "api_saleflg": 1
       },
       {
         "api_id": 52,
@@ -93810,7 +94316,7 @@ svdata={
         "api_description": "シンプルでありながら繊細\u003cbr\u003eな仕事によって完成された\u003cbr\u003e和の究極の壁紙のひとつ、\u003cbr\u003eそれがこの「緑の和壁紙」\u003cbr\u003e壁紙ってわびさびよね…。",
         "api_rarity": 4,
         "api_price": 1900,
-        "api_saleflg": 0
+        "api_saleflg": 1
       },
       {
         "api_id": 60,
@@ -93820,7 +94326,7 @@ svdata={
         "api_description": "皐月五月、新緑の季節を表\u003cbr\u003e現した爽やかな壁紙です。\u003cbr\u003e緑は目に優しく、また心を\u003cbr\u003e落ち着かせる効果もあると\u003cbr\u003e大淀さんも云ってました！",
         "api_rarity": 2,
         "api_price": 900,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 61,
@@ -93950,7 +94456,7 @@ svdata={
         "api_description": "知的な貴方にぴったりのグリーンのカーテン。落ち着いて戦略を練る提督にぴったりです。",
         "api_rarity": 1,
         "api_price": 50,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 74,
@@ -93990,7 +94496,7 @@ svdata={
         "api_description": "重厚感と高級感を感じさせる、シックなカーテンと窓。黒色系で統一された風格のある執務室を演出します。",
         "api_rarity": 2,
         "api_price": 200,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 78,
@@ -94047,7 +94553,7 @@ svdata={
         "api_type": 2,
         "api_no": 11,
         "api_title": "爽やかな窓",
-        "api_description": "ミントグリーンのカーテンと窓際の置かれたグリーンが爽やかな気持ちにしてくれる小窓。",
+        "api_description": "ミントグリーンのカーテンと窓際に置かれたグリーンが爽やかな気持ちにしてくれる小窓。",
         "api_rarity": 3,
         "api_price": 300,
         "api_saleflg": 1
@@ -94060,7 +94566,7 @@ svdata={
         "api_description": "艦娘お手製のてるてる坊主が吊るされた窓。梅雨の雨もこれがあれば安心です！中に何かが入っている気もしますが気にしませんっ！",
         "api_rarity": 3,
         "api_price": 2000,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 85,
@@ -94070,7 +94576,7 @@ svdata={
         "api_description": "梅雨明けの窓に咲く紫陽花\u003cbr\u003eの花。なにやら毒が作れる\u003cbr\u003eって話もあるんですって。\u003cbr\u003e龍田さんが云ってました！\u003cbr\u003e夏気分先取りの風鈴付き！\u003cbr\u003e",
         "api_rarity": 3,
         "api_price": 1800,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 86,
@@ -94110,7 +94616,7 @@ svdata={
         "api_description": "いつ敵の空襲を受けてもいいように艦娘たちにガラスをテーピングしてもらいました。これで安心なのです！",
         "api_rarity": 4,
         "api_price": 2000,
-        "api_saleflg": 0
+        "api_saleflg": 1
       },
       {
         "api_id": 90,
@@ -94400,7 +94906,7 @@ svdata={
         "api_description": "歴戦の水雷戦隊である第六\u003cbr\u003e駆逐隊。その栄光と武運長\u003cbr\u003e久を祈って、ある暁型駆逐\u003cbr\u003e艦の手によって書かれた掛\u003cbr\u003eけ軸です。",
         "api_rarity": 4,
         "api_price": 3000,
-        "api_saleflg": 0
+        "api_saleflg": 1
       },
       {
         "api_id": 119,
@@ -94447,7 +94953,7 @@ svdata={
         "api_type": 3,
         "api_no": 21,
         "api_title": "アレンジメント",
-        "api_description": "喜び、明るさ、明朗、愉快を表現するフラワーアレンジメント。司令官室を華やかなに快活に演出します！",
+        "api_description": "喜び、明るさ、明朗、愉快を表現するフラワーアレンジメント。司令官室を華やかに快活に演出します！",
         "api_rarity": 2,
         "api_price": 150,
         "api_saleflg": 1
@@ -94490,7 +94996,7 @@ svdata={
         "api_description": "提督のおかげで迎えること\u003cbr\u003eができた「祝一周年」を記\u003cbr\u003e念して制作された掛け軸。\u003cbr\u003e二年目も、どうぞよろしく\u003cbr\u003eお願い致します！",
         "api_rarity": 4,
         "api_price": 0,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 128,
@@ -94510,7 +95016,7 @@ svdata={
         "api_description": "なんとなくコーヒー牛乳が飲みたくなる…そんな風情たっぷりの富士山をあしらった壁画。",
         "api_rarity": 5,
         "api_price": 3000,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 130,
@@ -94700,7 +95206,7 @@ svdata={
         "api_description": "家具箱の一斉開封機能実装\u003cbr\u003eを記念して用意された家具\u003cbr\u003eコイン長者に贈る逸品。精\u003cbr\u003e密模型は長門型。必要家具\u003cbr\u003eコインの数もビッグ７級！",
         "api_rarity": 5,
         "api_price": 70000,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 149,
@@ -94740,7 +95246,7 @@ svdata={
         "api_description": "艦娘が出撃前に殺到する鏡台。身だしなみは大事です！なぜ提督の部屋にあるのか、ちょっと謎です。",
         "api_rarity": 5,
         "api_price": 600,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 153,
@@ -94767,7 +95273,7 @@ svdata={
         "api_type": 4,
         "api_no": 22,
         "api_title": "緑のプランター",
-        "api_description": "お部屋も気持ちも爽やかにしてくれるグリーンのプランター。ぜひ、ときどき配置してもみて気分転換を！",
+        "api_description": "お部屋も気持ちも爽やかにしてくれるグリーンのプランター。ぜひ、ときどき配置もしてみて気分転換を！",
         "api_rarity": 1,
         "api_price": 50,
         "api_saleflg": 0
@@ -94790,7 +95296,7 @@ svdata={
         "api_description": "しょうぶの花がアレンジさ\u003cbr\u003eれた和風家具。しょうぶの\u003cbr\u003e葉を入れたお風呂、しょう\u003cbr\u003eぶ湯も健康によさそう！美\u003cbr\u003eと武を祈る季節家具です。",
         "api_rarity": 3,
         "api_price": 1700,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 158,
@@ -94857,7 +95363,7 @@ svdata={
         "api_type": 5,
         "api_no": 0,
         "api_title": "ただの段ボール",
-        "api_description": "引っ越したてのなかなか片付かない段ボール。\u003cbr\u003eはやく捨てたい。",
+        "api_description": "引っ越ししたてのなかなか片付かない段ボール。\u003cbr\u003eはやく捨てたい。",
         "api_rarity": 0,
         "api_price": 0,
         "api_saleflg": 0
@@ -94920,7 +95426,7 @@ svdata={
         "api_description": "質の高い織柄のテーブルクロスがポイント！戦略資料を積み重ねて微動だにしない確かな作り。",
         "api_rarity": 5,
         "api_price": 500,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 171,
@@ -94940,7 +95446,7 @@ svdata={
         "api_description": "木彫で暖かみのある高いデザイン性と機能美を持った椅子。女の子達にも人気の逸品です。",
         "api_rarity": 2,
         "api_price": 200,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 173,
@@ -95000,7 +95506,7 @@ svdata={
         "api_description": "提督の熱い要望による、ちゃぶ台＆座布団。ちゃぶ台の上には艦娘お手製の朝食が…頂きます！（ちゃぶ台返しは厳禁です）",
         "api_rarity": 3,
         "api_price": 2000,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 179,
@@ -95090,7 +95596,7 @@ svdata={
         "api_description": "名産地から取り寄せた西瓜\u003cbr\u003eです。もちろん、西瓜割り\u003cbr\u003e用の棒とシートもご用意。\u003cbr\u003e艦娘たちと提督の夏休みも\u003cbr\u003eこれでバッチリです！",
         "api_rarity": 2,
         "api_price": 1700,
-        "api_saleflg": 0
+        "api_saleflg": 1
       },
       {
         "api_id": 188,
@@ -95110,7 +95616,7 @@ svdata={
         "api_description": "提督と本格的なティーパー\u003cbr\u003eティをエンジョイするため\u003cbr\u003eに金剛が遙か英国より取り\u003cbr\u003e寄せた豪華な紅茶セット！\u003cbr\u003e四姉妹御用達の逸品です。\u003cbr\u003e",
         "api_rarity": 5,
         "api_price": 9000,
-        "api_saleflg": 1
+        "api_saleflg": 0
       },
       {
         "api_id": 190,
@@ -95137,7 +95643,7 @@ svdata={
         "api_type": 5,
         "api_no": 28,
         "api_title": "ご家庭用プール",
-        "api_description": "提督20万人突破を記念して\u003cbr\u003e用意された夏の風物詩。艦\u003cbr\u003e娘たちより提督が先に童心\u003cbr\u003e帰って水遊びにしちゃ、だ\u003cbr\u003eめですよ！",
+        "api_description": "提督20万人突破を記念して\u003cbr\u003e用意された夏の風物詩。艦\u003cbr\u003e娘たちより提督が先に童心\u003cbr\u003eに返って水遊びしちゃ、だ\u003cbr\u003eめですよ！",
         "api_rarity": 4,
         "api_price": 2000,
         "api_saleflg": 0
@@ -95260,1436 +95766,163 @@ svdata={
         "api_description": "ある超弩級戦艦娘による提\u003cbr\u003e督２００万人突破記念感謝\u003cbr\u003eの掛け軸。「大和のように\u003cbr\u003eはいかないぜ。読みにくい\u003cbr\u003eだと？ふっ気にするな！」",
         "api_rarity": 5,
         "api_price": 0,
+        "api_saleflg": 0
+      },
+      {
+        "api_id": 205,
+        "api_type": 3,
+        "api_no": 33,
+        "api_title": "「迷彩主義」掛け軸",
+        "api_description": "やはり決戦は迷彩で！流行\u003cbr\u003eの迷彩衣装を纏う艦娘たち\u003cbr\u003eの共作による掛け軸です。\u003cbr\u003eある重巡だけでなく空母艦\u003cbr\u003e娘も制作に参加です！",
+        "api_rarity": 3,
+        "api_price": 2200,
+        "api_saleflg": 1
+      },
+      {
+        "api_id": 206,
+        "api_type": 3,
+        "api_no": 34,
+        "api_title": "大きな古時計",
+        "api_description": "大きくてのっぽでない古時\u003cbr\u003e計です。触ると仕掛け鳩が\u003cbr\u003e飛び出るギミック付の可動\u003cbr\u003e家具です！\u003cbr\u003e※可動仕様家具",
+        "api_rarity": 4,
+        "api_price": 30000,
+        "api_saleflg": 1
+      },
+      {
+        "api_id": 207,
+        "api_type": 5,
+        "api_no": 39,
+        "api_title": "提督の書斎机",
+        "api_description": "シックで落ち着いた雰囲気\u003cbr\u003eを醸し出す大人の書斎机。\u003cbr\u003e書斎本棚と組み合わせれば\u003cbr\u003e提督の隠れ家的な書斎空間\u003cbr\u003eを演出します。",
+        "api_rarity": 3,
+        "api_price": 1900,
+        "api_saleflg": 1
+      },
+      {
+        "api_id": 208,
+        "api_type": 5,
+        "api_no": 40,
+        "api_title": "原稿机",
+        "api_description": "いよいよ〆切が迫ってきた\u003cbr\u003e提督に贈る原稿制作用机。\u003cbr\u003e原稿執筆に必要なあれこれ\u003cbr\u003eはもちろん修羅場のお供の\u003cbr\u003eドリンクも常備です！",
+        "api_rarity": 4,
+        "api_price": 25000,
+        "api_saleflg": 1
+      },
+      {
+        "api_id": 209,
+        "api_type": 2,
+        "api_no": 30,
+        "api_title": "七夕飾りの窓",
+        "api_description": "七夕の季節がやってきまし\u003cbr\u003eた！笹の葉に短冊を飾って\u003cbr\u003e艦娘達が七夕飾りを手作り\u003cbr\u003eしました。全ての提督の皆\u003cbr\u003eさんにお贈りします！",
+        "api_rarity": 2,
+        "api_price": 0,
+        "api_saleflg": 0
+      },
+      {
+        "api_id": 210,
+        "api_type": 2,
+        "api_no": 31,
+        "api_title": "蚊取り線香の窓",
+        "api_description": "今年の夏がやってきます！\u003cbr\u003e鎮守府も窓を大きく開いて\u003cbr\u003e夏の風を楽しみましょう。\u003cbr\u003e蚊取り線香やラムネも重要\u003cbr\u003eですね！",
+        "api_rarity": 3,
+        "api_price": 1700,
+        "api_saleflg": 1
+      },
+      {
+        "api_id": 211,
+        "api_type": 2,
+        "api_no": 32,
+        "api_title": "鎮守府風鈴",
+        "api_description": "夏といえば、風鈴ですね！\u003cbr\u003e風鈴に触れば涼やかな音を\u003cbr\u003e奏で、ゆらゆら揺れます。\u003cbr\u003e多摩や球磨も大喜び？\u003cbr\u003e※可動仕様家具",
+        "api_rarity": 5,
+        "api_price": 5000,
+        "api_saleflg": 1
+      },
+      {
+        "api_id": 212,
+        "api_type": 4,
+        "api_no": 31,
+        "api_title": "夏先取りセット",
+        "api_description": "夏を楽しむための小道具を\u003cbr\u003e艦隊の駆逐艦娘達が集めて\u003cbr\u003eくれました！これをもって\u003cbr\u003e海に繰り出すもよし、家庭\u003cbr\u003e用プールで楽しむもよし！",
+        "api_rarity": 2,
+        "api_price": 800,
+        "api_saleflg": 1
+      },
+      {
+        "api_id": 213,
+        "api_type": 4,
+        "api_no": 32,
+        "api_title": "リゾートセット",
+        "api_description": "少し大人な艦娘が夏を愉し\u003cbr\u003eむのため特製リゾートセッ\u003cbr\u003eトです。これを広げれば、\u003cbr\u003e提督執務室もたちまち高級\u003cbr\u003eリゾート地に早変わり！？",
+        "api_rarity": 4,
+        "api_price": 2000,
+        "api_saleflg": 1
+      },
+      {
+        "api_id": 214,
+        "api_type": 4,
+        "api_no": 33,
+        "api_title": "書斎本棚",
+        "api_description": "書斎にぴったりの本格本棚\u003cbr\u003eです。書斎机と同じ素材を\u003cbr\u003e使って、落ち着いた雰囲気\u003cbr\u003eを醸し出します。シックで\u003cbr\u003e大人な提督の御用達です！",
+        "api_rarity": 3,
+        "api_price": 1900,
+        "api_saleflg": 1
+      },
+      {
+        "api_id": 215,
+        "api_type": 2,
+        "api_no": 33,
+        "api_title": "花火の窓",
+        "api_description": "夏の夜の風物詩といえば…\u003cbr\u003e花火！夜のある時間になる\u003cbr\u003eと鎮守府港外で花火が打ち\u003cbr\u003e上げられます。その時間ま\u003cbr\u003eでは…普通の窓ですね！",
+        "api_rarity": 3,
+        "api_price": 1800,
+        "api_saleflg": 1
+      },
+      {
+        "api_id": 216,
+        "api_type": 5,
+        "api_no": 41,
+        "api_title": "ビニールプール",
+        "api_description": "気軽に楽しめる夏のプール\u003cbr\u003eといえばコレ！サイズも小\u003cbr\u003eさくて何人も入れませんが\u003cbr\u003e駆逐艦娘にも大人気。時々\u003cbr\u003e水漏れするけど…大丈夫！",
+        "api_rarity": 3,
+        "api_price": 1500,
         "api_saleflg": 1
       }
     ],
     "api_mst_furnituregraph": [
       {
-        "api_id": 1,
-        "api_type": 0,
-        "api_no": 0,
-        "api_filename": "a1",
-        "api_version": "1"
-      },
-      {
-        "api_id": 2,
-        "api_type": 0,
-        "api_no": 1,
-        "api_filename": "a2",
-        "api_version": "1"
-      },
-      {
-        "api_id": 3,
-        "api_type": 0,
-        "api_no": 2,
-        "api_filename": "a3",
-        "api_version": "1"
-      },
-      {
-        "api_id": 4,
-        "api_type": 0,
-        "api_no": 3,
-        "api_filename": "a4",
-        "api_version": "1"
-      },
-      {
-        "api_id": 5,
-        "api_type": 0,
-        "api_no": 4,
-        "api_filename": "a5",
-        "api_version": "1"
-      },
-      {
         "api_id": 6,
         "api_type": 0,
         "api_no": 5,
-        "api_filename": "a6",
+        "api_filename": "006",
         "api_version": "1"
       },
       {
-        "api_id": 7,
-        "api_type": 0,
-        "api_no": 6,
-        "api_filename": "a7",
-        "api_version": "1"
-      },
-      {
-        "api_id": 8,
-        "api_type": 0,
-        "api_no": 7,
-        "api_filename": "a8",
-        "api_version": "1"
-      },
-      {
-        "api_id": 9,
-        "api_type": 0,
-        "api_no": 8,
-        "api_filename": "a9",
-        "api_version": "1"
-      },
-      {
-        "api_id": 10,
-        "api_type": 0,
-        "api_no": 9,
-        "api_filename": "a10",
-        "api_version": "1"
-      },
-      {
-        "api_id": 11,
-        "api_type": 0,
-        "api_no": 10,
-        "api_filename": "a11",
-        "api_version": "1"
-      },
-      {
-        "api_id": 12,
-        "api_type": 0,
-        "api_no": 11,
-        "api_filename": "a12",
-        "api_version": "1"
-      },
-      {
-        "api_id": 13,
-        "api_type": 0,
-        "api_no": 12,
-        "api_filename": "a13",
-        "api_version": "1"
-      },
-      {
-        "api_id": 14,
-        "api_type": 0,
-        "api_no": 13,
-        "api_filename": "a14",
-        "api_version": "1"
-      },
-      {
-        "api_id": 15,
-        "api_type": 0,
-        "api_no": 14,
-        "api_filename": "a15",
-        "api_version": "1"
-      },
-      {
-        "api_id": 16,
-        "api_type": 0,
-        "api_no": 15,
-        "api_filename": "a16",
-        "api_version": "1"
-      },
-      {
-        "api_id": 17,
-        "api_type": 0,
-        "api_no": 16,
-        "api_filename": "a17",
-        "api_version": "1"
-      },
-      {
-        "api_id": 18,
-        "api_type": 0,
-        "api_no": 17,
-        "api_filename": "a18",
-        "api_version": "1"
-      },
-      {
-        "api_id": 19,
-        "api_type": 0,
-        "api_no": 18,
-        "api_filename": "a19",
-        "api_version": "1"
-      },
-      {
-        "api_id": 20,
-        "api_type": 0,
-        "api_no": 19,
-        "api_filename": "a20",
-        "api_version": "1"
-      },
-      {
-        "api_id": 21,
-        "api_type": 0,
-        "api_no": 20,
-        "api_filename": "a21",
-        "api_version": "1"
-      },
-      {
-        "api_id": 22,
-        "api_type": 0,
-        "api_no": 21,
-        "api_filename": "a22",
-        "api_version": "1"
-      },
-      {
-        "api_id": 23,
-        "api_type": 0,
-        "api_no": 22,
-        "api_filename": "a23",
-        "api_version": "1"
-      },
-      {
-        "api_id": 24,
-        "api_type": 0,
-        "api_no": 23,
-        "api_filename": "a24",
-        "api_version": "1"
-      },
-      {
-        "api_id": 25,
-        "api_type": 0,
-        "api_no": 24,
-        "api_filename": "a25",
-        "api_version": "1"
-      },
-      {
-        "api_id": 26,
-        "api_type": 0,
-        "api_no": 25,
-        "api_filename": "a26",
-        "api_version": "1"
-      },
-      {
-        "api_id": 27,
-        "api_type": 0,
-        "api_no": 26,
-        "api_filename": "a27",
-        "api_version": "1"
-      },
-      {
-        "api_id": 28,
-        "api_type": 0,
-        "api_no": 27,
-        "api_filename": "a28",
-        "api_version": "1"
-      },
-      {
-        "api_id": 29,
-        "api_type": 0,
-        "api_no": 28,
-        "api_filename": "a29",
-        "api_version": "1"
-      },
-      {
-        "api_id": 30,
-        "api_type": 0,
-        "api_no": 29,
-        "api_filename": "a30",
-        "api_version": "1"
-      },
-      {
-        "api_id": 31,
-        "api_type": 0,
-        "api_no": 30,
-        "api_filename": "a31",
-        "api_version": "1"
-      },
-      {
-        "api_id": 32,
-        "api_type": 0,
-        "api_no": 31,
-        "api_filename": "a32",
-        "api_version": "1"
-      },
-      {
-        "api_id": 33,
-        "api_type": 0,
-        "api_no": 32,
-        "api_filename": "a33",
-        "api_version": "1"
-      },
-      {
-        "api_id": 34,
-        "api_type": 0,
-        "api_no": 33,
-        "api_filename": "a34",
-        "api_version": "1"
-      },
-      {
-        "api_id": 35,
-        "api_type": 0,
+        "api_id": 206,
+        "api_type": 3,
         "api_no": 34,
-        "api_filename": "a35",
-        "api_version": "1"
+        "api_filename": "035",
+        "api_version": "2"
       },
       {
-        "api_id": 36,
-        "api_type": 0,
-        "api_no": 35,
-        "api_filename": "a36",
-        "api_version": "1"
-      },
-      {
-        "api_id": 37,
-        "api_type": 0,
-        "api_no": 36,
-        "api_filename": "a37",
-        "api_version": "1"
-      },
-      {
-        "api_id": 38,
-        "api_type": 1,
-        "api_no": 0,
-        "api_filename": "b1",
-        "api_version": "1"
-      },
-      {
-        "api_id": 39,
-        "api_type": 1,
-        "api_no": 1,
-        "api_filename": "b2",
-        "api_version": "1"
-      },
-      {
-        "api_id": 40,
-        "api_type": 1,
-        "api_no": 2,
-        "api_filename": "b3",
-        "api_version": "1"
-      },
-      {
-        "api_id": 41,
-        "api_type": 1,
-        "api_no": 3,
-        "api_filename": "b4",
-        "api_version": "1"
-      },
-      {
-        "api_id": 42,
-        "api_type": 1,
-        "api_no": 4,
-        "api_filename": "b5",
-        "api_version": "1"
-      },
-      {
-        "api_id": 43,
-        "api_type": 1,
-        "api_no": 5,
-        "api_filename": "b6",
-        "api_version": "1"
-      },
-      {
-        "api_id": 44,
-        "api_type": 1,
-        "api_no": 6,
-        "api_filename": "b7",
-        "api_version": "1"
-      },
-      {
-        "api_id": 45,
-        "api_type": 1,
-        "api_no": 7,
-        "api_filename": "b8",
-        "api_version": "1"
-      },
-      {
-        "api_id": 46,
-        "api_type": 1,
-        "api_no": 8,
-        "api_filename": "b9",
-        "api_version": "1"
-      },
-      {
-        "api_id": 47,
-        "api_type": 1,
-        "api_no": 9,
-        "api_filename": "b10",
-        "api_version": "1"
-      },
-      {
-        "api_id": 48,
-        "api_type": 1,
-        "api_no": 10,
-        "api_filename": "b11",
-        "api_version": "1"
-      },
-      {
-        "api_id": 49,
-        "api_type": 1,
-        "api_no": 11,
-        "api_filename": "b12",
-        "api_version": "1"
-      },
-      {
-        "api_id": 50,
-        "api_type": 1,
-        "api_no": 12,
-        "api_filename": "b13",
-        "api_version": "1"
-      },
-      {
-        "api_id": 51,
-        "api_type": 1,
-        "api_no": 13,
-        "api_filename": "b14",
-        "api_version": "1"
-      },
-      {
-        "api_id": 52,
-        "api_type": 1,
-        "api_no": 14,
-        "api_filename": "b15",
-        "api_version": "1"
-      },
-      {
-        "api_id": 53,
-        "api_type": 1,
-        "api_no": 15,
-        "api_filename": "b16",
-        "api_version": "1"
-      },
-      {
-        "api_id": 54,
-        "api_type": 1,
-        "api_no": 16,
-        "api_filename": "b17",
-        "api_version": "1"
-      },
-      {
-        "api_id": 55,
-        "api_type": 1,
-        "api_no": 17,
-        "api_filename": "b18",
-        "api_version": "1"
-      },
-      {
-        "api_id": 56,
-        "api_type": 1,
-        "api_no": 18,
-        "api_filename": "b19",
-        "api_version": "1"
-      },
-      {
-        "api_id": 57,
-        "api_type": 1,
-        "api_no": 19,
-        "api_filename": "b20",
-        "api_version": "1"
-      },
-      {
-        "api_id": 58,
-        "api_type": 1,
-        "api_no": 20,
-        "api_filename": "b21",
-        "api_version": "1"
-      },
-      {
-        "api_id": 59,
-        "api_type": 1,
-        "api_no": 21,
-        "api_filename": "b22",
-        "api_version": "1"
-      },
-      {
-        "api_id": 60,
-        "api_type": 1,
-        "api_no": 22,
-        "api_filename": "b23",
-        "api_version": "1"
-      },
-      {
-        "api_id": 61,
-        "api_type": 1,
-        "api_no": 23,
-        "api_filename": "b24",
-        "api_version": "1"
-      },
-      {
-        "api_id": 62,
-        "api_type": 1,
-        "api_no": 24,
-        "api_filename": "b25",
-        "api_version": "1"
-      },
-      {
-        "api_id": 63,
-        "api_type": 1,
-        "api_no": 25,
-        "api_filename": "b26",
-        "api_version": "1"
-      },
-      {
-        "api_id": 64,
-        "api_type": 1,
-        "api_no": 26,
-        "api_filename": "b27",
-        "api_version": "1"
-      },
-      {
-        "api_id": 65,
-        "api_type": 1,
-        "api_no": 27,
-        "api_filename": "b28",
-        "api_version": "1"
-      },
-      {
-        "api_id": 66,
-        "api_type": 1,
-        "api_no": 28,
-        "api_filename": "b29",
-        "api_version": "1"
-      },
-      {
-        "api_id": 67,
-        "api_type": 1,
-        "api_no": 29,
-        "api_filename": "b30",
-        "api_version": "1"
-      },
-      {
-        "api_id": 68,
-        "api_type": 1,
-        "api_no": 30,
-        "api_filename": "b31",
-        "api_version": "1"
-      },
-      {
-        "api_id": 69,
-        "api_type": 1,
-        "api_no": 31,
-        "api_filename": "b32",
-        "api_version": "1"
-      },
-      {
-        "api_id": 70,
-        "api_type": 1,
+        "api_id": 211,
+        "api_type": 2,
         "api_no": 32,
-        "api_filename": "b33",
-        "api_version": "1"
+        "api_filename": "033",
+        "api_version": "2"
       },
       {
-        "api_id": 71,
-        "api_type": 1,
+        "api_id": 215,
+        "api_type": 2,
         "api_no": 33,
-        "api_filename": "b34",
+        "api_filename": "034",
         "api_version": "1"
       },
       {
-        "api_id": 72,
-        "api_type": 2,
-        "api_no": 0,
-        "api_filename": "c1",
-        "api_version": "1"
-      },
-      {
-        "api_id": 73,
-        "api_type": 2,
-        "api_no": 1,
-        "api_filename": "c2",
-        "api_version": "1"
-      },
-      {
-        "api_id": 74,
-        "api_type": 2,
-        "api_no": 2,
-        "api_filename": "c3",
-        "api_version": "2"
-      },
-      {
-        "api_id": 75,
-        "api_type": 2,
-        "api_no": 3,
-        "api_filename": "c4",
-        "api_version": "1"
-      },
-      {
-        "api_id": 76,
-        "api_type": 2,
-        "api_no": 4,
-        "api_filename": "c5",
-        "api_version": "1"
-      },
-      {
-        "api_id": 77,
-        "api_type": 2,
-        "api_no": 5,
-        "api_filename": "c6",
-        "api_version": "2"
-      },
-      {
-        "api_id": 78,
-        "api_type": 2,
-        "api_no": 6,
-        "api_filename": "c7",
-        "api_version": "1"
-      },
-      {
-        "api_id": 79,
-        "api_type": 2,
-        "api_no": 7,
-        "api_filename": "c8",
-        "api_version": "2"
-      },
-      {
-        "api_id": 80,
-        "api_type": 2,
-        "api_no": 8,
-        "api_filename": "c9",
-        "api_version": "1"
-      },
-      {
-        "api_id": 81,
-        "api_type": 2,
-        "api_no": 9,
-        "api_filename": "c10",
-        "api_version": "1"
-      },
-      {
-        "api_id": 82,
-        "api_type": 2,
-        "api_no": 10,
-        "api_filename": "c11",
-        "api_version": "1"
-      },
-      {
-        "api_id": 83,
-        "api_type": 2,
-        "api_no": 11,
-        "api_filename": "c12",
-        "api_version": "1"
-      },
-      {
-        "api_id": 84,
-        "api_type": 2,
-        "api_no": 12,
-        "api_filename": "c13",
-        "api_version": "1"
-      },
-      {
-        "api_id": 85,
-        "api_type": 2,
-        "api_no": 13,
-        "api_filename": "c14",
-        "api_version": "1"
-      },
-      {
-        "api_id": 86,
-        "api_type": 2,
-        "api_no": 14,
-        "api_filename": "c15",
-        "api_version": "1"
-      },
-      {
-        "api_id": 87,
-        "api_type": 2,
-        "api_no": 15,
-        "api_filename": "c16",
-        "api_version": "1"
-      },
-      {
-        "api_id": 88,
-        "api_type": 2,
-        "api_no": 16,
-        "api_filename": "c17",
-        "api_version": "1"
-      },
-      {
-        "api_id": 89,
-        "api_type": 2,
-        "api_no": 17,
-        "api_filename": "c18",
-        "api_version": "1"
-      },
-      {
-        "api_id": 90,
-        "api_type": 2,
-        "api_no": 18,
-        "api_filename": "c19",
-        "api_version": "1"
-      },
-      {
-        "api_id": 91,
-        "api_type": 2,
-        "api_no": 19,
-        "api_filename": "c20",
-        "api_version": "1"
-      },
-      {
-        "api_id": 92,
-        "api_type": 2,
-        "api_no": 20,
-        "api_filename": "c21",
-        "api_version": "1"
-      },
-      {
-        "api_id": 93,
-        "api_type": 2,
-        "api_no": 21,
-        "api_filename": "c22",
-        "api_version": "1"
-      },
-      {
-        "api_id": 94,
-        "api_type": 2,
-        "api_no": 22,
-        "api_filename": "c23",
-        "api_version": "1"
-      },
-      {
-        "api_id": 95,
-        "api_type": 2,
-        "api_no": 23,
-        "api_filename": "c24",
-        "api_version": "1"
-      },
-      {
-        "api_id": 96,
-        "api_type": 2,
-        "api_no": 24,
-        "api_filename": "c25",
-        "api_version": "1"
-      },
-      {
-        "api_id": 97,
-        "api_type": 2,
-        "api_no": 25,
-        "api_filename": "c26",
-        "api_version": "1"
-      },
-      {
-        "api_id": 98,
-        "api_type": 2,
-        "api_no": 26,
-        "api_filename": "c27",
-        "api_version": "1"
-      },
-      {
-        "api_id": 99,
-        "api_type": 2,
-        "api_no": 27,
-        "api_filename": "c28",
-        "api_version": "1"
-      },
-      {
-        "api_id": 100,
-        "api_type": 2,
-        "api_no": 28,
-        "api_filename": "c29",
-        "api_version": "1"
-      },
-      {
-        "api_id": 101,
-        "api_type": 2,
-        "api_no": 29,
-        "api_filename": "c30",
-        "api_version": "1"
-      },
-      {
-        "api_id": 102,
-        "api_type": 3,
-        "api_no": 0,
-        "api_filename": "d1",
-        "api_version": "1"
-      },
-      {
-        "api_id": 103,
-        "api_type": 3,
-        "api_no": 1,
-        "api_filename": "d2",
-        "api_version": "1"
-      },
-      {
-        "api_id": 104,
-        "api_type": 3,
-        "api_no": 2,
-        "api_filename": "d3",
-        "api_version": "1"
-      },
-      {
-        "api_id": 105,
-        "api_type": 3,
-        "api_no": 3,
-        "api_filename": "d4",
-        "api_version": "1"
-      },
-      {
-        "api_id": 106,
-        "api_type": 3,
-        "api_no": 4,
-        "api_filename": "d5",
-        "api_version": "1"
-      },
-      {
-        "api_id": 107,
-        "api_type": 3,
-        "api_no": 5,
-        "api_filename": "d6",
-        "api_version": "1"
-      },
-      {
-        "api_id": 108,
-        "api_type": 3,
-        "api_no": 6,
-        "api_filename": "d7",
-        "api_version": "1"
-      },
-      {
-        "api_id": 109,
-        "api_type": 3,
-        "api_no": 7,
-        "api_filename": "d8",
-        "api_version": "1"
-      },
-      {
-        "api_id": 110,
-        "api_type": 3,
-        "api_no": 8,
-        "api_filename": "d9",
-        "api_version": "1"
-      },
-      {
-        "api_id": 111,
-        "api_type": 3,
-        "api_no": 9,
-        "api_filename": "d10",
-        "api_version": "1"
-      },
-      {
-        "api_id": 112,
-        "api_type": 3,
-        "api_no": 10,
-        "api_filename": "d11",
-        "api_version": "1"
-      },
-      {
-        "api_id": 113,
-        "api_type": 3,
-        "api_no": 11,
-        "api_filename": "d39",
-        "api_version": "1"
-      },
-      {
-        "api_id": 114,
-        "api_type": 3,
-        "api_no": 12,
-        "api_filename": "d13",
-        "api_version": "1"
-      },
-      {
-        "api_id": 115,
-        "api_type": 3,
-        "api_no": 13,
-        "api_filename": "d14",
-        "api_version": "1"
-      },
-      {
-        "api_id": 116,
-        "api_type": 3,
-        "api_no": 14,
-        "api_filename": "d15",
-        "api_version": "1"
-      },
-      {
-        "api_id": 117,
-        "api_type": 3,
-        "api_no": 15,
-        "api_filename": "d16",
-        "api_version": "1"
-      },
-      {
-        "api_id": 118,
-        "api_type": 3,
-        "api_no": 16,
-        "api_filename": "d17",
-        "api_version": "1"
-      },
-      {
-        "api_id": 119,
-        "api_type": 3,
-        "api_no": 17,
-        "api_filename": "d18",
-        "api_version": "1"
-      },
-      {
-        "api_id": 120,
-        "api_type": 3,
-        "api_no": 18,
-        "api_filename": "d19",
-        "api_version": "1"
-      },
-      {
-        "api_id": 121,
-        "api_type": 3,
-        "api_no": 19,
-        "api_filename": "d20",
-        "api_version": "1"
-      },
-      {
-        "api_id": 122,
-        "api_type": 3,
-        "api_no": 20,
-        "api_filename": "d21",
-        "api_version": "1"
-      },
-      {
-        "api_id": 123,
-        "api_type": 3,
-        "api_no": 21,
-        "api_filename": "d22",
-        "api_version": "1"
-      },
-      {
-        "api_id": 124,
-        "api_type": 3,
-        "api_no": 22,
-        "api_filename": "d23",
-        "api_version": "1"
-      },
-      {
-        "api_id": 125,
-        "api_type": 3,
-        "api_no": 23,
-        "api_filename": "d24",
-        "api_version": "1"
-      },
-      {
-        "api_id": 126,
-        "api_type": 3,
-        "api_no": 24,
-        "api_filename": "d25",
-        "api_version": "1"
-      },
-      {
-        "api_id": 127,
-        "api_type": 3,
-        "api_no": 25,
-        "api_filename": "d26",
-        "api_version": "1"
-      },
-      {
-        "api_id": 128,
-        "api_type": 3,
-        "api_no": 26,
-        "api_filename": "d27",
-        "api_version": "1"
-      },
-      {
-        "api_id": 129,
-        "api_type": 3,
-        "api_no": 27,
-        "api_filename": "d28",
-        "api_version": "1"
-      },
-      {
-        "api_id": 130,
-        "api_type": 3,
-        "api_no": 28,
-        "api_filename": "d29",
-        "api_version": "1"
-      },
-      {
-        "api_id": 131,
-        "api_type": 3,
-        "api_no": 29,
-        "api_filename": "d30",
-        "api_version": "1"
-      },
-      {
-        "api_id": 132,
-        "api_type": 3,
-        "api_no": 30,
-        "api_filename": "d31",
-        "api_version": "1"
-      },
-      {
-        "api_id": 133,
-        "api_type": 4,
-        "api_no": 0,
-        "api_filename": "e1",
-        "api_version": "1"
-      },
-      {
-        "api_id": 134,
-        "api_type": 4,
-        "api_no": 1,
-        "api_filename": "e2",
-        "api_version": "1"
-      },
-      {
-        "api_id": 135,
-        "api_type": 4,
-        "api_no": 2,
-        "api_filename": "e3",
-        "api_version": "1"
-      },
-      {
-        "api_id": 136,
-        "api_type": 4,
-        "api_no": 3,
-        "api_filename": "e4",
-        "api_version": "1"
-      },
-      {
-        "api_id": 137,
-        "api_type": 4,
-        "api_no": 4,
-        "api_filename": "e5",
-        "api_version": "1"
-      },
-      {
-        "api_id": 138,
-        "api_type": 4,
-        "api_no": 5,
-        "api_filename": "e6",
-        "api_version": "1"
-      },
-      {
-        "api_id": 139,
-        "api_type": 4,
-        "api_no": 6,
-        "api_filename": "e7",
-        "api_version": "1"
-      },
-      {
-        "api_id": 140,
-        "api_type": 4,
-        "api_no": 7,
-        "api_filename": "e8",
-        "api_version": "1"
-      },
-      {
-        "api_id": 141,
-        "api_type": 4,
-        "api_no": 8,
-        "api_filename": "e9",
-        "api_version": "1"
-      },
-      {
-        "api_id": 142,
-        "api_type": 4,
-        "api_no": 9,
-        "api_filename": "e10",
-        "api_version": "1"
-      },
-      {
-        "api_id": 143,
-        "api_type": 4,
-        "api_no": 10,
-        "api_filename": "e11",
-        "api_version": "1"
-      },
-      {
-        "api_id": 144,
-        "api_type": 4,
-        "api_no": 11,
-        "api_filename": "e12",
-        "api_version": "1"
-      },
-      {
-        "api_id": 145,
-        "api_type": 4,
-        "api_no": 12,
-        "api_filename": "e13",
-        "api_version": "1"
-      },
-      {
-        "api_id": 146,
-        "api_type": 4,
-        "api_no": 13,
-        "api_filename": "e14",
-        "api_version": "1"
-      },
-      {
-        "api_id": 147,
-        "api_type": 4,
-        "api_no": 14,
-        "api_filename": "e15",
-        "api_version": "1"
-      },
-      {
-        "api_id": 148,
-        "api_type": 4,
-        "api_no": 15,
-        "api_filename": "e16",
-        "api_version": "1"
-      },
-      {
-        "api_id": 149,
-        "api_type": 4,
-        "api_no": 16,
-        "api_filename": "e17",
-        "api_version": "1"
-      },
-      {
-        "api_id": 150,
-        "api_type": 4,
-        "api_no": 17,
-        "api_filename": "e18",
-        "api_version": "1"
-      },
-      {
-        "api_id": 151,
-        "api_type": 4,
-        "api_no": 18,
-        "api_filename": "e19",
-        "api_version": "1"
-      },
-      {
-        "api_id": 152,
-        "api_type": 4,
-        "api_no": 19,
-        "api_filename": "e20",
-        "api_version": "1"
-      },
-      {
-        "api_id": 153,
-        "api_type": 4,
-        "api_no": 20,
-        "api_filename": "e21",
-        "api_version": "1"
-      },
-      {
-        "api_id": 154,
-        "api_type": 4,
-        "api_no": 21,
-        "api_filename": "e22",
-        "api_version": "1"
-      },
-      {
-        "api_id": 155,
-        "api_type": 4,
-        "api_no": 22,
-        "api_filename": "e23",
-        "api_version": "1"
-      },
-      {
-        "api_id": 156,
-        "api_type": 4,
-        "api_no": 23,
-        "api_filename": "e24",
-        "api_version": "1"
-      },
-      {
-        "api_id": 157,
-        "api_type": 4,
-        "api_no": 24,
-        "api_filename": "e25",
-        "api_version": "1"
-      },
-      {
-        "api_id": 158,
-        "api_type": 4,
-        "api_no": 25,
-        "api_filename": "e26",
-        "api_version": "1"
-      },
-      {
-        "api_id": 159,
-        "api_type": 4,
-        "api_no": 26,
-        "api_filename": "e27",
-        "api_version": "1"
-      },
-      {
-        "api_id": 160,
-        "api_type": 4,
-        "api_no": 27,
-        "api_filename": "e28",
-        "api_version": "1"
-      },
-      {
-        "api_id": 161,
-        "api_type": 4,
-        "api_no": 28,
-        "api_filename": "e29",
-        "api_version": "1"
-      },
-      {
-        "api_id": 162,
-        "api_type": 4,
-        "api_no": 29,
-        "api_filename": "e30",
-        "api_version": "1"
-      },
-      {
-        "api_id": 163,
-        "api_type": 4,
-        "api_no": 30,
-        "api_filename": "e31",
-        "api_version": "1"
-      },
-      {
-        "api_id": 164,
+        "api_id": 216,
         "api_type": 5,
-        "api_no": 0,
-        "api_filename": "f1",
-        "api_version": "1"
-      },
-      {
-        "api_id": 165,
-        "api_type": 5,
-        "api_no": 1,
-        "api_filename": "f2",
-        "api_version": "1"
-      },
-      {
-        "api_id": 166,
-        "api_type": 5,
-        "api_no": 2,
-        "api_filename": "f3",
-        "api_version": "1"
-      },
-      {
-        "api_id": 167,
-        "api_type": 5,
-        "api_no": 3,
-        "api_filename": "f4",
-        "api_version": "1"
-      },
-      {
-        "api_id": 168,
-        "api_type": 5,
-        "api_no": 4,
-        "api_filename": "f5",
-        "api_version": "1"
-      },
-      {
-        "api_id": 169,
-        "api_type": 5,
-        "api_no": 5,
-        "api_filename": "f6",
-        "api_version": "1"
-      },
-      {
-        "api_id": 170,
-        "api_type": 5,
-        "api_no": 6,
-        "api_filename": "f7",
-        "api_version": "1"
-      },
-      {
-        "api_id": 171,
-        "api_type": 5,
-        "api_no": 7,
-        "api_filename": "f8",
-        "api_version": "1"
-      },
-      {
-        "api_id": 172,
-        "api_type": 5,
-        "api_no": 8,
-        "api_filename": "f9",
-        "api_version": "1"
-      },
-      {
-        "api_id": 173,
-        "api_type": 5,
-        "api_no": 9,
-        "api_filename": "f10",
-        "api_version": "1"
-      },
-      {
-        "api_id": 174,
-        "api_type": 5,
-        "api_no": 10,
-        "api_filename": "f11",
-        "api_version": "1"
-      },
-      {
-        "api_id": 175,
-        "api_type": 5,
-        "api_no": 11,
-        "api_filename": "f12",
-        "api_version": "1"
-      },
-      {
-        "api_id": 176,
-        "api_type": 5,
-        "api_no": 12,
-        "api_filename": "f13",
-        "api_version": "1"
-      },
-      {
-        "api_id": 177,
-        "api_type": 5,
-        "api_no": 13,
-        "api_filename": "f14",
-        "api_version": "1"
-      },
-      {
-        "api_id": 178,
-        "api_type": 5,
-        "api_no": 14,
-        "api_filename": "f15",
-        "api_version": "1"
-      },
-      {
-        "api_id": 179,
-        "api_type": 5,
-        "api_no": 15,
-        "api_filename": "f16",
-        "api_version": "1"
-      },
-      {
-        "api_id": 180,
-        "api_type": 5,
-        "api_no": 16,
-        "api_filename": "f17",
-        "api_version": "1"
-      },
-      {
-        "api_id": 181,
-        "api_type": 5,
-        "api_no": 17,
-        "api_filename": "f18",
-        "api_version": "1"
-      },
-      {
-        "api_id": 182,
-        "api_type": 5,
-        "api_no": 18,
-        "api_filename": "f19",
-        "api_version": "1"
-      },
-      {
-        "api_id": 183,
-        "api_type": 5,
-        "api_no": 19,
-        "api_filename": "f20",
-        "api_version": "1"
-      },
-      {
-        "api_id": 184,
-        "api_type": 5,
-        "api_no": 20,
-        "api_filename": "f21",
-        "api_version": "1"
-      },
-      {
-        "api_id": 185,
-        "api_type": 5,
-        "api_no": 21,
-        "api_filename": "f22",
-        "api_version": "1"
-      },
-      {
-        "api_id": 186,
-        "api_type": 5,
-        "api_no": 22,
-        "api_filename": "f23",
-        "api_version": "1"
-      },
-      {
-        "api_id": 187,
-        "api_type": 5,
-        "api_no": 23,
-        "api_filename": "f24",
-        "api_version": "1"
-      },
-      {
-        "api_id": 188,
-        "api_type": 5,
-        "api_no": 24,
-        "api_filename": "f25",
-        "api_version": "1"
-      },
-      {
-        "api_id": 189,
-        "api_type": 5,
-        "api_no": 25,
-        "api_filename": "f26",
-        "api_version": "1"
-      },
-      {
-        "api_id": 190,
-        "api_type": 5,
-        "api_no": 26,
-        "api_filename": "f27",
-        "api_version": "1"
-      },
-      {
-        "api_id": 191,
-        "api_type": 5,
-        "api_no": 27,
-        "api_filename": "f28",
-        "api_version": "1"
-      },
-      {
-        "api_id": 192,
-        "api_type": 5,
-        "api_no": 28,
-        "api_filename": "f29",
-        "api_version": "1"
-      },
-      {
-        "api_id": 193,
-        "api_type": 5,
-        "api_no": 29,
-        "api_filename": "f30",
-        "api_version": "1"
-      },
-      {
-        "api_id": 194,
-        "api_type": 5,
-        "api_no": 30,
-        "api_filename": "f31",
-        "api_version": "1"
-      },
-      {
-        "api_id": 195,
-        "api_type": 5,
-        "api_no": 31,
-        "api_filename": "f32",
-        "api_version": "1"
-      },
-      {
-        "api_id": 196,
-        "api_type": 5,
-        "api_no": 32,
-        "api_filename": "f33",
-        "api_version": "1"
-      },
-      {
-        "api_id": 197,
-        "api_type": 5,
-        "api_no": 33,
-        "api_filename": "f34",
-        "api_version": "1"
-      },
-      {
-        "api_id": 198,
-        "api_type": 5,
-        "api_no": 34,
-        "api_filename": "f35",
-        "api_version": "1"
-      },
-      {
-        "api_id": 199,
-        "api_type": 5,
-        "api_no": 35,
-        "api_filename": "f36",
-        "api_version": "2"
-      },
-      {
-        "api_id": 200,
-        "api_type": 5,
-        "api_no": 36,
-        "api_filename": "f37",
-        "api_version": "1"
-      },
-      {
-        "api_id": 201,
-        "api_type": 5,
-        "api_no": 37,
-        "api_filename": "f38",
-        "api_version": "1"
-      },
-      {
-        "api_id": 202,
-        "api_type": 5,
-        "api_no": 38,
-        "api_filename": "f39",
-        "api_version": "1"
-      },
-      {
-        "api_id": 203,
-        "api_type": 3,
-        "api_no": 31,
-        "api_filename": "d32",
-        "api_version": "1"
-      },
-      {
-        "api_id": 204,
-        "api_type": 3,
-        "api_no": 32,
-        "api_filename": "d33",
+        "api_no": 41,
+        "api_filename": "042",
         "api_version": "1"
       }
     ],
@@ -97239,7 +96472,7 @@ svdata={
         "api_category": 0,
         "api_name": "応急修理要員",
         "api_description": [
-          "艦にスロット装備させる。装備した艦は1度だけ撃沈を回避できる。",
+          "艦のスロットに装備する。装備した艦は1度だけ撃沈を回避できる。",
           ""
         ],
         "api_price": 0
@@ -97272,7 +96505,7 @@ svdata={
         "api_category": 0,
         "api_name": "母港拡張",
         "api_description": [
-          "最大保有艦娘数＋10(最大190)。最大保有アイテム数＋40(最大860)。",
+          "最大保有艦娘数＋10(最大200)。最大保有アイテム数＋40(最大900)。",
           ""
         ],
         "api_price": 0
@@ -97593,7 +96826,7 @@ svdata={
         "api_id": 16,
         "api_type": 0,
         "api_name": "母港拡張",
-        "api_description": "母港拡張 艦隊の艦娘保有数を+10隻分拡張できます！\u003cbr\u003e※ご注意※ 最大計190隻まで！ 装備枠も自動的に+40増加します。",
+        "api_description": "母港拡張 艦隊の艦娘保有数を+10隻分拡張できます！\u003cbr\u003e※ご注意※ 最大計200隻まで！ 装備枠も自動的に+40増加します。",
         "api_item": [
           0,
           0,
@@ -98163,8 +97396,8 @@ svdata={
           2
         ],
         "api_boss_bgm": [
-          6,
-          6
+          13,
+          13
         ]
       },
       {
@@ -98254,8 +97487,8 @@ svdata={
           2
         ],
         "api_boss_bgm": [
-          2,
-          2
+          11,
+          11
         ]
       },
       {
@@ -98267,8 +97500,8 @@ svdata={
           2
         ],
         "api_boss_bgm": [
-          2,
-          2
+          11,
+          11
         ]
       },
       {
@@ -98293,8 +97526,8 @@ svdata={
           2
         ],
         "api_boss_bgm": [
-          2,
-          2
+          8,
+          8
         ]
       },
       {
@@ -98306,8 +97539,8 @@ svdata={
           2
         ],
         "api_boss_bgm": [
-          2,
-          2
+          8,
+          8
         ]
       },
       {
@@ -98319,8 +97552,8 @@ svdata={
           2
         ],
         "api_boss_bgm": [
-          2,
-          2
+          10,
+          10
         ]
       },
       {
@@ -98341,12 +97574,12 @@ svdata={
         "api_maparea_id": 5,
         "api_no": 1,
         "api_map_bgm": [
-          1,
+          13,
           2
         ],
         "api_boss_bgm": [
-          2,
-          2
+          3,
+          3
         ]
       },
       {
@@ -98358,8 +97591,8 @@ svdata={
           12
         ],
         "api_boss_bgm": [
-          3,
-          3
+          10,
+          10
         ]
       },
       {
@@ -98367,12 +97600,12 @@ svdata={
         "api_maparea_id": 5,
         "api_no": 3,
         "api_map_bgm": [
-          1,
+          13,
           2
         ],
         "api_boss_bgm": [
-          3,
-          3
+          5,
+          5
         ]
       },
       {
@@ -101584,17 +100817,33 @@ svdata={
     "api_mst_const": {
       "api_boko_max_ships": {
         "api_string_value": "",
-        "api_int_value": 190
+        "api_int_value": 200
       }
     },
     "api_mst_shipupgrade": [
       {
-        "api_id": 185,
+        "api_id": 318,
         "api_original_ship_id": 184,
         "api_upgrade_type": 1,
+        "api_upgrade_level": 2,
+        "api_drawing_count": 0,
+        "api_sortno": 190
+      },
+      {
+        "api_id": 273,
+        "api_original_ship_id": 71,
+        "api_upgrade_type": 1,
         "api_upgrade_level": 1,
-        "api_drawing_count": 1,
-        "api_sortno": 185
+        "api_drawing_count": 0,
+        "api_sortno": 373
+      },
+      {
+        "api_id": 71,
+        "api_original_ship_id": 71,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 0,
+        "api_drawing_count": 0,
+        "api_sortno": 63
       },
       {
         "api_id": 72,
@@ -101611,6 +100860,30 @@ svdata={
         "api_upgrade_level": 1,
         "api_drawing_count": 0,
         "api_sortno": 172
+      },
+      {
+        "api_id": 185,
+        "api_original_ship_id": 184,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 1,
+        "api_drawing_count": 1,
+        "api_sortno": 185
+      },
+      {
+        "api_id": 188,
+        "api_original_ship_id": 71,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 2,
+        "api_drawing_count": 1,
+        "api_sortno": 186
+      },
+      {
+        "api_id": 173,
+        "api_original_ship_id": 171,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 2,
+        "api_drawing_count": 1,
+        "api_sortno": 173
       },
       {
         "api_id": 184,
@@ -101643,46 +100916,6 @@ svdata={
         "api_upgrade_level": 0,
         "api_drawing_count": 0,
         "api_sortno": 171
-      },
-      {
-        "api_id": 188,
-        "api_original_ship_id": 71,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 2,
-        "api_drawing_count": 1,
-        "api_sortno": 186
-      },
-      {
-        "api_id": 173,
-        "api_original_ship_id": 171,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 2,
-        "api_drawing_count": 1,
-        "api_sortno": 173
-      },
-      {
-        "api_id": 318,
-        "api_original_ship_id": 184,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 2,
-        "api_drawing_count": 0,
-        "api_sortno": 190
-      },
-      {
-        "api_id": 273,
-        "api_original_ship_id": 71,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 1,
-        "api_drawing_count": 0,
-        "api_sortno": 373
-      },
-      {
-        "api_id": 71,
-        "api_original_ship_id": 71,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 0,
-        "api_drawing_count": 0,
-        "api_sortno": 63
       }
     ]
   }

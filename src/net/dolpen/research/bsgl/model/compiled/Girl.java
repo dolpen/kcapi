@@ -119,7 +119,7 @@ public class Girl {
         this.torpedo.addItemScore(slotItem.weapon.torpedo);
         this.antiAir.addItemScore(slotItem.weapon.antiAir);
         this.armor.addItemScore(slotItem.weapon.armor);
-        this.accuracy.addItemScore(slotItem.weapon.accuracy);
+        this.accuracy.fixItemScore(slotItem.weapon.accuracy);
         this.evasion.addItemScore(slotItem.weapon.evasion);
         this.antiSub.addItemScore(slotItem.weapon.antiSub);
         this.luck.addItemScore(slotItem.weapon.luck);
