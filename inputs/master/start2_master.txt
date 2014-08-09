@@ -23743,50 +23743,50 @@ svdata={
       },
       {
         "api_id": 167,
-        "api_sortno": 0,
-        "api_name": "なし",
-        "api_yomi": "なし",
+        "api_sortno": 167,
+        "api_name": "磯風",
+        "api_yomi": "いそかぜ",
         "api_stype": 2,
-        "api_ctype": 1,
-        "api_cnum": 1,
+        "api_ctype": 30,
+        "api_cnum": 12,
         "api_enqflg": "0",
-        "api_afterlv": 0,
-        "api_aftershipid": "0",
+        "api_afterlv": 45,
+        "api_aftershipid": "320",
         "api_taik": [
-          0,
-          0
+          16,
+          34
         ],
         "api_souk": [
-          0,
-          0
+          6,
+          19
         ],
         "api_tous": [
           0,
           0
         ],
         "api_houg": [
-          0,
-          0
+          10,
+          29
         ],
         "api_raig": [
-          0,
-          0
+          24,
+          69
         ],
         "api_baku": [
           0,
           0
         ],
         "api_tyku": [
-          0,
-          0
+          14,
+          44
         ],
         "api_atap": [
           0,
           0
         ],
         "api_tais": [
-          0,
-          0
+          24,
+          49
         ],
         "api_houm": [
           0,
@@ -23797,8 +23797,8 @@ svdata={
           0
         ],
         "api_kaih": [
-          0,
-          0
+          44,
+          79
         ],
         "api_houk": [
           0,
@@ -23813,20 +23813,20 @@ svdata={
           0
         ],
         "api_saku": [
-          0,
-          0
+          8,
+          19
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          0,
-          0
+          16,
+          54
         ],
-        "api_sokuh": 0,
-        "api_soku": 0,
-        "api_leng": 0,
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
         "api_grow": [
           0,
           0,
@@ -23837,7 +23837,7 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 0,
+        "api_slot_num": 2,
         "api_maxeq": [
           0,
           0,
@@ -23846,23 +23846,23 @@ svdata={
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
+          2,
+          40,
           -1,
           -1
         ],
-        "api_buildtime": 0,
+        "api_buildtime": 24,
         "api_broken": [
-          0,
-          0,
-          0,
+          1,
+          1,
+          6,
           0
         ],
         "api_powup": [
           0,
+          1,
           0,
-          0,
-          0
+          1
         ],
         "api_gumax": [
           0,
@@ -23870,19 +23870,19 @@ svdata={
           0,
           0
         ],
-        "api_backs": 0,
-        "api_getmes": "",
-        "api_sinfo": "",
-        "api_afterfuel": 0,
-        "api_afterbull": 0,
+        "api_backs": 5,
+        "api_getmes": "陽炎型駆逐艦十二番艦、磯風。\u003cbr\u003e大丈夫、私が護ってあげる。",
+        "api_sinfo": "陽炎型駆逐艦十二番艦、磯風だ。\u003cbr\u003e戦歴ならあの雪風にも遅れはとらぬ。数々の海戦、決戦に参加し、戦い抜いたんだ。大和・武蔵・金剛・大鳳…彼女達の最期もこの目に焼き付いている。今度こそ…護り抜くさ。",
+        "api_afterfuel": 140,
+        "api_afterbull": 160,
         "api_touchs": [
           null,
           null,
           null
         ],
-        "api_fuel_max": 0,
-        "api_bull_max": 0,
-        "api_voicef": 0
+        "api_fuel_max": 15,
+        "api_bull_max": 20,
+        "api_voicef": 1
       },
       {
         "api_id": 168,
@@ -26031,42 +26031,42 @@ svdata={
       },
       {
         "api_id": 183,
-        "api_sortno": 683,
-        "api_name": "ハルナ",
-        "api_yomi": "アルはるな",
-        "api_stype": 8,
-        "api_ctype": 42,
+        "api_sortno": 183,
+        "api_name": "大淀",
+        "api_yomi": "おおよど",
+        "api_stype": 3,
+        "api_ctype": 52,
         "api_cnum": 1,
         "api_enqflg": "0",
-        "api_afterlv": 0,
-        "api_aftershipid": "0",
+        "api_afterlv": 35,
+        "api_aftershipid": "321",
         "api_taik": [
-          102,
-          129
+          34,
+          47
         ],
         "api_souk": [
-          110,
-          119
+          19,
+          34
         ],
         "api_tous": [
-          0,
-          0
+          6,
+          12
         ],
         "api_houg": [
-          135,
-          149
+          24,
+          48
         ],
         "api_raig": [
           0,
-          0
+          39
         ],
         "api_baku": [
           0,
           0
         ],
         "api_tyku": [
-          60,
-          79
+          18,
+          62
         ],
         "api_atap": [
           0,
@@ -26074,7 +26074,7 @@ svdata={
         ],
         "api_tais": [
           0,
-          0
+          39
         ],
         "api_houm": [
           0,
@@ -26085,8 +26085,8 @@ svdata={
           0
         ],
         "api_kaih": [
-          37,
-          49
+          35,
+          70
         ],
         "api_houk": [
           0,
@@ -26101,20 +26101,20 @@ svdata={
           0
         ],
         "api_saku": [
-          80,
-          89
+          24,
+          80
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          30,
-          39
+          24,
+          69
         ],
         "api_sokuh": 1,
         "api_soku": 10,
-        "api_leng": 4,
+        "api_leng": 2,
         "api_grow": [
           0,
           0,
@@ -26125,32 +26125,32 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 4,
+        "api_slot_num": 3,
         "api_maxeq": [
           0,
-          0,
-          0,
+          6,
+          6,
           0,
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
-          -1,
+          5,
+          71,
+          25,
           -1
         ],
-        "api_buildtime": 0,
+        "api_buildtime": 80,
         "api_broken": [
-          0,
-          1,
-          0,
-          0
+          4,
+          2,
+          14,
+          2
         ],
         "api_powup": [
           1,
           0,
-          0,
-          0
+          2,
+          2
         ],
         "api_gumax": [
           0,
@@ -26158,19 +26158,19 @@ svdata={
           0,
           0
         ],
-        "api_backs": 0,
-        "api_getmes": "大戦艦ハルナ……来たよ。",
-        "api_sinfo": "",
-        "api_afterfuel": 0,
-        "api_afterbull": 0,
+        "api_backs": 6,
+        "api_getmes": "提督、軽巡大淀、戦列に加わりました。\u003cbr\u003e艦隊指揮、運営はどうぞお任せください。",
+        "api_sinfo": "艦隊旗艦として特化設計された新鋭軽巡洋艦、大淀です。搭載予定の新型水偵の失敗や戦局の変化もあって、連合艦隊旗艦としてはあまり活躍できなかったの。でも、北号作戦や礼号作戦では活躍したのよ。私も前線で、頑張りますね。",
+        "api_afterfuel": 400,
+        "api_afterbull": 320,
         "api_touchs": [
           null,
           null,
           null
         ],
-        "api_fuel_max": 200,
-        "api_bull_max": 275,
-        "api_voicef": 3
+        "api_fuel_max": 35,
+        "api_bull_max": 30,
+        "api_voicef": 1
       },
       {
         "api_id": 184,
@@ -26460,50 +26460,50 @@ svdata={
       },
       {
         "api_id": 186,
-        "api_sortno": 0,
-        "api_name": "なし",
-        "api_yomi": "なし",
+        "api_sortno": 186,
+        "api_name": "時津風",
+        "api_yomi": "ときつかぜ",
         "api_stype": 2,
-        "api_ctype": 1,
-        "api_cnum": 1,
+        "api_ctype": 30,
+        "api_cnum": 10,
         "api_enqflg": "0",
-        "api_afterlv": 0,
-        "api_aftershipid": "0",
+        "api_afterlv": 30,
+        "api_aftershipid": "322",
         "api_taik": [
-          0,
-          0
+          16,
+          34
         ],
         "api_souk": [
-          0,
-          0
+          6,
+          19
         ],
         "api_tous": [
           0,
           0
         ],
         "api_houg": [
-          0,
-          0
+          10,
+          29
         ],
         "api_raig": [
-          0,
-          0
+          24,
+          69
         ],
         "api_baku": [
           0,
           0
         ],
         "api_tyku": [
-          0,
-          0
+          10,
+          40
         ],
         "api_atap": [
           0,
           0
         ],
         "api_tais": [
-          0,
-          0
+          24,
+          49
         ],
         "api_houm": [
           0,
@@ -26514,8 +26514,8 @@ svdata={
           0
         ],
         "api_kaih": [
-          0,
-          0
+          44,
+          79
         ],
         "api_houk": [
           0,
@@ -26530,20 +26530,20 @@ svdata={
           0
         ],
         "api_saku": [
-          0,
-          0
+          7,
+          19
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          0,
-          0
+          13,
+          49
         ],
-        "api_sokuh": 0,
-        "api_soku": 0,
-        "api_leng": 0,
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
         "api_grow": [
           0,
           0,
@@ -26554,7 +26554,7 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 0,
+        "api_slot_num": 2,
         "api_maxeq": [
           0,
           0,
@@ -26563,23 +26563,23 @@ svdata={
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
+          2,
+          14,
           -1,
           -1
         ],
-        "api_buildtime": 0,
+        "api_buildtime": 24,
         "api_broken": [
-          0,
-          0,
-          0,
+          1,
+          1,
+          6,
           0
         ],
         "api_powup": [
           0,
+          1,
           0,
-          0,
-          0
+          1
         ],
         "api_gumax": [
           0,
@@ -26587,19 +26587,19 @@ svdata={
           0,
           0
         ],
-        "api_backs": 0,
-        "api_getmes": "",
-        "api_sinfo": "",
-        "api_afterfuel": 0,
-        "api_afterbull": 0,
+        "api_backs": 5,
+        "api_getmes": "陽炎型駆逐艦十番艦。\u003cbr\u003e時津風……出るよ。",
+        "api_sinfo": "陽炎型十番艦の時津風だよ。\u003cbr\u003e雪風、初風、天津風とで第十六駆逐隊を編成、仲良く色々と頑張ったんだよ。二水戦にもいたんだよ、ほんとほんと。でも、制海権の無い海は…ちょっと嫌かなーって。",
+        "api_afterfuel": 120,
+        "api_afterbull": 110,
         "api_touchs": [
           null,
           null,
           null
         ],
-        "api_fuel_max": 0,
-        "api_bull_max": 0,
-        "api_voicef": 0
+        "api_fuel_max": 15,
+        "api_bull_max": 20,
+        "api_voicef": 1
       },
       {
         "api_id": 187,
@@ -44906,6 +44906,864 @@ svdata={
         "api_voicef": 3
       },
       {
+        "api_id": 320,
+        "api_sortno": 413,
+        "api_name": "磯風改",
+        "api_yomi": "いそかぜ",
+        "api_stype": 2,
+        "api_ctype": 30,
+        "api_cnum": 12,
+        "api_enqflg": "0",
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          33,
+          49
+        ],
+        "api_souk": [
+          14,
+          49
+        ],
+        "api_tous": [
+          0,
+          0
+        ],
+        "api_houg": [
+          12,
+          48
+        ],
+        "api_raig": [
+          28,
+          79
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          24,
+          64
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          27,
+          64
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          47,
+          88
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          9,
+          39
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          18,
+          59
+        ],
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 3,
+        "api_maxeq": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_defeq": [
+          91,
+          44,
+          106,
+          -1
+        ],
+        "api_buildtime": 24,
+        "api_broken": [
+          1,
+          2,
+          10,
+          0
+        ],
+        "api_powup": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 6,
+        "api_getmes": "陽炎型駆逐艦十二番艦、磯風。\u003cbr\u003e司令、共に進もう…心配はいらない。",
+        "api_sinfo": "陽炎型駆逐艦十二番艦、磯風だ。\u003cbr\u003e戦歴ならあの雪風にも遅れはとらぬ。数々の海戦、決戦に参加し、戦い抜いたんだ。大和・武蔵・金剛・大鳳…彼女達の最期もこの目に焼き付いている。今度こそ…護り抜くさ。",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 15,
+        "api_bull_max": 20,
+        "api_voicef": 3
+      },
+      {
+        "api_id": 321,
+        "api_sortno": 414,
+        "api_name": "大淀改",
+        "api_yomi": "おおよど",
+        "api_stype": 3,
+        "api_ctype": 52,
+        "api_cnum": 1,
+        "api_enqflg": "0",
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          47,
+          64
+        ],
+        "api_souk": [
+          32,
+          68
+        ],
+        "api_tous": [
+          6,
+          12
+        ],
+        "api_houg": [
+          32,
+          63
+        ],
+        "api_raig": [
+          0,
+          49
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          22,
+          74
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          0,
+          39
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          40,
+          78
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          28,
+          84
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          30,
+          79
+        ],
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 2,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 4,
+        "api_maxeq": [
+          0,
+          6,
+          6,
+          0,
+          0
+        ],
+        "api_defeq": [
+          65,
+          107,
+          106,
+          -1
+        ],
+        "api_buildtime": 80,
+        "api_broken": [
+          4,
+          3,
+          14,
+          3
+        ],
+        "api_powup": [
+          2,
+          0,
+          2,
+          2
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 7,
+        "api_getmes": "提督、旗艦大淀、お供いたします。\u003cbr\u003e前線艦隊指揮はどうぞお任せください！",
+        "api_sinfo": "艦隊旗艦として特化設計された新鋭軽巡洋艦、大淀です。搭載予定の新型水偵の失敗や戦局の変化もあって、連合艦隊旗艦としてはあまり活躍できなかったの。でも、北号作戦や礼号作戦では活躍したのよ。私も前線で、頑張りますね。",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 35,
+        "api_bull_max": 35,
+        "api_voicef": 3
+      },
+      {
+        "api_id": 322,
+        "api_sortno": 415,
+        "api_name": "時津風改",
+        "api_yomi": "ときつかぜ",
+        "api_stype": 2,
+        "api_ctype": 30,
+        "api_cnum": 10,
+        "api_enqflg": "0",
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          32,
+          49
+        ],
+        "api_souk": [
+          14,
+          49
+        ],
+        "api_tous": [
+          0,
+          0
+        ],
+        "api_houg": [
+          12,
+          48
+        ],
+        "api_raig": [
+          28,
+          79
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          16,
+          49
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          26,
+          64
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          46,
+          88
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          8,
+          39
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          12,
+          59
+        ],
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 3,
+        "api_maxeq": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_defeq": [
+          15,
+          91,
+          -1,
+          -1
+        ],
+        "api_buildtime": 24,
+        "api_broken": [
+          1,
+          2,
+          10,
+          0
+        ],
+        "api_powup": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 6,
+        "api_getmes": "陽炎型駆逐艦十番艦。\u003cbr\u003e時津風……出るよ。",
+        "api_sinfo": "陽炎型十番艦の時津風だよ。\u003cbr\u003e雪風、初風、天津風とで第十六駆逐隊を編成、仲良く色々と頑張ったんだよ。二水戦にもいたんだよ、ほんとほんと。でも、制海権の無い海は…ちょっと嫌かなーって。",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 15,
+        "api_bull_max": 20,
+        "api_voicef": 3
+      },
+      {
+        "api_id": 323,
+        "api_sortno": 416,
+        "api_name": "春雨改",
+        "api_yomi": "はるさめ",
+        "api_stype": 2,
+        "api_ctype": 23,
+        "api_cnum": 5,
+        "api_enqflg": "0",
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          30,
+          57
+        ],
+        "api_souk": [
+          14,
+          49
+        ],
+        "api_tous": [
+          0,
+          0
+        ],
+        "api_houg": [
+          12,
+          49
+        ],
+        "api_raig": [
+          28,
+          79
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          15,
+          49
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          24,
+          59
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          45,
+          89
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          7,
+          39
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          12,
+          59
+        ],
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 3,
+        "api_maxeq": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_defeq": [
+          63,
+          75,
+          -1,
+          -1
+        ],
+        "api_buildtime": 22,
+        "api_broken": [
+          1,
+          2,
+          10,
+          0
+        ],
+        "api_powup": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 5,
+        "api_getmes": "白露型駆逐艦五番艦の春雨です、はい。\u003cbr\u003e輸送作戦はお任せください……です。",
+        "api_sinfo": "白露型駆逐艦五番艦の春雨です。\u003cbr\u003eおいしそう…ってその春雨とは違います！村雨や夕立姉さんたちと共に第二駆逐隊として海を駆け巡りました！輸送や護衛任務は、少し得意なんです。はい！",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 15,
+        "api_bull_max": 20,
+        "api_voicef": 3
+      },
+      {
+        "api_id": 324,
+        "api_sortno": 417,
+        "api_name": "早霜改",
+        "api_yomi": "はやしも",
+        "api_stype": 2,
+        "api_ctype": 38,
+        "api_cnum": 17,
+        "api_enqflg": "0",
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          32,
+          49
+        ],
+        "api_souk": [
+          14,
+          49
+        ],
+        "api_tous": [
+          0,
+          0
+        ],
+        "api_houg": [
+          12,
+          50
+        ],
+        "api_raig": [
+          28,
+          80
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          16,
+          50
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          29,
+          67
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          48,
+          90
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          9,
+          42
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          12,
+          59
+        ],
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 3,
+        "api_maxeq": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_defeq": [
+          28,
+          44,
+          27,
+          -1
+        ],
+        "api_buildtime": 24,
+        "api_broken": [
+          1,
+          2,
+          10,
+          0
+        ],
+        "api_powup": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 5,
+        "api_getmes": "また…来てしまったのね、この海に。\u003cbr\u003e夕雲型駆逐艦、早霜…着任しました。",
+        "api_sinfo": "夕雲型駆逐艦、その十七番目、早霜です。\u003cbr\u003e舞鶴海軍工廠生まれ。だいぶ押し迫った頃に生まれました。レイテ沖海戦にリンガ泊地から出撃して…色々な光景を見ました。",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 15,
+        "api_bull_max": 20,
+        "api_voicef": 3
+      },
+      {
+        "api_id": 325,
+        "api_sortno": 418,
+        "api_name": "清霜改",
+        "api_yomi": "きよしも",
+        "api_stype": 2,
+        "api_ctype": 38,
+        "api_cnum": 19,
+        "api_enqflg": "0",
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          32,
+          49
+        ],
+        "api_souk": [
+          14,
+          49
+        ],
+        "api_tous": [
+          0,
+          0
+        ],
+        "api_houg": [
+          12,
+          50
+        ],
+        "api_raig": [
+          28,
+          80
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          16,
+          50
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          29,
+          67
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          48,
+          90
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          9,
+          42
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          13,
+          59
+        ],
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 3,
+        "api_maxeq": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_defeq": [
+          28,
+          47,
+          27,
+          -1
+        ],
+        "api_buildtime": 24,
+        "api_broken": [
+          1,
+          2,
+          10,
+          0
+        ],
+        "api_powup": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 5,
+        "api_getmes": "どうも！夕雲型の最終艦、清霜です。\u003cbr\u003e到着遅れました、よろしくお願いです！",
+        "api_sinfo": "夕雲型駆逐艦のラスト、十九番艦の清霜です。\u003cbr\u003e浦賀生まれですよ。もう、そうとう辛い戦局の中で生まれたの。短い間だったけど、縦横無尽に活躍したわ。凄惨だったレイテはもちろん、あの礼号作戦にも参加したのよ！どう？",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 15,
+        "api_bull_max": 20,
+        "api_voicef": 3
+      },
+      {
         "api_id": 398,
         "api_sortno": 498,
         "api_name": "伊168改",
@@ -45762,6 +46620,1007 @@ svdata={
         "api_fuel_max": 25,
         "api_bull_max": 30,
         "api_voicef": 3
+      },
+      {
+        "api_id": 404,
+        "api_sortno": 201,
+        "api_name": "雲龍",
+        "api_yomi": "うんりゅう",
+        "api_stype": 11,
+        "api_ctype": 53,
+        "api_cnum": 1,
+        "api_enqflg": "0",
+        "api_afterlv": 50,
+        "api_aftershipid": "406",
+        "api_taik": [
+          48,
+          79
+        ],
+        "api_souk": [
+          26,
+          52
+        ],
+        "api_tous": [
+          45,
+          51
+        ],
+        "api_houg": [
+          0,
+          27
+        ],
+        "api_raig": [
+          0,
+          0
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          28,
+          72
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          0,
+          0
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          32,
+          59
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          40,
+          72
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          10,
+          49
+        ],
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 4,
+        "api_maxeq": [
+          18,
+          24,
+          3,
+          6,
+          0
+        ],
+        "api_defeq": [
+          40,
+          51,
+          -1,
+          -1
+        ],
+        "api_buildtime": 210,
+        "api_broken": [
+          7,
+          9,
+          26,
+          5
+        ],
+        "api_powup": [
+          0,
+          0,
+          3,
+          3
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 6,
+        "api_getmes": "雲龍型航空母艦、雲龍、推参しました。\u003cbr\u003e提督、よろしくお願いしますね。",
+        "api_sinfo": "マル急計画によって戦時建造された雲龍型航空母艦の長女、雲龍よ。\u003cbr\u003e傑作中型空母の飛龍を改良した量産型正規空母なの。新生機動部隊の主力としての潜在実力は十分なのだけど…今度は見ててよね。",
+        "api_afterfuel": 750,
+        "api_afterbull": 1000,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 50,
+        "api_bull_max": 45,
+        "api_voicef": 1
+      },
+      {
+        "api_id": 405,
+        "api_sortno": 205,
+        "api_name": "春雨",
+        "api_yomi": "はるさめ",
+        "api_stype": 2,
+        "api_ctype": 23,
+        "api_cnum": 5,
+        "api_enqflg": "0",
+        "api_afterlv": 30,
+        "api_aftershipid": "323",
+        "api_taik": [
+          16,
+          32
+        ],
+        "api_souk": [
+          6,
+          19
+        ],
+        "api_tous": [
+          0,
+          0
+        ],
+        "api_houg": [
+          10,
+          29
+        ],
+        "api_raig": [
+          24,
+          69
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          9,
+          39
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          21,
+          49
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          43,
+          79
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          5,
+          19
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          10,
+          49
+        ],
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 2,
+        "api_maxeq": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_defeq": [
+          2,
+          92,
+          -1,
+          -1
+        ],
+        "api_buildtime": 22,
+        "api_broken": [
+          1,
+          1,
+          5,
+          0
+        ],
+        "api_powup": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 4,
+        "api_getmes": "白露型駆逐艦五番艦の春雨です、はい。\u003cbr\u003e輸送作戦はお任せください……です。",
+        "api_sinfo": "白露型駆逐艦五番艦の春雨です。\u003cbr\u003eおいしそう…ってその春雨とは違います！村雨や夕立姉さんたちと共に第二駆逐隊として海を駆け巡りました！輸送や護衛任務は、少し得意なんです。はい！",
+        "api_afterfuel": 110,
+        "api_afterbull": 120,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 15,
+        "api_bull_max": 20,
+        "api_voicef": 1
+      },
+      {
+        "api_id": 406,
+        "api_sortno": 206,
+        "api_name": "雲龍改",
+        "api_yomi": "うんりゅう",
+        "api_stype": 11,
+        "api_ctype": 53,
+        "api_cnum": 1,
+        "api_enqflg": "0",
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          60,
+          84
+        ],
+        "api_souk": [
+          35,
+          77
+        ],
+        "api_tous": [
+          53,
+          69
+        ],
+        "api_houg": [
+          0,
+          48
+        ],
+        "api_raig": [
+          0,
+          0
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          32,
+          78
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          0,
+          0
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          35,
+          72
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          48,
+          82
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          12,
+          59
+        ],
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 4,
+        "api_maxeq": [
+          18,
+          21,
+          27,
+          3,
+          0
+        ],
+        "api_defeq": [
+          109,
+          111,
+          112,
+          54
+        ],
+        "api_buildtime": 210,
+        "api_broken": [
+          7,
+          13,
+          30,
+          10
+        ],
+        "api_powup": [
+          0,
+          0,
+          4,
+          3
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 7,
+        "api_getmes": "雲龍型航空母艦、雲龍、参ります。\u003cbr\u003e提督、新生機動部隊はお任せください！",
+        "api_sinfo": "マル急計画によって戦時建造された雲龍型航空母艦の長女、雲龍よ。\u003cbr\u003e傑作中型空母の飛龍を改良した量産型正規空母なの。新生機動部隊の主力としての潜在実力は十分なのだけど…今度は見ててよね。",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 50,
+        "api_bull_max": 55,
+        "api_voicef": 3
+      },
+      {
+        "api_id": 407,
+        "api_sortno": 0,
+        "api_name": "なし",
+        "api_yomi": "なし",
+        "api_stype": 2,
+        "api_ctype": 1,
+        "api_cnum": 1,
+        "api_enqflg": "0",
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          0,
+          0
+        ],
+        "api_souk": [
+          0,
+          0
+        ],
+        "api_tous": [
+          0,
+          0
+        ],
+        "api_houg": [
+          0,
+          0
+        ],
+        "api_raig": [
+          0,
+          0
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          0,
+          0
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          0,
+          0
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          0,
+          0
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          0,
+          0
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          0,
+          0
+        ],
+        "api_sokuh": 0,
+        "api_soku": 0,
+        "api_leng": 0,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 0,
+        "api_maxeq": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_defeq": [
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "api_buildtime": 0,
+        "api_broken": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_powup": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 0,
+        "api_getmes": "",
+        "api_sinfo": "",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 0,
+        "api_bull_max": 0,
+        "api_voicef": 0
+      },
+      {
+        "api_id": 408,
+        "api_sortno": 0,
+        "api_name": "なし",
+        "api_yomi": "なし",
+        "api_stype": 2,
+        "api_ctype": 1,
+        "api_cnum": 1,
+        "api_enqflg": "0",
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          0,
+          0
+        ],
+        "api_souk": [
+          0,
+          0
+        ],
+        "api_tous": [
+          0,
+          0
+        ],
+        "api_houg": [
+          0,
+          0
+        ],
+        "api_raig": [
+          0,
+          0
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          0,
+          0
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          0,
+          0
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          0,
+          0
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          0,
+          0
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          0,
+          0
+        ],
+        "api_sokuh": 0,
+        "api_soku": 0,
+        "api_leng": 0,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 0,
+        "api_maxeq": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_defeq": [
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "api_buildtime": 0,
+        "api_broken": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_powup": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 0,
+        "api_getmes": "",
+        "api_sinfo": "",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 0,
+        "api_bull_max": 0,
+        "api_voicef": 0
+      },
+      {
+        "api_id": 409,
+        "api_sortno": 209,
+        "api_name": "早霜",
+        "api_yomi": "はやしも",
+        "api_stype": 2,
+        "api_ctype": 38,
+        "api_cnum": 17,
+        "api_enqflg": "0",
+        "api_afterlv": 30,
+        "api_aftershipid": "324",
+        "api_taik": [
+          16,
+          34
+        ],
+        "api_souk": [
+          6,
+          19
+        ],
+        "api_tous": [
+          0,
+          0
+        ],
+        "api_houg": [
+          10,
+          30
+        ],
+        "api_raig": [
+          24,
+          69
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          9,
+          39
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          27,
+          52
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          47,
+          80
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          6,
+          19
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          11,
+          49
+        ],
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 2,
+        "api_maxeq": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_defeq": [
+          2,
+          39,
+          -1,
+          -1
+        ],
+        "api_buildtime": 24,
+        "api_broken": [
+          1,
+          1,
+          6,
+          0
+        ],
+        "api_powup": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 4,
+        "api_getmes": "また…来てしまったのね、この海に。\u003cbr\u003e夕雲型駆逐艦、早霜…着任しました。",
+        "api_sinfo": "夕雲型駆逐艦、その十七番目、早霜です。\u003cbr\u003e舞鶴海軍工廠生まれ。だいぶ押し迫った頃に生まれました。レイテ沖海戦にリンガ泊地から出撃して…色々な光景を見ました。",
+        "api_afterfuel": 110,
+        "api_afterbull": 140,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 15,
+        "api_bull_max": 20,
+        "api_voicef": 1
+      },
+      {
+        "api_id": 410,
+        "api_sortno": 210,
+        "api_name": "清霜",
+        "api_yomi": "きよしも",
+        "api_stype": 2,
+        "api_ctype": 38,
+        "api_cnum": 19,
+        "api_enqflg": "0",
+        "api_afterlv": 30,
+        "api_aftershipid": "325",
+        "api_taik": [
+          16,
+          34
+        ],
+        "api_souk": [
+          6,
+          19
+        ],
+        "api_tous": [
+          0,
+          0
+        ],
+        "api_houg": [
+          10,
+          30
+        ],
+        "api_raig": [
+          24,
+          69
+        ],
+        "api_baku": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          9,
+          39
+        ],
+        "api_atap": [
+          0,
+          0
+        ],
+        "api_tais": [
+          27,
+          52
+        ],
+        "api_houm": [
+          0,
+          0
+        ],
+        "api_raim": [
+          0,
+          0
+        ],
+        "api_kaih": [
+          47,
+          80
+        ],
+        "api_houk": [
+          0,
+          0
+        ],
+        "api_raik": [
+          0,
+          0
+        ],
+        "api_bakk": [
+          0,
+          0
+        ],
+        "api_saku": [
+          6,
+          19
+        ],
+        "api_sakb": [
+          0,
+          0
+        ],
+        "api_luck": [
+          12,
+          49
+        ],
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
+        "api_grow": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_slot_num": 2,
+        "api_maxeq": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_defeq": [
+          2,
+          39,
+          -1,
+          -1
+        ],
+        "api_buildtime": 24,
+        "api_broken": [
+          1,
+          1,
+          6,
+          0
+        ],
+        "api_powup": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "api_gumax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_backs": 4,
+        "api_getmes": "どうも！夕雲型の最終艦、清霜です。\u003cbr\u003e到着遅れました、よろしくお願いです！",
+        "api_sinfo": "夕雲型駆逐艦のラスト、十九番艦の清霜です。\u003cbr\u003e浦賀生まれですよ。もう、そうとう辛い戦局の中で生まれたの。短い間だったけど、縦横無尽に活躍したわ。凄惨だったレイテはもちろん、あの礼号作戦にも参加したのよ！どう？",
+        "api_afterfuel": 110,
+        "api_afterbull": 140,
+        "api_touchs": [
+          null,
+          null,
+          null
+        ],
+        "api_fuel_max": 15,
+        "api_bull_max": 20,
+        "api_voicef": 1
       },
       {
         "api_id": 501,
@@ -55919,33 +57778,33 @@ svdata={
       {
         "api_id": 572,
         "api_sortno": 0,
-        "api_name": "なし",
-        "api_yomi": "なし",
-        "api_stype": 2,
+        "api_name": "潜水ソ級",
+        "api_yomi": "flagship",
+        "api_stype": 13,
         "api_ctype": 1,
         "api_cnum": 1,
         "api_enqflg": "0",
         "api_afterlv": 0,
         "api_aftershipid": "0",
         "api_taik": [
-          0,
-          0
+          48,
+          48
         ],
         "api_souk": [
-          0,
-          0
+          42,
+          42
         ],
         "api_tous": [
           0,
           0
         ],
         "api_houg": [
-          0,
-          0
+          30,
+          30
         ],
         "api_raig": [
-          0,
-          0
+          135,
+          135
         ],
         "api_baku": [
           0,
@@ -55968,12 +57827,12 @@ svdata={
           0
         ],
         "api_raim": [
-          0,
-          0
+          80,
+          80
         ],
         "api_kaih": [
-          0,
-          0
+          15,
+          15
         ],
         "api_houk": [
           0,
@@ -55988,20 +57847,20 @@ svdata={
           0
         ],
         "api_saku": [
-          0,
-          0
+          18,
+          18
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          0,
-          0
+          45,
+          45
         ],
         "api_sokuh": 0,
-        "api_soku": 0,
-        "api_leng": 0,
+        "api_soku": 5,
+        "api_leng": 1,
         "api_grow": [
           0,
           0,
@@ -56012,7 +57871,7 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 0,
+        "api_slot_num": 3,
         "api_maxeq": [
           0,
           0,
@@ -56021,9 +57880,9 @@ svdata={
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
-          -1,
+          515,
+          515,
+          515,
           -1
         ],
         "api_buildtime": 0,
@@ -56348,8 +58207,8 @@ svdata={
       {
         "api_id": 575,
         "api_sortno": 0,
-        "api_name": "なし",
-        "api_yomi": "なし",
+        "api_name": "駆逐イ級後期型",
+        "api_yomi": "",
         "api_stype": 2,
         "api_ctype": 1,
         "api_cnum": 1,
@@ -56357,52 +58216,52 @@ svdata={
         "api_afterlv": 0,
         "api_aftershipid": "0",
         "api_taik": [
-          0,
-          0
+          35,
+          35
         ],
         "api_souk": [
-          0,
-          0
+          22,
+          22
         ],
         "api_tous": [
           0,
           0
         ],
         "api_houg": [
-          0,
-          0
+          38,
+          38
         ],
         "api_raig": [
-          0,
-          0
+          60,
+          60
         ],
         "api_baku": [
           0,
           0
         ],
         "api_tyku": [
-          0,
-          0
+          30,
+          30
         ],
         "api_atap": [
           0,
           0
         ],
         "api_tais": [
-          0,
-          0
+          72,
+          72
         ],
         "api_houm": [
           0,
           0
         ],
         "api_raim": [
-          0,
-          0
+          45,
+          45
         ],
         "api_kaih": [
-          0,
-          0
+          48,
+          48
         ],
         "api_houk": [
           0,
@@ -56417,20 +58276,20 @@ svdata={
           0
         ],
         "api_saku": [
-          0,
-          0
+          20,
+          20
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          0,
-          0
+          30,
+          30
         ],
-        "api_sokuh": 0,
-        "api_soku": 0,
-        "api_leng": 0,
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
         "api_grow": [
           0,
           0,
@@ -56441,7 +58300,7 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 0,
+        "api_slot_num": 3,
         "api_maxeq": [
           0,
           0,
@@ -56450,9 +58309,9 @@ svdata={
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
-          -1,
+          502,
+          545,
+          542,
           -1
         ],
         "api_buildtime": 0,
@@ -56491,8 +58350,8 @@ svdata={
       {
         "api_id": 576,
         "api_sortno": 0,
-        "api_name": "なし",
-        "api_yomi": "なし",
+        "api_name": "駆逐ロ級後期型",
+        "api_yomi": "",
         "api_stype": 2,
         "api_ctype": 1,
         "api_cnum": 1,
@@ -56500,52 +58359,52 @@ svdata={
         "api_afterlv": 0,
         "api_aftershipid": "0",
         "api_taik": [
-          0,
-          0
+          37,
+          37
         ],
         "api_souk": [
-          0,
-          0
+          26,
+          26
         ],
         "api_tous": [
           0,
           0
         ],
         "api_houg": [
-          0,
-          0
+          38,
+          38
         ],
         "api_raig": [
-          0,
-          0
+          66,
+          66
         ],
         "api_baku": [
           0,
           0
         ],
         "api_tyku": [
-          0,
-          0
+          32,
+          32
         ],
         "api_atap": [
           0,
           0
         ],
         "api_tais": [
-          0,
-          0
+          80,
+          80
         ],
         "api_houm": [
           0,
           0
         ],
         "api_raim": [
-          0,
-          0
+          50,
+          50
         ],
         "api_kaih": [
-          0,
-          0
+          52,
+          52
         ],
         "api_houk": [
           0,
@@ -56560,20 +58419,20 @@ svdata={
           0
         ],
         "api_saku": [
-          0,
-          0
+          20,
+          20
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          0,
-          0
+          36,
+          36
         ],
-        "api_sokuh": 0,
-        "api_soku": 0,
-        "api_leng": 0,
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
         "api_grow": [
           0,
           0,
@@ -56584,7 +58443,7 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 0,
+        "api_slot_num": 3,
         "api_maxeq": [
           0,
           0,
@@ -56593,9 +58452,9 @@ svdata={
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
-          -1,
+          502,
+          545,
+          542,
           -1
         ],
         "api_buildtime": 0,
@@ -56634,8 +58493,8 @@ svdata={
       {
         "api_id": 577,
         "api_sortno": 0,
-        "api_name": "なし",
-        "api_yomi": "なし",
+        "api_name": "駆逐ハ級後期型",
+        "api_yomi": "",
         "api_stype": 2,
         "api_ctype": 1,
         "api_cnum": 1,
@@ -56643,52 +58502,52 @@ svdata={
         "api_afterlv": 0,
         "api_aftershipid": "0",
         "api_taik": [
-          0,
-          0
+          38,
+          38
         ],
         "api_souk": [
-          0,
-          0
+          29,
+          29
         ],
         "api_tous": [
           0,
           0
         ],
         "api_houg": [
-          0,
-          0
+          44,
+          44
         ],
         "api_raig": [
-          0,
-          0
+          72,
+          72
         ],
         "api_baku": [
           0,
           0
         ],
         "api_tyku": [
-          0,
-          0
+          36,
+          36
         ],
         "api_atap": [
           0,
           0
         ],
         "api_tais": [
-          0,
-          0
+          80,
+          80
         ],
         "api_houm": [
           0,
           0
         ],
         "api_raim": [
-          0,
-          0
+          55,
+          55
         ],
         "api_kaih": [
-          0,
-          0
+          56,
+          56
         ],
         "api_houk": [
           0,
@@ -56703,20 +58562,20 @@ svdata={
           0
         ],
         "api_saku": [
-          0,
-          0
+          24,
+          24
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          0,
-          0
+          42,
+          42
         ],
-        "api_sokuh": 0,
-        "api_soku": 0,
-        "api_leng": 0,
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
         "api_grow": [
           0,
           0,
@@ -56727,7 +58586,7 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 0,
+        "api_slot_num": 3,
         "api_maxeq": [
           0,
           0,
@@ -56736,9 +58595,9 @@ svdata={
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
-          -1,
+          502,
+          515,
+          542,
           -1
         ],
         "api_buildtime": 0,
@@ -56777,8 +58636,8 @@ svdata={
       {
         "api_id": 578,
         "api_sortno": 0,
-        "api_name": "なし",
-        "api_yomi": "なし",
+        "api_name": "駆逐ニ級後期型",
+        "api_yomi": "",
         "api_stype": 2,
         "api_ctype": 1,
         "api_cnum": 1,
@@ -56786,52 +58645,52 @@ svdata={
         "api_afterlv": 0,
         "api_aftershipid": "0",
         "api_taik": [
-          0,
-          0
+          40,
+          40
         ],
         "api_souk": [
-          0,
-          0
+          33,
+          33
         ],
         "api_tous": [
           0,
           0
         ],
         "api_houg": [
-          0,
-          0
+          48,
+          48
         ],
         "api_raig": [
-          0,
-          0
+          84,
+          84
         ],
         "api_baku": [
           0,
           0
         ],
         "api_tyku": [
-          0,
-          0
+          38,
+          38
         ],
         "api_atap": [
           0,
           0
         ],
         "api_tais": [
-          0,
-          0
+          88,
+          88
         ],
         "api_houm": [
           0,
           0
         ],
         "api_raim": [
-          0,
-          0
+          65,
+          65
         ],
         "api_kaih": [
-          0,
-          0
+          66,
+          66
         ],
         "api_houk": [
           0,
@@ -56846,20 +58705,20 @@ svdata={
           0
         ],
         "api_saku": [
-          0,
-          0
+          28,
+          28
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          0,
-          0
+          48,
+          48
         ],
-        "api_sokuh": 0,
-        "api_soku": 0,
-        "api_leng": 0,
+        "api_sokuh": 1,
+        "api_soku": 10,
+        "api_leng": 1,
         "api_grow": [
           0,
           0,
@@ -56870,7 +58729,7 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 0,
+        "api_slot_num": 3,
         "api_maxeq": [
           0,
           0,
@@ -56879,9 +58738,9 @@ svdata={
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
-          -1,
+          502,
+          515,
+          542,
           -1
         ],
         "api_buildtime": 0,
@@ -56920,29 +58779,29 @@ svdata={
       {
         "api_id": 579,
         "api_sortno": 0,
-        "api_name": "なし",
-        "api_yomi": "なし",
-        "api_stype": 2,
+        "api_name": "空母ヲ級",
+        "api_yomi": "flagship",
+        "api_stype": 11,
         "api_ctype": 1,
         "api_cnum": 1,
         "api_enqflg": "0",
         "api_afterlv": 0,
         "api_aftershipid": "0",
         "api_taik": [
-          0,
-          0
+          96,
+          96
         ],
         "api_souk": [
-          0,
-          0
+          80,
+          80
         ],
         "api_tous": [
-          0,
-          0
+          96,
+          96
         ],
         "api_houg": [
-          0,
-          0
+          25,
+          25
         ],
         "api_raig": [
           0,
@@ -56953,8 +58812,8 @@ svdata={
           0
         ],
         "api_tyku": [
-          0,
-          0
+          50,
+          50
         ],
         "api_atap": [
           0,
@@ -56969,12 +58828,12 @@ svdata={
           0
         ],
         "api_raim": [
-          0,
-          0
+          50,
+          50
         ],
         "api_kaih": [
-          0,
-          0
+          45,
+          45
         ],
         "api_houk": [
           0,
@@ -56989,19 +58848,19 @@ svdata={
           0
         ],
         "api_saku": [
-          0,
-          0
+          50,
+          50
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          0,
-          0
+          30,
+          30
         ],
-        "api_sokuh": 0,
-        "api_soku": 0,
+        "api_sokuh": 1,
+        "api_soku": 10,
         "api_leng": 0,
         "api_grow": [
           0,
@@ -57013,19 +58872,19 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 0,
+        "api_slot_num": 3,
         "api_maxeq": [
-          0,
-          0,
-          0,
-          0,
+          32,
+          32,
+          27,
+          5,
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
-          -1,
-          -1
+          547,
+          548,
+          549,
+          549
         ],
         "api_buildtime": 0,
         "api_broken": [
@@ -57206,61 +59065,61 @@ svdata={
       {
         "api_id": 581,
         "api_sortno": 0,
-        "api_name": "ナガラ級",
-        "api_yomi": "mist",
-        "api_stype": 3,
-        "api_ctype": 42,
+        "api_name": "北方棲姫",
+        "api_yomi": "",
+        "api_stype": 10,
+        "api_ctype": 1,
         "api_cnum": 1,
         "api_enqflg": "0",
         "api_afterlv": 0,
         "api_aftershipid": "0",
         "api_taik": [
-          55,
-          55
+          360,
+          360
         ],
         "api_souk": [
-          66,
-          66
+          135,
+          135
         ],
         "api_tous": [
-          0,
-          0
+          172,
+          172
         ],
         "api_houg": [
-          75,
-          75
+          90,
+          90
         ],
         "api_raig": [
-          60,
-          60
+          0,
+          0
         ],
         "api_baku": [
           0,
           0
         ],
         "api_tyku": [
-          30,
-          30
+          130,
+          130
         ],
         "api_atap": [
           0,
           0
         ],
         "api_tais": [
-          98,
-          98
+          0,
+          0
         ],
         "api_houm": [
           0,
           0
         ],
         "api_raim": [
-          30,
-          30
+          70,
+          70
         ],
         "api_kaih": [
-          28,
-          28
+          10,
+          10
         ],
         "api_houk": [
           0,
@@ -57275,20 +59134,20 @@ svdata={
           0
         ],
         "api_saku": [
-          50,
-          50
+          80,
+          80
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          10,
-          10
+          40,
+          40
         ],
-        "api_sokuh": 1,
-        "api_soku": 10,
-        "api_leng": 3,
+        "api_sokuh": 0,
+        "api_soku": 0,
+        "api_leng": 2,
         "api_grow": [
           0,
           0,
@@ -57299,19 +59158,19 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 3,
+        "api_slot_num": 4,
         "api_maxeq": [
           0,
-          0,
-          0,
-          0,
+          72,
+          64,
+          36,
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
-          -1,
-          -1
+          504,
+          521,
+          548,
+          517
         ],
         "api_buildtime": 0,
         "api_broken": [
@@ -57349,41 +59208,41 @@ svdata={
       {
         "api_id": 582,
         "api_sortno": 0,
-        "api_name": "タカオ",
-        "api_yomi": "mist",
-        "api_stype": 5,
-        "api_ctype": 42,
+        "api_name": "北方棲姫",
+        "api_yomi": "",
+        "api_stype": 10,
+        "api_ctype": 1,
         "api_cnum": 1,
         "api_enqflg": "0",
         "api_afterlv": 0,
         "api_aftershipid": "0",
         "api_taik": [
-          77,
-          77
+          500,
+          500
         ],
         "api_souk": [
-          100,
-          100
+          145,
+          145
         ],
         "api_tous": [
-          0,
-          0
+          192,
+          192
         ],
         "api_houg": [
-          150,
-          150
+          170,
+          170
         ],
         "api_raig": [
-          60,
-          60
+          0,
+          0
         ],
         "api_baku": [
           0,
           0
         ],
         "api_tyku": [
-          50,
-          50
+          160,
+          160
         ],
         "api_atap": [
           0,
@@ -57398,12 +59257,12 @@ svdata={
           0
         ],
         "api_raim": [
-          40,
-          40
+          70,
+          70
         ],
         "api_kaih": [
-          40,
-          40
+          20,
+          20
         ],
         "api_houk": [
           0,
@@ -57418,20 +59277,20 @@ svdata={
           0
         ],
         "api_saku": [
-          70,
-          70
+          100,
+          100
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          20,
-          20
+          50,
+          50
         ],
-        "api_sokuh": 1,
-        "api_soku": 10,
-        "api_leng": 3,
+        "api_sokuh": 0,
+        "api_soku": 0,
+        "api_leng": 2,
         "api_grow": [
           0,
           0,
@@ -57442,19 +59301,19 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 3,
+        "api_slot_num": 4,
         "api_maxeq": [
           0,
-          0,
-          0,
-          0,
+          72,
+          80,
+          40,
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
-          -1,
-          -1
+          504,
+          547,
+          548,
+          549
         ],
         "api_buildtime": 0,
         "api_broken": [
@@ -57492,41 +59351,41 @@ svdata={
       {
         "api_id": 583,
         "api_sortno": 0,
-        "api_name": "マヤ",
-        "api_yomi": "mist",
-        "api_stype": 5,
-        "api_ctype": 42,
+        "api_name": "中間棲姫",
+        "api_yomi": "",
+        "api_stype": 10,
+        "api_ctype": 1,
         "api_cnum": 1,
         "api_enqflg": "0",
         "api_afterlv": 0,
         "api_aftershipid": "0",
         "api_taik": [
-          79,
-          79
+          550,
+          550
         ],
         "api_souk": [
-          105,
-          105
+          135,
+          135
         ],
         "api_tous": [
-          0,
-          0
+          180,
+          180
         ],
         "api_houg": [
-          160,
-          160
+          100,
+          100
         ],
         "api_raig": [
-          60,
-          60
+          0,
+          0
         ],
         "api_baku": [
           0,
           0
         ],
         "api_tyku": [
-          50,
-          50
+          140,
+          140
         ],
         "api_atap": [
           0,
@@ -57541,12 +59400,12 @@ svdata={
           0
         ],
         "api_raim": [
-          40,
-          40
+          70,
+          70
         ],
         "api_kaih": [
-          39,
-          39
+          15,
+          15
         ],
         "api_houk": [
           0,
@@ -57561,19 +59420,19 @@ svdata={
           0
         ],
         "api_saku": [
-          70,
-          70
+          100,
+          100
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          15,
-          15
+          50,
+          50
         ],
-        "api_sokuh": 1,
-        "api_soku": 10,
+        "api_sokuh": 0,
+        "api_soku": 0,
         "api_leng": 3,
         "api_grow": [
           0,
@@ -57585,19 +59444,19 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 3,
+        "api_slot_num": 5,
         "api_maxeq": [
           0,
-          0,
-          0,
-          0,
+          64,
+          58,
+          58,
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
-          -1,
-          -1
+          505,
+          547,
+          548,
+          549
         ],
         "api_buildtime": 0,
         "api_broken": [
@@ -57635,29 +59494,29 @@ svdata={
       {
         "api_id": 584,
         "api_sortno": 0,
-        "api_name": "ハルナ",
-        "api_yomi": "mist",
-        "api_stype": 8,
-        "api_ctype": 42,
+        "api_name": "中間棲姫",
+        "api_yomi": "",
+        "api_stype": 10,
+        "api_ctype": 1,
         "api_cnum": 1,
         "api_enqflg": "0",
         "api_afterlv": 0,
         "api_aftershipid": "0",
         "api_taik": [
-          102,
-          102
+          600,
+          600
         ],
         "api_souk": [
-          130,
-          130
+          180,
+          180
         ],
         "api_tous": [
-          0,
-          0
+          180,
+          180
         ],
         "api_houg": [
-          200,
-          200
+          180,
+          180
         ],
         "api_raig": [
           0,
@@ -57668,8 +59527,8 @@ svdata={
           0
         ],
         "api_tyku": [
-          60,
-          60
+          180,
+          180
         ],
         "api_atap": [
           0,
@@ -57684,12 +59543,12 @@ svdata={
           0
         ],
         "api_raim": [
-          0,
-          0
+          70,
+          70
         ],
         "api_kaih": [
-          37,
-          37
+          30,
+          30
         ],
         "api_houk": [
           0,
@@ -57704,20 +59563,20 @@ svdata={
           0
         ],
         "api_saku": [
-          80,
-          80
+          130,
+          130
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          30,
-          30
+          60,
+          60
         ],
-        "api_sokuh": 1,
-        "api_soku": 10,
-        "api_leng": 4,
+        "api_sokuh": 0,
+        "api_soku": 0,
+        "api_leng": 3,
         "api_grow": [
           0,
           0,
@@ -57728,19 +59587,19 @@ svdata={
           0,
           0
         ],
-        "api_slot_num": 4,
+        "api_slot_num": 5,
         "api_maxeq": [
           0,
-          0,
-          0,
+          84,
+          96,
           0,
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
-          -1,
-          -1
+          505,
+          547,
+          548,
+          532
         ],
         "api_buildtime": 0,
         "api_broken": [
@@ -57778,29 +59637,29 @@ svdata={
       {
         "api_id": 585,
         "api_sortno": 0,
-        "api_name": "キリシマ",
-        "api_yomi": "mist",
-        "api_stype": 8,
-        "api_ctype": 42,
+        "api_name": "空母棲鬼",
+        "api_yomi": "",
+        "api_stype": 11,
+        "api_ctype": 1,
         "api_cnum": 1,
         "api_enqflg": "0",
         "api_afterlv": 0,
         "api_aftershipid": "0",
         "api_taik": [
-          102,
-          102
+          250,
+          250
         ],
         "api_souk": [
-          130,
-          130
+          138,
+          138
         ],
         "api_tous": [
-          0,
-          0
+          144,
+          144
         ],
         "api_houg": [
-          200,
-          200
+          120,
+          120
         ],
         "api_raig": [
           0,
@@ -57811,8 +59670,8 @@ svdata={
           0
         ],
         "api_tyku": [
-          60,
-          60
+          100,
+          100
         ],
         "api_atap": [
           0,
@@ -57827,12 +59686,12 @@ svdata={
           0
         ],
         "api_raim": [
-          0,
-          0
+          70,
+          70
         ],
         "api_kaih": [
-          37,
-          37
+          46,
+          46
         ],
         "api_houk": [
           0,
@@ -57847,20 +59706,20 @@ svdata={
           0
         ],
         "api_saku": [
-          80,
-          80
+          100,
+          100
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          20,
-          20
+          50,
+          50
         ],
         "api_sokuh": 1,
         "api_soku": 10,
-        "api_leng": 4,
+        "api_leng": 3,
         "api_grow": [
           0,
           0,
@@ -57873,17 +59732,17 @@ svdata={
         ],
         "api_slot_num": 4,
         "api_maxeq": [
-          0,
-          0,
-          0,
+          48,
+          48,
+          48,
           0,
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
-          -1,
-          -1
+          547,
+          548,
+          549,
+          532
         ],
         "api_buildtime": 0,
         "api_broken": [
@@ -57921,29 +59780,29 @@ svdata={
       {
         "api_id": 586,
         "api_sortno": 0,
-        "api_name": "コンゴウ",
-        "api_yomi": "mist",
-        "api_stype": 8,
-        "api_ctype": 42,
+        "api_name": "空母棲姫",
+        "api_yomi": "",
+        "api_stype": 11,
+        "api_ctype": 1,
         "api_cnum": 1,
         "api_enqflg": "0",
         "api_afterlv": 0,
         "api_aftershipid": "0",
         "api_taik": [
-          142,
-          142
+          350,
+          350
         ],
         "api_souk": [
           150,
           150
         ],
         "api_tous": [
-          0,
-          0
+          168,
+          168
         ],
         "api_houg": [
-          280,
-          280
+          180,
+          180
         ],
         "api_raig": [
           0,
@@ -57954,8 +59813,8 @@ svdata={
           0
         ],
         "api_tyku": [
-          70,
-          70
+          130,
+          130
         ],
         "api_atap": [
           0,
@@ -57970,12 +59829,12 @@ svdata={
           0
         ],
         "api_raim": [
-          0,
-          0
+          70,
+          70
         ],
         "api_kaih": [
-          50,
-          50
+          53,
+          53
         ],
         "api_houk": [
           0,
@@ -57990,20 +59849,20 @@ svdata={
           0
         ],
         "api_saku": [
-          90,
-          90
+          130,
+          130
         ],
         "api_sakb": [
           0,
           0
         ],
         "api_luck": [
-          15,
-          15
+          70,
+          70
         ],
         "api_sokuh": 1,
         "api_soku": 10,
-        "api_leng": 4,
+        "api_leng": 3,
         "api_grow": [
           0,
           0,
@@ -58016,17 +59875,17 @@ svdata={
         ],
         "api_slot_num": 4,
         "api_maxeq": [
-          0,
-          0,
-          0,
+          60,
+          52,
+          56,
           0,
           0
         ],
         "api_defeq": [
-          -1,
-          -1,
-          -1,
-          -1
+          547,
+          548,
+          549,
+          532
         ],
         "api_buildtime": 0,
         "api_broken": [
@@ -69879,68 +71738,68 @@ svdata={
       },
       {
         "api_id": 167,
-        "api_sortno": 0,
+        "api_sortno": 167,
         "api_filename": "bctrxdxrugqp",
         "api_version": "1",
         "api_boko_n": [
-          0,
-          0
+          32,
+          144
         ],
         "api_boko_d": [
-          0,
-          0
+          -8,
+          140
         ],
         "api_kaisyu_n": [
-          0,
-          0
+          8,
+          12
         ],
         "api_kaisyu_d": [
-          0,
-          0
+          24,
+          24
         ],
         "api_kaizo_n": [
-          0,
-          0
+          -8,
+          72
         ],
         "api_kaizo_d": [
-          0,
-          0
+          -16,
+          56
         ],
         "api_map_n": [
           0,
-          0
+          128
         ],
         "api_map_d": [
-          0,
-          0
+          -16,
+          128
         ],
         "api_ensyuf_n": [
-          0,
-          0
+          32,
+          112
         ],
         "api_ensyuf_d": [
-          0,
-          0
+          16,
+          112
         ],
         "api_ensyue_n": [
           0,
           0
         ],
         "api_battle_n": [
-          0,
-          0
+          32,
+          128
         ],
         "api_battle_d": [
-          0,
-          0
+          -8,
+          128
         ],
         "api_weda": [
-          0,
+          208,
           0
         ],
         "api_wedb": [
-          0,
-          0
+          112,
+          112
         ]
       },
       {
@@ -70935,68 +72794,68 @@ svdata={
       },
       {
         "api_id": 183,
-        "api_sortno": 683,
+        "api_sortno": 183,
         "api_filename": "uockopeurqdf",
         "api_version": "1",
         "api_boko_n": [
-          16,
-          160
+          -40,
+          108
         ],
         "api_boko_d": [
-          -64,
-          128
+          56,
+          144
         ],
         "api_kaisyu_n": [
-          24,
-          32
+          12,
+          16
         ],
         "api_kaisyu_d": [
           24,
-          8
+          16
         ],
         "api_kaizo_n": [
-          -16,
-          112
+          -80,
+          48
         ],
         "api_kaizo_d": [
-          -80,
-          56
+          -8,
+          64
         ],
         "api_map_n": [
-          16,
-          120
-        ],
-        "api_map_d": [
-          -80,
-          112
-        ],
-        "api_ensyuf_n": [
-          48,
-          152
-        ],
-        "api_ensyuf_d": [
-          -48,
-          68
-        ],
-        "api_ensyue_n": [
-          8,
-          0
-        ],
-        "api_battle_n": [
-          16,
-          136
-        ],
-        "api_battle_d": [
           -48,
           104
         ],
-        "api_weda": [
-          0,
+        "api_map_d": [
+          8,
+          136
+        ],
+        "api_ensyuf_n": [
+          -24,
+          80
+        ],
+        "api_ensyuf_d": [
+          64,
+          128
+        ],
+        "api_ensyue_n": [
+          -96,
           0
         ],
+        "api_battle_n": [
+          -24,
+          88
+        ],
+        "api_battle_d": [
+          16,
+          128
+        ],
+        "api_weda": [
+          288,
+          40
+        ],
         "api_wedb": [
-          0,
-          0
+          112,
+          112
         ]
       },
       {
@@ -71133,68 +72992,68 @@ svdata={
       },
       {
         "api_id": 186,
-        "api_sortno": 0,
+        "api_sortno": 186,
         "api_filename": "dljghewzktat",
         "api_version": "1",
         "api_boko_n": [
-          0,
-          0
+          144,
+          144
         ],
         "api_boko_d": [
-          0,
-          0
+          104,
+          152
         ],
         "api_kaisyu_n": [
-          0,
-          0
+          8,
+          8
         ],
         "api_kaisyu_d": [
-          0,
-          0
+          40,
+          4
         ],
         "api_kaizo_n": [
-          0,
-          0
+          144,
+          72
         ],
         "api_kaizo_d": [
-          0,
-          0
+          96,
+          48
         ],
         "api_map_n": [
-          0,
-          0
+          176,
+          128
         ],
         "api_map_d": [
-          0,
-          0
+          128,
+          144
         ],
         "api_ensyuf_n": [
-          0,
-          0
+          176,
+          120
         ],
         "api_ensyuf_d": [
-          0,
-          0
+          128,
+          128
         ],
         "api_ensyue_n": [
-          0,
+          136,
           0
         ],
         "api_battle_n": [
-          0,
-          0
+          176,
+          128
         ],
         "api_battle_d": [
-          0,
-          0
+          128,
+          144
         ],
         "api_weda": [
           0,
           0
         ],
         "api_wedb": [
-          0,
-          0
+          128,
+          120
         ]
       },
       {
@@ -79646,6 +81505,402 @@ svdata={
         ]
       },
       {
+        "api_id": 320,
+        "api_sortno": 413,
+        "api_filename": "dyupugfxshtd",
+        "api_version": "1",
+        "api_boko_n": [
+          32,
+          144
+        ],
+        "api_boko_d": [
+          -8,
+          140
+        ],
+        "api_kaisyu_n": [
+          8,
+          12
+        ],
+        "api_kaisyu_d": [
+          24,
+          24
+        ],
+        "api_kaizo_n": [
+          -8,
+          72
+        ],
+        "api_kaizo_d": [
+          -16,
+          56
+        ],
+        "api_map_n": [
+          0,
+          128
+        ],
+        "api_map_d": [
+          -16,
+          128
+        ],
+        "api_ensyuf_n": [
+          32,
+          112
+        ],
+        "api_ensyuf_d": [
+          16,
+          112
+        ],
+        "api_ensyue_n": [
+          0,
+          0
+        ],
+        "api_battle_n": [
+          32,
+          128
+        ],
+        "api_battle_d": [
+          -8,
+          128
+        ],
+        "api_weda": [
+          208,
+          0
+        ],
+        "api_wedb": [
+          112,
+          112
+        ]
+      },
+      {
+        "api_id": 321,
+        "api_sortno": 414,
+        "api_filename": "gixbrtnuabge",
+        "api_version": "1",
+        "api_boko_n": [
+          -40,
+          108
+        ],
+        "api_boko_d": [
+          56,
+          144
+        ],
+        "api_kaisyu_n": [
+          12,
+          16
+        ],
+        "api_kaisyu_d": [
+          24,
+          16
+        ],
+        "api_kaizo_n": [
+          -80,
+          48
+        ],
+        "api_kaizo_d": [
+          -8,
+          64
+        ],
+        "api_map_n": [
+          -48,
+          104
+        ],
+        "api_map_d": [
+          8,
+          136
+        ],
+        "api_ensyuf_n": [
+          -24,
+          80
+        ],
+        "api_ensyuf_d": [
+          64,
+          128
+        ],
+        "api_ensyue_n": [
+          -96,
+          0
+        ],
+        "api_battle_n": [
+          -24,
+          88
+        ],
+        "api_battle_d": [
+          16,
+          128
+        ],
+        "api_weda": [
+          288,
+          40
+        ],
+        "api_wedb": [
+          112,
+          112
+        ]
+      },
+      {
+        "api_id": 322,
+        "api_sortno": 415,
+        "api_filename": "svglgiwjfyxn",
+        "api_version": "1",
+        "api_boko_n": [
+          144,
+          144
+        ],
+        "api_boko_d": [
+          104,
+          152
+        ],
+        "api_kaisyu_n": [
+          8,
+          8
+        ],
+        "api_kaisyu_d": [
+          40,
+          4
+        ],
+        "api_kaizo_n": [
+          144,
+          72
+        ],
+        "api_kaizo_d": [
+          96,
+          48
+        ],
+        "api_map_n": [
+          176,
+          128
+        ],
+        "api_map_d": [
+          128,
+          144
+        ],
+        "api_ensyuf_n": [
+          176,
+          120
+        ],
+        "api_ensyuf_d": [
+          128,
+          128
+        ],
+        "api_ensyue_n": [
+          136,
+          0
+        ],
+        "api_battle_n": [
+          176,
+          128
+        ],
+        "api_battle_d": [
+          128,
+          144
+        ],
+        "api_weda": [
+          0,
+          0
+        ],
+        "api_wedb": [
+          128,
+          120
+        ]
+      },
+      {
+        "api_id": 323,
+        "api_sortno": 416,
+        "api_filename": "cispmgxqaedk",
+        "api_version": "1",
+        "api_boko_n": [
+          64,
+          88
+        ],
+        "api_boko_d": [
+          40,
+          56
+        ],
+        "api_kaisyu_n": [
+          0,
+          16
+        ],
+        "api_kaisyu_d": [
+          24,
+          -16
+        ],
+        "api_kaizo_n": [
+          24,
+          40
+        ],
+        "api_kaizo_d": [
+          8,
+          -16
+        ],
+        "api_map_n": [
+          32,
+          96
+        ],
+        "api_map_d": [
+          0,
+          56
+        ],
+        "api_ensyuf_n": [
+          48,
+          64
+        ],
+        "api_ensyuf_d": [
+          48,
+          32
+        ],
+        "api_ensyue_n": [
+          24,
+          0
+        ],
+        "api_battle_n": [
+          48,
+          80
+        ],
+        "api_battle_d": [
+          48,
+          40
+        ],
+        "api_weda": [
+          160,
+          96
+        ],
+        "api_wedb": [
+          104,
+          96
+        ]
+      },
+      {
+        "api_id": 324,
+        "api_sortno": 417,
+        "api_filename": "uvfgjekdjlcw",
+        "api_version": "1",
+        "api_boko_n": [
+          -40,
+          92
+        ],
+        "api_boko_d": [
+          -56,
+          104
+        ],
+        "api_kaisyu_n": [
+          4,
+          8
+        ],
+        "api_kaisyu_d": [
+          16,
+          8
+        ],
+        "api_kaizo_n": [
+          -48,
+          40
+        ],
+        "api_kaizo_d": [
+          -64,
+          48
+        ],
+        "api_map_n": [
+          -16,
+          96
+        ],
+        "api_map_d": [
+          -32,
+          104
+        ],
+        "api_ensyuf_n": [
+          -16,
+          72
+        ],
+        "api_ensyuf_d": [
+          -32,
+          80
+        ],
+        "api_ensyue_n": [
+          -40,
+          0
+        ],
+        "api_battle_n": [
+          0,
+          96
+        ],
+        "api_battle_d": [
+          -32,
+          104
+        ],
+        "api_weda": [
+          212,
+          64
+        ],
+        "api_wedb": [
+          120,
+          104
+        ]
+      },
+      {
+        "api_id": 325,
+        "api_sortno": 418,
+        "api_filename": "xomrbwrvjwfv",
+        "api_version": "1",
+        "api_boko_n": [
+          -24,
+          108
+        ],
+        "api_boko_d": [
+          32,
+          160
+        ],
+        "api_kaisyu_n": [
+          0,
+          0
+        ],
+        "api_kaisyu_d": [
+          24,
+          -8
+        ],
+        "api_kaizo_n": [
+          -56,
+          72
+        ],
+        "api_kaizo_d": [
+          -16,
+          56
+        ],
+        "api_map_n": [
+          -32,
+          96
+        ],
+        "api_map_d": [
+          8,
+          144
+        ],
+        "api_ensyuf_n": [
+          -24,
+          92
+        ],
+        "api_ensyuf_d": [
+          24,
+          128
+        ],
+        "api_ensyue_n": [
+          -48,
+          0
+        ],
+        "api_battle_n": [
+          -16,
+          96
+        ],
+        "api_battle_d": [
+          32,
+          144
+        ],
+        "api_weda": [
+          256,
+          48
+        ],
+        "api_wedb": [
+          120,
+          112
+        ]
+      },
+      {
         "api_id": 398,
         "api_sortno": 498,
         "api_filename": "dyfnguymthbd",
@@ -80039,6 +82294,468 @@ svdata={
         "api_wedb": [
           114,
           123
+        ]
+      },
+      {
+        "api_id": 404,
+        "api_sortno": 201,
+        "api_filename": "xgoisifuerjd",
+        "api_version": "1",
+        "api_boko_n": [
+          56,
+          120
+        ],
+        "api_boko_d": [
+          56,
+          172
+        ],
+        "api_kaisyu_n": [
+          24,
+          -4
+        ],
+        "api_kaisyu_d": [
+          24,
+          -8
+        ],
+        "api_kaizo_n": [
+          0,
+          64
+        ],
+        "api_kaizo_d": [
+          16,
+          64
+        ],
+        "api_map_n": [
+          24,
+          112
+        ],
+        "api_map_d": [
+          40,
+          128
+        ],
+        "api_ensyuf_n": [
+          32,
+          96
+        ],
+        "api_ensyuf_d": [
+          48,
+          128
+        ],
+        "api_ensyue_n": [
+          16,
+          0
+        ],
+        "api_battle_n": [
+          48,
+          100
+        ],
+        "api_battle_d": [
+          48,
+          128
+        ],
+        "api_weda": [
+          184,
+          24
+        ],
+        "api_wedb": [
+          120,
+          120
+        ]
+      },
+      {
+        "api_id": 405,
+        "api_sortno": 205,
+        "api_filename": "dbtrdgatxdpl",
+        "api_version": "1",
+        "api_boko_n": [
+          64,
+          88
+        ],
+        "api_boko_d": [
+          40,
+          56
+        ],
+        "api_kaisyu_n": [
+          0,
+          16
+        ],
+        "api_kaisyu_d": [
+          24,
+          -16
+        ],
+        "api_kaizo_n": [
+          24,
+          40
+        ],
+        "api_kaizo_d": [
+          8,
+          -16
+        ],
+        "api_map_n": [
+          32,
+          96
+        ],
+        "api_map_d": [
+          0,
+          56
+        ],
+        "api_ensyuf_n": [
+          48,
+          64
+        ],
+        "api_ensyuf_d": [
+          48,
+          32
+        ],
+        "api_ensyue_n": [
+          24,
+          0
+        ],
+        "api_battle_n": [
+          48,
+          80
+        ],
+        "api_battle_d": [
+          48,
+          40
+        ],
+        "api_weda": [
+          160,
+          96
+        ],
+        "api_wedb": [
+          104,
+          96
+        ]
+      },
+      {
+        "api_id": 406,
+        "api_sortno": 206,
+        "api_filename": "rqsbaiaqlunp",
+        "api_version": "1",
+        "api_boko_n": [
+          56,
+          88
+        ],
+        "api_boko_d": [
+          112,
+          128
+        ],
+        "api_kaisyu_n": [
+          32,
+          0
+        ],
+        "api_kaisyu_d": [
+          24,
+          8
+        ],
+        "api_kaizo_n": [
+          0,
+          48
+        ],
+        "api_kaizo_d": [
+          72,
+          48
+        ],
+        "api_map_n": [
+          24,
+          80
+        ],
+        "api_map_d": [
+          112,
+          128
+        ],
+        "api_ensyuf_n": [
+          32,
+          64
+        ],
+        "api_ensyuf_d": [
+          112,
+          96
+        ],
+        "api_ensyue_n": [
+          16,
+          0
+        ],
+        "api_battle_n": [
+          48,
+          72
+        ],
+        "api_battle_d": [
+          96,
+          104
+        ],
+        "api_weda": [
+          192,
+          64
+        ],
+        "api_wedb": [
+          112,
+          104
+        ]
+      },
+      {
+        "api_id": 407,
+        "api_sortno": 0,
+        "api_filename": "fsgwccpesgfh",
+        "api_version": "1",
+        "api_boko_n": [
+          0,
+          0
+        ],
+        "api_boko_d": [
+          0,
+          0
+        ],
+        "api_kaisyu_n": [
+          0,
+          0
+        ],
+        "api_kaisyu_d": [
+          0,
+          0
+        ],
+        "api_kaizo_n": [
+          0,
+          0
+        ],
+        "api_kaizo_d": [
+          0,
+          0
+        ],
+        "api_map_n": [
+          0,
+          0
+        ],
+        "api_map_d": [
+          0,
+          0
+        ],
+        "api_ensyuf_n": [
+          0,
+          0
+        ],
+        "api_ensyuf_d": [
+          0,
+          0
+        ],
+        "api_ensyue_n": [
+          0,
+          0
+        ],
+        "api_battle_n": [
+          0,
+          0
+        ],
+        "api_battle_d": [
+          0,
+          0
+        ],
+        "api_weda": [
+          0,
+          0
+        ],
+        "api_wedb": [
+          0,
+          0
+        ]
+      },
+      {
+        "api_id": 408,
+        "api_sortno": 0,
+        "api_filename": "yyyfqcpumpxj",
+        "api_version": "1",
+        "api_boko_n": [
+          0,
+          0
+        ],
+        "api_boko_d": [
+          0,
+          0
+        ],
+        "api_kaisyu_n": [
+          0,
+          0
+        ],
+        "api_kaisyu_d": [
+          0,
+          0
+        ],
+        "api_kaizo_n": [
+          0,
+          0
+        ],
+        "api_kaizo_d": [
+          0,
+          0
+        ],
+        "api_map_n": [
+          0,
+          0
+        ],
+        "api_map_d": [
+          0,
+          0
+        ],
+        "api_ensyuf_n": [
+          0,
+          0
+        ],
+        "api_ensyuf_d": [
+          0,
+          0
+        ],
+        "api_ensyue_n": [
+          0,
+          0
+        ],
+        "api_battle_n": [
+          0,
+          0
+        ],
+        "api_battle_d": [
+          0,
+          0
+        ],
+        "api_weda": [
+          0,
+          0
+        ],
+        "api_wedb": [
+          0,
+          0
+        ]
+      },
+      {
+        "api_id": 409,
+        "api_sortno": 209,
+        "api_filename": "kgwxvcnblfjb",
+        "api_version": "1",
+        "api_boko_n": [
+          -40,
+          92
+        ],
+        "api_boko_d": [
+          -56,
+          104
+        ],
+        "api_kaisyu_n": [
+          4,
+          8
+        ],
+        "api_kaisyu_d": [
+          16,
+          8
+        ],
+        "api_kaizo_n": [
+          -48,
+          40
+        ],
+        "api_kaizo_d": [
+          -64,
+          48
+        ],
+        "api_map_n": [
+          -16,
+          96
+        ],
+        "api_map_d": [
+          -32,
+          104
+        ],
+        "api_ensyuf_n": [
+          -16,
+          72
+        ],
+        "api_ensyuf_d": [
+          -32,
+          80
+        ],
+        "api_ensyue_n": [
+          -40,
+          0
+        ],
+        "api_battle_n": [
+          0,
+          96
+        ],
+        "api_battle_d": [
+          -32,
+          104
+        ],
+        "api_weda": [
+          212,
+          64
+        ],
+        "api_wedb": [
+          120,
+          104
+        ]
+      },
+      {
+        "api_id": 410,
+        "api_sortno": 210,
+        "api_filename": "gdbwncyaopob",
+        "api_version": "1",
+        "api_boko_n": [
+          -24,
+          108
+        ],
+        "api_boko_d": [
+          32,
+          160
+        ],
+        "api_kaisyu_n": [
+          0,
+          0
+        ],
+        "api_kaisyu_d": [
+          24,
+          -8
+        ],
+        "api_kaizo_n": [
+          -56,
+          72
+        ],
+        "api_kaizo_d": [
+          -16,
+          56
+        ],
+        "api_map_n": [
+          -32,
+          96
+        ],
+        "api_map_d": [
+          8,
+          144
+        ],
+        "api_ensyuf_n": [
+          -24,
+          92
+        ],
+        "api_ensyuf_d": [
+          24,
+          128
+        ],
+        "api_ensyue_n": [
+          -48,
+          0
+        ],
+        "api_battle_n": [
+          -16,
+          96
+        ],
+        "api_battle_d": [
+          32,
+          144
+        ],
+        "api_weda": [
+          256,
+          48
+        ],
+        "api_wedb": [
+          120,
+          112
         ]
       },
       {
@@ -84777,12 +87494,12 @@ svdata={
           0
         ],
         "api_battle_n": [
-          0,
-          0
+          11,
+          140
         ],
         "api_battle_d": [
-          0,
-          0
+          11,
+          140
         ],
         "api_weda": [
           0,
@@ -84975,12 +87692,12 @@ svdata={
           0
         ],
         "api_battle_n": [
-          0,
-          0
+          64,
+          160
         ],
         "api_battle_d": [
-          0,
-          0
+          64,
+          160
         ],
         "api_weda": [
           0,
@@ -85041,12 +87758,12 @@ svdata={
           0
         ],
         "api_battle_n": [
-          0,
-          0
+          64,
+          160
         ],
         "api_battle_d": [
-          0,
-          0
+          64,
+          160
         ],
         "api_weda": [
           0,
@@ -85107,12 +87824,12 @@ svdata={
           0
         ],
         "api_battle_n": [
-          0,
-          0
+          64,
+          160
         ],
         "api_battle_d": [
-          0,
-          0
+          64,
+          160
         ],
         "api_weda": [
           0,
@@ -85173,12 +87890,12 @@ svdata={
           0
         ],
         "api_battle_n": [
-          0,
-          0
+          64,
+          160
         ],
         "api_battle_d": [
-          0,
-          0
+          64,
+          160
         ],
         "api_weda": [
           0,
@@ -85239,12 +87956,12 @@ svdata={
           0
         ],
         "api_battle_n": [
-          0,
-          0
+          72,
+          -85
         ],
         "api_battle_d": [
-          0,
-          0
+          72,
+          -85
         ],
         "api_weda": [
           0,
@@ -85371,12 +88088,12 @@ svdata={
           0
         ],
         "api_battle_n": [
-          64,
-          64
+          32,
+          160
         ],
         "api_battle_d": [
-          64,
-          64
+          32,
+          160
         ],
         "api_weda": [
           0,
@@ -85437,12 +88154,12 @@ svdata={
           0
         ],
         "api_battle_n": [
-          64,
-          96
+          -32,
+          72
         ],
         "api_battle_d": [
-          64,
-          96
+          -32,
+          72
         ],
         "api_weda": [
           0,
@@ -85503,12 +88220,12 @@ svdata={
           0
         ],
         "api_battle_n": [
-          48,
-          80
+          -32,
+          32
         ],
         "api_battle_d": [
-          48,
-          80
+          -32,
+          32
         ],
         "api_weda": [
           0,
@@ -85569,12 +88286,12 @@ svdata={
           0
         ],
         "api_battle_n": [
-          64,
-          136
+          -32,
+          64
         ],
         "api_battle_d": [
-          64,
-          96
+          -32,
+          64
         ],
         "api_weda": [
           0,
@@ -85635,12 +88352,12 @@ svdata={
           0
         ],
         "api_battle_n": [
-          64,
-          64
+          -24,
+          80
         ],
         "api_battle_d": [
-          64,
-          64
+          -24,
+          80
         ],
         "api_weda": [
           0,
@@ -85701,12 +88418,12 @@ svdata={
           0
         ],
         "api_battle_n": [
-          64,
-          64
+          -48,
+          80
         ],
         "api_battle_d": [
-          64,
-          64
+          -48,
+          80
         ],
         "api_weda": [
           0,
@@ -86279,6 +88996,16 @@ svdata={
         "api_id": 33,
         "api_name": "照明弾",
         "api_show_flg": 0
+      },
+      {
+        "api_id": 34,
+        "api_name": "司令部施設",
+        "api_show_flg": 0
+      },
+      {
+        "api_id": 35,
+        "api_name": "航空要員",
+        "api_show_flg": 0
       }
     ],
     "api_mst_stype": [
@@ -86321,7 +89048,9 @@ svdata={
           "30": 0,
           "31": 0,
           "32": 0,
-          "33": 0
+          "33": 0,
+          "34": 0,
+          "35": 0
         }
       },
       {
@@ -86363,7 +89092,9 @@ svdata={
           "30": 1,
           "31": 0,
           "32": 0,
-          "33": 1
+          "33": 1,
+          "34": 0,
+          "35": 0
         }
       },
       {
@@ -86405,7 +89136,9 @@ svdata={
           "30": 1,
           "31": 0,
           "32": 0,
-          "33": 1
+          "33": 1,
+          "34": 1,
+          "35": 0
         }
       },
       {
@@ -86447,7 +89180,9 @@ svdata={
           "30": 0,
           "31": 0,
           "32": 0,
-          "33": 1
+          "33": 1,
+          "34": 1,
+          "35": 0
         }
       },
       {
@@ -86489,7 +89224,9 @@ svdata={
           "30": 0,
           "31": 0,
           "32": 0,
-          "33": 1
+          "33": 1,
+          "34": 1,
+          "35": 0
         }
       },
       {
@@ -86531,7 +89268,9 @@ svdata={
           "30": 1,
           "31": 0,
           "32": 0,
-          "33": 1
+          "33": 1,
+          "34": 1,
+          "35": 1
         }
       },
       {
@@ -86573,7 +89312,9 @@ svdata={
           "30": 0,
           "31": 0,
           "32": 0,
-          "33": 0
+          "33": 0,
+          "34": 1,
+          "35": 1
         }
       },
       {
@@ -86615,7 +89356,9 @@ svdata={
           "30": 0,
           "31": 0,
           "32": 0,
-          "33": 1
+          "33": 1,
+          "34": 1,
+          "35": 0
         }
       },
       {
@@ -86657,7 +89400,9 @@ svdata={
           "30": 0,
           "31": 0,
           "32": 0,
-          "33": 1
+          "33": 1,
+          "34": 1,
+          "35": 0
         }
       },
       {
@@ -86699,7 +89444,9 @@ svdata={
           "30": 0,
           "31": 0,
           "32": 0,
-          "33": 1
+          "33": 1,
+          "34": 1,
+          "35": 1
         }
       },
       {
@@ -86741,7 +89488,9 @@ svdata={
           "30": 0,
           "31": 0,
           "32": 0,
-          "33": 0
+          "33": 0,
+          "34": 1,
+          "35": 1
         }
       },
       {
@@ -86783,7 +89532,9 @@ svdata={
           "30": 0,
           "31": 0,
           "32": 0,
-          "33": 0
+          "33": 0,
+          "34": 0,
+          "35": 0
         }
       },
       {
@@ -86825,7 +89576,9 @@ svdata={
           "30": 0,
           "31": 0,
           "32": 1,
-          "33": 0
+          "33": 0,
+          "34": 0,
+          "35": 0
         }
       },
       {
@@ -86867,7 +89620,9 @@ svdata={
           "30": 0,
           "31": 0,
           "32": 1,
-          "33": 0
+          "33": 0,
+          "34": 0,
+          "35": 0
         }
       },
       {
@@ -86909,7 +89664,9 @@ svdata={
           "30": 0,
           "31": 0,
           "32": 0,
-          "33": 0
+          "33": 0,
+          "34": 0,
+          "35": 0
         }
       },
       {
@@ -86951,7 +89708,9 @@ svdata={
           "30": 1,
           "31": 0,
           "32": 0,
-          "33": 1
+          "33": 1,
+          "34": 1,
+          "35": 0
         }
       },
       {
@@ -86993,7 +89752,9 @@ svdata={
           "30": 1,
           "31": 0,
           "32": 0,
-          "33": 0
+          "33": 0,
+          "34": 1,
+          "35": 0
         }
       },
       {
@@ -87035,7 +89796,9 @@ svdata={
           "30": 0,
           "31": 0,
           "32": 0,
-          "33": 0
+          "33": 0,
+          "34": 1,
+          "35": 1
         }
       },
       {
@@ -87077,7 +89840,9 @@ svdata={
           "30": 0,
           "31": 1,
           "32": 0,
-          "33": 1
+          "33": 1,
+          "34": 0,
+          "35": 0
         }
       },
       {
@@ -87119,7 +89884,9 @@ svdata={
           "30": 0,
           "31": 0,
           "32": 0,
-          "33": 1
+          "33": 1,
+          "34": 1,
+          "35": 0
         }
       }
     ],
@@ -90755,7 +93522,7 @@ svdata={
         "api_atap": 0,
         "api_houm": 2,
         "api_raim": 0,
-        "api_houk": 0,
+        "api_houk": 2,
         "api_raik": 0,
         "api_bakk": 0,
         "api_saku": 1,
@@ -91074,6 +93841,348 @@ svdata={
           0
         ],
         "api_info": "金剛型高速戦艦「榛名」の前部主砲の最終形態です。\u003cbr\u003eあまり効果がなかったといわれていますが、縦縞ゼブラ模様のダズル迷彩を施しています。三式弾を装填して敵機が跳梁する空を睨み、母港呉と動けない残存艦隊の防戦に努めました。",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 105,
+        "api_sortno": 105,
+        "api_name": "試製41cm三連装砲",
+        "api_type": [
+          1,
+          1,
+          3,
+          3
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 22,
+        "api_raig": 0,
+        "api_soku": 0,
+        "api_baku": 0,
+        "api_tyku": 5,
+        "api_tais": 0,
+        "api_atap": 0,
+        "api_houm": 2,
+        "api_raim": 0,
+        "api_houk": 0,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 0,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 3,
+        "api_rare": 4,
+        "api_broken": [
+          0,
+          14,
+          22,
+          0
+        ],
+        "api_info": "呉海軍工廠砲熕部で試作された純国産戦艦主砲の三連装砲です。\u003cbr\u003e16インチを僅かに上回る、この41cm砲は「大和」型の46cm砲が登場するまで世界最大の戦艦砲でした。これを搭載した長門型戦艦は、当時世界列強の「ビッグ７」水準を遥かに超えた高火力と高命中精度を実現します。",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 106,
+        "api_sortno": 106,
+        "api_name": "13号対空電探改",
+        "api_type": [
+          5,
+          8,
+          12,
+          11
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 0,
+        "api_raig": 0,
+        "api_soku": 0,
+        "api_baku": 0,
+        "api_tyku": 4,
+        "api_tais": 0,
+        "api_atap": 0,
+        "api_houm": 2,
+        "api_raim": 0,
+        "api_houk": 1,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 4,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 0,
+        "api_rare": 3,
+        "api_broken": [
+          0,
+          0,
+          10,
+          11
+        ],
+        "api_info": "艦載用対空電探の改良調整版です。\u003cbr\u003e比較的信頼性も高く、小型軽量で駆逐艦等への装備も可能だった「13号対空電探」に、技術者達がさらに改良を加えた対空電探です。水雷戦隊の眼として活躍します。",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 107,
+        "api_sortno": 107,
+        "api_name": "艦隊司令部施設",
+        "api_type": [
+          12,
+          22,
+          34,
+          28
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 0,
+        "api_raig": 0,
+        "api_soku": 0,
+        "api_baku": 0,
+        "api_tyku": 1,
+        "api_tais": 0,
+        "api_atap": 0,
+        "api_houm": 1,
+        "api_raim": 0,
+        "api_houk": 1,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 1,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 0,
+        "api_rare": 5,
+        "api_broken": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "api_info": "洋上において艦隊を指揮する前線司令部です。\u003cbr\u003e司令部施設を開設できるある一定以上の大きさの艦に設営可能です。同司令部を旗艦に設営した艦隊は「連合艦隊」として出撃している際に、随伴艦隊の健在な駆逐艦を「損害の大きい艦」の護衛につけて、戦場から退避させることが可能です。",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 108,
+        "api_sortno": 108,
+        "api_name": "熟練艦載機整備員",
+        "api_type": [
+          13,
+          23,
+          35,
+          29
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 10,
+        "api_raig": 0,
+        "api_soku": 0,
+        "api_baku": 0,
+        "api_tyku": 1,
+        "api_tais": 0,
+        "api_atap": 0,
+        "api_houm": 1,
+        "api_raim": 0,
+        "api_houk": 0,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 1,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 3,
+        "api_rare": 3,
+        "api_broken": [
+          1,
+          10,
+          1,
+          10
+        ],
+        "api_info": "艦載機の整備の卓越した能力を発揮できる整備要員です。\u003cbr\u003e艦載機を装備した航空母艦に導入することで、同空母から発進する攻撃隊の能力を高めることが可能です。第一次攻撃隊のパンチ力不足を感じたら、お試しください！",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 109,
+        "api_sortno": 109,
+        "api_name": "零戦52型丙(六〇一空)",
+        "api_type": [
+          3,
+          5,
+          6,
+          6
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 0,
+        "api_raig": 0,
+        "api_soku": 0,
+        "api_baku": 0,
+        "api_tyku": 9,
+        "api_tais": 0,
+        "api_atap": 0,
+        "api_houm": 1,
+        "api_raim": 0,
+        "api_houk": 1,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 0,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 0,
+        "api_rare": 3,
+        "api_broken": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "api_info": "零戦の最終的な量産型「零式艦上戦闘機52丙型」です。\u003cbr\u003e武装及び防御力が強化されました。その分、若干機動性は失われています。本航空隊は同機材を装備して、再建を目指す空母機動部隊の制空戦闘を担います。",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 110,
+        "api_sortno": 110,
+        "api_name": "烈風(六〇一空)",
+        "api_type": [
+          3,
+          5,
+          6,
+          6
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 0,
+        "api_raig": 0,
+        "api_soku": 0,
+        "api_baku": 0,
+        "api_tyku": 11,
+        "api_tais": 0,
+        "api_atap": 0,
+        "api_houm": 1,
+        "api_raim": 0,
+        "api_houk": 2,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 0,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 0,
+        "api_rare": 4,
+        "api_broken": [
+          2,
+          2,
+          0,
+          9
+        ],
+        "api_info": "「零戦」の後継機として開発された最新鋭艦上戦闘機「烈風」。\u003cbr\u003e用兵側の発動機選定ミスや多忙な現場設計陣などの苦境を越えて、ついに完成した新型艦戦。本航空隊は同新鋭機材を定数受領して、再建を目指す空母機動部隊、その戦闘機部隊の中核を担います。",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 111,
+        "api_sortno": 111,
+        "api_name": "彗星(六〇一空)",
+        "api_type": [
+          3,
+          5,
+          7,
+          7
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 0,
+        "api_raig": 0,
+        "api_soku": 0,
+        "api_baku": 11,
+        "api_tyku": 0,
+        "api_tais": 4,
+        "api_atap": 0,
+        "api_houm": 1,
+        "api_raim": 0,
+        "api_houk": 0,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 1,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 0,
+        "api_rare": 3,
+        "api_broken": [
+          2,
+          3,
+          0,
+          3
+        ],
+        "api_info": "「九九艦爆」の後継機として開発された高速艦爆「彗星」。\u003cbr\u003e液冷発動機装備のため運用のやや難しい機体ですが、整備体制を万全に、内地で訓練を重ねた六〇一空の精鋭が搭乗します。機動部隊決戦に向けて、錬成を重ねた六〇一空の精鋭艦爆隊です。",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 112,
+        "api_sortno": 112,
+        "api_name": "天山(六〇一空)",
+        "api_type": [
+          3,
+          5,
+          8,
+          8
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 0,
+        "api_raig": 10,
+        "api_soku": 0,
+        "api_baku": 0,
+        "api_tyku": 0,
+        "api_tais": 4,
+        "api_atap": 0,
+        "api_houm": 1,
+        "api_raim": 0,
+        "api_houk": 0,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 2,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 0,
+        "api_rare": 3,
+        "api_broken": [
+          2,
+          4,
+          0,
+          4
+        ],
+        "api_info": "旧式化した「九七艦攻」の後継機として開発された、新鋭艦上攻撃機「天山」。\u003cbr\u003e本部隊は、同機を装備して内地で錬成を重ねた六〇一空による精鋭艦攻機隊です。新生空母機動部隊の打撃力を担います。",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 113,
+        "api_sortno": 113,
+        "api_name": "流星(六〇一空)",
+        "api_type": [
+          3,
+          5,
+          8,
+          8
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 0,
+        "api_raig": 13,
+        "api_soku": 0,
+        "api_baku": 0,
+        "api_tyku": 0,
+        "api_tais": 5,
+        "api_atap": 0,
+        "api_houm": 1,
+        "api_raim": 0,
+        "api_houk": 0,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 3,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 0,
+        "api_rare": 4,
+        "api_broken": [
+          2,
+          5,
+          0,
+          10
+        ],
+        "api_info": "艦攻と艦爆を統合した先進的な\"急降下爆撃可能な雷撃機\"、それが「流星」です。\u003cbr\u003e発動機不調と重量過大に悩みながらも、開発に成功。高い性能を誇る最新鋭の艦上攻撃機です。錬成を重ねた六〇一空が機種転換し、本機を装備します。整備の行き届いた流星を定数装備した、新生艦攻隊の主力です。",
         "api_usebull": "0"
       },
       {
@@ -92823,6 +95932,120 @@ svdata={
         ],
         "api_info": "",
         "api_usebull": "0"
+      },
+      {
+        "api_id": 547,
+        "api_sortno": 0,
+        "api_name": "深海猫艦戦",
+        "api_type": [
+          3,
+          5,
+          6,
+          6
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 0,
+        "api_raig": 0,
+        "api_soku": 0,
+        "api_baku": 0,
+        "api_tyku": 10,
+        "api_tais": 0,
+        "api_atap": 0,
+        "api_houm": 1,
+        "api_raim": 0,
+        "api_houk": 0,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 0,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 0,
+        "api_rare": 3,
+        "api_broken": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_info": "",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 548,
+        "api_sortno": 0,
+        "api_name": "深海地獄艦爆",
+        "api_type": [
+          3,
+          5,
+          7,
+          7
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 0,
+        "api_raig": 0,
+        "api_soku": 0,
+        "api_baku": 11,
+        "api_tyku": 0,
+        "api_tais": 4,
+        "api_atap": 0,
+        "api_houm": 3,
+        "api_raim": 0,
+        "api_houk": 0,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 3,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 0,
+        "api_rare": 3,
+        "api_broken": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_info": "",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 549,
+        "api_sortno": 0,
+        "api_name": "深海復讐艦攻",
+        "api_type": [
+          3,
+          5,
+          8,
+          8
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 0,
+        "api_raig": 13,
+        "api_soku": 0,
+        "api_baku": 0,
+        "api_tyku": 4,
+        "api_tais": 5,
+        "api_atap": 0,
+        "api_houm": 2,
+        "api_raim": 0,
+        "api_houk": 0,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 5,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 0,
+        "api_rare": 3,
+        "api_broken": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_info": "",
+        "api_usebull": "0"
       }
     ],
     "api_mst_slotitemgraph": [
@@ -93451,6 +96674,60 @@ svdata={
         "api_version": "1"
       },
       {
+        "api_id": 105,
+        "api_sortno": 105,
+        "api_filename": "105",
+        "api_version": "1"
+      },
+      {
+        "api_id": 106,
+        "api_sortno": 106,
+        "api_filename": "106",
+        "api_version": "1"
+      },
+      {
+        "api_id": 107,
+        "api_sortno": 107,
+        "api_filename": "107",
+        "api_version": "1"
+      },
+      {
+        "api_id": 108,
+        "api_sortno": 108,
+        "api_filename": "108",
+        "api_version": "1"
+      },
+      {
+        "api_id": 109,
+        "api_sortno": 109,
+        "api_filename": "109",
+        "api_version": "1"
+      },
+      {
+        "api_id": 110,
+        "api_sortno": 110,
+        "api_filename": "110",
+        "api_version": "1"
+      },
+      {
+        "api_id": 111,
+        "api_sortno": 111,
+        "api_filename": "111",
+        "api_version": "1"
+      },
+      {
+        "api_id": 112,
+        "api_sortno": 112,
+        "api_filename": "112",
+        "api_version": "1"
+      },
+      {
+        "api_id": 113,
+        "api_sortno": 113,
+        "api_filename": "113",
+        "api_version": "1"
+      },
+      {
         "api_id": 501,
         "api_sortno": 0,
         "api_filename": "501",
@@ -93724,6 +97001,24 @@ svdata={
         "api_id": 546,
         "api_sortno": 0,
         "api_filename": "546",
+        "api_version": "1"
+      },
+      {
+        "api_id": 547,
+        "api_sortno": 0,
+        "api_filename": "547",
+        "api_version": "1"
+      },
+      {
+        "api_id": 548,
+        "api_sortno": 0,
+        "api_filename": "548",
+        "api_version": "1"
+      },
+      {
+        "api_id": 549,
+        "api_sortno": 0,
+        "api_filename": "549",
         "api_version": "1"
       }
     ],
@@ -96938,7 +100233,7 @@ svdata={
         11,
         14,
         10,
-        -1
+        13
       ],
       "api_cabinet_2": [
         16,
@@ -96978,6 +100273,11 @@ svdata={
         "api_id": 5,
         "api_name": "南方海域",
         "api_type": 0
+      },
+      {
+        "api_id": 27,
+        "api_name": "AL / MI作戦",
+        "api_type": 1
       }
     ],
     "api_mst_mapinfo": [
@@ -96994,6 +100294,10 @@ svdata={
           0,
           0,
           0
+        ],
+        "api_sally_flag": [
+          1,
+          0
         ]
       },
       {
@@ -97008,6 +100312,10 @@ svdata={
           32,
           0,
           0,
+          0
+        ],
+        "api_sally_flag": [
+          1,
           0
         ]
       },
@@ -97024,6 +100332,10 @@ svdata={
           0,
           0,
           0
+        ],
+        "api_sally_flag": [
+          1,
+          0
         ]
       },
       {
@@ -97038,6 +100350,10 @@ svdata={
           33,
           34,
           32,
+          0
+        ],
+        "api_sally_flag": [
+          1,
           0
         ]
       },
@@ -97055,7 +100371,11 @@ svdata={
           0,
           0
         ],
-        "api_required_defeat_count": 4
+        "api_required_defeat_count": 4,
+        "api_sally_flag": [
+          1,
+          0
+        ]
       },
       {
         "api_id": 21,
@@ -97069,6 +100389,10 @@ svdata={
           33,
           2,
           0,
+          0
+        ],
+        "api_sally_flag": [
+          1,
           0
         ]
       },
@@ -97085,6 +100409,10 @@ svdata={
           2,
           0,
           0
+        ],
+        "api_sally_flag": [
+          1,
+          0
         ]
       },
       {
@@ -97099,6 +100427,10 @@ svdata={
           31,
           32,
           0,
+          0
+        ],
+        "api_sally_flag": [
+          1,
           0
         ]
       },
@@ -97115,6 +100447,10 @@ svdata={
           31,
           1,
           3
+        ],
+        "api_sally_flag": [
+          1,
+          0
         ]
       },
       {
@@ -97131,7 +100467,11 @@ svdata={
           0,
           0
         ],
-        "api_required_defeat_count": 4
+        "api_required_defeat_count": 4,
+        "api_sally_flag": [
+          1,
+          0
+        ]
       },
       {
         "api_id": 31,
@@ -97145,6 +100485,10 @@ svdata={
           33,
           0,
           0,
+          0
+        ],
+        "api_sally_flag": [
+          1,
           0
         ]
       },
@@ -97161,6 +100505,10 @@ svdata={
           10,
           0,
           0
+        ],
+        "api_sally_flag": [
+          1,
+          0
         ]
       },
       {
@@ -97175,6 +100523,10 @@ svdata={
           11,
           12,
           0,
+          0
+        ],
+        "api_sally_flag": [
+          1,
           0
         ]
       },
@@ -97191,6 +100543,10 @@ svdata={
           11,
           12,
           0
+        ],
+        "api_sally_flag": [
+          1,
+          0
         ]
       },
       {
@@ -97205,6 +100561,10 @@ svdata={
           31,
           0,
           0,
+          0
+        ],
+        "api_sally_flag": [
+          1,
           0
         ]
       },
@@ -97221,6 +100581,10 @@ svdata={
           0,
           0,
           0
+        ],
+        "api_sally_flag": [
+          1,
+          0
         ]
       },
       {
@@ -97235,6 +100599,10 @@ svdata={
           31,
           34,
           0,
+          0
+        ],
+        "api_sally_flag": [
+          1,
           0
         ]
       },
@@ -97252,7 +100620,11 @@ svdata={
           0,
           0
         ],
-        "api_required_defeat_count": 4
+        "api_required_defeat_count": 4,
+        "api_sally_flag": [
+          1,
+          0
+        ]
       },
       {
         "api_id": 51,
@@ -97266,6 +100638,10 @@ svdata={
           33,
           31,
           0,
+          0
+        ],
+        "api_sally_flag": [
+          1,
           0
         ]
       },
@@ -97283,7 +100659,11 @@ svdata={
           0,
           0
         ],
-        "api_required_defeat_count": 4
+        "api_required_defeat_count": 4,
+        "api_sally_flag": [
+          1,
+          0
+        ]
       },
       {
         "api_id": 53,
@@ -97299,7 +100679,11 @@ svdata={
           0,
           0
         ],
-        "api_required_defeat_count": 5
+        "api_required_defeat_count": 5,
+        "api_sally_flag": [
+          1,
+          0
+        ]
       },
       {
         "api_id": 54,
@@ -97315,7 +100699,11 @@ svdata={
           0,
           0
         ],
-        "api_required_defeat_count": 5
+        "api_required_defeat_count": 5,
+        "api_sally_flag": [
+          1,
+          0
+        ]
       },
       {
         "api_id": 55,
@@ -97331,7 +100719,131 @@ svdata={
           0,
           0
         ],
-        "api_required_defeat_count": 5
+        "api_required_defeat_count": 5,
+        "api_sally_flag": [
+          1,
+          0
+        ]
+      },
+      {
+        "api_id": 271,
+        "api_maparea_id": 27,
+        "api_no": 1,
+        "api_name": "北方AL海域",
+        "api_level": 5,
+        "api_opetext": "北方AL海域へ進出せよ！",
+        "api_infotext": "AL/MI作戦が発動された！初動\u003cbr\u003e作戦として、北方AL方面へ艦隊\u003cbr\u003eを進出、同制海権を確保せよ！",
+        "api_item": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_max_maphp": 300,
+        "api_sally_flag": [
+          1,
+          0
+        ]
+      },
+      {
+        "api_id": 272,
+        "api_maparea_id": 27,
+        "api_no": 2,
+        "api_name": "北方AL海域",
+        "api_level": 7,
+        "api_opetext": "陽動作戦！北方港湾を叩け！",
+        "api_infotext": "MI作戦の陽動支援作戦として、\u003cbr\u003e軽空母二隻を基幹とした艦隊等\u003cbr\u003eで敵北方港湾基地を強襲せよ！",
+        "api_item": [
+          32,
+          0,
+          0,
+          0
+        ],
+        "api_max_maphp": 300,
+        "api_sally_flag": [
+          1,
+          0
+        ]
+      },
+      {
+        "api_id": 273,
+        "api_maparea_id": 27,
+        "api_no": 3,
+        "api_name": "北太平洋海域",
+        "api_level": 8,
+        "api_opetext": "決戦！MI作戦発動",
+        "api_infotext": "いよいよMI作戦が発動された！\u003cbr\u003e正規空母を基幹とした連合艦隊\u003cbr\u003e(機動部隊)を編成、出撃せよ！",
+        "api_item": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_max_maphp": 300,
+        "api_sally_flag": [
+          0,
+          1
+        ]
+      },
+      {
+        "api_id": 274,
+        "api_maparea_id": 27,
+        "api_no": 4,
+        "api_name": "北太平洋MI諸島近海",
+        "api_level": 9,
+        "api_opetext": "MI島攻略作戦",
+        "api_infotext": "MI島海域に展開する敵機動部隊\u003cbr\u003eを排除しつつ、連合艦隊を以て\u003cbr\u003e同島の攻略作戦を実施せよ！",
+        "api_item": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_max_maphp": 300,
+        "api_sally_flag": [
+          0,
+          1
+        ]
+      },
+      {
+        "api_id": 275,
+        "api_maparea_id": 27,
+        "api_no": 5,
+        "api_name": "北太平洋MI諸島沖",
+        "api_level": 10,
+        "api_opetext": "MI島確保作戦",
+        "api_infotext": "MI島攻略作戦は成功した！同島\u003cbr\u003e奪還を目的として接近する増援\u003cbr\u003e艦隊を捕捉、これを撃滅せよ！",
+        "api_item": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_max_maphp": 300,
+        "api_sally_flag": [
+          0,
+          1
+        ]
+      },
+      {
+        "api_id": 276,
+        "api_maparea_id": 27,
+        "api_no": 6,
+        "api_name": "本土南西諸島近海",
+        "api_level": 12,
+        "api_opetext": "敵別働隊を迎撃、本土近海防衛！",
+        "api_infotext": "緊急電文！AL/MI作戦展開中に\u003cbr\u003e敵別働隊が本土近海に来襲！残\u003cbr\u003e置艦隊全力でこれを迎撃せよ！",
+        "api_item": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "api_max_maphp": 300,
+        "api_sally_flag": [
+          1,
+          0
+        ]
       }
     ],
     "api_mst_mapbgm": [
@@ -97632,6 +101144,84 @@ svdata={
         "api_boss_bgm": [
           6,
           6
+        ]
+      },
+      {
+        "api_id": 271,
+        "api_maparea_id": 27,
+        "api_no": 1,
+        "api_map_bgm": [
+          14,
+          14
+        ],
+        "api_boss_bgm": [
+          15,
+          15
+        ]
+      },
+      {
+        "api_id": 272,
+        "api_maparea_id": 27,
+        "api_no": 2,
+        "api_map_bgm": [
+          14,
+          14
+        ],
+        "api_boss_bgm": [
+          15,
+          15
+        ]
+      },
+      {
+        "api_id": 273,
+        "api_maparea_id": 27,
+        "api_no": 3,
+        "api_map_bgm": [
+          16,
+          16
+        ],
+        "api_boss_bgm": [
+          17,
+          17
+        ]
+      },
+      {
+        "api_id": 274,
+        "api_maparea_id": 27,
+        "api_no": 4,
+        "api_map_bgm": [
+          16,
+          16
+        ],
+        "api_boss_bgm": [
+          17,
+          17
+        ]
+      },
+      {
+        "api_id": 275,
+        "api_maparea_id": 27,
+        "api_no": 5,
+        "api_map_bgm": [
+          12,
+          12
+        ],
+        "api_boss_bgm": [
+          17,
+          17
+        ]
+      },
+      {
+        "api_id": 276,
+        "api_maparea_id": 27,
+        "api_no": 6,
+        "api_map_bgm": [
+          16,
+          16
+        ],
+        "api_boss_bgm": [
+          17,
+          17
         ]
       }
     ],
@@ -100107,6 +103697,734 @@ svdata={
         "api_id": 309,
         "api_no": 15,
         "api_color_no": 5
+      },
+      {
+        "api_map_no": 271,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 1,
+        "api_id": 1225,
+        "api_no": 0,
+        "api_color_no": 0
+      },
+      {
+        "api_map_no": 271,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 1,
+        "api_id": 1226,
+        "api_no": 1,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 271,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 1,
+        "api_id": 1227,
+        "api_no": 2,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 271,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 1,
+        "api_id": 1228,
+        "api_no": 3,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 271,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 1,
+        "api_id": 1229,
+        "api_no": 4,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 271,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 1,
+        "api_id": 1230,
+        "api_no": 5,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 271,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 1,
+        "api_id": 1231,
+        "api_no": 6,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 271,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 1,
+        "api_id": 1232,
+        "api_no": 7,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 271,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 1,
+        "api_id": 1233,
+        "api_no": 8,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 271,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 1,
+        "api_id": 1234,
+        "api_no": 9,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 271,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 1,
+        "api_id": 1235,
+        "api_no": 10,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 271,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 1,
+        "api_id": 1236,
+        "api_no": 11,
+        "api_color_no": 5
+      },
+      {
+        "api_map_no": 271,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 1,
+        "api_id": 1237,
+        "api_no": 12,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 271,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 1,
+        "api_id": 1238,
+        "api_no": 13,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 271,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 1,
+        "api_id": 1239,
+        "api_no": 14,
+        "api_color_no": 5
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1240,
+        "api_no": 0,
+        "api_color_no": 0
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1241,
+        "api_no": 1,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1242,
+        "api_no": 2,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1243,
+        "api_no": 3,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1244,
+        "api_no": 4,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1245,
+        "api_no": 5,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1246,
+        "api_no": 6,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1247,
+        "api_no": 7,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1248,
+        "api_no": 8,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1249,
+        "api_no": 9,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1250,
+        "api_no": 10,
+        "api_color_no": 2
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1251,
+        "api_no": 11,
+        "api_color_no": 5
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1252,
+        "api_no": 12,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1253,
+        "api_no": 13,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1254,
+        "api_no": 14,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 272,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 2,
+        "api_id": 1255,
+        "api_no": 15,
+        "api_color_no": 5
+      },
+      {
+        "api_map_no": 273,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 3,
+        "api_id": 1256,
+        "api_no": 0,
+        "api_color_no": 0
+      },
+      {
+        "api_map_no": 273,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 3,
+        "api_id": 1257,
+        "api_no": 1,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 273,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 3,
+        "api_id": 1258,
+        "api_no": 2,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 273,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 3,
+        "api_id": 1259,
+        "api_no": 3,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 273,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 3,
+        "api_id": 1260,
+        "api_no": 4,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 273,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 3,
+        "api_id": 1261,
+        "api_no": 5,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 273,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 3,
+        "api_id": 1262,
+        "api_no": 6,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 273,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 3,
+        "api_id": 1263,
+        "api_no": 7,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 273,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 3,
+        "api_id": 1264,
+        "api_no": 8,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 273,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 3,
+        "api_id": 1265,
+        "api_no": 9,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 273,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 3,
+        "api_id": 1266,
+        "api_no": 10,
+        "api_color_no": 5
+      },
+      {
+        "api_map_no": 273,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 3,
+        "api_id": 1267,
+        "api_no": 11,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 273,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 3,
+        "api_id": 1268,
+        "api_no": 12,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 274,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 4,
+        "api_id": 1269,
+        "api_no": 0,
+        "api_color_no": 0
+      },
+      {
+        "api_map_no": 274,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 4,
+        "api_id": 1270,
+        "api_no": 1,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 274,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 4,
+        "api_id": 1271,
+        "api_no": 2,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 274,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 4,
+        "api_id": 1272,
+        "api_no": 3,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 274,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 4,
+        "api_id": 1273,
+        "api_no": 4,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 274,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 4,
+        "api_id": 1274,
+        "api_no": 5,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 274,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 4,
+        "api_id": 1275,
+        "api_no": 6,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 274,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 4,
+        "api_id": 1276,
+        "api_no": 7,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 274,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 4,
+        "api_id": 1277,
+        "api_no": 8,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 274,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 4,
+        "api_id": 1278,
+        "api_no": 9,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 274,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 4,
+        "api_id": 1279,
+        "api_no": 10,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 274,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 4,
+        "api_id": 1280,
+        "api_no": 11,
+        "api_color_no": 5
+      },
+      {
+        "api_map_no": 274,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 4,
+        "api_id": 1281,
+        "api_no": 12,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 274,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 4,
+        "api_id": 1282,
+        "api_no": 13,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 274,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 4,
+        "api_id": 1283,
+        "api_no": 14,
+        "api_color_no": 5
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1284,
+        "api_no": 0,
+        "api_color_no": 0
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1285,
+        "api_no": 1,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1286,
+        "api_no": 2,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1287,
+        "api_no": 3,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1288,
+        "api_no": 4,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1289,
+        "api_no": 5,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1290,
+        "api_no": 6,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1291,
+        "api_no": 7,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1292,
+        "api_no": 8,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1293,
+        "api_no": 9,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1294,
+        "api_no": 10,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1295,
+        "api_no": 11,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1296,
+        "api_no": 12,
+        "api_color_no": 5
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1297,
+        "api_no": 13,
+        "api_color_no": 7
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1298,
+        "api_no": 14,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1299,
+        "api_no": 15,
+        "api_color_no": 5
+      },
+      {
+        "api_map_no": 275,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 5,
+        "api_id": 1300,
+        "api_no": 16,
+        "api_color_no": 5
+      },
+      {
+        "api_map_no": 276,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 6,
+        "api_id": 1301,
+        "api_no": 0,
+        "api_color_no": 0
+      },
+      {
+        "api_map_no": 276,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 6,
+        "api_id": 1302,
+        "api_no": 1,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 276,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 6,
+        "api_id": 1303,
+        "api_no": 2,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 276,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 6,
+        "api_id": 1304,
+        "api_no": 3,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 276,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 6,
+        "api_id": 1305,
+        "api_no": 4,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 276,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 6,
+        "api_id": 1306,
+        "api_no": 5,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 276,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 6,
+        "api_id": 1307,
+        "api_no": 6,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 276,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 6,
+        "api_id": 1308,
+        "api_no": 7,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 276,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 6,
+        "api_id": 1309,
+        "api_no": 8,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 276,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 6,
+        "api_id": 1310,
+        "api_no": 9,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 276,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 6,
+        "api_id": 1311,
+        "api_no": 10,
+        "api_color_no": 5
+      },
+      {
+        "api_map_no": 276,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 6,
+        "api_id": 1312,
+        "api_no": 11,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 276,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 6,
+        "api_id": 1313,
+        "api_no": 12,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 276,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 6,
+        "api_id": 1314,
+        "api_no": 13,
+        "api_color_no": 4
+      },
+      {
+        "api_map_no": 276,
+        "api_maparea_id": 27,
+        "api_mapinfo_no": 6,
+        "api_id": 1315,
+        "api_no": 14,
+        "api_color_no": 5
       }
     ],
     "api_mst_mission": [
@@ -100812,6 +105130,44 @@ svdata={
           1
         ],
         "api_return_flag": 1
+      },
+      {
+        "api_id": 125,
+        "api_maparea_id": 27,
+        "api_name": "前衛支援任務",
+        "api_details": "支援艦隊を出撃させ、主力艦隊の進撃を援護せよ！(要:駆逐2隻)",
+        "api_time": 15,
+        "api_difficulty": 1,
+        "api_use_fuel": 0.5,
+        "api_use_bull": 0.8,
+        "api_win_item1": [
+          0,
+          0
+        ],
+        "api_win_item2": [
+          0,
+          0
+        ],
+        "api_return_flag": 0
+      },
+      {
+        "api_id": 126,
+        "api_maparea_id": 27,
+        "api_name": "艦隊決戦支援任務",
+        "api_details": "主力艦隊支援を行う別動隊を出撃させ、艦隊決戦を援護せよ！(要:駆逐2隻)",
+        "api_time": 30,
+        "api_difficulty": 1,
+        "api_use_fuel": 0.5,
+        "api_use_bull": 0.8,
+        "api_win_item1": [
+          0,
+          0
+        ],
+        "api_win_item2": [
+          0,
+          0
+        ],
+        "api_return_flag": 0
       }
     ],
     "api_mst_const": {
@@ -100821,54 +105177,6 @@ svdata={
       }
     },
     "api_mst_shipupgrade": [
-      {
-        "api_id": 318,
-        "api_original_ship_id": 184,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 2,
-        "api_drawing_count": 0,
-        "api_sortno": 190
-      },
-      {
-        "api_id": 273,
-        "api_original_ship_id": 71,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 1,
-        "api_drawing_count": 0,
-        "api_sortno": 373
-      },
-      {
-        "api_id": 71,
-        "api_original_ship_id": 71,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 0,
-        "api_drawing_count": 0,
-        "api_sortno": 63
-      },
-      {
-        "api_id": 72,
-        "api_original_ship_id": 72,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 0,
-        "api_drawing_count": 0,
-        "api_sortno": 64
-      },
-      {
-        "api_id": 172,
-        "api_original_ship_id": 171,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 1,
-        "api_drawing_count": 0,
-        "api_sortno": 172
-      },
-      {
-        "api_id": 185,
-        "api_original_ship_id": 184,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 1,
-        "api_drawing_count": 1,
-        "api_sortno": 185
-      },
       {
         "api_id": 188,
         "api_original_ship_id": 71,
@@ -100916,6 +105224,70 @@ svdata={
         "api_upgrade_level": 0,
         "api_drawing_count": 0,
         "api_sortno": 171
+      },
+      {
+        "api_id": 318,
+        "api_original_ship_id": 184,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 2,
+        "api_drawing_count": 0,
+        "api_sortno": 190
+      },
+      {
+        "api_id": 406,
+        "api_original_ship_id": 404,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 1,
+        "api_drawing_count": 1,
+        "api_sortno": 206
+      },
+      {
+        "api_id": 72,
+        "api_original_ship_id": 72,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 0,
+        "api_drawing_count": 0,
+        "api_sortno": 64
+      },
+      {
+        "api_id": 172,
+        "api_original_ship_id": 171,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 1,
+        "api_drawing_count": 0,
+        "api_sortno": 172
+      },
+      {
+        "api_id": 273,
+        "api_original_ship_id": 71,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 1,
+        "api_drawing_count": 0,
+        "api_sortno": 373
+      },
+      {
+        "api_id": 71,
+        "api_original_ship_id": 71,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 0,
+        "api_drawing_count": 0,
+        "api_sortno": 63
+      },
+      {
+        "api_id": 404,
+        "api_original_ship_id": 404,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 0,
+        "api_drawing_count": 0,
+        "api_sortno": 201
+      },
+      {
+        "api_id": 185,
+        "api_original_ship_id": 184,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 1,
+        "api_drawing_count": 1,
+        "api_sortno": 185
       }
     ]
   }
