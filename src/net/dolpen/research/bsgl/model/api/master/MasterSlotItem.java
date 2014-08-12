@@ -88,10 +88,11 @@ public class MasterSlotItem extends Master {
         return String.format("%d %s", weaponId, name);
     }
 
+
     public static List<MasterSlotItem> cache() {
-        String cache = loadMasterCache("api_mst_slotitem");
-        return Arrays.asList(new Gson().fromJson(cache, MasterSlotItem[].class));
+        return Arrays.asList(loadMasterTyped("api_mst_slotitem",  MasterSlotItem[].class));
     }
+
 
     public static Map<Integer, MasterSlotItem> toIdMap(List<MasterSlotItem> list) {
         Map<Integer, MasterSlotItem> m = Maps.newHashMap();

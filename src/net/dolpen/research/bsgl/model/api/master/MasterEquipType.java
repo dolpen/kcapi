@@ -25,7 +25,6 @@ public class MasterEquipType extends Master {
     }
 
     public static List<MasterEquipType> cache() {
-        String cache = loadMasterCache("api_mst_slotitem_equiptype");
-        return Arrays.asList(new Gson().fromJson(cache, MasterEquipType[].class));
+        return Arrays.asList(loadMasterTyped("api_mst_slotitem_equiptype",  MasterEquipType[].class));
     }
 }

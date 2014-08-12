@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<% _scope.title = " 艦船収集" %>
+${_.include("/templates/common/head.html",_scope)}
+<body>
+<div class="container">
+    <% _scope.page = "book_ship" %>\
+    ${_.include("/templates/common/header.html",_scope)}
+    <div class="panel panel-default">
+        <div class="panel-heading">艦船収集</div>
+        <div class="panel-body">
+            <p>艦船のコレクション情報を確認できます。<span class="warn">中破グラ未回収の艦船はこの色になります</span></p>
+        </div>
+        <table class="table table-fixed-header">
+            <tbody>
+            <% bookShips.eachWithIndex { x,i -> %>\
+            <% if (i%5==0) {  %>\
+            <tr>
+            <% } %>\
+                <td class="${(x.hasGet&&!x.hasBroken)?'warn':''}">
+                    ${x.name}
+                </td>
+            <% if (i%5==4) { %>\
+            </tr>
+            <% } %>\
+            <% } %>\
+            </tbody>
+        </table>
+    </div>
+</div>
+${_.include("/templates/common/footer.html",_scope)}
+${_.include("/templates/common/script.html",_scope)}
+</body>
+</html>
+
+

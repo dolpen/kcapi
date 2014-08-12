@@ -99,7 +99,7 @@ public class MemberShip extends Member {
     }
 
     public static List<MemberShip> cache() {
-        String cache = loadPortCache("api_ship");
-        return Arrays.asList(new Gson().fromJson(cache, MemberShip[].class));
+        return Arrays.asList(loadMemberTyped("api_ship", MemberShip[].class));
     }
+
 }

@@ -32,11 +32,10 @@ public class MasterUseItem extends Master {
         return String.format("%d %s", itemId, name);
     }
 
-
     public static List<MasterUseItem> cache() {
-        String cache = loadMasterCache("api_mst_useitem");
-        return Arrays.asList(new Gson().fromJson(cache, MasterUseItem[].class));
+        return Arrays.asList(loadMasterTyped("api_mst_useitem",  MasterUseItem[].class));
     }
+
 
     public static Map<Integer, MasterUseItem> toIdMap(List<MasterUseItem> list) {
         Map<Integer, MasterUseItem> m = Maps.newHashMap();

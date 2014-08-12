@@ -1,5 +1,7 @@
 package net.dolpen.research.bsgl.model.api.member;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
 import com.google.gson.JsonParser;
 import net.dolpen.research.bsgl.api.Cache;
 import net.dolpen.research.bsgl.model.api.Common;
@@ -9,11 +11,27 @@ import net.dolpen.research.bsgl.model.api.Common;
  */
 public class Member extends Common {
 
-    protected static String loadPortCache(String elementName) {
-        String master = Cache.load("/inputs/member/port.txt");
-        return new JsonParser().parse(master).getAsJsonObject()
-                .getAsJsonObject("api_data")
-                .getAsJsonArray(elementName)
-                .toString();
+
+    /**
+     * ユーザーデータを得る
+     *
+     *
+     * @param elementName 要素名
+     * @return データセット
+     */
+    protected static JsonArray loadMember(String elementName) {
+        return loadApidata("/inputs/member/port.txt")
+                .getAsJsonArray(elementName);
+    }
+
+    /**
+     * 対応する型を指定し、データを得る
+     *
+     * @param elementName 要素名
+     * @param clazz       変換対象
+     * @return レスポンス
+     */
+    public static <T> T loadMemberTyped(String elementName, Class<T> clazz) {
+        return new Gson().fromJson(loadMember(elementName), clazz);
     }
 }

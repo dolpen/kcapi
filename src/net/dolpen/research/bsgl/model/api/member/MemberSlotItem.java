@@ -34,12 +34,6 @@ public class MemberSlotItem extends Member {
     }
 
     public static List<MemberSlotItem> cache() {
-        String resp = Cache.load("/inputs/member/slotitem.txt");
-        return Arrays.asList(
-            new Gson().fromJson(
-                new JsonParser().parse(resp).getAsJsonObject().getAsJsonArray("api_data").toString(),
-                MemberSlotItem[].class
-            )
-        );
+        return Arrays.asList(loadTypedArray("/inputs/member/slotitem.txt", MemberSlotItem[].class));
     }
 }

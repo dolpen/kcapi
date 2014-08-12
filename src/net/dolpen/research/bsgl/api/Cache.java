@@ -1,10 +1,13 @@
 package net.dolpen.research.bsgl.api;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonParser;
 import net.dolpen.research.bsgl.util.Const;
 import net.dolpen.research.bsgl.util.Streams;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.util.Arrays;
 
 public class Cache {
 
@@ -33,6 +36,20 @@ public class Cache {
         }
         return "";
     }
+
+    /**
+     * レスポンスを得る
+     *
+     * @param path path
+     * @return レスポンス
+     */
+    public static <T> T loadTyped(String path, Class<T> clazz) {
+        return new Gson().fromJson(
+                new JsonParser().parse(load(path)).getAsJsonObject().getAsJsonArray("api_data").toString(),
+                clazz
+        );
+    }
+
 
     /**
      * レスポンスフィルター解除

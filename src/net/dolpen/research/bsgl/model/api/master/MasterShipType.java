@@ -31,8 +31,7 @@ public class MasterShipType extends Master {
     }
 
     public static List<MasterShipType> cache() {
-        String cache = loadMasterCache("api_mst_stype");
-        return Arrays.asList(new Gson().fromJson(cache, MasterShipType[].class));
+        return Arrays.asList(loadMasterTyped("api_mst_stype",  MasterShipType[].class));
     }
 
     public static Map<Integer, MasterShipType> toIdMap(List<MasterShipType> list) {

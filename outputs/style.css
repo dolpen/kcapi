@@ -14,7 +14,7 @@ table.floatThead-table {
 td,th {font-size: x-small}
 
 
-td.warn{color: red;background: #fcc}
+td.warn, span.warn{color: red;background: #fcc}
 
 td.sight.max{background: #0f8}
 td.fire.max{background: #f68}

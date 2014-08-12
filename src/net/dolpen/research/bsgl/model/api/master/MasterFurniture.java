@@ -42,9 +42,9 @@ public class MasterFurniture extends Master {
     }
 
     public static List<MasterFurniture> cache() {
-        String cache = loadMasterCache("api_mst_useitem");
-        return Arrays.asList(new Gson().fromJson(cache, MasterFurniture[].class));
+        return Arrays.asList(loadMasterTyped("api_mst_furniture",  MasterFurniture[].class));
     }
+
 
     public static Map<Integer, MasterFurniture> toIdMap(List<MasterFurniture> list) {
         Map<Integer, MasterFurniture> m = Maps.newHashMap();
