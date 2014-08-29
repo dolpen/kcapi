@@ -46,7 +46,7 @@ public class Common {
      * @return JsonObject
      */
     protected static JsonArray loadApidataAsArray(String path) {
-        return new JsonParser().parse(Cache.load(path)).getAsJsonObject().getAsJsonObject("api_data").getAsJsonArray("api_list");
+        return new JsonParser().parse(Cache.load(path)).getAsJsonObject().getAsJsonArray("api_data");//.getAsJsonArray("api_list");
     }
 
     /**
