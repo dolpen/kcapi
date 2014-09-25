@@ -49,6 +49,17 @@ public class Common {
         return new JsonParser().parse(Cache.load(path)).getAsJsonObject().getAsJsonArray("api_data");//.getAsJsonArray("api_list");
     }
 
+
+    /**
+     * ファイルをロードし、中身のデータを展開する
+     *
+     * @param path パス
+     * @return JsonObject
+     */
+    protected static JsonArray loadApiListAsArray(String path) {
+        return new JsonParser().parse(Cache.load(path)).getAsJsonObject().getAsJsonObject("api_data").getAsJsonArray("api_list");
+    }
+
     /**
      * ファイルと対応する型を指定し、データを得る
      *
@@ -58,5 +69,17 @@ public class Common {
      */
     public static <T> T loadTypedArray(String path, Class<T> clazz) {
         return new Gson().fromJson(loadApidataAsArray(path), clazz);
+    }
+
+
+    /**
+     * ファイルと対応する型を指定し、データを得る
+     *
+     * @param path  パス
+     * @param clazz 変換対象
+     * @return データ
+     */
+    public static <T> T loadTypedList(String path, Class<T> clazz) {
+        return new Gson().fromJson(loadApiListAsArray(path), clazz);
     }
 }

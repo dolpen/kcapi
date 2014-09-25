@@ -28,7 +28,7 @@ public class MemberBookShip extends Member {
     public static List<MemberBookShip> cache() {
         List<MemberBookShip> bookShips = Lists.newArrayList();
         for (int i = 1; i <= pages; i++) {
-            bookShips.addAll(Arrays.asList(loadTypedArray("/inputs/member/book_ship_" + i + ".txt", MemberBookShip[].class)));
+            bookShips.addAll(Arrays.asList(loadTypedList("/inputs/member/book_ship_" + i + ".txt", MemberBookShip[].class)));
         }
         return bookShips;
     }
