@@ -60,13 +60,13 @@ public class Ship {
         resp.ruby = ship.ruby;
         resp.maxHp = ship.endurance.get(1);
         resp.description = ship.description;
-        resp.sight = fromList(ship.sight);
+        resp.sight = fromDummy();
         resp.firePower = fromList(ship.firePower);
         resp.torpedo = fromList(ship.torpedo);
         resp.antiAir = fromList(ship.antiAir);
         resp.armor = fromList(ship.armor);
-        resp.evasion = fromList(ship.evasion);
-        resp.antiSub = fromList(ship.antiSub);
+        resp.evasion = fromDummy();
+        resp.antiSub = fromDummy();
         resp.luck = fromList(ship.luck);
         resp.maxBullet = ship.maxBullet;
         resp.maxFuel = ship.maxFuel;
@@ -75,6 +75,15 @@ public class Ship {
         return resp;
     }
 
+
+    /**
+     * なぜかマスタデータから消滅した項目の補完
+     *
+     * @return
+     */
+    private static LimitedValue fromDummy() {
+        return new LimitedValue(0, 0, 0);
+    }
 
     private static LimitedValue fromList(List<Integer> ab) {
         return new LimitedValue(ab.get(0), ab.get(1), 0);
