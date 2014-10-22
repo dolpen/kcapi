@@ -26,11 +26,11 @@ public class MasterMapBgm extends Master {
     public List<Integer> boss; // ボスBGM
 
     public String toString() {
-        return String.format("%d-%d", areaId, stageId);
+        return String.format("%d-%d", areaId, stageNo);
     }
 
     public static List<MasterMapBgm> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_mapbgm", MasterMapBgm[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_mapbgm", MasterMapBgm[].class));
     }
 
     public static Map<Integer, MasterMapBgm> toIdMap(List<MasterMapBgm> list) {

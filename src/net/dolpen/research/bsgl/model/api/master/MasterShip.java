@@ -97,7 +97,7 @@ public class MasterShip extends Master {
     }
 
     public static List<MasterShip> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_ship", MasterShip[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_ship", MasterShip[].class));
     }
 
     public static Map<Integer, MasterShip> toIdMap(List<MasterShip> list) {

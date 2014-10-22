@@ -39,11 +39,11 @@ public class MasterMapStage extends Master {
 
 
     public String toString() {
-        return String.format("%d-%d", areaId, stageId);
+        return String.format("%d-%d %s", areaId, stageNo, name);
     }
 
     public static List<MasterMapStage> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_mapinfo", MasterMapStage[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_mapinfo", MasterMapStage[].class));
     }
 
     public static Map<Integer, MasterMapStage> toIdMap(List<MasterMapStage> list) {

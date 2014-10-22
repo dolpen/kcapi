@@ -23,6 +23,6 @@ public class MasterEquipType extends Master {
     }
 
     public static List<MasterEquipType> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_slotitem_equiptype", MasterEquipType[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_slotitem_equiptype", MasterEquipType[].class));
     }
 }

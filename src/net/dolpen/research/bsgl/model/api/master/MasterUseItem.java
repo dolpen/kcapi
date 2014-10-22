@@ -1,7 +1,6 @@
 package net.dolpen.research.bsgl.model.api.master;
 
 import com.beust.jcommander.internal.Maps;
-import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.Arrays;
@@ -36,7 +35,7 @@ public class MasterUseItem extends Master {
     }
 
     public static List<MasterUseItem> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_useitem",  MasterUseItem[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_useitem", MasterUseItem[].class));
     }
 
 

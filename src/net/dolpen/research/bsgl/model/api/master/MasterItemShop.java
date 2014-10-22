@@ -17,8 +17,12 @@ public class MasterItemShop extends Master {
     @SerializedName("api_cabinet_2")
     public List<Integer> special; // 特選棚
 
-    public static List<MasterItemShop> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_item_shop", MasterItemShop.class));
+    public String toString(){
+        return String.format("%s,%s",common,special);
+    }
+
+    public static MasterItemShop cache() {
+        return loadMasterAsTypedObject("api_mst_item_shop", MasterItemShop.class);
     }
 
 }

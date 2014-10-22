@@ -31,7 +31,7 @@ public class MasterFurnitureGraph extends Master {
     }
 
     public static List<MasterFurnitureGraph> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_furnituregraph", MasterFurnitureGraph[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_furnituregraph", MasterFurnitureGraph[].class));
     }
 
     public static Map<Integer, MasterFurnitureGraph> toIdMap(List<MasterFurnitureGraph> list) {

@@ -24,7 +24,7 @@ public class MasterMapArea extends Master {
     }
 
     public static List<MasterMapArea> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_maparea", MasterMapArea[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_maparea", MasterMapArea[].class));
     }
 
     public static Map<Integer, MasterMapArea> toIdMap(List<MasterMapArea> list) {

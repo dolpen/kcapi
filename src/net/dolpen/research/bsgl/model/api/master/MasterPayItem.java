@@ -33,7 +33,7 @@ public class MasterPayItem extends Master {
     }
 
     public static List<MasterPayItem> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_payitem",  MasterPayItem[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_payitem", MasterPayItem[].class));
     }
 
     public static Map<Integer, MasterPayItem> toIdMap(List<MasterPayItem> list) {

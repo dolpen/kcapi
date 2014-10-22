@@ -27,7 +27,7 @@ public class MasterSlotItemGraph extends Master {
     }
 
     public static List<MasterSlotItemGraph> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_slotitemgraph", MasterSlotItemGraph[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_slotitemgraph", MasterSlotItemGraph[].class));
     }
 
     public static Map<Integer, MasterSlotItemGraph> toIdMap(List<MasterSlotItemGraph> list) {

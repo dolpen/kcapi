@@ -2,8 +2,6 @@ package net.dolpen.research.bsgl.model.api.member;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
-import com.google.gson.JsonParser;
-import net.dolpen.research.bsgl.api.Cache;
 import net.dolpen.research.bsgl.model.api.Common;
 
 /**
@@ -20,7 +18,7 @@ public class Member extends Common {
      * @return データセット
      */
     protected static JsonArray loadMember(String elementName) {
-        return loadApidata("/inputs/member/port.txt")
+        return loadApiData("/inputs/member/port.txt")
                 .getAsJsonArray(elementName);
     }
 

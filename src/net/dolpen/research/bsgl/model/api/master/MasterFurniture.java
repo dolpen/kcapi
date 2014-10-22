@@ -43,7 +43,7 @@ public class MasterFurniture extends Master {
     }
 
     public static List<MasterFurniture> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_furniture", MasterFurniture[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_furniture", MasterFurniture[].class));
     }
 
 

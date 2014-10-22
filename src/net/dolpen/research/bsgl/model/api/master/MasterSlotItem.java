@@ -90,7 +90,7 @@ public class MasterSlotItem extends Master {
     }
 
     public static List<MasterSlotItem> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_slotitem", MasterSlotItem[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_slotitem", MasterSlotItem[].class));
     }
 
     public static Map<Integer, MasterSlotItem> toIdMap(List<MasterSlotItem> list) {

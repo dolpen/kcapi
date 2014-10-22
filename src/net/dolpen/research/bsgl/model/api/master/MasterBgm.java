@@ -21,7 +21,7 @@ public class MasterBgm extends Master {
     }
 
     public static List<MasterBgm> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_bgm", MasterBgm[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_bgm", MasterBgm[].class));
     }
 
     public static Map<Integer, MasterBgm> toIdMap(List<MasterBgm> list) {

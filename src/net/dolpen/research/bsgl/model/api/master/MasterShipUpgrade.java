@@ -34,7 +34,7 @@ public class MasterShipUpgrade extends Master {
     }
 
     public static List<MasterShipUpgrade> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_shipupgrade", MasterShipUpgrade[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_shipupgrade", MasterShipUpgrade[].class));
     }
 
     public static Map<Integer, MasterShipUpgrade> toIdMap(List<MasterShipUpgrade> list) {

@@ -33,7 +33,7 @@ public class MasterMapCell extends Master {
     }
 
     public static List<MasterMapCell> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_mapcell", MasterMapCell[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_mapcell", MasterMapCell[].class));
     }
 
     public static Map<Integer, MasterMapCell> toIdMap(List<MasterMapCell> list) {

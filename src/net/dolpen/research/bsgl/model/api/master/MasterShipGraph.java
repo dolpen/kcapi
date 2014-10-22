@@ -44,7 +44,7 @@ public class MasterShipGraph extends Master {
     }
 
     public static List<MasterShipGraph> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_shipgraph", MasterShipGraph[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_shipgraph", MasterShipGraph[].class));
     }
 
     public static Map<Integer, MasterShipGraph> toIdMap(List<MasterShipGraph> list) {

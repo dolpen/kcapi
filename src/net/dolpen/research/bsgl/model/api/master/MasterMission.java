@@ -42,7 +42,7 @@ public class MasterMission extends Master {
     }
 
     public static List<MasterMission> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_mission", MasterMission[].class));
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_mission", MasterMission[].class));
     }
 
     public static Map<Integer, MasterMission> toIdMap(List<MasterMission> list) {
