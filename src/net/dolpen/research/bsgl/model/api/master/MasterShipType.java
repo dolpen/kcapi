@@ -26,6 +26,8 @@ public class MasterShipType extends Master {
 
     public int api_kcnt; // ?
 
+    // public Map<String,Integer> api_equip_type; // MasterEquipType -> 装備可能フラグ
+
     public String toString() {
         return String.format("%d %s", typeId, name);
     }

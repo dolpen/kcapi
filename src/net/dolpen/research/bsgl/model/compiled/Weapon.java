@@ -53,8 +53,8 @@ public class Weapon {
         resp.antiAir = item.antiAir;
         resp.armor = item.armor;
         resp.antiSub = item.antiSub;
-        resp.evasion = item.evasion;
-        resp.accuracy = item.accuracy;
+        resp.evasion = item.fireEvasion;
+        resp.accuracy = item.fireAccuracy;
         resp.luck = item.luck;
         resp.range = Range.by(item.range);
         resp.amount = 0;

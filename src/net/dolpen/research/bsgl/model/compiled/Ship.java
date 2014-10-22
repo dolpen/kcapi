@@ -59,7 +59,6 @@ public class Ship {
         resp.name = ship.name;
         resp.ruby = ship.ruby;
         resp.maxHp = ship.endurance.get(1);
-        resp.description = ship.description;
         resp.sight = fromDummy();
         resp.firePower = fromList(ship.firePower);
         resp.torpedo = fromList(ship.torpedo);

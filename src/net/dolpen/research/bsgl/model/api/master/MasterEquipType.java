@@ -1,10 +1,8 @@
 package net.dolpen.research.bsgl.model.api.master;
 
-import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * 装備タイプ
@@ -25,6 +23,6 @@ public class MasterEquipType extends Master {
     }
 
     public static List<MasterEquipType> cache() {
-        return Arrays.asList(loadMasterTyped("api_mst_slotitem_equiptype",  MasterEquipType[].class));
+        return Arrays.asList(loadMasterTyped("api_mst_slotitem_equiptype", MasterEquipType[].class));
     }
 }
