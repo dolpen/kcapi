@@ -28,6 +28,9 @@ public class MasterUseItem extends Master {
     @SerializedName("api_description")
     public List<String> description; // 説明文
 
+    @SerializedName("api_price")
+    public int price; // 価格????
+
     public String toString() {
         return String.format("%d %s", itemId, name);
     }
