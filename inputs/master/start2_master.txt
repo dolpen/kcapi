@@ -5120,7 +5120,7 @@ svdata={
         ],
         "api_souk": [
           74,
-          89
+          92
         ],
         "api_houg": [
           63,
@@ -5145,7 +5145,7 @@ svdata={
           11,
           11,
           11,
-          11,
+          14,
           0
         ],
         "api_buildtime": 270,
@@ -5498,7 +5498,7 @@ svdata={
         ],
         "api_souk": [
           74,
-          87
+          92
         ],
         "api_houg": [
           63,
@@ -5523,7 +5523,7 @@ svdata={
           11,
           11,
           11,
-          11,
+          14,
           0
         ],
         "api_buildtime": 270,
@@ -17090,7 +17090,7 @@ svdata={
         ],
         "api_souk": [
           85,
-          95
+          98
         ],
         "api_houg": [
           90,
@@ -17105,7 +17105,7 @@ svdata={
           99
         ],
         "api_luck": [
-          30,
+          32,
           99
         ],
         "api_soku": 5,
@@ -17153,7 +17153,7 @@ svdata={
         ],
         "api_souk": [
           85,
-          95
+          98
         ],
         "api_houg": [
           90,
@@ -17168,7 +17168,7 @@ svdata={
           99
         ],
         "api_luck": [
-          5,
+          6,
           59
         ],
         "api_soku": 5,
@@ -17775,8 +17775,8 @@ svdata={
         "api_name": "扶桑改",
         "api_yomi": "ふそう",
         "api_stype": 10,
-        "api_afterlv": 0,
-        "api_aftershipid": "0",
+        "api_afterlv": 80,
+        "api_aftershipid": "411",
         "api_taik": [
           75,
           89
@@ -17826,11 +17826,11 @@ svdata={
         ],
         "api_backs": 5,
         "api_getmes": "扶桑型超弩級戦艦、姉の扶桑です。\u003cbr\u003e妹の山城ともども、よろしくお願い致します。",
-        "api_afterfuel": 0,
-        "api_afterbull": 0,
+        "api_afterfuel": 3500,
+        "api_afterbull": 2400,
         "api_fuel_max": 95,
         "api_bull_max": 105,
-        "api_voicef": 0
+        "api_voicef": 1
       },
       {
         "api_id": 287,
@@ -21043,6 +21043,69 @@ svdata={
         "api_afterbull": 140,
         "api_fuel_max": 15,
         "api_bull_max": 20,
+        "api_voicef": 1
+      },
+      {
+        "api_id": 411,
+        "api_sortno": 211,
+        "api_name": "扶桑改二",
+        "api_yomi": "ふそう",
+        "api_stype": 10,
+        "api_afterlv": 0,
+        "api_aftershipid": "0",
+        "api_taik": [
+          77,
+          94
+        ],
+        "api_souk": [
+          72,
+          90
+        ],
+        "api_houg": [
+          80,
+          99
+        ],
+        "api_raig": [
+          0,
+          0
+        ],
+        "api_tyku": [
+          44,
+          88
+        ],
+        "api_luck": [
+          13,
+          69
+        ],
+        "api_soku": 5,
+        "api_leng": 3,
+        "api_slot_num": 4,
+        "api_maxeq": [
+          4,
+          4,
+          9,
+          23,
+          0
+        ],
+        "api_buildtime": 260,
+        "api_broken": [
+          12,
+          15,
+          38,
+          5
+        ],
+        "api_powup": [
+          5,
+          0,
+          3,
+          4
+        ],
+        "api_backs": 6,
+        "api_getmes": "扶桑型超弩級戦艦、姉の扶桑です。\u003cbr\u003e妹の山城ともども、よろしくお願い致します。",
+        "api_afterfuel": 0,
+        "api_afterbull": 0,
+        "api_fuel_max": 105,
+        "api_bull_max": 140,
         "api_voicef": 1
       },
       {
@@ -32523,7 +32586,7 @@ svdata={
         "api_id": 87,
         "api_sortno": 4,
         "api_filename": "cfqmhviykuup",
-        "api_version": "1",
+        "api_version": "2",
         "api_boko_n": [
           43,
           43
@@ -33051,7 +33114,7 @@ svdata={
         "api_id": 95,
         "api_sortno": 85,
         "api_filename": "eeyrwdehbixg",
-        "api_version": "1",
+        "api_version": "2",
         "api_boko_n": [
           -48,
           64
@@ -33183,7 +33246,7 @@ svdata={
         "api_id": 97,
         "api_sortno": 87,
         "api_filename": "fhpgicaysllm",
-        "api_version": "1",
+        "api_version": "2",
         "api_boko_n": [
           58,
           105
@@ -42951,7 +43014,7 @@ svdata={
         "api_id": 248,
         "api_sortno": 348,
         "api_filename": "xbbfxeemifpv",
-        "api_version": "1",
+        "api_version": "2",
         "api_boko_n": [
           -48,
           64
@@ -43083,7 +43146,7 @@ svdata={
         "api_id": 250,
         "api_sortno": 350,
         "api_filename": "eypcwtnjgoyb",
-        "api_version": "1",
+        "api_version": "2",
         "api_boko_n": [
           58,
           105
@@ -48881,6 +48944,72 @@ svdata={
         "api_weda": [
           256,
           48
+        ],
+        "api_wedb": [
+          120,
+          112
+        ]
+      },
+      {
+        "api_id": 411,
+        "api_sortno": 211,
+        "api_filename": "gmnsxwkdssmj",
+        "api_version": "1",
+        "api_boko_n": [
+          -16,
+          104
+        ],
+        "api_boko_d": [
+          -64,
+          136
+        ],
+        "api_kaisyu_n": [
+          24,
+          -8
+        ],
+        "api_kaisyu_d": [
+          32,
+          -16
+        ],
+        "api_kaizo_n": [
+          -40,
+          60
+        ],
+        "api_kaizo_d": [
+          -112,
+          56
+        ],
+        "api_map_n": [
+          -40,
+          88
+        ],
+        "api_map_d": [
+          -104,
+          128
+        ],
+        "api_ensyuf_n": [
+          -8,
+          92
+        ],
+        "api_ensyuf_d": [
+          -64,
+          120
+        ],
+        "api_ensyue_n": [
+          -32,
+          0
+        ],
+        "api_battle_n": [
+          0,
+          96
+        ],
+        "api_battle_d": [
+          -72,
+          96
+        ],
+        "api_weda": [
+          232,
+          32
         ],
         "api_wedb": [
           120,
@@ -56146,14 +56275,14 @@ svdata={
         ],
         "api_taik": 0,
         "api_souk": 0,
-        "api_houg": 1,
+        "api_houg": 2,
         "api_raig": 0,
         "api_soku": 0,
         "api_baku": 0,
         "api_tyku": 0,
         "api_tais": 0,
         "api_atap": 0,
-        "api_houm": 0,
+        "api_houm": 1,
         "api_raim": 0,
         "api_houk": 0,
         "api_raik": 0,
@@ -56184,14 +56313,14 @@ svdata={
         ],
         "api_taik": 0,
         "api_souk": 0,
-        "api_houg": 5,
+        "api_houg": 7,
         "api_raig": 0,
         "api_soku": 0,
         "api_baku": 0,
-        "api_tyku": 3,
+        "api_tyku": 4,
         "api_tais": 0,
         "api_atap": 0,
-        "api_houm": 0,
+        "api_houm": 1,
         "api_raim": 0,
         "api_houk": 0,
         "api_raik": 0,
@@ -56222,7 +56351,7 @@ svdata={
         ],
         "api_taik": 0,
         "api_souk": 0,
-        "api_houg": 7,
+        "api_houg": 8,
         "api_raig": 0,
         "api_soku": 0,
         "api_baku": 0,
@@ -56260,7 +56389,7 @@ svdata={
         ],
         "api_taik": 0,
         "api_souk": 0,
-        "api_houg": 14,
+        "api_houg": 15,
         "api_raig": 0,
         "api_soku": 0,
         "api_baku": 0,
@@ -56412,7 +56541,7 @@ svdata={
         ],
         "api_taik": 0,
         "api_souk": 0,
-        "api_houg": 1,
+        "api_houg": 2,
         "api_raig": 0,
         "api_soku": 0,
         "api_baku": 0,
@@ -57894,7 +58023,7 @@ svdata={
         ],
         "api_taik": 0,
         "api_souk": 0,
-        "api_houg": 9,
+        "api_houg": 10,
         "api_raig": 0,
         "api_soku": 0,
         "api_baku": 0,
@@ -58464,14 +58593,14 @@ svdata={
         ],
         "api_taik": 0,
         "api_souk": 0,
-        "api_houg": 3,
+        "api_houg": 4,
         "api_raig": 0,
         "api_soku": 0,
         "api_baku": 0,
         "api_tyku": 3,
         "api_tais": 0,
         "api_atap": 0,
-        "api_houm": 2,
+        "api_houm": 3,
         "api_raim": 0,
         "api_houk": 0,
         "api_raik": 0,
@@ -58509,7 +58638,7 @@ svdata={
         "api_tyku": 6,
         "api_tais": 0,
         "api_atap": 0,
-        "api_houm": 1,
+        "api_houm": 2,
         "api_raim": 0,
         "api_houk": 0,
         "api_raik": 0,
@@ -58882,7 +59011,7 @@ svdata={
         ],
         "api_taik": 0,
         "api_souk": 0,
-        "api_houg": 15,
+        "api_houg": 16,
         "api_raig": 0,
         "api_soku": 0,
         "api_baku": 0,
@@ -58924,7 +59053,7 @@ svdata={
         "api_raig": 0,
         "api_soku": 0,
         "api_baku": 0,
-        "api_tyku": 1,
+        "api_tyku": 2,
         "api_tais": 0,
         "api_atap": 0,
         "api_houm": 2,
@@ -59414,7 +59543,7 @@ svdata={
         ],
         "api_taik": 0,
         "api_souk": 0,
-        "api_houg": 8,
+        "api_houg": 9,
         "api_raig": 0,
         "api_soku": 0,
         "api_baku": 0,
@@ -59946,7 +60075,7 @@ svdata={
         ],
         "api_taik": 0,
         "api_souk": 0,
-        "api_houg": 14,
+        "api_houg": 15,
         "api_raig": 0,
         "api_soku": 0,
         "api_baku": 0,
@@ -60502,6 +60631,44 @@ svdata={
           15
         ],
         "api_info": "制空権を失った空でも強行偵察が可能な高性能水偵を目指して開発された、十四試高速水上偵察機「紫雲」です。火星エンジンと二重反転プロペラの採用、投下可能フロート機構などで高速高性能な次世代艦載水偵となるはずでしたが、計画通りの高性能を発揮することは叶いませんでした。就役直後の軽巡「大淀」などで、増加試作機が運用されています。",
+        "api_usebull": "0"
+      },
+      {
+        "api_id": 119,
+        "api_sortno": 119,
+        "api_name": "14cm連装砲",
+        "api_type": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "api_taik": 0,
+        "api_souk": 0,
+        "api_houg": 3,
+        "api_raig": 0,
+        "api_soku": 0,
+        "api_baku": 0,
+        "api_tyku": 0,
+        "api_tais": 0,
+        "api_atap": 0,
+        "api_houm": 2,
+        "api_raim": 0,
+        "api_houk": 0,
+        "api_raik": 0,
+        "api_bakk": 0,
+        "api_saku": 0,
+        "api_sakb": 0,
+        "api_luck": 0,
+        "api_leng": 2,
+        "api_rare": 1,
+        "api_broken": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "api_info": "巡洋艦等の主砲として開発された中距離砲の連装型です。\u003cbr\u003e練習巡洋艦「香取」や軽巡洋艦「夕張」などに搭載されました。対艦対地用の兵装です。",
         "api_usebull": "0"
       },
       {
@@ -63112,6 +63279,12 @@ svdata={
         "api_id": 118,
         "api_sortno": 118,
         "api_filename": "118",
+        "api_version": "1"
+      },
+      {
+        "api_id": 119,
+        "api_sortno": 119,
+        "api_filename": "119",
         "api_version": "1"
       },
       {
@@ -65930,9 +66103,9 @@ svdata={
         "api_id": 4,
         "api_usetype": 3,
         "api_category": 4,
-        "api_name": "※",
+        "api_name": "改修資材",
         "api_description": [
-          "※",
+          "装備を改修する為の資材、「改修工廠」で使用します。",
           ""
         ],
         "api_price": 0
@@ -66515,7 +66688,7 @@ svdata={
         "api_category": 0,
         "api_name": "勲章",
         "api_description": [
-          "暁の水平線に勝利を刻んだ提督に贈られる「証」。資源、または複数集めて改装設計図と交換することも可能です。",
+          "暁の水平線に勝利を刻んだ提督に贈られる「証」。資源や改修資材、または複数集めて改装設計図と交換することも可能です。",
           ""
         ],
         "api_price": 0
@@ -66904,8 +67077,8 @@ svdata={
       {
         "api_id": 22,
         "api_type": 0,
-        "api_name": "※",
-        "api_description": "※",
+        "api_name": "改修資材パック10",
+        "api_description": "明石さんの「改修工廠」で、装備を改修します。\u003cbr\u003e(改修資材10)",
         "api_item": [
           0,
           0,
@@ -66914,7 +67087,7 @@ svdata={
           0,
           0,
           0,
-          3
+          10
         ],
         "api_price": 700
       },
@@ -66959,7 +67132,7 @@ svdata={
         8,
         9,
         18,
-        -1,
+        22,
         23,
         -1
       ]
@@ -71440,12 +71613,28 @@ svdata={
         "api_sortno": 185
       },
       {
+        "api_id": 411,
+        "api_original_ship_id": 26,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 2,
+        "api_drawing_count": 1,
+        "api_sortno": 211
+      },
+      {
         "api_id": 406,
         "api_original_ship_id": 404,
         "api_upgrade_type": 1,
         "api_upgrade_level": 1,
         "api_drawing_count": 1,
         "api_sortno": 206
+      },
+      {
+        "api_id": 318,
+        "api_original_ship_id": 184,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 2,
+        "api_drawing_count": 0,
+        "api_sortno": 190
       },
       {
         "api_id": 72,
@@ -71462,54 +71651,6 @@ svdata={
         "api_upgrade_level": 1,
         "api_drawing_count": 0,
         "api_sortno": 172
-      },
-      {
-        "api_id": 273,
-        "api_original_ship_id": 71,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 1,
-        "api_drawing_count": 0,
-        "api_sortno": 373
-      },
-      {
-        "api_id": 71,
-        "api_original_ship_id": 71,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 0,
-        "api_drawing_count": 0,
-        "api_sortno": 63
-      },
-      {
-        "api_id": 318,
-        "api_original_ship_id": 184,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 2,
-        "api_drawing_count": 0,
-        "api_sortno": 190
-      },
-      {
-        "api_id": 188,
-        "api_original_ship_id": 71,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 2,
-        "api_drawing_count": 1,
-        "api_sortno": 186
-      },
-      {
-        "api_id": 173,
-        "api_original_ship_id": 171,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 2,
-        "api_drawing_count": 1,
-        "api_sortno": 173
-      },
-      {
-        "api_id": 178,
-        "api_original_ship_id": 171,
-        "api_upgrade_type": 1,
-        "api_upgrade_level": 3,
-        "api_drawing_count": 1,
-        "api_sortno": 176
       },
       {
         "api_id": 184,
@@ -71542,6 +71683,62 @@ svdata={
         "api_upgrade_level": 0,
         "api_drawing_count": 0,
         "api_sortno": 171
+      },
+      {
+        "api_id": 26,
+        "api_original_ship_id": 26,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 0,
+        "api_drawing_count": 0,
+        "api_sortno": 26
+      },
+      {
+        "api_id": 188,
+        "api_original_ship_id": 71,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 2,
+        "api_drawing_count": 1,
+        "api_sortno": 186
+      },
+      {
+        "api_id": 173,
+        "api_original_ship_id": 171,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 2,
+        "api_drawing_count": 1,
+        "api_sortno": 173
+      },
+      {
+        "api_id": 286,
+        "api_original_ship_id": 26,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 1,
+        "api_drawing_count": 0,
+        "api_sortno": 386
+      },
+      {
+        "api_id": 273,
+        "api_original_ship_id": 71,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 1,
+        "api_drawing_count": 0,
+        "api_sortno": 373
+      },
+      {
+        "api_id": 71,
+        "api_original_ship_id": 71,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 0,
+        "api_drawing_count": 0,
+        "api_sortno": 63
+      },
+      {
+        "api_id": 178,
+        "api_original_ship_id": 171,
+        "api_upgrade_type": 1,
+        "api_upgrade_level": 3,
+        "api_drawing_count": 1,
+        "api_sortno": 178
       }
     ],
     "api_mst_bgm": [
