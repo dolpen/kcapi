@@ -16,6 +16,10 @@ public class SlotItem {
 
     public int weaponId; // item slotId
 
+    public boolean locked;
+
+    public int level;
+
     public Girl girl;
 
     public Weapon weapon;
@@ -26,6 +30,8 @@ public class SlotItem {
         SlotItem resp = new SlotItem();
         resp.slotId = item.slotId;
         resp.weaponId = item.weaponId;
+        resp.locked = item.locked == 1;
+        resp.level = item.level;
         resp.raw = item;
         return resp;
     }

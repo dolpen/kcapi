@@ -42,6 +42,12 @@ public class Deck {
         resp.weapons = Weapon.buildList(masterSlotItemList); // 兵装マスタ
         resp.slotItems = SlotItem.buildList(memberSlotItemList); // 所持兵装
         SlotItem.attachAll(resp.slotItems, Weapon.toIdMap(resp.weapons)); // 所持兵装<->兵装マスタの解決
+        Collections.sort(resp.slotItems,new Comparator<SlotItem>() {
+            @Override
+            public int compare(SlotItem o1, SlotItem o2) {
+                return o1.weaponId - o2.weaponId;
+            }
+        });
         // 艦種関連
         resp.shipTypes = ShipType.buildList(masterShipTypeList); // 艦種マスタ
         resp.ships = Ship.buildList(masterShipList); // 艦船マスタ

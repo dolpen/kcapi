@@ -21,6 +21,14 @@ public class MemberSlotItem extends Member {
     @SerializedName("api_slotitem_id")
     public int weaponId; // 装備マスタID
 
+    @SerializedName("api_locked")
+    public int locked; // ロック
+
+    @SerializedName("api_level")
+    public int level; // 改修レベル
+
+
+
     public String toString() {
         return String.format("%d : %d", slotId, weaponId);
     }

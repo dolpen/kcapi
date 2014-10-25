@@ -50,6 +50,8 @@ public class Girl {
 
     public AbilityScore luck;
 
+    public boolean locked;
+
     public Ship ship;
 
     public List<SlotItem> slotItems;
@@ -77,6 +79,7 @@ public class Girl {
         resp.evasion = fromList(ship.evasion, 0);
         resp.antiSub = fromList(ship.antiSub, 0);
         resp.luck = fromList(ship.luck, 0);
+        resp.locked = ship.locked == 1;
         resp.slotItems = Lists.newArrayList();
         resp.raw = ship;
         return resp;

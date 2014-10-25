@@ -15,5 +15,6 @@ public class Main {
         View.renderHtmlFile(ImmutableMap.<String, Object>builder().put("ships", deck.ships).build(), "ship.html");
         View.renderHtmlFile(ImmutableMap.<String, Object>builder().put("weapons", deck.weapons).build(), "slot.html");
         View.renderHtmlFile(ImmutableMap.<String, Object>builder().put("weapons", deck.weapons).build(), "weapon.html");
+        View.renderHtmlFile(ImmutableMap.<String, Object>builder().put("weapons", deck.slotItems).build(), "equip.html");
     }
 }

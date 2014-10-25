@@ -31,6 +31,7 @@ ${_.include("/templates/common/head.html",_scope)}
                 <th>対潜</th>
                 <th>運</th>
                 <th>装備</th>
+                <th></th>
             </tr>
             </thead>
             <tbody>
@@ -55,10 +56,15 @@ ${_.include("/templates/common/head.html",_scope)}
                 <td class="equipment">
                 <% [0,1,2,3].each { k -> %>\
                     <% if (x.slotItems[k] != null) { %>\
-                    <a href="./slot.html#${x.slotItems[k].weaponId}">${x.slotItems[k].weapon.name}</a><br/>
+                    <a href="./equip.html#${x.slotItems[k].slotId}">${x.slotItems[k].weapon.name}</a><br/>
                     <% } %>\
                 <% } %>\
                 </td>
+                <% if (x.locked) { %>\
+                <td class="lock_ship"></td>
+                <% } else { %>\
+                <td></td>
+                <% } %>\
             </tr>
             <% } %>\
             </tbody>
