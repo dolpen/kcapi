@@ -79,4 +79,8 @@ public class Weapon {
         for (Weapon e : weaponList) resp.put(e.weaponId, e);
         return resp;
     }
+
+    public void countUp(){
+        amount++;
+    }
 }

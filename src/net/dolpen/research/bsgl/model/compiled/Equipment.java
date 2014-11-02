@@ -33,7 +33,9 @@ public class Equipment {
         resp.locked = item.locked == 1;
         resp.level = item.level;
         resp.raw = item;
-        resp.weapon = weaponMap.get(item.weaponId);
+        Weapon weapon = weaponMap.get(item.weaponId);
+        resp.weapon = weapon;
+        weapon.countUp();
         return resp;
     }
 
