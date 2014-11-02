@@ -2,7 +2,8 @@ package net.dolpen.research.bsgl.model.compiled;
 
 import com.beust.jcommander.internal.Lists;
 import com.beust.jcommander.internal.Maps;
-import net.dolpen.research.bsgl.model.api.master.MasterSlotItem;
+import net.dolpen.research.bsgl.model.api.master.MasterWeapon;
+import net.dolpen.research.bsgl.model.api.master.MasterWeaponType;
 import net.dolpen.research.bsgl.model.enums.Range;
 
 import java.util.List;
@@ -16,6 +17,8 @@ public class Weapon {
     public int weaponId;
 
     public String name;
+
+    public String typeName;
 
     public Range range;
 
@@ -39,51 +42,41 @@ public class Weapon {
 
     public int amount;
 
-    public List<SlotItem> slots;
+    MasterWeapon raw;
 
-    MasterSlotItem raw;
+    MasterWeaponType rawType;
 
-    public static Weapon build(MasterSlotItem item) {
+    public static Weapon build(MasterWeapon weapon, Map<Integer, MasterWeaponType> weaponTypeMap) {
         Weapon resp = new Weapon();
-        resp.weaponId = item.weaponId;
-        resp.name = item.name;
-        resp.sight = item.sight;
-        resp.firePower = item.firePower;
-        resp.torpedo = item.torpedo;
-        resp.antiAir = item.antiAir;
-        resp.armor = item.armor;
-        resp.antiSub = item.antiSub;
-        resp.evasion = item.fireEvasion;
-        resp.accuracy = item.fireAccuracy;
-        resp.luck = item.luck;
-        resp.range = Range.by(item.range);
+        resp.weaponId = weapon.weaponId;
+        resp.name = weapon.name;
+        resp.sight = weapon.sight;
+        resp.firePower = weapon.firePower;
+        resp.torpedo = weapon.torpedo;
+        resp.antiAir = weapon.antiAir;
+        resp.armor = weapon.armor;
+        resp.antiSub = weapon.antiSub;
+        resp.evasion = weapon.fireEvasion;
+        resp.accuracy = weapon.fireAccuracy;
+        resp.luck = weapon.luck;
+        resp.range = Range.by(weapon.range);
         resp.amount = 0;
-        resp.slots = Lists.newArrayList();
-        resp.raw = item;
+        resp.raw = weapon;
+        MasterWeaponType type = weaponTypeMap.get(weapon.getTypeId());
+        resp.typeName = type.name;
+        resp.rawType = type;
         return resp;
     }
 
-    public static List<Weapon> buildList(List<MasterSlotItem> masterSlotItemList) {
+    public static List<Weapon> buildList(List<MasterWeapon> masterWeaponList, Map<Integer, MasterWeaponType> weaponTypeMap) {
         List<Weapon> resp = Lists.newArrayList();
-        for (MasterSlotItem e : masterSlotItemList) resp.add(build(e));
+        for (MasterWeapon e : masterWeaponList) resp.add(build(e,weaponTypeMap));
         return resp;
     }
 
-    public static Map<Integer, Weapon> toIdMap(List<Weapon> l) {
+    public static Map<Integer, Weapon> toIdMap(List<Weapon> weaponList) {
         Map<Integer, Weapon> resp = Maps.newHashMap();
-        for (Weapon e : l) resp.put(e.weaponId, e);
+        for (Weapon e : weaponList) resp.put(e.weaponId, e);
         return resp;
-    }
-
-    public String getOwnerNames() {
-        StringBuilder sb = new StringBuilder();
-        boolean b = false;
-        for (SlotItem e : slots) {
-            if (e.girl == null) continue;
-            if (b) sb.append("\n");
-            sb.append(e.girl.name);
-            b = true;
-        }
-        return sb.toString();
     }
 }

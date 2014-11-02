@@ -27,18 +27,18 @@ public class MasterShipType extends Master {
 
     // public Map<String,Integer> api_equip_type; // MasterEquipType -> 装備可能フラグ
 
-    public String toString() {
-        return String.format("%d %s", typeId, name);
-    }
-
     public static List<MasterShipType> cache() {
         return Arrays.asList(loadMasterAsTypedArray("api_mst_stype", MasterShipType[].class));
     }
 
-    public static Map<Integer, MasterShipType> toIdMap(List<MasterShipType> list) {
+    public static Map<Integer, MasterShipType> cacheAsMap() {
         Map<Integer, MasterShipType> m = Maps.newHashMap();
-        for (MasterShipType e : list)
+        for (MasterShipType e : cache())
             m.put(e.typeId, e);
         return m;
+    }
+
+    public String toString() {
+        return String.format("%d %s", typeId, name);
     }
 }

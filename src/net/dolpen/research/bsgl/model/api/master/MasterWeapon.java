@@ -3,12 +3,14 @@ package net.dolpen.research.bsgl.model.api.master;
 import com.beust.jcommander.internal.Maps;
 import com.google.gson.annotations.SerializedName;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 装備マスタ
  */
-public class MasterSlotItem extends Master {
+public class MasterWeapon extends Master {
 
     @SerializedName("api_id")
     public int weaponId; // 装備ID
@@ -85,18 +87,25 @@ public class MasterSlotItem extends Master {
 
     // public String api_usebull; // Unused; always 0
 
+
+    public static List<MasterWeapon> cache() {
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_slotitem", MasterWeapon[].class));
+    }
+
+    public static Map<Integer, MasterWeapon> cacheAsMap() {
+
+        Map<Integer, MasterWeapon> m = Maps.newHashMap();
+        for (MasterWeapon e : cache())
+            m.put(e.weaponId, e);
+        return m;
+    }
+
     public String toString() {
         return String.format("%d %s", weaponId, name);
     }
 
-    public static List<MasterSlotItem> cache() {
-        return Arrays.asList(loadMasterAsTypedArray("api_mst_slotitem", MasterSlotItem[].class));
-    }
-
-    public static Map<Integer, MasterSlotItem> toIdMap(List<MasterSlotItem> list) {
-        Map<Integer, MasterSlotItem> m = Maps.newHashMap();
-        for (MasterSlotItem e : list)
-            m.put(e.weaponId, e);
-        return m;
+    // api_typeの3番目が装備タイプマスタID
+    public int getTypeId(){
+        return type.get(2);
     }
 }

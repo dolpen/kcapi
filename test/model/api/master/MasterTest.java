@@ -30,13 +30,13 @@ public class MasterTest {
 
     static void testEquip() {
         System.out.println("########## Equipment");
-        for (MasterEquipType e : MasterEquipType.cache()) {
+        for (MasterWeaponType e : MasterWeaponType.cache()) {
             System.out.println(e);
         }
-        for (MasterSlotItem e : MasterSlotItem.cache()) {
+        for (MasterWeapon e : MasterWeapon.cache()) {
             System.out.println(e);
         }
-        for (MasterSlotItemGraph e : MasterSlotItemGraph.cache()) {
+        for (MasterWeaponGraph e : MasterWeaponGraph.cache()) {
             System.out.println(e);
         }
     }

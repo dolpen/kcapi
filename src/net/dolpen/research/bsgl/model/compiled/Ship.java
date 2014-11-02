@@ -3,6 +3,7 @@ package net.dolpen.research.bsgl.model.compiled;
 import com.beust.jcommander.internal.Lists;
 import com.beust.jcommander.internal.Maps;
 import net.dolpen.research.bsgl.model.api.master.MasterShip;
+import net.dolpen.research.bsgl.model.api.master.MasterShipType;
 import net.dolpen.research.bsgl.model.enums.Range;
 import net.dolpen.research.bsgl.model.extra.LimitedValue;
 
@@ -21,6 +22,8 @@ public class Ship {
     public String name; // 艦名
 
     public String ruby; // 艦名ひらがな
+
+    public String typeName; // 艦種
 
     public String description; // 図鑑説明文
 
@@ -50,9 +53,9 @@ public class Ship {
 
     public MasterShip raw;
 
-    public ShipType shipType;
+    public MasterShipType rawShipType;
 
-    public static Ship build(MasterShip ship) {
+    public static Ship build(MasterShip ship, Map<Integer, MasterShipType> masterShipTypeMap) {
         Ship resp = new Ship();
         resp.shipId = ship.shipId;
         resp.typeId = ship.type;
@@ -71,6 +74,9 @@ public class Ship {
         resp.maxFuel = ship.maxFuel;
         resp.range = Range.by(ship.range);
         resp.raw = ship;
+        MasterShipType shipType = masterShipTypeMap.get(ship.type);
+        resp.typeName = shipType.name;
+        resp.rawShipType = shipType;
         return resp;
     }
 
@@ -88,9 +94,9 @@ public class Ship {
         return new LimitedValue(ab.get(0), ab.get(1), 0);
     }
 
-    public static List<Ship> buildList(List<MasterShip> masterShipList) {
+    public static List<Ship> buildList(List<MasterShip> masterShipList, Map<Integer, MasterShipType> masterShipTypeMap) {
         List<Ship> resp = Lists.newArrayList();
-        for (MasterShip e : masterShipList) resp.add(build(e));
+        for (MasterShip e : masterShipList) resp.add(build(e, masterShipTypeMap));
         return resp;
     }
 
@@ -98,18 +104,6 @@ public class Ship {
         Map<Integer, Ship> resp = Maps.newHashMap();
         for (Ship e : shipList) resp.put(e.shipId, e);
         return resp;
-    }
-
-    public static void attachAll(List<Ship> shipList, Map<Integer, ShipType> shipTypeMap) {
-        for (Ship e : shipList) e.attach(shipTypeMap.get(e.typeId));
-    }
-
-    public void attach(ShipType shipType) {
-        if (shipType == null || shipType.typeId != typeId) {
-            throw new IllegalArgumentException("不正な艦種マスタデータがアタッチされました");
-        }
-        this.shipType = shipType;
-        shipType.ships.add(this);
     }
 
     public boolean isValid() {

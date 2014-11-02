@@ -3,12 +3,14 @@ package net.dolpen.research.bsgl.model.api.master;
 import com.beust.jcommander.internal.Maps;
 import com.google.gson.annotations.SerializedName;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 装備リソースマスタ
  */
-public class MasterSlotItemGraph extends Master {
+public class MasterWeaponGraph extends Master {
 
     @SerializedName("api_id")
     public int weaponId; // 装備ID
@@ -22,18 +24,18 @@ public class MasterSlotItemGraph extends Master {
     @SerializedName("api_version")
     public int version; // バージョン
 
-    public String toString() {
-        return String.format("%d %s", weaponId, name);
+    public static List<MasterWeaponGraph> cache() {
+        return Arrays.asList(loadMasterAsTypedArray("api_mst_slotitemgraph", MasterWeaponGraph[].class));
     }
 
-    public static List<MasterSlotItemGraph> cache() {
-        return Arrays.asList(loadMasterAsTypedArray("api_mst_slotitemgraph", MasterSlotItemGraph[].class));
-    }
-
-    public static Map<Integer, MasterSlotItemGraph> toIdMap(List<MasterSlotItemGraph> list) {
-        Map<Integer, MasterSlotItemGraph> m = Maps.newHashMap();
-        for (MasterSlotItemGraph e : list)
+    public static Map<Integer, MasterWeaponGraph> cacheAsMap() {
+        Map<Integer, MasterWeaponGraph> m = Maps.newHashMap();
+        for (MasterWeaponGraph e : cache())
             m.put(e.weaponId, e);
         return m;
+    }
+
+    public String toString() {
+        return String.format("%d %s", weaponId, name);
     }
 }

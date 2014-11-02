@@ -38,7 +38,7 @@ ${_.include("/templates/common/head.html",_scope)}
             <% girls.eachWithIndex { x,i -> %>\
             <tr>
                 <td><a name="${x.girlId}"></a>${i+1}</td>
-                <td>${x.ship.shipType.name}<br />${x.name}</td>
+                <td>${x.ship.typeName}<br />${x.name}</td>
                 <td>${x.lv}<br />${x.exp}</td>
                 <td class="${x.hp.isMaximum()?'':'warn'}">${x.hp}</td>
                 <td class="${x.fuel.isMaximum()?'':'warn'}">${x.fuel}</td>
@@ -55,8 +55,8 @@ ${_.include("/templates/common/head.html",_scope)}
                 <td class="luck ${x.luck.isFinished()?'max':''}">${x.luck}</td>
                 <td class="equipment">
                 <% [0,1,2,3].each { k -> %>\
-                    <% if (x.slotItems[k] != null) { %>\
-                    <a href="./equip.html#${x.slotItems[k].slotId}">${x.slotItems[k].weapon.name}</a><br/>
+                    <% if (x.equipments[k] != null) { %>\
+                    <a href="equipment.html#${x.equipments[k].equipmentId}">${x.equipments[k].weapon.name}</a><br/>
                     <% } %>\
                 <% } %>\
                 </td>

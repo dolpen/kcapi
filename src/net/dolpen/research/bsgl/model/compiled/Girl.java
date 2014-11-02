@@ -54,13 +54,13 @@ public class Girl {
 
     public Ship ship;
 
-    public List<SlotItem> slotItems;
+    public List<Equipment> equipments;
 
     public MemberShip raw;
 
 // builder
 
-    public static Girl build(MemberShip ship) {
+    public static Girl build(MemberShip ship, Map<Integer, Ship> shipMap, Map<Integer, Equipment> equipmentMap) {
         Girl resp = new Girl();
         resp.girlId = ship.girlId;
         resp.shipId = ship.shipId;
@@ -75,13 +75,17 @@ public class Girl {
         resp.torpedo = fromList(ship.torpedo, 0);
         resp.antiAir = fromList(ship.antiAir, 0);
         resp.armor = fromList(ship.armor, 0);
-        resp.accuracy = new AbilityScore(0,0,0); // 回避は常にゼロ(少なくともメンバデータに該当項目無し)
+        resp.accuracy = new AbilityScore(0, 0, 0); // 回避は常にゼロ(少なくともメンバデータに該当項目無し)
         resp.evasion = fromList(ship.evasion, 0);
         resp.antiSub = fromList(ship.antiSub, 0);
         resp.luck = fromList(ship.luck, 0);
         resp.locked = ship.locked == 1;
-        resp.slotItems = Lists.newArrayList();
+        resp.equipments = Lists.newArrayList();
         resp.raw = ship;
+        resp.attachShip(shipMap.get(ship.shipId));
+        for (int equipmentId : ship.slotIds) {
+            resp.appendEquipment(equipmentMap.get(equipmentId));
+        }
         return resp;
     }
 
@@ -89,45 +93,35 @@ public class Girl {
         return new AbilityScore(ab.get(0), ab.get(1), fix);
     }
 
-    public static List<Girl> buildList(List<MemberShip> memberShips) {
+    public static List<Girl> buildList(List<MemberShip> memberShips, Map<Integer, Ship> shipMap, Map<Integer, Equipment> equipmentMap) {
         List<Girl> resp = Lists.newArrayList();
-        for (MemberShip e : memberShips)
-            resp.add(build(e));
+        for (MemberShip e : memberShips) {
+            Girl girl = build(e, shipMap, equipmentMap);
+            resp.add(girl);
+        }
         return resp;
     }
 
-    public static void attachMasterAll(List<Girl> girlList, Map<Integer, Ship> shipMap) {
-        for (Girl e : girlList) e.attachMaster(shipMap.get(e.shipId));
-    }
-
-    public static void attachSlotItemAll(List<Girl> girlList, Map<Integer, SlotItem> slotItemMap) {
-        for (Girl e : girlList) {
-            for (int slotId : e.raw.slotIds) {
-                e.appendItem(slotItemMap.get(slotId));
-            }
-        }
-    }
-
-    private void attachMaster(Ship ship) {
+    private void attachShip(Ship ship) {
         this.name = ship.name;
         fuel.maxValue = ship.maxFuel;
         bullet.maxValue = ship.maxBullet;
         this.ship = ship;
     }
 
-    private void appendItem(SlotItem slotItem) {
-        if (slotItem == null) return;
-        this.sight.addItemScore(slotItem.weapon.sight);
-        this.firePower.addItemScore(slotItem.weapon.firePower);
-        this.torpedo.addItemScore(slotItem.weapon.torpedo);
-        this.antiAir.addItemScore(slotItem.weapon.antiAir);
-        this.armor.addItemScore(slotItem.weapon.armor);
-        this.accuracy.fixItemScore(slotItem.weapon.accuracy);
-        this.evasion.addItemScore(slotItem.weapon.evasion);
-        this.antiSub.addItemScore(slotItem.weapon.antiSub);
-        this.luck.addItemScore(slotItem.weapon.luck);
-        this.slotItems.add(slotItem);
-        slotItem.girl = this;
+    private void appendEquipment(Equipment equipment) {
+        if (equipment == null) return;
+        this.sight.addItemScore(equipment.weapon.sight);
+        this.firePower.addItemScore(equipment.weapon.firePower);
+        this.torpedo.addItemScore(equipment.weapon.torpedo);
+        this.antiAir.addItemScore(equipment.weapon.antiAir);
+        this.armor.addItemScore(equipment.weapon.armor);
+        this.accuracy.fixItemScore(equipment.weapon.accuracy);
+        this.evasion.addItemScore(equipment.weapon.evasion);
+        this.antiSub.addItemScore(equipment.weapon.antiSub);
+        this.luck.addItemScore(equipment.weapon.luck);
+        this.equipments.add(equipment);
+        equipment.girl = this;
     }
 
 }
